@@ -767,39 +767,73 @@ function renderPagination(total){
 /* ========= YEAR QUERY ========= */
 function runYearQuery(){
   const val = (document.getElementById('year-input').value || '').trim();
-  if (!val){ document.getElementById('query-results').innerHTML = '<div class="empty-state"><div class="icon">⚠</div>Please enter a year.</div>'; return; }
-  const year = parseInt(val);
-  if (isNaN(year)){ document.getElementById('query-results').innerHTML = '<div class="empty-state"><div class="icon">⚠</div>Please enter a valid numeric year.</div>'; return; }
-  const label = year; // just display the number, negative for BCE years
-  document.getElementById('year-display').textContent = `Showing polities active in ${label}`;
+  if (!val){
+    document.getElementById('query-results').innerHTML = '<div class="empty-state"><div class="icon">⚠</div>Please enter a year.</div>';
+    return;
+  }
 
+  const year = parseInt(val, 10);
+  if (isNaN(year)){
+    document.getElementById('query-results').innerHTML = '<div class="empty-state"><div class="icon">⚠</div>Please enter a valid numeric year.</div>';
+    return;
+  }
+
+  // safe string for header/display (avoid calling string methods on numbers)
+  const labelStr = String(year);
+  document.getElementById('year-display').textContent = `Showing polities active in ${labelStr}`;
+
+  // find matching phases active in this year
   const matches = [];
   allPhases.forEach(ph => {
     const ps = toNum(ph['Phase Start']) || toNum(ph['PhaseStart']) || toNum(ph['Phase_Start']) || toNum(ph['Start Year']);
-    const pe = toNum(ph['Phase End']) || toNum(ph['PhaseEnd']) || toNum(ph['Phase_End']) || toNum(ph['End Year']);
+    const pe = toNum(ph['Phase End'])   || toNum(ph['PhaseEnd'])   || toNum(ph['Phase_End'])   || toNum(ph['End Year']);
     if (!isNaN(ps) && !isNaN(pe) && ps <= year && pe >= year){
       const polityName = ph['Polity'] || ph['Political Entities'] || ph['Polity Name'] || '';
       const phaseScore = toNum(ph['Phase Score']) || toNum(ph['PhaseScore']) || toNum(ph['Phase_Score']) || NaN;
-      matches.push({phase:ph, polityName:polityName, phaseScore: isNaN(phaseScore)?null:phaseScore, ps, pe});
+      matches.push({
+        phase: ph,
+        polityName: polityName,
+        phaseScore: isNaN(phaseScore) ? null : phaseScore,
+        ps, pe
+      });
     }
   });
 
-  if (!matches.length){ document.getElementById('query-results').innerHTML = `<div class="empty-state"><div class="icon">🏜</div>No phases found for ${label}.</div>`; return; }
+  if (!matches.length){
+    document.getElementById('query-results').innerHTML = `<div class="empty-state"><div class="icon">🏜</div>No phases found for ${labelStr}.</div>`;
+    return;
+  }
 
+  // map each match to a polity row from polities CSV
   const mapped = matches.map(m => {
     let row = allPolities.find(p => (p['Political Entities']||'').trim() === (m.polityName||'').trim());
-    if (!row) row = allPolities.find(p => (p['Political Entities']||'').startsWith((m.polityName||'').split('/')[0].trim()));
-    return {phase: m.phase, polity: row, phaseScore: m.phaseScore || (row ? toNum(row['Overall']) : 0)};
-  }).filter(x => x.polity);
+    if (!row) {
+      const shortName = (m.polityName||'').split('/')[0].trim();
+      row = allPolities.find(p => (p['Political Entities']||'').startsWith(shortName));
+    }
+    return { phase: m.phase, polity: row, phaseScore: m.phaseScore || (row ? toNum(row['Overall']) : 0) };
+  }).filter(x => x.polity); // drop unmatched phases
 
-  mapped.sort((a,b) => b.phaseScore - a.phaseScore);
+  if (mapped.length === 0){
+    document.getElementById('query-results').innerHTML = `<div class="empty-state"><div class="icon">🏜</div>No polities in the main table match phases for ${labelStr}.</div>`;
+    return;
+  }
 
+  // sort by phase score descending
+  mapped.sort((a, b) => b.phaseScore - a.phaseScore);
+
+  // render cards: header uses labelStr (string) — no toUpperCase() on numbers
   const container = document.getElementById('query-results');
   const total = mapped.length;
-  let html = `<div class="query-results-header"><h3>⚔ ${total} POLITIES IN ${label.toUpperCase()}</h3><span style="color:var(--text-dim);font-size:0.78rem">Sorted by Phase Score</span></div>`;
+  let html = `<div class="query-results-header"><h3>⚔ ${total} POLITIES IN ${labelStr}</h3><span style="color:var(--text-dim);font-size:0.78rem">Sorted by Phase Score</span></div>`;
   html += '<div class="cards-grid">';
   mapped.forEach((item, i) => {
-    const p = item.polity; const ph = item.phase; const score = item.phaseScore;
+    const p = item.polity;
+    const ph = item.phase;
+    const score = item.phaseScore;
+    // display polity start/end as raw numbers "637 to 925" (or fallback to formatted)
+    const startDisp = (p && (p['Start'] !== undefined)) ? p['Start'] : (p && p['Start Year']) ? p['Start Year'] : '—';
+    const endDisp   = (p && (p['End']   !== undefined)) ? p['End']   : (p && p['End Year'])   ? p['End Year']   : '—';
     html += `
       <div class="polity-card" role="article" tabindex="0">
         <span class="rank-num">#${i+1}</span>
@@ -808,7 +842,7 @@ function runYearQuery(){
           <div class="card-scores"><span class="score-badge ${scoreColor(score)}" title="Phase Score">${score !== null ? score : '—'}</span></div>
         </div>
         <div class="card-meta">
-          <span>🗓 ${p['Start']} to ${p['End']}</span>
+          <span>🗓 ${startDisp} to ${endDisp}</span>
           <span>📍 ${(p['Region']||'').replace(/ \/ .*/, '')}</span>
           ${p['Language'] ? `<span>🗣 ${p['Language'].split('/')[0].trim()}</span>` : ''}
           ${p['Ethnic Group'] ? `<span>👥 ${p['Ethnic Group'].split('/')[0].trim()}</span>` : ''}
