@@ -1,0 +1,920 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Historical Polities Database</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+
+<!-- PapaParse for robust CSV parsing -->
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+<style>
+  :root{
+    --gold: #c9a84c;
+    --gold-light: #e8c97a;
+    --gold-dim: #7a6230;
+    --bg: #0e0c08;
+    --bg2: #181410;
+    --bg3: #231e16;
+    --bg4: #2d2620;
+    --text: #e8dfc8;
+    --text-dim: #9a8f78;
+    --border: #3a3020;
+    --accent: #8b3a3a;
+    --accent2: #2a5a6a;
+    --shadow: 0 4px 24px rgba(0,0,0,0.7);
+  }
+
+  *{ box-sizing: border-box; margin: 0; padding: 0; }
+
+  body{
+    font-family: 'Crimson Pro', Georgia, serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* Header */
+  header{
+    background: linear-gradient(180deg, #1a1308 0%, var(--bg2) 100%);
+    border-bottom: 1px solid var(--gold-dim);
+    padding: 1.2rem 1rem 0.8rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.8);
+  }
+  header h1{
+    font-family: 'Cinzel', serif;
+    font-size: clamp(1.1rem, 4vw, 1.8rem);
+    color: var(--gold);
+    letter-spacing: 0.12em;
+    text-shadow: 0 0 30px rgba(201,168,76,0.4);
+    font-weight: 600;
+  }
+  header p{
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    letter-spacing: 0.08em;
+    margin-top: 0.2rem;
+    font-style: italic;
+  }
+
+  /* Tab Nav */
+  nav{
+    display: flex;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg2);
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  nav::-webkit-scrollbar{ display: none; }
+
+  nav button{
+    flex: 1;
+    min-width: 120px;
+    padding: 0.75rem 1rem;
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: var(--text-dim);
+    font-family: 'Cinzel', serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  nav button.active{
+    color: var(--gold);
+    border-bottom-color: var(--gold);
+    background: rgba(201,168,76,0.06);
+  }
+  nav button:hover:not(.active){
+    color: var(--text);
+    background: rgba(255,255,255,0.03);
+  }
+
+  main{ padding: 1rem; max-width: 1400px; margin: 0 auto; }
+
+  .tab{ display: none; }
+  .tab.active{ display: block; }
+
+  /* Controls area */
+  .controls{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+  }
+  .controls input, .controls select{
+    flex: 1;
+    min-width: 140px;
+    padding: 0.55rem 0.75rem;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--text);
+    font-family: 'Crimson Pro', serif;
+    font-size: 0.9rem;
+  }
+  .controls input::placeholder{ color: var(--text-dim); }
+  .controls input:focus, .controls select:focus{
+    outline: none;
+    border-color: var(--gold-dim);
+  }
+  .controls select option{ background: var(--bg3); }
+
+  .count-bar{
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    margin-bottom: 0.6rem;
+    padding: 0 0.2rem;
+    font-style: italic;
+  }
+
+  .table-wrap{
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg2);
+  }
+
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+    min-width: 900px;
+  }
+
+  thead th{
+    background: var(--bg3);
+    padding: 0.65rem 0.75rem;
+    text-align: left;
+    font-family: 'Cinzel', serif;
+    font-size: 0.65rem;
+    letter-spacing: 0.08em;
+    color: var(--gold);
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    position: sticky;
+    top: 0;
+  }
+  thead th:hover{ color: var(--gold-light); }
+
+  thead th .sort-indicator{
+    display: inline-block;
+    margin-left: 4px;
+    opacity: 0.4;
+    font-size: 0.7em;
+  }
+  thead th.sorted-asc .sort-indicator::after{ content: '▲'; opacity: 1; }
+  thead th.sorted-desc .sort-indicator::after{ content: '▼'; opacity: 1; }
+  thead th:not(.sorted-asc):not(.sorted-desc) .sort-indicator::after{ content: '⇅'; }
+
+  tbody tr{
+    border-bottom: 1px solid rgba(58,48,32,0.5);
+    transition: background 0.15s;
+    cursor: pointer;
+  }
+  tbody tr:hover{ background: rgba(201,168,76,0.06); }
+  tbody tr.expanded{ background: rgba(201,168,76,0.08); }
+
+  td{
+    padding: 0.55rem 0.75rem;
+    color: var(--text);
+    vertical-align: middle;
+  }
+  td.name-cell{
+    font-weight: 600;
+    color: var(--gold-light);
+    min-width: 200px;
+    max-width: 260px;
+  }
+  td.num{ text-align: right; font-variant-numeric: tabular-nums; }
+
+  .score-badge{
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    min-width: 36px;
+    text-align: center;
+  }
+
+  .rating-badge{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+
+  .expanded-row td{ padding: 0; border-bottom: 2px solid var(--gold-dim); }
+
+  .expanded-content{
+    padding: 1rem;
+    background: var(--bg3);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.6rem;
+  }
+
+  .detail-item label{
+    font-family: 'Cinzel', serif;
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    color: var(--gold-dim);
+    display: block;
+    margin-bottom: 0.15rem;
+  }
+  .detail-item span{ font-size: 0.85rem; color: var(--text); }
+
+  .rating-row{
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .rating-row label{
+    font-family: 'Cinzel', serif;
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    color: var(--gold-dim);
+    width: 100%;
+  }
+
+  /* Query tab */
+  .query-hero{
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .query-hero h2{
+    font-family: 'Cinzel', serif;
+    font-size: clamp(1rem, 3vw, 1.4rem);
+    color: var(--gold);
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1em;
+  }
+  .query-hero p{ color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1.2rem; font-style: italic; }
+
+  .year-input-wrap{ display: flex; gap: 0.6rem; justify-content: center; align-items: center; flex-wrap: wrap; }
+  .year-input-wrap input{
+    padding: 0.7rem 1rem;
+    font-family: 'Cinzel', serif;
+    font-size: 1.1rem;
+    background: var(--bg3);
+    border: 1px solid var(--gold-dim);
+    border-radius: 4px;
+    color: var(--gold-light);
+    width: 160px;
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+  .year-input-wrap input:focus{ outline: none; border-color: var(--gold); }
+
+  .year-input-wrap button{
+    padding: 0.7rem 1.5rem;
+    background: var(--gold-dim);
+    border: 1px solid var(--gold);
+    border-radius: 4px;
+    color: var(--bg);
+    font-family: 'Cinzel', serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-weight: 700;
+  }
+  .year-input-wrap button:hover{ background: var(--gold); }
+
+  .year-display{ font-family:'Cinzel',serif; font-size:0.8rem; color:var(--text-dim); margin-top:0.5rem; }
+
+  .query-results-header{ display:flex; justify-content:space-between; align-items:center; margin-bottom:0.6rem; flex-wrap:wrap; gap:0.4rem; }
+  .query-results-header h3{ font-family:'Cinzel',serif; font-size:0.8rem; color:var(--gold); letter-spacing:0.1em; }
+
+  .cards-grid{ display:flex; flex-direction:column; gap:0.6rem; }
+
+  .polity-card{
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.9rem 1rem;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.2s;
+    cursor: pointer;
+  }
+  .polity-card::before{
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 3px;
+    background: var(--gold-dim);
+  }
+  .polity-card:hover{ border-color: var(--gold-dim); }
+
+  .card-top{ display:flex; justify-content:space-between; align-items:flex-start; gap:0.5rem; margin-bottom:0.4rem; }
+  .card-name{ font-size:0.95rem; font-weight:600; color:var(--gold-light); line-height:1.3; }
+  .card-scores{ display:flex; gap:0.4rem; flex-shrink:0; }
+  .card-meta{ font-size:0.78rem; color:var(--text-dim); display:flex; flex-wrap:wrap; gap:0.4rem 1rem; }
+  .card-meta span{ display:flex; align-items:center; gap:0.25rem; }
+  .card-phase{ margin-top:0.5rem; padding:0.4rem 0.6rem; background: rgba(201,168,76,0.07); border: 1px solid rgba(201,168,76,0.15); border-radius:4px; font-size:0.78rem; }
+  .card-phase .phase-name{ color:var(--gold); font-family:'Cinzel', serif; font-size:0.7rem; letter-spacing:0.06em; }
+  .card-phase .phase-note{ color:var(--text-dim); font-style:italic; margin-top:0.15rem; font-size:0.75rem; }
+
+  .rank-num{ position:absolute; top:0.7rem; right:0.8rem; font-family:'Cinzel',serif; font-size:0.65rem; color:var(--text-dim); letter-spacing:0.05em; }
+
+  .empty-state{ text-align:center; padding:3rem 1rem; color:var(--text-dim); font-style:italic; }
+  .empty-state .icon{ font-size:2.5rem; margin-bottom:0.5rem; opacity:0.4; }
+
+  .update-box{ background:var(--bg2); border:1px solid var(--border); border-radius:8px; padding:1.2rem; margin-top:1rem; }
+  .update-box h3{ font-family:'Cinzel',serif; font-size:0.85rem; color:var(--gold); letter-spacing:0.1em; margin-bottom:0.8rem; }
+  .update-box ol{ padding-left:1.2rem; color:var(--text-dim); font-size:0.85rem; line-height:2; }
+  .update-box code{ background:var(--bg3); border:1px solid var(--border); padding:0.1rem 0.4rem; border-radius:3px; font-family:monospace; font-size:0.8rem; color:var(--gold-light); }
+
+  /* Score colors */
+  .s-a{ background: rgba(76,175,80,0.2); color: #81c784; border: 1px solid rgba(76,175,80,0.3); }
+  .s-b{ background: rgba(100,181,246,0.2); color: #90caf9; border: 1px solid rgba(100,181,246,0.3); }
+  .s-c{ background: rgba(255,183,77,0.2); color: #ffcc02; border: 1px solid rgba(255,183,77,0.3); }
+  .s-d{ background: rgba(229,115,115,0.2); color: #ef9a9a; border: 1px solid rgba(229,115,115,0.3); }
+
+  .overall-high{ background: rgba(76,175,80,0.25); color: #a5d6a7; border: 1px solid rgba(76,175,80,0.4); }
+  .overall-mid{ background: rgba(255,183,77,0.2); color: #ffe082; border: 1px solid rgba(255,183,77,0.3); }
+  .overall-low{ background: rgba(229,115,115,0.2); color: #ef9a9a; border: 1px solid rgba(229,115,115,0.3); }
+
+  .pagination{ display:flex; justify-content:center; align-items:center; gap:0.4rem; margin-top:1rem; flex-wrap:wrap; }
+  .pagination button{ padding:0.35rem 0.75rem; background:var(--bg3); border:1px solid var(--border); border-radius:4px; color:var(--text-dim); font-family:'Cinzel',serif; font-size:0.7rem; cursor:pointer; transition:all 0.15s; }
+  .pagination button:hover{ border-color:var(--gold-dim); color:var(--text); }
+  .pagination button.active{ background:var(--gold-dim); color:var(--bg); border-color:var(--gold); }
+  .pagination button:disabled{ opacity:0.3; cursor:default; }
+
+  ::-webkit-scrollbar{ width:6px; height:6px; }
+  ::-webkit-scrollbar-track{ background:var(--bg2); }
+  ::-webkit-scrollbar-thumb{ background:var(--border); border-radius:3px; }
+  ::-webkit-scrollbar-thumb:hover{ background:var(--gold-dim); }
+
+  @media (max-width:600px){
+    main{ padding:0.6rem; }
+    .controls input, .controls select{ min-width:100%; }
+    .expanded-content{ grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>⚔ Historical Polities Database ⚔</h1>
+  <p>A comparative study of empires, kingdoms, and states across history</p>
+</header>
+
+<nav>
+  <button class="active" onclick="switchTab('table')">📜 All Polities</button>
+  <button onclick="switchTab('query')">🗓 Query by Year</button>
+  <button onclick="switchTab('update')">📥 How to Update</button>
+</nav>
+
+<main>
+  <!-- TABLE TAB -->
+  <div id="tab-table" class="tab active">
+    <div class="controls">
+      <input id="search" placeholder="🔍 Search polities…" oninput="filterTable()" />
+      <select id="region-filter" onchange="filterTable()">
+        <option value="">All Regions</option>
+      </select>
+      <select id="score-filter" onchange="filterTable()">
+        <option value="">All Scores</option>
+        <option value="65">≥ 65 (High)</option>
+        <option value="50">≥ 50 (Mid-High)</option>
+        <option value="40">≥ 40 (Mid)</option>
+        <option value="0">All</option>
+      </select>
+      <select id="era-filter" onchange="filterTable()">
+        <option value="">All Eras</option>
+        <option value="ancient">Ancient (before 500 CE)</option>
+        <option value="medieval">Medieval (500–1500)</option>
+        <option value="early-modern">Early Modern (1500–1800)</option>
+        <option value="modern">Modern (1800+)</option>
+      </select>
+    </div>
+
+    <div class="count-bar" id="count-bar">Loading…</div>
+
+    <div class="table-wrap">
+      <table id="main-table" aria-describedby="count-bar">
+        <thead>
+          <tr>
+            <th data-col="Political Entities" onclick="sortTable('Political Entities')">Name <span class="sort-indicator"></span></th>
+            <th data-col="Start" onclick="sortTable('Start')">Start <span class="sort-indicator"></span></th>
+            <th data-col="End" onclick="sortTable('End')">End <span class="sort-indicator"></span></th>
+            <th data-col="Region" onclick="sortTable('Region')">Region <span class="sort-indicator"></span></th>
+            <th data-col="Overall" onclick="sortTable('Overall')">Overall <span class="sort-indicator"></span></th>
+            <th data-col="Area (thousand km2)" onclick="sortTable('Area (thousand km2)')">Area (thousand km²) <span class="sort-indicator"></span></th>
+            <th data-col="Population (million)" onclick="sortTable('Population (million)')">Pop (M) <span class="sort-indicator"></span></th>
+            <th>Ratings</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+
+    <div class="pagination" id="pagination"></div>
+  </div>
+
+  <!-- QUERY TAB -->
+  <div id="tab-query" class="tab">
+    <div class="query-hero">
+      <h2>Query Polities by Year</h2>
+      <p>Enter any year to see polities active at that time and their phase score. Use negative numbers for BCE (e.g. -500 = 500 BCE).</p>
+      <div class="year-input-wrap">
+        <input type="number" id="year-input" placeholder="e.g. 1200" min="-3000" max="2100" />
+        <button onclick="runYearQuery()">Search ↵</button>
+      </div>
+      <div class="year-display" id="year-display">Year results will appear below.</div>
+    </div>
+
+    <div id="query-results"></div>
+  </div>
+
+  <!-- UPDATE TAB -->
+  <div id="tab-update" class="tab">
+    <div class="update-box">
+      <h3>📥 HOW TO UPDATE THE DATABASE</h3>
+      <p style="color:var(--text-dim); font-size:0.85rem; margin-bottom:0.8rem;">To update, export your two sheets as CSV files named <code>polities.csv</code> and <code>phases.csv</code> and overwrite them in the same folder as this page. Then refresh the page.</p>
+
+      <ol>
+        <li>Keep sheet 1 as <code>polities.csv</code> with the columns you described (Political Entities, Start, End, … Overall).</li>
+        <li>Keep sheet 2 as <code>phases.csv</code> with columns (Polity, Start Year, End Year, Region, Overall Score, Phase Name, Phase Start, Phase End, Phase Score, Notes).</li>
+        <li>Save both CSVs and push to your GitHub Pages repo (or upload to Netlify). Refresh the page to load new data.</li>
+      </ol>
+
+      <p style="color:var(--text-dim); font-size:0.85rem;"><strong style="color:var(--gold);">Note</strong>: the CSV parser reads the last calculated values, so Excel formulas are fine if you've saved the file after recalculation.</p>
+    </div>
+  </div>
+</main>
+
+<script>
+/* ========= Globals & state ========= */
+let allPolities = [];
+let allPhases = [];
+let filtered = [];
+let sortCol = 'Overall';
+let sortDir = 'desc';
+let currentPage = 1;
+const PAGE_SIZE = 50;
+let expandedRowIndex = null;
+
+/* ========= Utilities ========= */
+function tidyKey(k){
+  if (!k && k !== 0) return k;
+  return k.toString().trim();
+}
+function toNum(v){
+  if (v === null || v === undefined || v === '') return NaN;
+  // remove commas and non-number chars except minus and dot
+  const s = (''+v).replace(/,/g, '').replace(/[^\d\.\-]/g,'');
+  const n = parseFloat(s);
+  return isFinite(n) ? n : NaN;
+}
+function formatYear(y){
+  const n = parseInt(y);
+  if (isNaN(n)) return '—';
+  if (n < 0) return Math.abs(n) + ' BCE';
+  return n + ' CE';
+}
+function scoreColor(n){
+  n = parseInt(n) || 0;
+  if (n >= 65) return 'overall-high';
+  if (n >= 50) return 'overall-mid';
+  return 'overall-low';
+}
+function ratingClass(r){
+  if (!r) return '';
+  const map = { A: 's-a', B: 's-b', C: 's-c', D: 's-d' };
+  return map[(r+'').trim().toUpperCase()] || '';
+}
+function ratingBadge(r){
+  if (!r) return '';
+  return `<span class="rating-badge ${ratingClass(r)}">${(r+'').trim().toUpperCase()}</span>`;
+}
+
+/* ========= CSV loading =========
+   Expects:
+   - polities.csv (header row). Header names are trimmed.
+   - phases.csv (header row). Header names are trimmed.
+*/
+function loadCSVFiles(){
+  const p1 = new Promise((resolve) => {
+    Papa.parse('polities.csv', {
+      download: true,
+      header: true,
+      skipEmptyLines: true,
+      transformHeader: h => tidyKey(h),
+      complete: (res) => {
+        // cleanup rows: trim keys & values
+        const rows = res.data.map(r => {
+          const o = {};
+          Object.keys(r).forEach(k => {
+            const key = tidyKey(k);
+            const val = r[k] === undefined || r[k] === null ? '' : (''+r[k]).trim();
+            o[key] = val;
+          });
+          return o;
+        });
+        resolve(rows);
+      },
+      error: (err) => { console.error('Failed to load polities.csv', err); resolve([]); }
+    });
+  });
+
+  const p2 = new Promise((resolve) => {
+    Papa.parse('phases.csv', {
+      download: true,
+      header: true,
+      skipEmptyLines: true,
+      transformHeader: h => tidyKey(h),
+      complete: (res) => {
+        const rows = res.data.map(r => {
+          const o = {};
+          Object.keys(r).forEach(k => {
+            const key = tidyKey(k);
+            const val = r[k] === undefined || r[k] === null ? '' : (''+r[k]).trim();
+            o[key] = val;
+          });
+          return o;
+        });
+        resolve(rows);
+      },
+      error: (err) => { console.error('Failed to load phases.csv', err); resolve([]); }
+    });
+  });
+
+  Promise.all([p1, p2]).then(([polities, phases]) => {
+    allPolities = polities;
+    allPhases = phases;
+    postProcessData();
+    initUI();
+  });
+}
+
+/* normalize fields we will use as numbers for sorting/filtering */
+function postProcessData(){
+  allPolities.forEach(p => {
+    // normalize known numeric columns (attempt)
+    const possibleNums = ['Start','End','Duration (year)','Area (thousand km2)','Population (million)','Overall'];
+    possibleNums.forEach(k => {
+      if (p.hasOwnProperty(k)) p[`__num__${k}`] = toNum(p[k]);
+    });
+  });
+
+  allPhases.forEach(ph => {
+    // standardize keys for phase CSV variants
+    // try common column names the user provided
+    // We'll also ensure numeric fields present
+    const mapping = {
+      'Polity':'Polity',
+      'Start Year':'Start Year',
+      'End Year':'End Year',
+      'Region':'Region',
+      'Overall Score':'Overall Score',
+      'Phase Name':'Phase Name',
+      'Phase Start':'Phase Start',
+      'Phase End':'Phase End',
+      'Phase Score':'Phase Score',
+      'Notes':'Notes'
+    };
+    // numeric helpers
+    ['Phase Start','Phase End','Phase Score','Start Year','End Year','Overall Score'].forEach(k => {
+      if (ph.hasOwnProperty(k)) ph[`__num__${k}`] = toNum(ph[k]);
+    });
+  });
+}
+
+/* ========= Initialize UI after data loaded ========= */
+function initUI(){
+  // Populate region filter
+  const regions = Array.from(new Set(allPolities.map(p => (p['Region'] || '').split('/')[0].trim()).filter(Boolean))).sort();
+  const sel = document.getElementById('region-filter');
+  regions.forEach(r => {
+    const opt = document.createElement('option');
+    opt.value = r;
+    opt.textContent = r;
+    sel.appendChild(opt);
+  });
+
+  // initial filter & render
+  filterTable();
+}
+
+/* ========= Filtering & sorting logic ========= */
+function filterTable(){
+  const q = (document.getElementById('search').value || '').toLowerCase().trim();
+  const region = (document.getElementById('region-filter').value || '').trim();
+  const scoreMin = parseInt(document.getElementById('score-filter').value) || 0;
+  const era = (document.getElementById('era-filter').value || '').trim();
+
+  filtered = allPolities.filter(p => {
+    // search across a few fields
+    if (q){
+      const haystack = [
+        p['Political Entities'] || '',
+        p['Region'] || '',
+        p['Ethnic Group'] || '',
+        p['Religion'] || '',
+        p['Capital'] || '',
+        p['Language'] || ''
+      ].join(' ').toLowerCase();
+      if (!haystack.includes(q)) return false;
+    }
+    if (region){
+      const r = (p['Region'] || '').split('/')[0].trim();
+      if (r !== region) return false;
+    }
+    if (scoreMin){
+      const ov = parseInt(p['Overall']) || 0;
+      if (ov < scoreMin) return false;
+    }
+    if (era){
+      const start = parseInt(p['Start']);
+      const end = parseInt(p['End']);
+      if (isNaN(start) || isNaN(end)) return false;
+      if (era === 'ancient' && end > 500) return false;
+      if (era === 'medieval' && (end < 500 || start > 1500)) return false;
+      if (era === 'early-modern' && (end < 1500 || start > 1800)) return false;
+      if (era === 'modern' && end < 1800) return false;
+    }
+    return true;
+  });
+
+  sortData();
+  currentPage = 1;
+  renderTable();
+}
+
+function sortData(){
+  filtered.sort((a, b) => {
+    // read numeric cached fields if present
+    const aNum = a[`__num__${sortCol}`];
+    const bNum = b[`__num__${sortCol}`];
+    if (!isNaN(aNum) && !isNaN(bNum)){
+      return sortDir === 'asc' ? aNum - bNum : bNum - aNum;
+    }
+    // fallback to string compare
+    const av = (a[sortCol] || '').toString().toLowerCase();
+    const bv = (b[sortCol] || '').toString().toLowerCase();
+    if (av < bv) return sortDir === 'asc' ? -1 : 1;
+    if (av > bv) return sortDir === 'asc' ? 1 : -1;
+    return 0;
+  });
+}
+
+function sortTable(col){
+  if (sortCol === col) sortDir = (sortDir === 'asc' ? 'desc' : 'asc');
+  else { sortCol = col; sortDir = 'desc'; }
+  document.querySelectorAll('thead th').forEach(th => {
+    th.classList.remove('sorted-asc','sorted-desc');
+    if (th.dataset.col === col) th.classList.add('sorted-' + sortDir);
+  });
+  sortData();
+  renderTable();
+}
+
+/* ========= Table render ========= */
+function renderTable(){
+  const total = filtered.length;
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const end = Math.min(start + PAGE_SIZE, total);
+  const page = filtered.slice(start, end);
+
+  document.getElementById('count-bar').textContent = total ? `Showing ${start+1}–${end} of ${total} polities` : 'No polities to show';
+
+  const tbody = document.getElementById('table-body');
+  tbody.innerHTML = '';
+
+  page.forEach((p, idx) => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td class="name-cell">${p['Political Entities'] || '—'}</td>
+      <td class="num">${formatYear(p['Start'])}</td>
+      <td class="num">${formatYear(p['End'])}</td>
+      <td>${(p['Region'] || '').replace(/ \/ .*/, '')}</td>
+      <td><span class="score-badge ${scoreColor(p['Overall'])}">${p['Overall'] || '—'}</span></td>
+      <td class="num">${p['Area (thousand km2)'] ? Number(p['Area (thousand km2)']).toLocaleString() : '—'}</td>
+      <td class="num">${p['Population (million)'] || '—'}</td>
+      <td>
+        ${ratingBadge(p['Economics'])}
+        ${ratingBadge(p['Military'])}
+        ${ratingBadge(p['Culture'])}
+        ${ratingBadge(p['Governance'])}
+      </td>
+    `;
+    const globalIndex = start + idx;
+    tr.onclick = () => toggleExpand(tr, p, globalIndex);
+    tbody.appendChild(tr);
+  });
+
+  renderPagination(total);
+}
+
+/* expandable detail row */
+function toggleExpand(tr, p, idx){
+  // remove existing expanded
+  const existing = document.querySelector('.expanded-row');
+  if (existing){
+    existing.remove();
+    document.querySelectorAll('tbody tr.expanded').forEach(r => r.classList.remove('expanded'));
+    if (expandedRowIndex === idx){ expandedRowIndex = null; return; }
+  }
+  expandedRowIndex = idx;
+  tr.classList.add('expanded');
+
+  const detailTr = document.createElement('tr');
+  detailTr.className = 'expanded-row';
+  const td = document.createElement('td');
+  td.colSpan = 8;
+
+  const ratings = ['Duration','Area','Population','Economics','Military','Culture','Technology','Governance','Social'];
+
+  td.innerHTML = `
+    <div class="expanded-content">
+      <div class="detail-item"><label>ETHNIC GROUP</label><span>${p['Ethnic Group'] || '—'}</span></div>
+      <div class="detail-item"><label>LANGUAGE</label><span>${p['Language'] || '—'}</span></div>
+      <div class="detail-item"><label>RELIGION</label><span>${p['Religion'] || '—'}</span></div>
+      <div class="detail-item"><label>FOUNDER</label><span>${p['Founder'] || '—'}</span></div>
+      <div class="detail-item"><label>CAPITAL</label><span>${p['Capital'] || '—'}</span></div>
+      <div class="detail-item"><label>PRESENT DAY</label><span>${p['Present Day Location'] || '—'}</span></div>
+      <div class="detail-item"><label>DURATION</label><span>${p['Duration (year)'] ? (p['Duration (year)'] + ' years') : (p['Duration'] || '—')}</span></div>
+      <div class="detail-item"><label>AREA</label><span>${p['Area (thousand km2)'] ? Number(p['Area (thousand km2)']).toLocaleString() + ' thousand km²' : '—'}</span></div>
+      <div class="detail-item"><label>POPULATION</label><span>${p['Population (million)'] ? p['Population (million)'] + ' million' : '—'}</span></div>
+      <div class="rating-row">
+        <label>ALL RATINGS</label>
+        ${ratings.map(r => `<span title="${r}">${r.substring(0,3).toUpperCase()} ${ratingBadge(p[r])}</span>`).join('')}
+      </div>
+    </div>
+  `;
+  detailTr.appendChild(td);
+  tr.after(detailTr);
+}
+
+/* pagination */
+function renderPagination(total){
+  const pages = Math.ceil(total / PAGE_SIZE);
+  const pag = document.getElementById('pagination');
+  pag.innerHTML = '';
+  if (pages <= 1) return;
+
+  const btn = (label, page, disabled, active) => {
+    const b = document.createElement('button');
+    b.textContent = label;
+    if (disabled) b.disabled = true;
+    if (active) b.classList.add('active');
+    b.onclick = () => { currentPage = page; renderTable(); window.scrollTo({top:0,behavior:'smooth'}); };
+    return b;
+  };
+
+  pag.appendChild(btn('‹', Math.max(1, currentPage-1), currentPage === 1));
+  let start = Math.max(1, currentPage-2);
+  let end = Math.min(pages, currentPage+2);
+  if (start > 1){ pag.appendChild(btn('1',1)); if (start > 2) pag.appendChild(Object.assign(document.createElement('span'), {textContent:'…', style:'color:var(--text-dim); padding:'+'0 4px'})); }
+  for (let p = start; p <= end; p++) pag.appendChild(btn(p, p, false, p === currentPage));
+  if (end < pages){ if (end < pages - 1) pag.appendChild(Object.assign(document.createElement('span'), {textContent:'…', style:'color:var(--text-dim); padding:'+'0 4px'})); pag.appendChild(btn(pages, pages)); }
+  pag.appendChild(btn('›', Math.min(pages, currentPage+1), currentPage === pages));
+}
+
+/* ========= YEAR QUERY =========
+   For the given year: find phases where Phase Start <= year <= Phase End.
+   For each matching phase, find the polity row (by matching polity name to Political Entities).
+   Show the first five polity columns (Political Entities, Start, End, Ethnic Group, Language)
+   and the Phase Score. Sort by Phase Score descending.
+*/
+function runYearQuery(){
+  const val = document.getElementById('year-input').value.trim();
+  if (!val){
+    document.getElementById('query-results').innerHTML = '<div class="empty-state"><div class="icon">⚠</div>Please enter a year.</div>';
+    return;
+  }
+  const year = parseInt(val);
+  if (isNaN(year)){
+    document.getElementById('query-results').innerHTML = '<div class="empty-state"><div class="icon">⚠</div>Please enter a valid numeric year.</div>';
+    return;
+  }
+  const label = year < 0 ? `${Math.abs(year)} BCE` : `${year} CE`;
+  document.getElementById('year-display').textContent = `Showing polities active in ${label}`;
+
+  // find phases active in this year
+  // Support common keys: 'Polity' or 'Political Entities'
+  const polityKeyCandidates = ['Polity','Political Entities'];
+  const phasePolityKey = allPhases.length && Object.keys(allPhases[0]).includes('Polity') ? 'Polity' : (
+    allPhases.length && Object.keys(allPhases[0]).includes('Political Entities') ? 'Political Entities' : 'Polity'
+  );
+
+  const matches = [];
+  allPhases.forEach(ph => {
+    const ps = ph['Phase Start'] !== undefined ? toNum(ph['Phase Start']) : toNum(ph['PhaseStart'] || ph['Phase_Start']);
+    const pe = ph['Phase End'] !== undefined ? toNum(ph['Phase End']) : toNum(ph['PhaseEnd'] || ph['Phase_End']);
+    // Accept also Phase Start/Phase End in different spellings; fallback to Start Year/End Year
+    const ps2 = !isNaN(ps) ? ps : (ph['PhaseStart'] ? toNum(ph['PhaseStart']) : (ph['Phase_Start'] ? toNum(ph['Phase_Start']) : toNum(ph['Start Year'])));
+    const pe2 = !isNaN(pe) ? pe : (ph['PhaseEnd'] ? toNum(ph['PhaseEnd']) : (ph['Phase_End'] ? toNum(ph['Phase_End']) : toNum(ph['End Year'])));
+    if (!isNaN(ps2) && !isNaN(pe2) && ps2 <= year && pe2 >= year){
+      const polityName = ph['Polity'] || ph['Political Entities'] || ph['Polity Name'] || '';
+      const phaseScore = toNum(ph['Phase Score']) || toNum(ph['PhaseScore']) || toNum(ph['Phase_Score']) || toNum(ph['Phase score']) || toNum(ph['Phase Score']) || NaN;
+      matches.push({phase: ph, polityName: polityName, phaseScore: isNaN(phaseScore) ? null : phaseScore, ps: ps2, pe: pe2});
+    }
+  });
+
+  if (matches.length === 0){
+    document.getElementById('query-results').innerHTML = `<div class="empty-state"><div class="icon">🏜</div>No phases found for ${label}. The database may not yet include this period.</div>`;
+    return;
+  }
+
+  // Map matches to polity rows
+  const mapped = matches.map(m => {
+    // find polity by exact match or startsWith
+    let row = allPolities.find(p => (p['Political Entities'] || '').trim() === (m.polityName || '').trim());
+    if (!row){
+      row = allPolities.find(p => (p['Political Entities'] || '').startsWith((m.polityName || '').split('/')[0].trim()));
+    }
+    return {phase: m.phase, polity: row, phaseScore: m.phaseScore || (row ? toNum(row['Overall']) : 0)};
+  }).filter(x => x.polity); // filter out phases that have no poliity row
+
+  // sort by phase score descending
+  mapped.sort((a,b) => b.phaseScore - a.phaseScore);
+
+  // Render as cards (showing first five columns + phase score)
+  const container = document.getElementById('query-results');
+  const total = mapped.length;
+  let html = `<div class="query-results-header"><h3>⚔ ${total} POLITIES IN ${label.toUpperCase()}</h3><span style="color:var(--text-dim);font-size:0.78rem">Sorted by Phase Score</span></div>`;
+  html += '<div class="cards-grid">';
+  mapped.forEach((item, i) => {
+    const p = item.polity;
+    const ph = item.phase;
+    const score = item.phaseScore;
+    html += `
+      <div class="polity-card" role="article" tabindex="0">
+        <span class="rank-num">#${i+1}</span>
+        <div class="card-top">
+          <div class="card-name">${p['Political Entities'] || '—'}</div>
+          <div class="card-scores">
+            <span class="score-badge ${scoreColor(score)}" title="Phase Score">${score !== null ? score : '—'}</span>
+          </div>
+        </div>
+
+        <div class="card-meta">
+          <span>🗓 ${formatYear(p['Start'])} – ${formatYear(p['End'])}</span>
+          <span>📍 ${(p['Region'] || '').replace(/ \/ .*/, '')}</span>
+          ${p['Language'] ? `<span>🗣 ${p['Language'].split('/')[0].trim()}</span>` : ''}
+          ${p['Ethnic Group'] ? `<span>👥 ${p['Ethnic Group'].split('/')[0].trim()}</span>` : ''}
+        </div>
+
+        ${ph && (ph['Phase Name'] || ph['Notes']) ? `
+          <div class="card-phase">
+            <div class="phase-name">${ph['Phase Name'] || ''}</div>
+            ${ph['Notes'] ? `<div class="phase-note">${ph['Notes']}</div>` : ''}
+          </div>` : ''}
+      </div>
+    `;
+  });
+  html += '</div>';
+  container.innerHTML = html;
+}
+
+/* ========= Tab switching ========= */
+function switchTab(tab){
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + tab).classList.add('active');
+  const idx = ['table','query','update'].indexOf(tab);
+  if (idx >= 0) document.querySelectorAll('nav button')[idx].classList.add('active');
+}
+
+/* keyboard: enter on year input */
+document.addEventListener('DOMContentLoaded', () => {
+  const yinput = document.getElementById('year-input');
+  if (yinput) yinput.addEventListener('keydown', (e) => { if (e.key === 'Enter') runYearQuery(); });
+});
+
+/* ========= boot ========= */
+loadCSVFiles();
+</script>
+</body>
+</html>
