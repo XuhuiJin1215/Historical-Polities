@@ -218,15 +218,15 @@
   }
 
   .rating-badge{
-    display: inline-block;
-    width: 22px;
-    height: 22px;
-    border-radius: 4px;
-    text-align: center;
-    line-height: 22px;
-    font-weight: 700;
-    font-size: 0.8rem;
-  }
+  display: inline-block;
+  min-width: 28px;
+  padding: 3px 8px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.82rem;
+  line-height: 1.2;
+}
 
   /* Expanded row */
   .expanded-row td{
@@ -532,7 +532,7 @@ const RATING_DIMS = ['Duration','Area','Population','Economics','Military','Cult
 /* ========= Utilities ========= */
 function tidyKey(k){ if (!k && k !== 0) return k; return k.toString().trim(); }
 function toNum(v){ if (v === null || v === undefined || v === '') return NaN; const s = (''+v).replace(/,/g,'').replace(/[^\d\.\-]/g,''); const n = parseFloat(s); return isFinite(n) ? n : NaN; }
-function formatYear(y){ const n = parseInt(y); if (isNaN(n)) return '—'; if (n < 0) return Math.abs(n) + ' BCE'; return n + ' CE'; }
+function formatYear(y){ const n = parseInt(y); if (isNaN(n)) return '—'; return n; }
 function scoreColor(n){ n = parseInt(n) || 0; if (n >= 65) return 'overall-high'; if (n >= 50) return 'overall-mid'; return 'overall-low'; }
 function ratingClass(r){ if (!r) return ''; const map = { A: 's-a', B: 's-b', C: 's-c', D: 's-d', S: 's-s' }; return map[(r+'').trim().toUpperCase()] || ''; }
 function ratingBadge(r){ if (!r) return ''; return `<span class="rating-badge ${ratingClass(r)}">${(r+'').trim().toUpperCase()}</span>`; }
@@ -770,7 +770,7 @@ function runYearQuery(){
   if (!val){ document.getElementById('query-results').innerHTML = '<div class="empty-state"><div class="icon">⚠</div>Please enter a year.</div>'; return; }
   const year = parseInt(val);
   if (isNaN(year)){ document.getElementById('query-results').innerHTML = '<div class="empty-state"><div class="icon">⚠</div>Please enter a valid numeric year.</div>'; return; }
-  const label = year < 0 ? `${Math.abs(year)} BCE` : `${year} CE`;
+  const label = year; // just display the number, negative for BCE years
   document.getElementById('year-display').textContent = `Showing polities active in ${label}`;
 
   const matches = [];
@@ -808,7 +808,7 @@ function runYearQuery(){
           <div class="card-scores"><span class="score-badge ${scoreColor(score)}" title="Phase Score">${score !== null ? score : '—'}</span></div>
         </div>
         <div class="card-meta">
-          <span>🗓 ${formatYear(p['Start'])} – ${formatYear(p['End'])}</span>
+          <span>🗓 ${p['Start']} to ${p['End']}</span>
           <span>📍 ${(p['Region']||'').replace(/ \/ .*/, '')}</span>
           ${p['Language'] ? `<span>🗣 ${p['Language'].split('/')[0].trim()}</span>` : ''}
           ${p['Ethnic Group'] ? `<span>👥 ${p['Ethnic Group'].split('/')[0].trim()}</span>` : ''}
