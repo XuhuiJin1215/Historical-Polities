@@ -382,16 +382,16 @@
   .update-box code{ background: var(--bg3); border: 1px solid var(--border); padding: 0.1rem 0.4rem; border-radius: 3px; font-family: monospace; font-size: 0.8rem; color: var(--gold-light); }
 
   /* Score color classes (kept) + S updated to dark green */
+  .s-s{ background: rgba(186,104,200,0.2);color: #ce93d8;border: 1px solid rgba(186,104,200,0.3);}
   .s-a{ background: rgba(76,175,80,0.2); color: #81c784; border: 1px solid rgba(76,175,80,0.3); }
   .s-b{ background: rgba(100,181,246,0.2); color: #90caf9; border: 1px solid rgba(100,181,246,0.3); }
   .s-c{ background: rgba(255,183,77,0.2); color: #ffcc02; border: 1px solid rgba(255,183,77,0.3); }
   .s-d{ background: rgba(229,115,115,0.2); color: #ef9a9a; border: 1px solid rgba(229,115,115,0.3); }
 
-  /* S rank now dark green so it won't collide with C (orange) */
-  .s-s{ background: rgba(6,100,6,0.14); color: #2e7d32; border: 1px solid rgba(6,100,6,0.25); }
-
-  .overall-high{ background: rgba(76,175,80,0.25); color: #a5d6a7; border: 1px solid rgba(76,175,80,0.4); }
-  .overall-mid{ background: rgba(255,183,77,0.2); color: #ffe082; border: 1px solid rgba(255,183,77,0.3); }
+  .overall-S{ background: rgba(186,104,200,0.2);color: #ce93d8;border: 1px solid rgba(186,104,200,0.3); }
+  .overall-mid{ background: rgba(76,175,80,0.2); color: #81c784; border: 1px solid rgba(76,175,80,0.3); }
+  .overall-low{ background: rgba(100,181,246,0.2); color: #90caf9; border: 1px solid rgba(100,181,246,0.3); }
+  .overall-low{ background: rgba(255,183,77,0.2); color: #ffcc02; border: 1px solid rgba(255,183,77,0.3); }
   .overall-low{ background: rgba(229,115,115,0.2); color: #ef9a9a; border: 1px solid rgba(229,115,115,0.3); }
 
   .pagination{ display: flex; justify-content: center; align-items: center; gap: 0.4rem; margin-top: 1rem; flex-wrap: wrap; }
@@ -446,9 +446,10 @@
       </select>
       <select id="score-filter" onchange="filterTable()">
         <option value="">All Scores</option>
-        <option value="65">≥ 65 (High)</option>
+        <option value="90">≥ 90 (Exceptional)</option>
+        <option value="70">≥ 70 (High)</option>
         <option value="50">≥ 50 (Mid-High)</option>
-        <option value="40">≥ 40 (Mid)</option>
+        <option value="30">≥ 30 (Average)</option>
         <option value="0">All</option>
       </select>
       <select id="era-filter" onchange="filterTable()">
@@ -533,7 +534,7 @@ const RATING_DIMS = ['Duration','Area','Population','Economics','Military','Cult
 function tidyKey(k){ if (!k && k !== 0) return k; return k.toString().trim(); }
 function toNum(v){ if (v === null || v === undefined || v === '') return NaN; const s = (''+v).replace(/,/g,'').replace(/[^\d\.\-]/g,''); const n = parseFloat(s); return isFinite(n) ? n : NaN; }
 function formatYear(y){ const n = parseInt(y); if (isNaN(n)) return '—'; return n; }
-function scoreColor(n){ n = parseInt(n) || 0; if (n >= 65) return 'overall-high'; if (n >= 50) return 'overall-mid'; return 'overall-low'; }
+function scoreColor(n){ n = parseInt(n) || 0; if (n >= 90) return 'overall-S'; if (n >= 70) return 'overall-A'; if (n >= 50) return 'overall-B'; if (n >= 30) return 'overall-C'; return 'overall-D'; }
 function ratingClass(r){ if (!r) return ''; const map = { A: 's-a', B: 's-b', C: 's-c', D: 's-d', S: 's-s' }; return map[(r+'').trim().toUpperCase()] || ''; }
 function ratingBadge(r){ if (!r) return ''; return `<span class="rating-badge ${ratingClass(r)}">${(r+'').trim().toUpperCase()}</span>`; }
 function ratingPill(r){ if (!r) return `<span class="rating-pill" style="opacity:0.45">—</span>`; return `<span class="rating-pill ${ratingClass(r)}">${(r+'').trim().toUpperCase()}</span>`; }
