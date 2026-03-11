@@ -103,7 +103,7 @@ Republic of Chad / 乍得共和国,1960,2026,Central Africa / 中非,38,Déby Co
 Republic of Chad / 乍得共和国,1960,2026,Central Africa / 中非,38,Transitional Turbulence,2022,2026,34,Coup-era instability reduced governance and economic performance despite continued territorial integrity.
 Republic of the Congo (Léopoldville) / 刚果共和国（利奥波德维尔）,1960,1971,Central Africa / 中非,28,Crisis and Fragmentation,1960,1964,24,Congo Crisis-era fragmentation and weak central authority undermined state capacity.
 Republic of the Congo (Léopold维尔) / 刚果共和国（利奥波德维尔）,1960,1971,Central Africa / 中非,28,Mobutu Consolidation,1965,1971,26,Early Mobutu consolidation increased central control but long-term institutional weakness persisted.
-Central African Republic (Early) / 中非共和国（早期）,1960,1976,Central Africa / 中非,22,Initial Independence and Instability,1960,1965,18,Weak institutions and regional unrest characterized the early republican period.
+Central African Republic (Early) / 中非共和国（早期）,1960,1976,Central Africa / 中非,22,Initial Independence and Instability,1960,1965,20,Weak institutions and regional unrest characterized the early republican period.
 Central African Republic (Early) / 中非共和国（早期）,1960,1976,Central Africa / 中非,22,Bokassa Authoritarian Rule,1966,1976,22,Authoritarian centralization increased coercive capacity but failed to raise economy or welfare.
 Republic of the Congo (Brazzaville-Early) / 刚果共和国（布拉柴维尔-早期）,1960,1969,Central Africa / 中非,22,Early Post-Independence Period,1960,1969,22,Single early phase of fragile governance and limited economic development.
 Republic of Equatorial Guinea / 赤道几内亚共和国,1968,2026,Central Africa / 中非,27,Macías Tyranny,1968,1979,16,"Brutal dictatorship devastated institutions, economy, and social welfare."
@@ -415,3 +415,438 @@ Austria-Hungary / 奥匈帝国,1867,1918,Central Europe / 中欧,61,World War I 
 German Empire / 德意志帝国,1871,1918,Central Europe / 中欧,80,Unification and Bismarckian Consolidation,1871,1890,70,"State-building, administrative modernization, and industrial growth laid the foundation for great-power status."
 German Empire / 德意志帝国,1871,1918,Central Europe / 中欧,80,Wilhelmine Expansion and Peak,1891,1913,80,"Rapid industrial, military, and scientific ascendancy produce the polity’s apex in composite strength."
 German Empire / 德意志帝国,1871,1918,Central Europe / 中欧,80,World War I and Dissolution,1914,1918,50,"Total war strained economy and society, ending in defeat and imperial collapse."
+Czechoslovak Republic (First Republic) / 捷克斯洛伐克共和国（第一共和国）,1918,1938,Central Europe / 中欧,55,Founding and Economic Consolidation,1918,1929,55,Strong democratic institutions and industrial growth established the polity’s high composite strength.
+Czechoslovak Republic (First Republic) / 捷克斯洛伐克共和国（第一共和国）,1918,1938,Central Europe / 中欧,55,"Depression, National Tensions, and Munich Crisis",1930,1938,50,Economic downturn and rising external pressures eroded political cohesion and economic performance.
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,1918,1939,Central Europe / 中欧,52,State-Building and Military Consolidation,1918,1925,48,Postwar reconstruction and territorial consolidation improved security but left institutional fragility.
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,1918,1939,Central Europe / 中欧,52,Sanacja Authoritarian Consolidation,1926,1939,52,Authoritarian stabilization raised administrative control and military readiness despite political limits.
+Weimar Republic / 魏玛共和国,1918,1933,Central Europe / 中欧,49,"Revolution, Hyperinflation, and Instability",1918,1923,30,"Early republican turmoil, economic collapse, and political fragmentation severely weakened capacity."
+Weimar Republic / 魏玛共和国,1918,1933,Central Europe / 中欧,49,Stability and Cultural-Scientific Flourishing,1924,1929,49,The relative prosperity and cultural-technological dynamism mark the polity’s peak phase.
+Weimar Republic / 魏玛共和国,1918,1933,Central Europe / 中欧,49,Great Depression and Political Breakdown,1930,1933,36,Economic crisis and polarization rapidly undermined governance and social welfare.
+Republic of Austria (First Republic) / 奥地利共和国（第一共和国）,1919,1934,Central Europe / 中欧,40,Postwar Reconstruction and Parliamentary Republic,1919,1930,38,Economic and institutional rebuilding created modest governance capacity amid constraints.
+Republic of Austria (First Republic) / 奥地利共和国（第一共和国）,1919,1934,Central Europe / 中欧,40,Authoritarian Turn and Federal Collapse,1931,1934,40,Political authoritarianism and socio-economic strain culminated in the republic’s demise.
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,1920,1946,Central Europe / 中欧,41,Regency Consolidation and Revisionism,1920,1938,40,Authoritarian consolidation with moderate economic recovery and strong nationalist policy.
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,1920,1946,Central Europe / 中欧,41,War Alignment and Mobilization,1939,1944,41,Territorial gains and militarization increased certain state capacities despite international isolation.
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,1920,1946,Central Europe / 中欧,41,"Defeat, Occupation, and Collapse",1945,1946,28,Military defeat and occupation produced catastrophic institutional and social breakdown.
+Nazi Germany / 纳粹德国,1933,1945,Central Europe / 中欧,56,"Consolidation, Rearmament, and Mobilization",1933,1938,56,Authoritarian centralization and rapid military-economic buildup raised composite power prior to war.
+Nazi Germany / 纳粹德国,1933,1945,Central Europe / 中欧,56,"Total War, Expansion, and Collapse",1939,1945,48,"Wartime expansion increased military reach but devastated economy, governance legitimacy, and social welfare."
+Federal State of Austria / 奥地利联邦国,1934,1938,Central Europe / 中欧,34,Austrofascist Regime,1934,1938,34,Authoritarian corporatist regime with limited economy and declining legitimacy under external pressure.
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,1945,2026,Central Europe / 中欧,56,Allied Occupation and Reconstruction,1945,1955,50,Postwar recovery and institutional rebuilding under allied supervision restored state capacity.
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,1945,2026,Central Europe / 中欧,56,State Treaty and Welfare Consolidation,1955,1979,56,"Neutrality, social-welfare expansion, and economic growth mark the polity’s high composite strength."
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,1945,2026,Central Europe / 中欧,56,Economic Adjustment and Modernization,1980,1994,54,Late-20th-century economic restructuring and administrative modernization maintained strong governance.
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,1945,2026,Central Europe / 中欧,56,EU Integration and Contemporary Stability,1995,2026,56,"EU membership and mature institutions underpin high economy, governance, and social indicators."
+Czechoslovak Republic (Third Republic) / 捷克斯洛伐克（第三共和国）,1945,1948,Central Europe / 中欧,41,Postwar Reconstitution and Political Shift,1945,1948,41,Reestablished democratic institutions rapidly lost ground to Communist consolidation prior to 1948 coup.
+Second Hungarian Republic / 匈牙利第二共和国,1946,1949,Central Europe / 中欧,25,Republican Interlude,1946,1949,25,Brief postwar republican experiment with weak institutions overwhelmed by partisan conflict.
+Polish People's Republic / 波兰人民共和国,1947,1989,Central Europe / 中欧,47,Stalinist Consolidation,1947,1956,40,Forced collectivization and centralized control created strong coercive institutions but weak welfare.
+Polish People's Republic / 波兰人民共和国,1947,1989,Central Europe / 中欧,47,Post-Stalin Thaw and Stability,1957,1970,44,Relative liberalization and managed growth improved economy and governance capacity.
+Polish People's Republic / 波兰人民共和国,1947,1989,Central Europe / 中欧,47,Gierek Boom (Peak),1971,1980,47,Temporary economic expansion and social programs produced the polity’s peak composite strength.
+Polish People's Republic / 波兰人民共和国,1947,1989,Central Europe / 中欧,47,Crisis and Collapse,1981,1989,34,"Martial law, debt crisis, and social mobilization eroded state capacity leading to systemic collapse."
+Czechoslovak Socialist Republic / 捷克斯洛伐克社会主义共和国,1948,1990,Central Europe / 中欧,41,Early Stalinist Era,1948,1955,34,Hardline collectivization and political purges consolidated party control at the cost of welfare and innovation.
+Czechoslovak Socialist Republic / 捷克斯洛伐克社会主义共和国,1948,1990,Central Europe / 中欧,41,Consolidation and Industrialization,1956,1967,38,Industrial growth and institutional stabilization improved economic and administrative capacity.
+Czechoslovak Socialist Republic / 捷克斯洛伐克社会主义共和国,1948,1990,Central Europe / 中欧,41,Prague Spring and Invasion,1968,1969,30,"Reformist surge was crushed by invasion, producing immediate political and social regression."
+Czechoslovak Socialist Republic / 捷克斯洛伐克社会主义共和国,1948,1990,Central Europe / 中欧,41,Normalization and Stagnation,1970,1987,36,Long period of political repression and economic stagnation with limited social gains.
+Czechoslovak Socialist Republic / 捷克斯洛伐克社会主义共和国,1948,1990,Central Europe / 中欧,41,Velvet Revolution and Transition,1988,1990,41,Rapid political liberalization and institutional renewal restored governance potential and ended the socialist era.
+Federal Republic of Germany / 德意志联邦共和国,1949,2026,Central Europe / 中欧,72,Postwar Reconstruction,1949,1959,50,Rebuilding institutions and economy under Allied oversight with limited sovereignty and growth.
+Federal Republic of Germany / 德意志联邦共和国,1949,2026,Central Europe / 中欧,72,Economic Miracle and Consolidation,1960,1973,68,"Rapid industrial growth, social-welfare expansion, and strong governance raise composite strength."
+Federal Republic of Germany / 德意志联邦共和国,1949,2026,Central Europe / 中欧,72,Cold War Maturity and Social State,1974,1989,66,"Stable welfare-state institutions, technological progress, and international influence define this period."
+Federal Republic of Germany / 德意志联邦共和国,1949,2026,Central Europe / 中欧,72,Reunification and EU Integration,1990,2004,72,Reunification costs offset by political-economic consolidation and rising EU leadership—peak composite strength.
+Federal Republic of Germany / 德意志联邦共和国,1949,2026,Central Europe / 中欧,72,Globalization and Modern Resilience,2005,2026,70,"Mature economy, strong governance, and technological leadership sustain high composite performance."
+German Democratic Republic / 德意志民主共和国,1949,1990,Central Europe / 中欧,45,Early Socialist Consolidation,1949,1960,32,Stalinist reconstruction and coercive institutions limited economic dynamism and welfare.
+German Democratic Republic / 德意志民主共和国,1949,1990,Central Europe / 中欧,45,Stabilization and Institutional Peak,1961,1979,45,"Solid state institutions, industrial capacity, and social services mark the high point under socialist governance."
+German Democratic Republic / 德意志民主共和国,1949,1990,Central Europe / 中欧,45,Late Stagnation and Crisis,1980,1990,40,Economic stagnation and political erosion reduced composite strength before collapse.
+Hungarian People's Republic / 匈牙利人民共和国,1949,1989,Central Europe / 中欧,40,Rákosi Era and Hardline Socialism,1949,1956,22,"Repressive Stalinist policies severely constrained economy, governance, and welfare."
+Hungarian People's Republic / 匈牙利人民共和国,1949,1989,Central Europe / 中欧,40,Kádár Consolidation (Goulash Socialism),1957,1989,40,Relative economic liberalization and social stability improve governance and welfare to the system’s peak.
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,1989,2026,Central Europe / 中欧,58,Transition and Stabilization,1989,1996,48,Post-communist reforms and stabilization improved institutions but had uneven social costs.
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,1989,2026,Central Europe / 中欧,58,EU Accession and Growth,1997,2008,56,Accession era reforms and EU integration substantially raised economy and governance.
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,1989,2026,Central Europe / 中欧,58,Modern Consolidation and Political Polarization,2009,2026,58,Strong economic and institutional capacity with growing political polarization in recent years.
+Hungary (Third Republic) / 匈牙利（第三共和国）,1989,2026,Central Europe / 中欧,50,Post-Communist Transition,1989,1998,44,Initial political-economic reforms and institution-building with uneven social outcomes.
+Hungary (Third Republic) / 匈牙利（第三共和国）,1989,2026,Central Europe / 中欧,50,EU Integration and Growth,1999,2007,50,EU accession and economic gains raised governance and societal indicators to the overall baseline.
+Hungary (Third Republic) / 匈牙利（第三共和国）,1989,2026,Central Europe / 中欧,50,Authoritarian Shift and Consolidation,2008,2026,46,Centralized political control and sustained economy produced mixed governance and welfare outcomes.
+Czech and Slovak Federative Republic / 捷克和斯洛伐克联邦共和国,1990,1992,Central Europe / 中欧,43,Post-Communist Federation,1990,1992,43,Short transitional federation with rapid reforms but growing internal economic and political divergence.
+Czech Republic / 捷克共和国,1993,2026,Central Europe / 中欧,54,Post-Division Transition,1993,1999,48,Economic restructuring and institutional formation after the split with steady progress.
+Czech Republic / 捷克共和国,1993,2026,Central Europe / 中欧,54,EU Accession and Growth,2000,2008,54,Membership and market integration produced the polity’s peak composite strength.
+Czech Republic / 捷克共和国,1993,2026,Central Europe / 中欧,54,Modern Stabilization and Innovation,2009,2026,52,Continued economic and technological development with strong governance but modest demographic limits.
+Slovak Republic / 斯洛伐克共和国,1993,2026,Central Europe / 中欧,43,Early Reform and Instability,1993,1999,36,Initial transition struggles and slower reforms limited early composite capacity.
+Slovak Republic / 斯洛伐克共和国,1993,2026,Central Europe / 中欧,43,Reform Acceleration and EU Entry,2000,2007,42,Accelerated reforms and accession improved institutions and economy significantly.
+Slovak Republic / 斯洛伐克共和国,1993,2026,Central Europe / 中欧,43,Consolidation and Modern Growth,2008,2026,43,Stable EU-era governance and economic diversification reached the polity’s current baseline.
+D'mt / 达厄马特,-700,-400,East Africa / 东非,36,Kingdom of D'mt,-700,-400,36,Early South Arabian-influenced polity with limited territorial/population base but notable early state institutions.
+Kingdom of Aksum / 阿克苏姆王国,100,960,East Africa / 东非,64,Formative Aksumite Rise,100,300,54,Economic and political consolidation around trade routes and proto-urban centers established state foundations.
+Kingdom of Aksum / 阿克苏姆王国,100,960,East Africa / 东非,64,Aksumite Apex,301,600,64,"Global-trade apex with strong economy, monumental culture, and significant regional military/political reach."
+Kingdom of Aksum / 阿克苏姆王国,100,960,East Africa / 东非,64,Late Decline and Fragmentation,601,960,52,Maritime decline and internal fragmentation reduced economic and political cohesion while cultural legacy persisted.
+Sultanate of Shewa / 舍瓦苏丹国,896,1286,East Africa / 东非,40,Shewa Formation and Local Consolidation,896,1100,36,Regional kingdom consolidating Highland polities with modest economic and military capacity.
+Sultanate of Shewa / 舍瓦苏丹国,896,1286,East Africa / 东非,40,Shewa Apex and Expansion,1101,1250,40,Relative political consolidation and regional influence mark the polity’s high point.
+Sultanate of Shewa / 舍瓦苏丹国,896,1286,East Africa / 东非,40,Late Contraction,1251,1286,34,Fragmentation and pressure from neighboring states reduced territorial control and administrative reach.
+Sultanate of Mogadishu / 摩加迪沙苏丹国,950,1550,East Africa / 东非,50,Maritime Rise and Urbanization,950,1200,46,Growth of port-city economy and trade networks integrated Mogadishu into the Indian Ocean commercial system.
+Sultanate of Mogadishu / 摩加迪沙苏丹国,950,1550,East Africa / 东非,50,Commercial Apex,1201,1450,50,Dominant mercantile city-state with strong cultural influence and substantial economic/military resources.
+Sultanate of Mogadishu / 摩加迪沙苏丹国,950,1550,East Africa / 东非,50,Decline and External Pressure,1451,1550,42,Competition and external incursions undermined trade dominance and reduced political cohesion.
+Kilwa Sultanate / 基尔瓦苏丹国,957,1513,East Africa / 东非,45,Formation and Coastal Consolidation,957,1200,40,Emergence as a key Swahili trading polity with growing urban economy and regional networks.
+Kilwa Sultanate / 基尔瓦苏丹国,957,1513,East Africa / 东非,45,Kilwa Apex,1201,1400,45,Peak commercial influence across the East African coast with strong cultural and economic weight.
+Kilwa Sultanate / 基尔瓦苏丹国,957,1513,East Africa / 东非,45,Late Decline and Portuguese Impact,1401,1513,38,External maritime competition and internal fragmentation reduced sovereignty and trade control.
+Kingdom of Simien / 瑟门王国,960,1329,East Africa / 东非,31,Simien Formation,960,1100,28,Mountain polity with limited demographic and economic scale but localized political institutions.
+Kingdom of Simien / 瑟门王国,960,1329,East Africa / 东非,31,Simien Apex,1101,1270,31,Regional control and cultural-religious significance reach the polity’s highest composite strength.
+Kingdom of Simien / 瑟门王国,960,1329,East Africa / 东非,31,Late Decline,1271,1329,30,Pressure from neighboring states and internal shifts reduced political cohesion and resources.
+Sultanate of Dahlak / 达赫拉克苏丹国,1061,1557,East Africa / 东非,38,Emergence and Maritime Trade,1061,1300,36,Island-based polity controlling Red Sea trade routes with moderate economic and naval capability.
+Sultanate of Dahlak / 达赫拉克苏丹国,1061,1557,East Africa / 东非,38,Regional Apex,1301,1450,38,Heightened control over maritime commerce and regional influence mark the apex period.
+Sultanate of Dahlak / 达赫拉克苏丹国,1061,1557,East Africa / 东非,38,Late Decline,1451,1557,34,Competition and shifting trade patterns diminished strategic and economic importance.
+Zagwe Dynasty / 扎格维王朝,1137,1270,East Africa / 东非,53,Zagwe Consolidation and Church Patronage,1137,1180,48,Formation of dynastic authority with significant religious construction and regional governance.
+Zagwe Dynasty / 扎格维王朝,1137,1270,East Africa / 东非,53,Zagwe Apex,1181,1250,53,"Strong centralized rule with notable architectural, cultural, and administrative achievements."
+Zagwe Dynasty / 扎格维王朝,1137,1270,East Africa / 东非,53,Terminal Weakening,1251,1270,46,Successional strain and rising rival polities led to loss of central authority and eventual replacement.
+Ajuran Sultanate / 阿朱兰苏丹国,1250,1650,East Africa / 东非,55,Ajuran Formation and Statecraft,1250,1400,50,Consolidation of centralized administration and control over inland–coastal trade enhanced regional integration.
+Ajuran Sultanate / 阿朱兰苏丹国,1250,1650,East Africa / 东非,55,Ajuran Apex,1401,1550,55,"Peak centralized authority with strong military, irrigation-based economy, and significant cultural influence."
+Ajuran Sultanate / 阿朱兰苏丹国,1250,1650,East Africa / 东非,55,Late Decline and Fragmentation,1551,1650,48,Internal decentralization and external competition eroded centralized control and economic dominance.
+Kingdom of Rwanda / 卢旺达王国,1250,1897,East Africa / 东非,41,Proto-Rwanda Formation,1250,1600,38,Early state formation with increasing centralization and institution-building under regional chieftains.
+Kingdom of Rwanda / 卢旺达王国,1250,1897,East Africa / 东非,41,Mwitwarage Centralization and Apex,1601,1850,41,"Centralized monarchy expanded territory, institutional governance, and cultural cohesion reaching the overall baseline."
+Kingdom of Rwanda / 卢旺达王国,1250,1897,East Africa / 东非,41,Late Pressures and Colonial Encounters,1851,1897,35,External pressures and colonial intrusions reduced autonomy and constrained socio-economic development.
+Kingdom of Wolaita / 沃莱塔王国,1251,1896,East Africa / 东非,41,Formation and Highland Consolidation,1251,1500,38,Early state-building and local institutional formation with limited demographic and economic scale.
+Kingdom of Wolaita / 沃莱塔王国,1251,1896,East Africa / 东非,41,Expansion and Political Apex,1501,1700,41,Heightened territorial control and centralized governance mark the polity’s peak composite strength.
+Kingdom of Wolaita / 沃莱塔王国,1251,1896,East Africa / 东非,41,Late Pressure and Incorporation,1701,1896,35,External pressures and incorporation into larger polities reduced autonomy and resources.
+Ethiopian Empire / 埃塞俄比亚帝国,1270,1974,East Africa / 东非,66,Solomonic Restoration and Consolidation,1270,1529,60,Reestablished dynastic rule with growing ecclesiastical institutions and regional trade networks.
+Ethiopian Empire / 埃塞俄比亚帝国,1270,1974,East Africa / 东非,66,Gondarine Period and Cultural Flourishing,1530,1696,58,"Cultural, religious, and administrative consolidation with sustained regional influence."
+Ethiopian Empire / 埃塞俄比亚帝国,1270,1974,East Africa / 东非,66,Zemene Mesafint Fragmentation,1697,1855,45,Prolonged decentralization and factional rule weakened central governance and economic integration.
+Ethiopian Empire / 埃塞俄比亚帝国,1270,1974,East Africa / 东非,66,Reunification and Expansion (Tewodros–Menelik),1856,1913,64,Military reunification and territorial expansion alongside modernization efforts raised composite capacity.
+Ethiopian Empire / 埃塞俄比亚帝国,1270,1974,East Africa / 东非,66,Haile Selassie Modernization and Peak,1914,1974,66,"State-led modernization, international role, and institutional growth define the empire’s apex."
+Sultanate of Ifat / 伊法特苏丹国,1275,1403,East Africa / 东非,39,Founding and Coastal-Trade Linkages,1275,1340,35,Regional mercantile integration and state formation produced moderate economic and political capacity.
+Sultanate of Ifat / 伊法特苏丹国,1275,1403,East Africa / 东非,39,Apex and Military Engagements,1341,1380,39,Heightened military and commercial activity marked the polity’s peak influence in the region.
+Sultanate of Ifat / 伊法特苏丹国,1275,1403,East Africa / 东非,39,Decline and Contraction,1381,1403,32,Military defeats and pressure from neighbors eroded territorial control and administrative reach.
+Buganda Kingdom / 布干达王国,1290,1894,East Africa / 东非,53,Formation and Early Kingdom-Building,1290,1699,50,Gradual centralization and expansion of royal institutions increased regional standing.
+Buganda Kingdom / 布干达王国,1290,1894,East Africa / 东非,53,"Expansion, Trade, and Apex",1700,1850,53,"Peak territorial control, economic integration, and strong political institutions mark the high period."
+Buganda Kingdom / 布干达王国,1290,1894,East Africa / 东非,53,Colonial Encounters and Autonomy Loss,1851,1894,45,Increasing external influence and eventual protectorate arrangements reduced sovereignty and resources.
+Kingdom of Kaffa / 卡法王国,1390,1897,East Africa / 东非,41,Founding and Local Consolidation,1390,1700,38,Regional state formation with stable institutions but limited demographic scale.
+Kingdom of Kaffa / 卡法王国,1390,1897,East Africa / 东非,41,Apex Period,1701,1850,41,Heightened political cohesion and economic stability mark the polity’s peak composite strength.
+Kingdom of Kaffa / 卡法王国,1390,1897,East Africa / 东非,41,Late Conquest and Decline,1851,1897,35,Military defeat and incorporation into expanding empires reduced autonomy and resources.
+Sultanate of Adal / 阿达尔苏丹国,1415,1577,East Africa / 东非,48,Formation and Coastal Consolidation,1415,1500,44,Maritime trade and regional alliances produced growing economic and cultural influence.
+Sultanate of Adal / 阿达尔苏丹国,1415,1577,East Africa / 东非,48,Apex under Militarized Expansion,1501,1543,48,Military campaigns and control over coastal trade routes mark the polity’s high point.
+Sultanate of Adal / 阿达尔苏丹国,1415,1577,East Africa / 东非,48,Decline after Adal–Abyssinia Wars,1544,1577,38,Prolonged conflict and shifting trade dynamics weakened political control and economic capacity.
+Maravi / 马腊韦,1420,1860,East Africa / 东非,40,Formation and Regional Consolidation,1420,1600,36,Early state formation and consolidation of trade networks with limited demographic reach.
+Maravi / 马腊韦,1420,1860,East Africa / 东非,40,Apex Regional Polity,1601,1750,40,Peak territorial control and commercial integration across the lake and hinterland.
+Maravi / 马腊韦,1420,1860,East Africa / 东非,40,Late Decline and Fragmentation,1751,1860,34,Internal division and external pressures eroded political cohesion and economic capacity.
+Ennarea / 恩纳雷亚,1450,1710,East Africa / 东非,38,Formation and Highland Consolidation,1450,1550,34,Emergence of a highland kingdom with growing local institutions but limited area/population.
+Ennarea / 恩纳雷亚,1450,1710,East Africa / 东非,38,Apex and Cultural Flourishing,1551,1650,38,Regional influence and cultural integration mark the polity’s high point.
+Ennarea / 恩纳雷亚,1450,1710,East Africa / 东非,38,Decline and Absorption,1651,1710,30,Pressure from neighbors and internal fragmentation reduced autonomy and economic strength.
+Shilluk Kingdom / 希卢克王国,1490,1861,East Africa / 东非,34,Formation and Riverine Consolidation,1490,1700,32,State formation along the Nile with developing chiefly institutions but limited demographic scale.
+Shilluk Kingdom / 希卢克王国,1490,1861,East Africa / 东非,34,Apex Centralized Kingdom,1701,1800,34,Heightened political cohesion and control of riverine resources increase composite strength.
+Shilluk Kingdom / 希卢克王国,1490,1861,East Africa / 东非,34,Late Decline and External Pressure,1801,1861,30,Military pressure and rival polities weakened central authority and economic foundations.
+Kingdom of Imerina / 伊默里纳王国,1540,1897,East Africa / 东非,48,Early Highlands Consolidation,1540,1786,42,Gradual consolidation of Merina chiefdoms and expansion of state administration.
+Kingdom of Imerina / 伊默里纳王国,1540,1897,East Africa / 东非,48,Unification and Expansion (Merina Apex),1787,1896,48,"Political unification, military expansion, and administrative modernization mark the peak."
+Kingdom of Imerina / 伊默里纳王国,1540,1897,East Africa / 东非,48,French Conquest and End,1897,1897,30,Rapid loss of sovereignty under French colonial conquest ended independent rule.
+Bunyoro-Kitara Kingdom / 布尼奥罗-基塔拉王国,1550,1894,East Africa / 东非,43,Formation and Early Kingdom,1550,1700,40,Emergence of centralized monarchy and expansion of agrarian and trade bases.
+Bunyoro-Kitara Kingdom / 布尼奥罗-基塔拉王国,1550,1894,East Africa / 东非,43,Apex Regional Power,1701,1850,43,"Peak territorial control, military capacity, and regional influence."
+Bunyoro-Kitara Kingdom / 布尼奥罗-基塔拉王国,1550,1894,East Africa / 东非,43,Late Decline and Colonial Encounters,1851,1894,35,Military defeats and colonial pressure reduced sovereignty and economic resources.
+Imamate of Aussa / 奥萨伊玛目国,1577,1734,East Africa / 东非,35,Founding and Local Consolidation,1577,1650,33,Early consolidation of Islamic polity with moderate trade and limited territorial reach.
+Imamate of Aussa / 奥萨伊玛目国,1577,1734,East Africa / 东非,35,Apex and Regional Authority,1651,1700,35,Heightened political cohesion and control over caravan routes mark the high phase.
+Imamate of Aussa / 奥萨伊玛目国,1577,1734,East Africa / 东非,35,Late Weakening,1701,1734,30,Internal divisions and rival pressures reduced administrative effectiveness and territory.
+Emirate of Harar / 哈勒尔酋长国,1647,1887,East Africa / 东非,44,Urban Foundation and Trade Growth,1647,1700,38,Founding as a key trading and religious center with growing regional ties.
+Emirate of Harar / 哈勒尔酋长国,1647,1887,East Africa / 东非,44,Apex Commercial and Religious Center,1701,1850,44,"Strong mercantile networks, cultural influence, and defensive capacity mark the peak."
+Emirate of Harar / 哈勒尔酋长国,1647,1887,East Africa / 东非,44,Colonial Pressure and Decline,1851,1887,32,External encroachment and shifting trade routes undermined sovereignty and economy.
+Kingdom of Burundi / 布隆迪王国,1680,1890,East Africa / 东非,40,Formation and Centralization,1680,1780,36,Early state-building with consolidation of royal institutions and local administration.
+Kingdom of Burundi / 布隆迪王国,1680,1890,East Africa / 东非,40,Apex Monarchical Consolidation,1781,1850,40,Expanded territorial control and centralized governance mark the polity’s high period.
+Kingdom of Burundi / 布隆迪王国,1680,1890,East Africa / 东非,40,Late Colonial Encounters,1851,1890,34,Increasing external pressures and loss of autonomy reduced political and economic capacity.
+Hiraab Imamate / 希拉卜伊玛目国,1680,1889,East Africa / 东非,37,Formation and Clan Confederation,1680,1750,34,Emergence as a confederated polity with growing commercial and pastoral influence.
+Hiraab Imamate / 希拉卜伊玛目国,1680,1889,East Africa / 东非,37,Apex Regional Influence,1751,1850,37,Strong mobilization and control over trade routes increase composite strength.
+Hiraab Imamate / 希拉卜伊玛目国,1680,1889,East Africa / 东非,37,Late Decline and Colonial Pressure,1851,1889,30,External interventions and internal fragmentation diminished governance and economy.
+Kingdom of Boina / 博伊纳王国,1690,1820,East Africa / 东非,36,Formation and Coastal Consolidation,1690,1750,32,Coastal kingdom building with limited population but growing maritime links.
+Kingdom of Boina / 博伊纳王国,1690,1820,East Africa / 东非,36,Apex Coastal Polity,1751,1800,36,Peak maritime trade integration and political cohesion along the coast.
+Kingdom of Boina / 博伊纳王国,1690,1820,East Africa / 东非,36,Late Decline,1801,1820,30,External competition and internal pressures reduced territorial control and economic vitality.
+Sultanate of the Geledi / 格勒迪苏丹国,1695,1911,East Africa / 东非,40,Formation and Local Consolidation,1695,1800,34,Emergence of Geledi authority over hinterland clans with growing trade role but limited reach.
+Sultanate of the Geledi / 格勒迪苏丹国,1695,1911,East Africa / 东非,40,Apex Sultanate,1801,1878,40,Heightened military-political control and commercial influence across southern Somalia mark the peak.
+Sultanate of the Geledi / 格勒迪苏丹国,1695,1911,East Africa / 东非,40,Colonial Pressure and Decline,1879,1911,30,Increasing European and regional pressures eroded sovereignty and economic capacity.
+Sultanate of Aussa / 奥萨苏丹国,1734,1936,East Africa / 东非,36,Founding and Highland Consolidation,1734,1850,32,Establishment of dynastic rule with modest economic and administrative development.
+Sultanate of Aussa / 奥萨苏丹国,1734,1936,East Africa / 东非,36,Regional Apex,1851,1896,36,Consolidated control of caravan routes and stronger local governance mark the high phase.
+Sultanate of Aussa / 奥萨苏丹国,1734,1936,East Africa / 东非,36,Late Colonial Encounters,1897,1936,28,Loss of autonomy under expanding colonial influence reduced composite strength.
+Kingdom of Jimma / 吉马王国,1737,1932,East Africa / 东非,43,Early Chiefdom Consolidation,1737,1830,36,Formation of Jimma’s institutions and local agrarian base increased regional standing.
+Kingdom of Jimma / 吉马王国,1737,1932,East Africa / 东非,43,Expansion and Apex,1831,1895,43,"Territorial expansion, centralized monarchy, and commercial growth define the polity’s peak."
+Kingdom of Jimma / 吉马王国,1737,1932,East Africa / 东非,43,Colonial Incorporation,1896,1932,30,Eventual conquest and incorporation into colonial structures sharply reduced sovereignty.
+Isaaq Sultanate / 伊萨克苏丹国,1749,1884,East Africa / 东非,36,Formation and Coastal Integration,1749,1820,30,Emergence as a clan-based polity linked to coastal trade with limited central institutions.
+Isaaq Sultanate / 伊萨克苏丹国,1749,1884,East Africa / 东非,36,Apex Clan Confederation,1821,1870,36,Strong pastoral-commercial networks and regional influence mark the high phase.
+Isaaq Sultanate / 伊萨克苏丹国,1749,1884,East Africa / 东非,36,Late Decline,1871,1884,28,Colonial pressures and inter-clan fragmentation reduced cohesion and capacity.
+Habr Yunis Sultanate / 哈布尔尤尼斯苏丹国,1769,1917,East Africa / 东非,32,Formation and Pastoral Consolidation,1769,1850,28,Early consolidation of clan authority with modest economic and administrative development.
+Habr Yunis Sultanate / 哈布尔尤尼斯苏丹国,1769,1917,East Africa / 东非,32,Apex Clan Influence,1851,1900,32,Heightened regional pastoral-commercial influence and military capacity mark the peak.
+Habr Yunis Sultanate / 哈布尔尤尼斯苏丹国,1769,1917,East Africa / 东非,32,Colonial Pressure and Decline,1901,1917,24,Increasing colonial intervention undermined political autonomy and economic structures.
+Majeerteen Sultanate / 马吉尔廷苏丹国,1800,1889,East Africa / 东非,43,Formation and Centralization,1800,1850,36,Consolidation of centralized sultanate structures and expansion of trade networks.
+Majeerteen Sultanate / 马吉尔廷苏丹国,1800,1889,East Africa / 东非,43,Apex Maritime Sultanate,1851,1889,43,"Strong centralized governance, maritime commerce, and military capacity mark the high phase."
+Gaza Empire / 加扎帝国,1824,1895,East Africa / 东非,40,Rise and Military Expansion,1824,1850,36,Formation under powerful leadership with territorial conquests and growing administration.
+Gaza Empire / 加扎帝国,1824,1895,East Africa / 东非,40,Apex Regional Empire,1851,1880,40,"Peak territorial control, military reach, and political influence define the apex."
+Gaza Empire / 加扎帝国,1824,1895,East Africa / 东非,40,Decline and Colonial Defeat,1881,1895,28,Military defeats and colonial conquest ended imperial autonomy and degraded capacity.
+Sultanate of Zanzibar / 桑给巴尔苏丹国,1856,1890,East Africa / 东非,40,Clove Economy and Omani Hegemony,1856,1873,40,"Strong maritime trade, plantation economy, and international influence mark the peak phase."
+Sultanate of Zanzibar / 桑给巴尔苏丹国,1856,1890,East Africa / 东非,40,Protectorate Pressures and Transition,1874,1890,32,Increasing European (British) intervention limited sovereignty and economic autonomy.
+Sultanate of Hobyo / 霍比奥苏丹国,1876,1889,East Africa / 东非,31,Short-Lived Sultanate,1876,1889,31,Brief coastal polity with limited territorial depth that was quickly affected by colonial encroachment.
+Somali Republic / 索马里共和国,1960,1969,East Africa / 东非,39,Post-Independence Consolidation,1960,1966,36,Early nation-building with mixed governance capacity and growing international ties.
+Somali Republic / 索马里共和国,1960,1969,East Africa / 东非,39,Political Turbulence and Coup,1967,1969,30,Rising political polarization and military intervention reduced institutional stability.
+Malagasy Republic / 马尔加什共和国,1960,1975,East Africa / 东非,39,First Republic and Development Efforts,1960,1972,36,Post-independence development and institutional consolidation with limited economic diversification.
+Malagasy Republic / 马尔加什共和国,1960,1975,East Africa / 东非,39,Political Shift and End of First Republic,1973,1975,39,Political realignment and stronger state intervention characterize the terminal phase.
+Tanganyika / 坦噶尼喀,1961,1962,East Africa / 东非,40,Transitional Independence,1961,1962,40,Brief independent protectorate transition with limited institutional consolidation before republican reform.
+Republic of Rwanda / 卢旺达共和国,1962,2026,East Africa / 东非,46,Early Republic and Ethnic Tensions,1962,1972,34,Post-independence instability and weak institutions limited composite capacity.
+Republic of Rwanda / 卢旺达共和国,1962,2026,East Africa / 东非,46,Habyarimana Authoritarian Consolidation,1973,1993,40,Authoritarian stability increased administrative control but entrenched exclusionary policies.
+Republic of Rwanda / 卢旺达共和国,1962,2026,East Africa / 东非,46,Genocide and Immediate Aftermath,1994,1999,38,Catastrophic violence followed by fragile reconstruction that reduced short-term capacity.
+Republic of Rwanda / 卢旺达共和国,1962,2026,East Africa / 东非,46,Kagame Era: Reconstruction and Growth,2000,2026,46,"Strong central governance, development gains, and improved institutions define the current peak."
+Republic of Tanganyika / 坦噶尼喀共和国,1962,1964,East Africa / 东非,46,Republican Transition,1962,1964,46,Republican consolidation with stronger institutions prior to union with Zanzibar.
+Uganda / 乌干达,1962,1963,East Africa / 东非,41,Immediate Post-Independence Interlude,1962,1963,41,Short transitional government period with nascent institutions and political competition.
+Kingdom of Burundi (Restored) / 布隆迪王国（复国）,1962,1966,East Africa / 东非,24,Restored Monarchy,1962,1966,24,Brief restoration with weak institutional capacity and high political volatility.
+Republic of Uganda / 乌干达共和国,1963,2026,East Africa / 东非,40,Obote I and Early Republic,1963,1970,38,Post-independence consolidation under civilian rule with limited institutional depth.
+Republic of Uganda / 乌干达共和国,1963,2026,East Africa / 东非,40,Amin Dictatorship,1971,1979,20,Severe repression and economic collapse sharply reduced state capacity and welfare.
+Republic of Uganda / 乌干达共和国,1963,2026,East Africa / 中非,40,Obote II and Transitional Instability,1980,1985,30,Renewed conflict and weak governance limited recovery and institutional development.
+Republic of Uganda / 乌干达共和国,1963,2026,East Africa / 东非,40,NRM/Museveni Consolidation,1986,2005,40,"Relative stability, consolidation of authority, and some institutional rebuilding mark the high phase within the overall baseline."
+Republic of Uganda / 乌干达共和国,1963,2026,East Africa / 东非,40,Contemporary Governance and Challenges,2006,2026,38,Continued centralization with mixed governance outcomes and constrained social indicators.
+Kenya / 肯尼亚,1963,1964,East Africa / 东非,38,Pre-Republic Transition,1963,1964,38,Brief transitional administration between independence and republican constitutional change.
+Republic of Kenya / 肯尼亚共和国,1964,2026,East Africa / 东非,52,Kenyatta Era Consolidation,1964,1978,46,Post-independence consolidation with strong nation-building and economic foundations.
+Republic of Kenya / 肯尼亚共和国,1964,2026,East Africa / 东非,52,Moi Era Stability and Authoritarian Drift,1979,2002,44,Extended rule with stability but governance and economic challenges limited higher scores.
+Republic of Kenya / 肯尼亚共和国,1964,2026,East Africa / 东非,52,Multiparty Recovery and Growth,2003,2012,50,Political liberalization and economic expansion substantially improved composite strength.
+Republic of Kenya / 肯尼亚共和国,1964,2026,East Africa / 东非,52,Modern Consolidation and Global Integration,2013,2026,52,"Strong economic performance, institutional development, and international integration mark the current peak."
+United Republic of Tanzania / 坦桑尼亚联合共和国,1964,2026,East Africa / 东非,52,Union Formation and Ujamaa Policy,1964,1975,44,Post-union socialist policy and state-led development aimed at equity but constrained economy.
+United Republic of Tanzania / 坦桑尼亚联合共和国,1964,2026,East Africa / 东非,52,Ujamaa Consolidation and Social Mobilization,1976,1985,48,Heightened state intervention and social programs increased social indicators though economic strains grew.
+United Republic of Tanzania / 坦桑尼亚联合共和国,1964,2026,East Africa / 东非,52,Structural Adjustment and Reform,1986,1999,45,Economic liberalization and reform restored macro stability but reduced some welfare measures.
+United Republic of Tanzania / 坦桑尼亚联合共和国,1964,2026,East Africa / 东非,52,"Liberalization, Growth, and Modernization",2000,2026,52,"Market reforms, improved governance, and continued development define the polity’s current peak."
+Malawi / 马拉维,1964,1966,East Africa / 东非,35,Independence Transition,1964,1966,35,Brief transitional independence period with limited institutional consolidation before republic formation.
+Republic of Malawi / 马拉维共和国,1966,2026,East Africa / 东非,35,Banda Authoritarian Consolidation,1966,1994,33,One-party authoritarian rule built state capacity in administration but constrained political freedoms and broad development.
+Republic of Malawi / 马拉维共和国,1966,2026,East Africa / 东非,35,Multiparty Transition and Modernization,1994,2026,35,Political pluralization and gradual economic/social reforms improved governance and service delivery.
+Republic of Burundi / 布隆迪共和国,1966,2026,East Africa / 东非,33,Post-Independence Authoritarian Order,1966,1992,30,Prolonged elite rule with periodic violence limited institutional depth and social development.
+Republic of Burundi / 布隆迪共和国,1966,2026,East Africa / 东非,33,Civil War and Transitional Recovery,1993,2005,28,Intense conflict and peacebuilding processes severely reduced capacity before tentative recovery.
+Republic of Burundi / 布隆迪共和国,1966,2026,East Africa / 东非,33,Post-Agreement Centralization,2006,2026,33,Relative political stabilization with centralized governance improved some state functions though challenges remain.
+Mauritius  / 毛里求斯,1968,1992,East Africa / 东非,44,Early Independence Development,1968,1979,40,Foundational development of tourism and sugar economy created steady growth and institutional consolidation.
+Mauritius  / 毛里求斯,1968,1992,East Africa / 东非,44,Diversification and Welfare Expansion,1980,1992,44,"Economic diversification, social investment, and stable governance mark the high composite phase."
+Somali Democratic Republic / 索马里民主共和国,1969,1991,East Africa / 东非,39,Siad Barre Consolidation,1969,1976,34,Authoritarian centralization and initial modernization created state capacity but limited pluralism.
+Somali Democratic Republic / 索马里民主共和国,1969,1991,East Africa / 东非,39,Ogaden War & Peak Central Control,1977,1986,39,Mobilization and strong state control during and after the Ogaden war represent the apex of central power.
+Somali Democratic Republic / 索马里民主共和国,1969,1991,East Africa / 东非,39,Late Decline and Collapse,1987,1991,28,Internal fragmentation and armed opposition precipitated state collapse.
+Derg / 德尔格（社会主义埃塞俄比亚临时军政府）,1974,1987,East Africa / 东非,42,Revolutionary Consolidation,1974,1978,38,Radical regime change and collectivization produced strong centralized control but social disruption.
+Derg / 德尔格（社会主义埃塞俄比亚临时军政府）,1974,1987,East Africa / 东非,42,Red Terror and Wartime Mobilization,1979,1987,42,Intense internal repression and militarized governance raised coercive capacity but undermined welfare and legitimacy.
+Democratic Republic of Madagascar / 马达加斯加民主共和国,1975,1992,East Africa / 东非,34,Ratsiraka Socialist Period,1975,1988,32,Socialist policies and state control structured the economy but constrained long-term growth.
+Democratic Republic of Madagascar / 马达加斯加民主共和国,1975,1992,East Africa / 东非,34,Transition to Multiparty System,1989,1992,34,Economic liberalization and political opening improved institutional prospects.
+People's Republic of Mozambique / 莫桑比克人民共和国,1975,1990,East Africa / 东非,32,Post-Independence Socialization and War,1975,1986,30,Civil war and state-directed economy limited development despite strong central control.
+People's Republic of Mozambique / 莫桑比克人民共和国,1975,1990,East Africa / 东非,32,Reform Beginnings and Stabilization,1987,1990,32,Initial market reforms and ceasefire processes began to restore economic and institutional capacity.
+State of the Comoros / 科摩罗国,1975,1978,East Africa / 东非,20,Independent Instability (single phase),1975,1978,20,Highly unstable early independence years with frequent coups and minimal institutional consolidation.
+Republic of Seychelles / 塞舌尔共和国,1976,2026,East Africa / 东非,37,Founding Republic and One-Party Rule,1976,1991,33,Initial socialist-oriented governance built state services but constrained political pluralism.
+Republic of Seychelles / 塞舌尔共和国,1976,2026,East Africa / 东非,37,Multiparty Transition and Tourism Growth,1992,2026,37,Political liberalization and sustained tourism-led growth strengthened governance and welfare.
+Republic of Djibouti / 吉布提共和国,1977,2026,East Africa / 东非,40,Foundation and Strategic Alignment,1977,1990,36,Foundational state-building with strategic port development and strong external partnerships.
+Republic of Djibouti / 吉布提共和国,1977,2026,East Africa / 东非,40,"Stability, Geostrategic Role, and Growth",1991,2026,40,"Strategic location, service economy, and steady governance underpin the polity’s current composite strength."
+Federal Islamic Republic of the Comoros / 科摩罗伊斯兰联邦共和国,1978,2001,East Africa / 东非,23,Chronic Instability and Transitional Governance,1978,1998,20,Prolonged coups and weak state institutions produced low composite performance.
+Federal Islamic Republic of the Comoros / 科摩罗伊斯兰联邦共和国,1978,2001,East Africa / 东非,23,Brief Stabilization Efforts,1999,2001,23,Short-lived constitutional and peace efforts marginally improved institutional capacity.
+People's Democratic Republic of Ethiopia / 埃塞俄比亚人民民主共和国,1987,1991,East Africa / 东非,39,People's Democratic Republic (single phase),1987,1991,39,Authoritarian socialist state with centralized planning and eventual collapse under insurgency and loss of legitimacy.
+Republic of Mozambique / 莫桑比克共和国,1990,2026,East Africa / 东非,42,Transition and Peace Accords,1990,1994,35,Negotiated end to civil war and initial political liberalization with limited economic recovery.
+Republic of Mozambique / 莫桑比克共和国,1990,2026,East Africa / 东非,42,Post-war Reconstruction and Growth,1995,2012,42,"Reconstruction, market reforms, and donor support drove economic recovery and institutional strengthening."
+Republic of Mozambique / 莫桑比克共和国,1990,2026,East Africa / 东非,42,New Security Crises and Resource Development,2013,2026,38,Resource discoveries and investment accompanied rising insurgency and uneven governance.
+Federal Democratic Republic of Ethiopia / 埃塞俄比亚联邦民主共和国,1991,2026,East Africa / 东非,52,Post-EPRDF Consolidation,1991,2017,48,"Transitional federal institutions, developmental state policies and steady growth under EPRDF rule."
+Federal Democratic Republic of Ethiopia / 埃塞俄比亚联邦民主共和国,1991,2026,East Africa / 东非,52,Reform Surge under Abiy,2018,2020,52,"Political liberalization, diplomatic openings, and reformist momentum mark the peak period."
+Federal Democratic Republic of Ethiopia / 埃塞俄比亚联邦民主共和国,1991,2026,East Africa / 东非,52,Conflict and Fragmentation,2021,2026,38,Large-scale internal conflict and humanitarian crises reduced governance and social indicators.
+Republic of Somaliland / 索马里兰共和国,1991,2026,East Africa / 东非,41,Early State-Building,1991,2001,36,Post-collapse local consolidation with clan-based governance and limited international recognition.
+Republic of Somaliland / 索马里兰共和国,1991,2026,East Africa / 东非,41,Democratization and Relative Stability,2002,2010,41,Electoral institutions and relative security underpinned economic and administrative gains.
+Republic of Somaliland / 索马里兰共和国,1991,2026,East Africa / 东非,41,Consolidation with Ongoing Recognition Challenges,2011,2026,40,Continued internal stability and governance improvements despite lack of diplomatic recognition.
+Republic of Mauritius / 毛里求斯共和国,1992,2026,East Africa / 东非,47,Early Republican Consolidation,1992,2000,44,Stable governance and diversification of tourism and sugar industries increased resilience.
+Republic of Mauritius / 毛里求斯共和国,1992,2026,East Africa / 东非,47,Diversification and Social Development,2001,2015,47,"Economic diversification, social investment, and strong institutions mark the high phase."
+Republic of Mauritius / 毛里求斯共和国,1992,2026,East Africa / 东非,47,Contemporary Competitiveness,2016,2026,45,High governance quality and services sustain strong economic and social indicators.
+Republic of Madagascar / 马达加斯加共和国,1992,2026,East Africa / 东非,39,Transition and Early Consolidation,1992,2001,34,Post-1992 democratization with limited state capacity and variable economic performance.
+Republic of Madagascar / 马达加斯加共和国,1992,2026,East Africa / 东非,39,Relative Stability and Growth,2002,2008,37,Economic recovery and institutional strengthening improved composite metrics.
+Republic of Madagascar / 马达加斯加共和国,1992,2026,East Africa / 东非,39,Political Crisis and Instability,2009,2013,28,Coup-era disruption and governance breakdown significantly lowered state capacity.
+Republic of Madagascar / 马达加斯加共和国,1992,2026,East Africa / 东非,39,Recovery and Contemporary Baseline,2014,2026,39,Restored democratic institutions and gradual economic improvement return the polity to its baseline.
+State of Eritrea / 厄立特里亚国,1993,2026,East Africa / 东非,36,Post-Independence State-Building,1993,1998,34,Initial institution-building and demobilization efforts after independence with developmental challenges.
+State of Eritrea / 厄立特里亚国,1993,2026,East Africa / 东非,36,"War, Militarization, and Isolation",1999,2018,30,Border war and prolonged militarized governance reduced economic openness and welfare.
+State of Eritrea / 厄立特里亚国,1993,2026,East Africa / 东非,36,Normalization and Limited Opening,2019,2026,36,Rapprochement with neighbors and cautious economic openings improved prospects while governance remained authoritarian.
+Transitional National Government of Somalia / 索马里过渡国家政府,2000,2004,East Africa / 东非,24,Transitional National Government (single phase),2000,2004,24,Weak interim authority with minimal territorial control and constrained institutional capacity.
+Union of the Comoros / 科摩罗联盟,2001,2026,East Africa / 东非,25,Post-2001 Instability,2001,2010,20,Frequent coups and weak institutions produced low composite performance.
+Union of the Comoros / 科摩罗联盟,2001,2026,East Africa / 东非,25,Partial Stabilization,2011,2019,24,Intermittent constitutional and economic efforts improved governance modestly.
+Union of the Comoros / 科摩罗联盟,2001,2026,East Africa / 东非,25,Fragile Continuity,2020,2026,25,Limited institutional gains and relative calm marginally increased composite strength.
+Transitional Federal Government of Somalia / 索马里过渡联邦政府,2004,2012,East Africa / 东非,32,Formation and Weak Control,2004,2006,28,Initial international-backed authority with constrained territorial reach and weak institutions.
+Transitional Federal Government of Somalia / 索马里过渡联邦政府,2004,2012,East Africa / 东非,32,Conflict and International Intervention,2007,2009,30,Escalating insurgency and foreign military actions shaped limited centralization efforts.
+Transitional Federal Government of Somalia / 索马里过渡联邦政府,2004,2012,East Africa / 东非,32,Political Consolidation and Transition,2010,2012,32,Steps toward federal institutions and improved international support increased capacity.
+Republic of South Sudan / 南苏丹共和国,2011,2026,East Africa / 东非,26,Independence and State Formation,2011,2012,24,Initial optimism but weak institutions and limited public goods constrained state capacity.
+Republic of South Sudan / 南苏丹共和国,2011,2026,East Africa / 东非,26,Civil War and Fragmentation,2013,2018,20,"Severe internal conflict devastated institutions, economy, and social welfare."
+Republic of South Sudan / 南苏丹共和国,2011,2026,East Africa / 东非,26,Fragile Peace and Reconstruction,2019,2026,26,Partial peace agreements and reconstruction efforts slowly restored limited governance capacity.
+Federal Republic of Somalia / 索马里联邦共和国,2012,2026,East Africa / 东非,43,Federal Formation and Stabilization,2012,2016,40,Establishment of federal institutions and improved international support increased state capacity.
+Federal Republic of Somalia / 索马里联邦共和国,2012,2026,East Africa / 东非,43,Security Gains and Institutional Strengthening,2017,2020,43,"Territorial recoveries, strengthened institutions, and donor engagement mark the peak."
+Federal Republic of Somalia / 索马里联邦共和国,2012,2026,East Africa / 东非,43,Political Challenges and Ongoing Reconstruction,2021,2026,41,Continued institution-building amid security and political challenges sustain moderate composite strength.
+Xia / 夏,-2070,-1600,East Asia / 东亚,39,Early Xia (single phase),-2070,-1600,39,Proto-state formation with limited demographic and economic scale but notable early state institutions.
+Shang / 商,-1600,-1046,East Asia / 东亚,56,Early Shang Consolidation,-1600,-1400,50,"State formation, urbanization, and growing ritual-kingship foundations increased composite capacity."
+Shang / 商,-1600,-1046,East Asia / 东亚,56,Anyang Apex,-1399,-1200,56,"High urban complexity, long-distance trade, and elite ritual-military control mark the peak."
+Shang / 商,-1600,-1046,East Asia / 东亚,56,Late Shang Decline,-1199,-1046,50,Late-period fragmentation and pressures from peripheral polities reduced centralized strength.
+Yue / 越（诸侯国）,-1100,-306,East Asia / 东亚,44,Formative Yue Polities,-1100,-701,36,Early regional chiefdom consolidation with limited territorial reach and economic depth.
+Yue / 越（诸侯国）,-1100,-306,East Asia / 东亚,44,Rise and Goujian Apex,-700,-450,44,"Military resurgence, state centralization, and cultural influence under Goujian-era leadership mark the high point."
+Yue / 越（诸侯国）,-1100,-306,East Asia / 东亚,44,Late Political Integration,-449,-306,40,Incorporation into larger states and loss of independent hegemony reduced composite metrics.
+Wu / 吴（诸侯国）,-1096,-473,East Asia / 东亚,53,Early Wu Formation,-1096,-701,45,Regional consolidation and urban development established Wu as a major southeast polity.
+Wu / 吴（诸侯国）,-1096,-473,East Asia / 东亚,53,Helü–Fuchai Apex,-700,-520,53,Military expansion and centralized royal authority under Helü and Fuchai represent the polity’s peak.
+Wu / 吴（诸侯国）,-1096,-473,East Asia / 东亚,53,Late Decline and Conquest,-519,-473,35,Internal strains and defeat by Yue/neighboring powers ended Wu’s independent dominance.
+Western Zhou / 西周,-1046,-771,East Asia / 东亚,60,Early Western Zhou Consolidation,-1046,-901,55,Foundational royal authority and ritual governance created institutional order across core territories.
+Western Zhou / 西周,-1046,-771,East Asia / 东亚,60,High Western Zhou Order,-900,-801,60,"Political hegemony, elite cultural florescence, and administrative reach define the high phase."
+Western Zhou / 西周,-1046,-771,East Asia / 东亚,60,Late Western Zhou Decline,-800,-771,50,Decentralizing feudal pressures and aristocratic fragmentation weakened central control.
+Qi / 齐（诸侯国）,-1046,-221,East Asia / 东亚,58,Qi Formation and Early Growth,-1046,-685,52,Emergence as a major state with growing economic bases and administrative structures.
+Qi / 齐（诸侯国）,-1046,-221,East Asia / 东亚,58,Hegemonic and Reform Apex,-684,-450,58,"Reforms, maritime and riverine trade, and political-military strength under leading dukes produce the peak."
+Qi / 齐（诸侯国）,-1046,-221,East Asia / 东亚,58,Warring States Contraction,-449,-221,48,Late-period competition and Qin pressure reduced territorial autonomy and composite capacity.
+Chu / 楚（诸侯国）,-1046,-223,East Asia / 东亚,54,Chu Formation and Southern Consolidation,-1046,-701,48,Early state-building and control of southern riverine networks increased regional importance.
+Chu / 楚（诸侯国）,-1046,-223,East Asia / 东亚,54,Expansion and Cultural Apex,-700,-401,54,"Territorial expansion, strong military tradition, and distinct cultural-political institutions mark the high phase."
+Chu / 楚（诸侯国）,-1046,-223,East Asia / 东亚,54,Late Decline under Qin Pressure,-400,-223,40,Internal fragmentation and external conquest by Qin ended Chu’s independent capacity.
+Chen / 陈（诸侯国）,-1045,-478,East Asia / 东亚,30,Formation and Early Zhou Vassalage,-1045,-701,26,Early establishment as a Zhou vassal with limited territorial and demographic scale.
+Chen / 陈（诸侯国）,-1045,-478,East Asia / 东亚,30,Spring–Autumn Prominence,-700,-550,30,Relative regional influence and military activity reached the polity’s highest composite strength.
+Chen / 陈（诸侯国）,-1045,-478,East Asia / 东亚,30,Late Decline and Annexation,-549,-478,28,Internal factionalism and pressure from stronger neighbors reduced autonomy before absorption.
+Cai / 蔡（诸侯国）,-1045,-447,East Asia / 东亚,30,Founding and Local Consolidation,-1045,-700,25,Emergent Zhou-era fiefdom with modest economic and military capacity.
+Cai / 蔡（诸侯国）,-1045,-447,East Asia / 东亚,30,Regional Activity,-699,-520,30,Heightened regional presence and stabilised institutions mark the high phase.
+Cai / 蔡（诸侯国）,-1045,-447,East Asia / 东亚,30,Terminal Weakening,-519,-447,27,Loss of influence and eventual absorption by more powerful polities ended independent capacity.
+Yan / 燕（诸侯国）,-1044,-222,East Asia / 东亚,44,Early Yan Consolidation,-1044,-700,38,Formation as a northeastern Zhou polity with gradual territorial growth and state formation.
+Yan / 燕（诸侯国）,-1044,-222,East Asia / 东亚,44,Warring States Expansion and Apex,-699,-300,44,Military modernization and territorial expansion made Yan a major regional actor at its peak.
+Yan / 燕（诸侯国）,-1044,-222,East Asia / 东亚,44,Late Contraction and Qin Pressure,-299,-222,36,Pressure from neighboring hegemons and Qin-era consolidation reduced Yan’s autonomy.
+Lu / 鲁（诸侯国）,-1043,-256,East Asia / 东亚,51,Early Ritual-State Formation,-1043,-700,45,Established as a cultural-ritual center with stable local governance under Zhou suzerainty.
+Lu / 鲁（诸侯国）,-1043,-256,East Asia / 东亚,51,Confucian Cultural Apex,-699,-479,51,"Cultural and institutional prominence, especially intellectual influence, mark the polity’s peak."
+Lu / 鲁（诸侯国）,-1043,-256,East Asia / 东亚,51,Late Decline and Political Marginalization,-478,-256,40,Declining political autonomy amid larger interstate competition reduced composite strength.
+Jin / 晋（诸侯国）,-1042,-376,East Asia / 东亚,52,Formation and Territorial Consolidation,-1042,-700,46,Early state-building and expansion established Jin as a major Zhou polity.
+Jin / 晋（诸侯国）,-1042,-376,East Asia / 东亚,52,Spring–Autumn Hegemony,-699,-500,52,Military-political dominance and administrative sophistication mark the apex.
+Jin / 晋（诸侯国）,-1042,-376,East Asia / 东亚,52,Partition and Decline,-499,-376,40,Internal partitioning and rising rivals fragmented Jin’s authority and reduced its power.
+Cao / 曹（诸侯国）,-1041,-487,East Asia / 东亚,30,Early Zhou Vassalage,-1041,-700,26,Small Zhou fief with limited economic and military depth.
+Cao / 曹（诸侯国）,-1041,-487,East Asia / 东亚,30,Regional Activity,-699,-550,30,Relative local influence and military engagement reach the polity’s high point.
+Cao / 曹（诸侯国）,-1041,-487,East Asia / 东亚,30,Late Weakening,-549,-487,28,Pressure from larger neighbors and internal limits reduced autonomy and capacity.
+Wei / 卫（诸侯国）,-1040,-209,East Asia / 东亚,33,Founding and Local Consolidation,-1040,-700,30,Established as a Zhou vassal with modest territorial and demographic base.
+Wei / 卫（诸侯国）,-1040,-209,East Asia / 东亚,33,Spring–Autumn Activity,-699,-450,33,Heightened military and political activity increased the polity’s composite standing.
+Wei / 卫（诸侯国）,-1040,-209,East Asia / 东亚,33,Late Decline and Annexation,-449,-209,28,Consolidation by stronger states and loss of autonomy reduced long-term capacity.
+Song / 宋（诸侯国）,-1038,-286,East Asia / 东亚,42,Early Song Consolidation,-1038,-700,38,Formation as a Zhou vassal with growing local institutions and economic bases.
+Song / 宋（诸侯国）,-1038,-286,East Asia / 东亚,42,Spring–Autumn Apex,-699,-450,42,Notable military and political activity with regional influence mark the high period.
+Song / 宋（诸侯国）,-1038,-286,East Asia / 东亚,42,Late Contraction,-449,-286,36,Decline under pressure from neighboring hegemons reduced sovereignty and capacities.
+Qin / 秦（诸侯国）,-905,-221,East Asia / 东亚,60,Formation and Early Expansion,-905,-450,50,Gradual consolidation and territorial growth set the foundations for later reform and militarization.
+Qin / 秦（诸侯国）,-905,-221,East Asia / 东亚,60,Legalist Reform and Unification Apex,-449,-221,60,"Administrative, military, and legal reforms produced maximal composite strength culminating in unification."
+Zheng / 郑（诸侯国）,-806,-375,East Asia / 东亚,44,Founding and Central Plains Role,-806,-600,40,Emergence as a central plain polity with growing economic and ritual significance.
+Zheng / 郑（诸侯国）,-806,-375,East Asia / 东亚,44,Warring States Consolidation and Apex,-599,-430,44,Political consolidation and regional influence reach the polity’s highest composite strength.
+Zheng / 郑（诸侯国）,-806,-375,East Asia / 东亚,44,Decline and Annexation,-429,-375,36,Military defeats and Qin expansion reduced autonomy and ended independent rule.
+Eastern Zhou / 东周,-770,-256,East Asia / 东亚,39,Spring–Autumn Period,-770,-481,39,Early feudal decentralization with growing ritual-political order but limited interstate centralization.
+Eastern Zhou / 东周,-770,-256,East Asia / 东亚,39,Warring States Period,-480,-256,36,"Intense interstate competition, military innovation, and economic-urban growth mark the polity’s high composite strength."
+Zhao / 赵（诸侯国）,-403,-228,East Asia / 东亚,56,Early Consolidation,-403,-350,50,State formation and territorial consolidation increased administrative and military capacity.
+Zhao / 赵（诸侯国）,-403,-228,East Asia / 东亚,56,Expansion and Apex,-349,-260,56,"Military reforms, territorial expansion, and diplomatic prominence define the peak period."
+Zhao / 赵（诸侯国）,-403,-228,East Asia / 东亚,56,Decline and Contraction,-259,-228,44,Late-period setbacks and pressure from stronger neighbors reduced political and military reach.
+Wei / 魏（诸侯国）,-403,-225,East Asia / 东亚,56,Early State-Building,-403,-340,50,Initial consolidation and administrative growth set foundations for later prominence.
+Wei / 魏（诸侯国）,-403,-225,East Asia / 东亚,56,Apex Hegemony,-339,-260,56,Military and bureaucratic reforms produced peak regional dominance and institutional strength.
+Wei / 魏（诸侯国）,-403,-225,East Asia / 东亚,56,Fragmentation and Decline,-259,-225,42,Internal divisions and external challenges fragmented authority and lowered composite capacity.
+Han / 韩（诸侯国）,-403,-230,East Asia / 东亚,50,Early Consolidation,-403,-340,46,Formation as a significant Zhou vassal with steady administrative and military development.
+Han / 韩（诸侯国）,-403,-230,East Asia / 东亚,50,Apex Influence,-339,-260,50,Heightened territorial control and political influence mark the polity’s peak.
+Han / 韩（诸侯国）,-403,-230,East Asia / 东亚,50,Terminal Contraction,-259,-230,38,Loss of territory and pressure from neighboring powers reduced its composite strength.
+Qin / 秦,-221,-207,East Asia / 东亚,66,Unification and Legalist Centralization,-221,-209,66,"Radical administrative, legal, and military reforms produced maximal state capacity culminating in unification."
+Qin / 秦,-221,-207,East Asia / 东亚,66,Revolt and Collapse,-208,-207,40,Public unrest and succession crises precipitated rapid collapse of centralized institutions.
+Xiongnu / 匈奴,-220,48,East Asia / 东亚,43,Formation and Steppe Consolidation,-220,-151,38,Emergence of a durable steppe confederation with growing military-political reach.
+Xiongnu / 匈奴,-220,48,East Asia / 东亚,43,Apex Hegemony and Diplomacy,-150,48,43,"Peak military dominance, centralized leadership, and sustained diplomatic-economic interaction define the high phase."
+Western Chu / 西楚,-206,-202,East Asia / 东亚,30,Western Chu,-206,-202,30,Short-lived militarized polity formed in Qin collapse with limited institutional depth before defeat.
+Nanyue / 南越,-203,-111,East Asia / 东亚,38,Founding and Regional Consolidation,-203,-160,34,Initial consolidation of coastal and frontier territories with mixed economic integration.
+Nanyue / 南越,-203,-111,East Asia / 东亚,38,Apex Regional Rule,-159,-130,38,"Regional autonomy, trade integration, and dynastic stability mark the high period."
+Nanyue / 南越,-203,-111,East Asia / 东亚,38,Decline and Han Conquest,-129,-111,30,Gradual loss of autonomy and eventual incorporation into the Han polity reduced composite strength.
+Western Han / 西汉,-202,9,East Asia / 东亚,80,Founding and Early Consolidation,-202,-141,70,Post-Qin recovery and institutional rebuilding under early emperors established stable imperial governance.
+Western Han / 西汉,-202,9,East Asia / 东亚,80,Imperial Apex under Emperor Wu,-140,-87,80,"Major territorial expansion, strong military campaigns, and cultural–economic flourishing mark the peak phase."
+Western Han / 西汉,-202,9,East Asia / 东亚,80,Late Western Han Decline,-86,9,60,Eunuch–consort factionalism and fiscal pressures weakened central authority before the Xin interregnum.
+Wiman Chosŏn / 卫满朝鲜,-194,-108,East Asia / 东亚,37,Wiman Chosŏn Consolidation,-194,-140,37,Frontier kingdom consolidated control over northern Korea and regional trade networks.
+Wiman Chosŏn / 卫满朝鲜,-194,-108,East Asia / 东亚,37,Late Period and Han Conquest,-139,-108,33,Increasing Han pressure and internal tensions culminated in conquest and incorporation.
+Silla / 新罗,-57,935,East Asia / 东亚,58,Early Tribal Kingdom,-57,356,40,Emerging polity with limited territorial scale and gradually developing aristocratic institutions.
+Silla / 新罗,-57,935,East Asia / 东亚,58,Three Kingdoms Consolidation,357,668,55,Military expansion and institutional development culminated in victory over Baekje and Goguryeo.
+Silla / 新罗,-57,935,East Asia / 东亚,58,Unified Silla Apex,669,780,58,Political unity of most of the peninsula supported strong cultural and economic development.
+Silla / 新罗,-57,935,East Asia / 东亚,58,Late Silla Decline,781,935,45,Aristocratic factionalism and regional rebellions gradually eroded central authority.
+Xin / 新,9,23,East Asia / 东亚,44,Wang Mang Reform Regime,9,23,44,Radical economic and administrative reforms attempted large-scale restructuring but destabilized the state.
+Baekje / 百济,18,660,East Asia / 东亚,52,Early Baekje Formation,18,371,40,State formation and regional consolidation along the Han River basin.
+Baekje / 百济,18,660,East Asia / 东亚,52,Middle Baekje Cultural Apex,372,538,52,Strong maritime trade and cultural exchange with China and Japan mark the high phase.
+Baekje / 百济,18,660,East Asia / 东亚,52,Sabi Period and Decline,539,660,38,Shift of capital and prolonged warfare with Silla and Tang weakened the kingdom before conquest.
+Eastern Han / 东汉,25,220,East Asia / 东亚,73,Restoration & Consolidation,25,57,65,Guangwu’s restoration reestablished imperial institutions and stabilized the core polity.
+Eastern Han / 东汉,25,220,East Asia / 东亚,73,Imperial Apex and Prosperity,58,184,73,"Relative political stability, economic growth, and cultural-technological advance mark the high point."
+Eastern Han / 东汉,25,220,East Asia / 东亚,73,Late Decline and Collapse,185,220,50,"Recurrent rebellion, factional strife, and fiscal stress eroded central authority leading to collapse."
+Chengjia / 成家,25,36,East Asia / 东亚,33,Chengjia Interregnum,25,36,33,Short-lived regional regime with limited territorial base and weak institutional depth.
+Goguryeo / 高句丽,37,668,East Asia / 东亚,57,Formative Expansion,37,375,50,Early state formation and territorial consolidation established durable institutions and frontier strength.
+Goguryeo / 高句丽,37,668,East Asia / 东亚,57,Imperial Apex,376,534,57,"Military expansion, strong centralized rule, and cultural influence mark the polity’s peak."
+Goguryeo / 高句丽,37,668,East Asia / 东亚,57,Late Contraction and Fall,535,668,42,Internal strains and sustained external pressure from Silla–Tang coalitions reduced capacity and led to fall.
+Wei / 魏（三国）,220,266,East Asia / 东亚,58,Founding and Consolidation,220,239,55,Cao Pi’s establishment and initial institutional consolidation created a capable state apparatus.
+Wei / 魏（三国）,220,266,East Asia / 东亚,58,Stabilization and Administrative Peak,240,254,58,Bureaucratic and military consolidation under central regimes represent the polity’s high phase.
+Wei / 魏（三国）,220,266,East Asia / 东亚,58,Sima Ascendancy and Decline,255,266,45,Internal power shifts and Sima dominance undermined legitimacy and led to dynastic replacement.
+Shu Han / 蜀汉（三国）,221,263,East Asia / 东亚,48,Founding and Early Consolidation,221,230,45,Liu Bei’s establishment and initial consolidation secured a regional kingdom with limited resources.
+Shu Han / 蜀汉（三国）,221,263,East Asia / 东亚,48,Military Apex under Zhuge Liang,231,247,48,Active northern campaigns and administrative reforms maximized military and administrative capacity.
+Shu Han / 蜀汉（三国）,221,263,East Asia / 东亚,48,Late Strain and Fall,248,263,38,"Protracted campaigning, resource limits, and external pressure precipitated terminal decline."
+Eastern Wu / 吴（三国）,222,280,East Asia / 东亚,54,Consolidation under Sun Quan,222,250,50,Regional consolidation and naval-commercial strength established a durable southern polity.
+Eastern Wu / 吴（三国）,222,280,East Asia / 东亚,54,Peak Sovereignty and Prosperity,251,266,54,"Stable administration, military resilience, and economic integration mark the apex."
+Eastern Wu / 吴（三国）,222,280,East Asia / 东亚,54,Late Decline and Conquest,267,280,40,Factionalism and Jin military pressure culminated in loss of independence.
+Yamato Kingship / 大和王权,250,710,East Asia / 东亚,39,Kofun Period,250,538,34,Clan consolidation and elite burial culture produced growing regional cohesion but limited centralization.
+Yamato Kingship / 大和王权,250,710,East Asia / 东亚,39,Asuka Reform and State Formation,539,710,39,"Political centralization, introduction of continental institutions, and state-building mark the high phase."
+Western Jin / 西晋,266,316,East Asia / 东亚,62,Unification and Early Rule,266,280,62,Reunification of China under Jin and initial institutional consolidation represent the apex.
+Western Jin / 西晋,266,316,East Asia / 东亚,62,War of the Princes and Fragmentation,281,304,50,Internal elite conflict (War of the Eight Princes) severely weakened central authority.
+Western Jin / 西晋,266,316,East Asia / 东亚,62,Invasion and Collapse,305,316,30,Nomadic invasions and mass upheaval led to territorial loss and dynastic collapse.
+Tuyuhun / 吐谷浑,284,672,East Asia / 东亚,39,Formation and Early Expansion,284,420,34,Emergence as a pastoral–agro confederation with growing control over frontier corridors.
+Tuyuhun / 吐谷浑,284,672,East Asia / 东亚,39,Middle Consolidation,421,550,39,Heightened political cohesion and regional influence mark the polity’s peak.
+Tuyuhun / 吐谷浑,284,672,East Asia / 东亚,39,Late Decline and Absorption,551,672,28,Pressure from neighboring states and internal fragmentation reduced autonomy and capacity.
+Chouchi / 仇池,296,443,East Asia / 东亚,34,Early Principality,296,350,30,Local state formation with limited demographic and economic scale but stable chieftaincy structures.
+Chouchi / 仇池,296,443,East Asia / 东亚,34,Apex Regional Influence,351,390,34,Temporary expansion and stronger administrative organization increased composite strength.
+Chouchi / 仇池,296,443,East Asia / 东亚,34,Late Decline,391,443,28,Military pressures and loss of territorial control eroded institutional capacity.
+Han-Zhao / 汉赵（十六国）,304,329,East Asia / 东亚,31,Founding and Conquest,304,316,29,Rapid establishment and early territorial gains under nomadic-led leadership increased short-term power.
+Han-Zhao / 汉赵（十六国）,304,329,East Asia / 东亚,31,Peak Rule,317,323,31,Maximum territorial control and administrative integration reached the polity’s apex.
+Han-Zhao / 汉赵（十六国）,304,329,East Asia / 东亚,31,Collapse and Fragmentation,324,329,22,Successional strife and rival claimants fragmented authority and led to collapse.
+Cheng-Han / 成汉（十六国）,304,347,East Asia / 东亚,28,Founding and Consolidation,304,338,28,Establishment by local leaders with modest territorial control and institutional structures.
+Cheng-Han / 成汉（十六国）,304,347,East Asia / 东亚,28,Decline and Annexation,339,347,20,Military defeats and absorption by stronger powers ended independent rule.
+Eastern Jin / 东晋,317,420,East Asia / 东亚,54,Establishment and Southern Consolidation,317,349,50,Reestablishment of Jin authority in the south and institutional rebuilding after northern collapse.
+Eastern Jin / 东晋,317,420,East Asia / 东亚,54,Relative Stability and Cultural Growth,350,379,54,"Period of relative political stability, economic recovery, and cultural–administrative development marks the peak."
+Eastern Jin / 东晋,317,420,East Asia / 东亚,54,Late Turbulence and Decline,380,420,42,Large-scale rebellions and military pressures undermined governance and led toward fragmentation.
+Former Liang / 前凉（十六国）,317,376,East Asia / 东亚,41,Founding and Local Consolidation,317,320,34,Initial Zhang-family consolidation around Hexi secured a modest administrative base.
+Former Liang / 前凉（十六国）,317,376,East Asia / 东亚,41,Consolidation and Regional Apex,321,360,41,Relative stability and control of the Gansu corridor mark the polity’s high point.
+Former Liang / 前凉（十六国）,317,376,East Asia / 东亚,41,Decline and Absorption,361,376,30,Loss of central authority and external pressure led to territorial contraction and eventual absorption.
+Later Zhao / 后赵（十六国）,319,351,East Asia / 东亚,39,Rise under Shi Le,319,328,33,Formation from insurgent mobilization established territorial footholds in northern China.
+Later Zhao / 后赵（十六国）,319,351,East Asia / 东亚,39,Shi Hu Apex,329,333,39,Strong military organization and expanded control produced the polity’s peak composite strength.
+Later Zhao / 后赵（十六国）,319,351,East Asia / 东亚,39,Internal Strife and Fragmentation,334,351,26,Successional crises and factional conflict precipitated rapid decline and loss of cohesion.
+Former Yan / 前燕（十六国）,337,370,East Asia / 东亚,41,Foundation and Northern Expansion,337,352,36,Murong leadership consolidated control in the northeast and expanded territorial reach.
+Former Yan / 前燕（十六国）,337,370,East Asia / 东亚,41,Apex under Murong Jun/Ke,353,366,41,Territorial consolidation and administrative maturity mark the polity’s high phase.
+Former Yan / 前燕（十六国）,337,370,East Asia / 东亚,41,Late Decline and Conquest,367,370,28,Internal instability and external pressure led to rapid territorial loss and fall.
+Dai / 代,338,376,East Asia / 东亚,28,Tuoba Consolidation,338,370,26,Pastoral confederation organized frontier control with limited administrative depth.
+Dai / 代,338,376,East Asia / 东亚,28,Fall and Integration,371,376,20,Military setbacks and absorption into successor polities ended independent rule.
+Former Qin / 前秦（十六国）,350,394,East Asia / 东亚,54,Formation and Early Expansion,350,357,48,Early state-building and conquest began creating a large multiethnic polity.
+Former Qin / 前秦（十六国）,350,394,East Asia / 东亚,54,Unification and Imperial Apex,358,376,54,"Fu Jian’s campaigns and administrative integration achieved maximal territorial, military, and economic strength."
+Former Qin / 前秦（十六国）,350,394,East Asia / 东亚,54,Collapse and Fragmentation,377,394,36,"Post-Guolüan defeat, internal revolts and external incursions precipitated rapid disintegration."
+Ran Wei / 冉魏,350,352,East Asia / 东亚,27,Ran Min’s Regime,350,352,27,Short-lived attempt at Han restoration with limited territorial reach and rapid collapse.
+Later Qin / 后秦（十六国）,384,417,East Asia / 东亚,47,Founding and Stabilization,384,394,40,Qin (Yao) consolidation established a durable Qiang-led state in the northwest.
+Later Qin / 后秦（十六国）,384,417,East Asia / 东亚,47,Apex under Yao Xing,395,406,47,"Relative political stability, cultural patronage, and military capacity mark the high phase."
+Later Qin / 后秦（十六国）,384,417,East Asia / 东亚,47,Decline and Conquest,407,417,28,Late internal strife and external pressure led to territorial loss and collapse.
+Later Yan / 后燕（十六国）,384,409,East Asia / 东亚,42,Foundation and Regional Growth,384,395,38,Murong establishment and consolidation in the northeast increased regional influence.
+Later Yan / 后燕（十六国）,384,409,East Asia / 东亚,42,Apex and Territorial Reach,396,402,42,Peak political-military strength and cultural integration occur during this phase.
+Later Yan / 后燕（十六国）,384,409,East Asia / 东亚,42,Late Decline and Disruption,403,409,28,Successional conflict and external incursions fragmented authority and reduced capacity.
+Western Yan / 西燕,384,394,East Asia / 东亚,25,Western Yan,384,394,25,Brief migratory/regressive polity with limited administrative structures and rapid turnovers.
+Western Qin / 西秦（十六国）,385,431,East Asia / 东亚,26,Formation and Frontier Consolidation,385,400,22,Early consolidation of Qiang-led rule with constrained resources and territorial base.
+Western Qin / 西秦（十六国）,385,431,East Asia / 东亚,26,Apex Regional Control,401,418,26,Relative stability and control of key corridors represent the polity’s peak composite strength.
+Western Qin / 西秦（十六国）,385,431,East Asia / 东亚,26,Late Decline and Dissolution,419,431,20,"Loss of territories, internal dissent, and external conquest ended independent rule."
+Northern Wei / 北魏,386,535,East Asia / 东亚,61,Founding & Expansion,386,439,50,Tuoba consolidation and conquest created the northern polity’s territorial foundation.
+Northern Wei / 北魏,386,535,East Asia / 东亚,61,Consolidation & Sinicization,440,493,56,Post-unification administration and early sinicizing reforms strengthened state capacity.
+Northern Wei / 北魏,386,535,East Asia / 东亚,61,Sinicization Apex,494,523,61,"Capital move and Xiaowen reforms produced maximal administrative, cultural, and military integration."
+Northern Wei / 北魏,386,535,East Asia / 东亚,61,Collapse & Division,524,535,28,Internal factionalism and uprisings precipitated collapse and partition into successor states.
+Later Liang / 后凉（十六国）,386,403,East Asia / 东亚,37,Later Liang,386,403,37,Short-lived regional polity with limited institutional depth and constrained territorial reach.
+Southern Liang / 南凉（十六国）,397,414,East Asia / 东亚,31,Southern Liang,397,414,31,Brief frontier regime with modest administrative capacity and quick absorption by rivals.
+Southern Yan / 南燕（十六国）,398,410,East Asia / 东亚,32,Southern Yan,398,410,32,Short-lived polity with localized control and limited long-term institutional development.
+Western Liang / 西凉（十六国）,400,421,East Asia / 东亚,37,Western Liang,400,421,37,Regional regime holding strategic corridors but lacking durable state capacity.
+Northern Liang / 北凉（十六国）,401,439,East Asia / 东亚,37,Northern Liang,401,439,37,Frontier kingdom with sustained control over oasis routes and moderate administrative structures.
+Rouran Khaganate / 柔然汗国,402,555,East Asia / 东亚,37,Formation and Consolidation,402,460,33,Steppe confederation formation with growing nomadic-military capacity and diplomatic reach.
+Rouran Khaganate / 柔然汗国,402,555,East Asia / 东亚,37,Apex Khaganate,461,520,37,Peak military hegemony and control over steppe polities mark the high phase.
+Rouran Khaganate / 柔然汗国,402,555,East Asia / 东亚,37,Decline and Fragmentation,521,555,25,Internal divisions and external pressures reduced cohesion and precipitated dissolution.
+Xia / 夏（十六国）,407,431,East Asia / 东亚,37,Founding & Early Rule,407,423,33,Helian consolidation established a short-lived territorial kingdom with limited institutional depth.
+Xia / 夏（十六国）,407,431,East Asia / 东亚,37,Terminal Apex and Fall,424,431,37,Brief military vigor and territorial control culminated in rapid collapse under external pressure.
+Northern Yan / 北燕（十六国）,409,436,East Asia / 东亚,35,Northern Yan,409,436,35,Regional Murong-led state with intermittent stability and constrained long-term capacity.
+Song / 宋,420,479,East Asia / 东亚,50,Consolidation and Wen Era,420,453,50,Reestablishment of southern court authority and administrative consolidation define the high phase.
+Song / 宋,420,479,East Asia / 东亚,50,Late Turmoil and Decline,454,479,32,Factional struggles and military pressures eroded central control leading toward dynastic change.
+Gaochang / 高昌,460,640,East Asia / 东亚,46,Formation and Oasis Consolidation,460,550,42,Early control of the Tarim corridor established Gaochang’s trading and administrative base.
+Gaochang / 高昌,460,640,East Asia / 东亚,46,Commercial Apex and Cultural Flourishing,551,610,46,Peak commercial-institutional strength tied to Silk Road trade and urban prosperity.
+Gaochang / 高昌,460,640,East Asia / 东亚,46,Late Pressure and Decline,611,640,36,Shifting trade routes and external incursions eroded political control and economic capacity.
+Southern Qi / 南齐,479,502,East Asia / 东亚,46,Southern Qi,479,502,46,Short-lived southern dynasty with moderate administrative competence but persistent elite factionalism.
+Liang / 梁,502,557,East Asia / 东亚,50,Early Consolidation,502,519,44,Founding consolidation of court structures and regional administration.
+Liang / 梁,502,557,East Asia / 东亚,50,Emperor Wu Apex,520,543,50,"State patronage, cultural investment, and relative economic stability mark the high phase."
+Liang / 梁,502,557,East Asia / 东亚,50,Late Decline and Fragmentation,544,557,36,Factional conflict and external pressure precipitated territorial loss and weakening governance.
+Eastern Wei / 东魏,534,550,East Asia / 东亚,43,Foundation and Military Consolidation,534,543,40,Initial stabilization under regional strongmen created a functioning military-administrative core.
+Eastern Wei / 东魏,534,550,East Asia / 东亚,43,Late Consolidation,544,550,43,Heightened central control and administrative integration mark the polity’s peak.
+Western Wei / 西魏,535,557,East Asia / 东亚,45,Foundation and Frontier Stabilization,535,543,40,Early consolidation of power and control over key northern circuits.
+Western Wei / 西魏,535,557,East Asia / 东亚,45,Consolidation and Institutional Growth,544,557,45,Administrative reforms and stronger court-military integration increase composite capacity.
+Northern Qi / 北齐,550,577,East Asia / 东亚,51,Founding Consolidation,550,559,46,Initial consolidation after partition established state structures and military capacity.
+Northern Qi / 北齐,550,577,East Asia / 东亚,51,Apex under Centralized Rule,560,567,51,Administrative centralization and military effectiveness produce the polity’s high point.
+Northern Qi / 北齐,550,577,East Asia / 东亚,51,Late Instability and Decline,568,577,34,Internal coups and external pressures rapidly eroded governance and territorial control.
+Western Liang / 西梁,555,587,East Asia / 东亚,29,Western Liang,555,587,29,Peripheral rump polity with minimal resources and limited institutional depth throughout its existence.
+Northern Liang / 北凉,401,439,East Asia / 东亚,37,Northern Liang,401,439,37,Oasis-state sustaining caravan routes with modest administrative structures and intermittent stability.
+Rouran Khaganate / 柔然汗国,402,555,East Asia / 东亚,37,Formation and Steppe Consolidation,402,460,33,Confederation-building and steppe military consolidation created regional hegemony.
+Rouran Khaganate / 柔然汗国,402,555,East Asia / 东亚,37,Apex Hegemony,461,520,37,Peak pastoral-military dominance and diplomatic influence across the northern steppe.
+Rouran Khaganate / 柔然汗国,402,555,East Asia / 东亚,37,Decline and Fragmentation,521,555,25,Internal schism and pressure from rival nomadic powers fragmented the khaganate.
+Xia / 夏（十六国）,407,431,East Asia / 东亚,37,Founding and Short Consolidation,407,423,33,Helian family established control in central regions with limited administrative reach.
+Xia / 夏（十六国）,407,431,East Asia / 东亚,37,Terminal Vigor and Collapse,424,431,37,Brief military success and territorial control preceded rapid collapse under external assault.
+Northern Yan / 北燕（十六国）,409,436,East Asia / 东亚,35,Northern Yan,409,436,35,Murong-led polity with intermittent stability and moderate regional influence until absorption.
+Song / 宋,420,479,East Asia / 东亚,50,Founding and Consolidation,420,453,48,Reestablishment of southern court authority and administrative institutions after northern collapse.
+Song / 宋,420,479,East Asia / 东亚,50,Late Turmoil and Decline,454,479,32,Factional struggles and military pressures eroded central control leading toward dynastic change.
+Sui / 隋,581,619,East Asia / 东亚,63,Founding and Early Consolidation,581,604,56,Centralized reforms and canal construction established imperial structures and fiscal capacity.
+Sui / 隋,581,619,East Asia / 东亚,63,Imperial Mobilization and Collapse,605,619,48,Massive military campaigns and grand projects overstretched resources and precipitated rapid collapse.
+Eastern Turkic Khaganate / 东突厥汗国,583,630,East Asia / 东亚,39,Formation and Steppe Consolidation,583,609,34,Confederation-building and steppe military cohesion created a durable nomadic polity.
+Eastern Turkic Khaganate / 东突厥汗国,583,630,East Asia / 东亚,39,Apex Hegemony and Fall,610,630,39,Peak diplomatic-military influence over northern China followed by defeat and collapse.
+Tang / 唐,618,907,East Asia / 东亚,85,Founding and Early Consolidation,618,627,78,Li Yuan and early reforms re-established imperial order and institutional foundations.
+Tang / 唐,618,907,East Asia / 东亚,85,High Tang Apex,628,755,85,"Territorial expansion, economic prosperity, and cultural-technological florescence mark the dynasty’s peak."
+Tang / 唐,618,907,East Asia / 东亚,85,Mid Tang Recovery,756,835,72,"Post-rebellion restoration of central authority and renewed cultural production, but with limits."
+Tang / 唐,618,907,East Asia / 东亚,85,Late Decline and Fragmentation,836,907,38,"Political factionalism, regional militarization, and fiscal stress produced terminal decline."
+Tibetian Empire / 吐蕃,618,842,East Asia / 东亚,54,Formation and Early Expansion,618,755,50,Unification of Tibetan polities and sustained expansion established a powerful plateau state.
+Tibetian Empire / 吐蕃,618,842,East Asia / 东亚,54,Apex and Cultural-Religious Flourishing,756,821,54,"Golden-age consolidation, religious patronage, and large-scale polity reach mark the high period."
+Tibetian Empire / 吐蕃,618,842,East Asia / 东亚,54,Fragmentation and Decline,822,842,30,Internal divisions and external pressure led to political fragmentation and loss of cohesion.
+Balhae / 渤海,698,926,East Asia / 东亚,46,Founding and Frontier Consolidation,698,780,40,State formation linking former Goguryeo elites with frontier trade routes and agrarian bases.
+Balhae / 渤海,698,926,East Asia / 东亚,46,Commercial-Cultural Apex,781,850,46,"Economic integration, diplomatic ties, and cultural patronage mark the polity’s high point."
+Balhae / 渤海,698,926,East Asia / 东亚,46,Late Decline and Conquest,851,926,28,Internal fragmentation and rising external pressures reduced sovereignty and led to collapse.
+Japan (Nara-Heian Period) / 日本（奈良-平安时代）,710,1185,East Asia / 东亚,48,Nara Period: Centralized Court Formation,710,794,40,Imperial codification and Buddhist-state patronage created early centralized institutions.
+Japan (Nara-Heian Period) / 日本（奈良-平安时代）,710,1185,East Asia / 东亚,48,Heian Peak: Aristocratic Culture and Stability,795,1066,48,"Fujiwara hegemony, court culture, and economic stability mark the polity’s apex."
+Japan (Nara-Heian Period) / 日本（奈良-平安时代）,710,1185,East Asia / 东亚,48,Late Heian Fragmentation and War,1067,1185,34,Provincial militarization and warrior ascendancy culminated in the Gempei wars and regime change.
