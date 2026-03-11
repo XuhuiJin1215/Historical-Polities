@@ -1,14 +1,417 @@
 ﻿Polity,Start Year,End Year,Region,Overall Score,Phase Name,Phase Start,Phase End,Phase Score,Notes
-Commonwealth of Australia / 澳大利亚联邦,1942,2026,Australia / 澳大利亚,70,WWII and Immediate Postwar,1942,1945,62,Mobilization and limited wartime economy with stable governance and social systems.
-Commonwealth of Australia / 澳大利亚联邦,1942,2026,Australia / 澳大利亚,70,Postwar Welfare and Growth,1946,1975,66,"Rapid expansion of social programs, infrastructure, and economy, strengthening governance."
-Commonwealth of Australia / 澳大利亚联邦,1942,2026,Australia / 澳大利亚,70,Economic Reform and Globalization,1976,1999,68,"Market reforms and international integration improved technology, economy, and social welfare."
-Commonwealth of Australia / 澳大利亚联邦,1942,2026,Australia / 澳大利亚,70,Modern Mature State,2000,2026,70,"High composite strength with balanced economy, governance, technology, and social welfare."
-Greco-Bactrian Kingdom / 希腊-巴克特里亚王国,-256,-120,Central Asia / 中亚,52,Hellenistic Consolidation,-256,-120,52,Strong cultural and military presence within limited Central Asian territories.
-Kidarite Kingdom / 寄多罗王朝,320,467,Central Asia / 中亚,42,Kidarite Rule,320,467,42,"Regional power with moderate economy, military, and cultural influence."
-Hephthalite Empire / 嚈哒帝国,440,560,Central Asia / 中亚,54,Hephthalite Hegemony,440,560,54,Substantial military and political influence with notable cultural impact.
-First Turkic Khaganate / 突厥汗国,552,603,Central Asia / 中亚,41,Unified Turkic Khaganate,552,603,41,Nomadic confederation with strong military mobility but limited economic and governance structures.
-Western Turkic Khaganate / 西突厥汗国,581,742,Central Asia / 中亚,41,Western Turkic Era,581,742,41,Fragmented steppe polity with intermittent control and modest institutional capacity.
-Tokhara Yabgu State / 吐火罗叶护国,625,758,Central Asia / 中亚,50,Tokhara Yabgu Period,625,758,50,"Balanced nomadic and urban influences with moderate economic, cultural, and administrative roles."
-Kyrgyz Khaganate / 黠戛斯汗国,637,925,Central Asia / 中亚,29,Kyrgyz Khaganate,637,925,29,"Politically limited confederation with low area, population, and composite strength."
-Turk Shahis / 突厥沙希王朝,665,822,Central Asia / 中亚,44,Turk Shahi Rule,665,822,44,Frontier dynasty with notable military resistance and moderate cultural/administrative development.
-Zunbil Dynasty / 樽比勒王朝,680,870,Central Asia / 中亚,41,Zunbil Period,680,870,41,Regional dynasty with limited territorial and population base but local cultural significance.
+Commonwealth of Australia / 澳大利亚联邦,1901,2026,Australia / 澳大利亚,71,Federation and World War I,1901,1918,60,Early state formation with limited population and economy but growing governance structures.
+Commonwealth of Australia / 澳大利亚联邦,1901,2026,Australia / 澳大利亚,71,Interwar Consolidation,1919,1938,63,Gradual institutional strengthening and infrastructure growth despite economic shocks.
+Commonwealth of Australia / 澳大利亚联邦,1901,2026,Australia / 澳大利亚,71,World War II Mobilization,1939,1945,62,High military mobilization and international profile but constrained civilian economy.
+Commonwealth of Australia / 澳大利亚联邦,1901,2026,Australia / 澳大利亚,71,Postwar Welfare and Growth,1946,1975,68,Rapid social welfare expansion and economic development with improving governance and technology.
+Commonwealth of Australia / 澳大利亚联邦,1901,2026,Australia / 澳大利亚,71,Economic Reform and Global Integration,1976,1999,70,Market reforms and globalization raised economic and technological capacity while maintaining governance.
+Commonwealth of Australia / 澳大利亚联邦,1901,2026,Australia / 澳大利亚,71,Modern Mature State,2000,2026,71,"High composite performance across economy, governance, technology, and social indicators at present baseline."
+Empire of Haiti (First Empire) / 海地帝国（第一帝国）,1804,1806,Caribbean / 加勒比,34,First Empire,1804,1806,34,Short-lived imperial regime with limited economy and population but notable military assertion of independence.
+Republic of Haiti (South Haiti) / 海地共和国（南海地）,1806,1849,Caribbean / 加勒比,29,Southern Republic (single phase),1806,1849,29,Fragmented republican polity with weak economy and limited administrative reach over its long lifespan.
+State of Haiti / 海地国,1806,1811,Caribbean / 加勒比,28,State of Haiti,1806,1811,28,Transitional northern polity with limited resources and institutional development.
+Kingdom of Haiti / 海地王国,1811,1820,Caribbean / 加勒比,34,Kingdom of Haiti,1811,1820,34,Centralized monarchical rule with stronger military/governance concentration but constrained economy and population.
+Dominican Republic (First Republic) / 多米尼加共和国（第一共和国）,1844,1861,Caribbean / 加勒比,28,First Republic,1844,1861,28,Early republican period marked by political fragility and low economic/population metrics.
+Empire of Haiti (Second Empire) / 海地帝国（第二帝国）,1849,1859,Caribbean / 加勒比,26,Second Empire,1849,1859,26,Brief imperial restoration with weak economic base and limited international capacity.
+Republic of Haiti / 海地共和国,1859,2026,Caribbean / 加勒比,32,Post-Union Weak State,1859,1914,30,Chronic political fragmentation and weak economic/population foundations before occupation.
+Republic of Haiti / 海地共和国,1859,2026,Caribbean / 加勒比,32,US Occupation and Institutional Reforms,1915,1934,31,Occupation increased some administrative capacity but core economic and social metrics remained low.
+Republic of Haiti / 海地共和国,1859,2026,Caribbean / 加勒比,32,Post-Occupation Oligarchic Phase,1935,1956,30,Partial stabilization under oligarchic rule with limited broad-based development.
+Republic of Haiti / 海地共和国,1859,2026,Caribbean / 加勒比,32,Duvalier Authoritarian Rule,1957,1986,32,Strong centralized control and military dominance but repressive governance and poor social welfare outcomes.
+Republic of Haiti / 海地共和国,1859,2026,Caribbean / 加勒比,32,Post-Duvalier Instability,1986,2003,29,Political volatility and humanitarian setbacks reduced composite strength.
+Republic of Haiti / 海地共和国,1859,2026,Caribbean / 加勒比,32,Contemporary Fragile State,2004,2026,31,Recurring crises with intermittent international support yielding modest institutional gains.
+Dominican Republic (Second Republic) / 多米尼加共和国（第二共和国）,1865,1916,Caribbean / 加勒比,32,Restoration and Fragmentation,1865,1899,31,Recovery from annexation with uneven economic development and political fragmentation.
+Dominican Republic (Second Republic) / 多米尼加共和国（第二共和国）,1865,1916,Caribbean / 加勒比,32,Authoritarian Consolidation to US Occupation,1900,1916,32,Stronger central authority and economic activity under authoritarian leaders prior to occupation.
+Republic of Cuba (First Republic) / 古巴共和国（第一共和国）,1902,1959,Caribbean / 加勒比,43,Formative Republic and U.S. Hegemony,1902,1933,40,Early statehood dominated by external influence and weak economic/governance capacity.
+Republic of Cuba (First Republic) / 古巴共和国（第一共和国）,1902,1959,Caribbean / 加勒比,43,Batista Era and Political Centralization,1934,1952,43,Increased military and governance centralization under authoritarian rule with modest economic growth.
+Republic of Cuba (First Republic) / 古巴共和国（第一共和国）,1902,1959,Caribbean / 加勒比,43,Rebellion and Breakdown,1953,1959,38,Insurgent mobilization and declining institutional strength preceding revolution.
+Dominican Republic (Third Republic) / 多米尼加共和国（第三共和国）,1924,1966,Caribbean / 加勒比,41,Early Republican Instability,1924,1929,35,Fragmented political order with low economic and institutional capacity.
+Dominican Republic (Third Republic) / 多米尼加共和国（第三共和国）,1924,1966,Caribbean / 加勒比,41,Trujillo Authoritarian Consolidation,1930,1961,43,Strong centralized control and security apparatus with constrained social welfare and uneven economy.
+Dominican Republic (Third Republic) / 多米尼加共和国（第三共和国）,1924,1966,Caribbean / 加勒比,41,Post-Trujillo Transition,1961,1966,37,Political turbulence and limited institutional recovery after dictatorship.
+Republic of Cuba (Socialist Republic) / 古巴共和国（社会主义共和国）,1959,2026,Caribbean / 加勒比,57,Revolutionary Consolidation,1959,1970,54,Rapid political centralization and mobilization with strong cultural and military reorientation.
+Republic of Cuba (Socialist Republic) / 古巴共和国（社会主义共和国）,1959,2026,Caribbean / 加勒比,57,Cold War Peak and Institutionalization,1971,1990,57,High geopolitical influence and consolidated governance with sustained social services.
+Republic of Cuba (Socialist Republic) / 古巴共和国（社会主义共和国）,1959,2026,Caribbean / 加勒比,57,Special Period and Adjustment,1991,2008,50,Economic collapse after USSR loss reduced economy and population metrics despite institutional continuity.
+Republic of Cuba (Socialist Republic) / 古巴共和国（社会主义共和国）,1959,2026,Caribbean / 加勒比,57,Post-Castro Era and Partial Reform,2009,2026,55,Gradual policy adjustments improved some economic and governance indicators while retaining core institutions.
+Jamaica / 牙买加,1962,2026,Caribbean / 加勒比,48,Early Independence Consolidation,1962,1971,46,Foundational state-building with limited economic base and growing institutions.
+Jamaica / 牙买加,1962,2026,Caribbean / 加勒比,48,Social Reform and Political Polarization,1972,1980,48,Increased social programs and cultural influence offset by political-economic strain.
+Jamaica / 牙买加,1962,2026,Caribbean / 加勒比,48,Neoliberal Adjustment and Crime Shock,1981,1998,44,Economic liberalization and public-security challenges reduced composite strength.
+Jamaica / 牙买加,1962,2026,Caribbean / 加勒比,48,Stabilization and Modernization,1999,2026,47,Improved governance and services with moderate economic and cultural performance.
+Trinidad and Tobago / 特立尼达和多巴哥,1962,1976,Caribbean / 加勒比,44,Early Independence and Institutional Build-up,1962,1969,42,Post-independence state formation with limited economic diversification.
+Trinidad and Tobago / 特立尼达和多巴哥,1962,1976,Caribbean / 加勒比,44,Oil Boom and Political Consolidation,1970,1976,44,Resource-driven economic gains and stronger governance capacity during the boom.
+Dominican Republic (Fourth Republic) / 多米尼加共和国（第四共和国）,1966,2026,Caribbean / 加勒比,49,Post-Intervention Consolidation,1966,1996,45,Gradual institutional consolidation after 1965 with uneven economic development.
+Dominican Republic (Fourth Republic) / 多米尼加共和国（第四共和国）,1966,2026,Caribbean / 加勒比,49,Market Growth and Democratic Deepening,1997,2008,49,Economic expansion and stronger governance institutions raised composite strength.
+Dominican Republic (Fourth Republic) / 多米尼加共和国（第四共和国）,1966,2026,Caribbean / 加勒比,49,Modern Competitive Era,2009,2026,48,Stable democratic governance with broad economic participation and improved social indicators.
+Barbados (Dominion) / 巴巴多斯（自治领）,1966,2021,Caribbean / 加勒比,45,Early Post-Independence Development,1966,1989,43,Social development and tourism-led economy with moderate governance capacity.
+Barbados (Dominion) / 巴巴多斯（自治领）,1966,2021,Caribbean / 加勒比,45,Mature Welfare-State Expansion,1990,2015,45,Strong governance and social-welfare systems with stable economic performance.
+Barbados (Dominion) / 巴巴多斯（自治领）,1966,2021,Caribbean / 加勒比,45,Pre-Republic Transition,2016,2021,44,High institutional stability with slight fiscal pressures ahead of republican change.
+Commonwealth of the Bahamas / 巴哈马联邦,1973,2026,Caribbean / 加勒比,40,Founding and Tourism Growth,1973,1992,37,Initial post-independence growth tied to tourism with limited demographic base.
+Commonwealth of the Bahamas / 巴哈马联邦,1973,2026,Caribbean / 加勒比,40,Financialization and Service Consolidation,1993,2008,40,Expansion of finance and tourism sectors improved economy but constrained governance breadth.
+Commonwealth of the Bahamas / 巴哈马联邦,1973,2026,Caribbean / 加勒比,40,Resilience and Vulnerability,2009,2026,40,"Tourism and services sustain the economy, but exposure to shocks limits higher composite scoring."
+Grenada / 格林纳达,1974,2026,Caribbean / 加勒比,33,Pre-Revolutionary Independence,1974,1978,30,Small economy and fragile institutions marked early independence weakness.
+Grenada / 格林纳达,1974,2026,Caribbean / 加勒比,33,Revolutionary Government and Invasion,1979,1983,33,Brief period of heightened state control and international crisis raised geopolitical salience.
+Grenada / 格林纳达,1974,2026,Caribbean / 加勒比,33,Post-Invasion Stabilization,1984,1995,31,Recovery under restored order with constrained economic expansion.
+Grenada / 格林纳达,1974,2026,Caribbean / 加勒比,33,Long-term Recovery and Tourism,1996,2026,32,Gradual tourism-led recovery improved socio-economic metrics without large-scale structural change.
+Republic of Trinidad and Tobago / 特立尼达和多巴哥共和国,1976,2026,Caribbean / 加勒比,51,Republic Formation and Resource Upswing,1976,1999,50,Post-republic consolidation with resource-driven growth bolstering economy and governance.
+Republic of Trinidad and Tobago / 特立尼达和多巴哥共和国,1976,2026,Caribbean / 加勒比,51,Adjustment and Diversification,2000,2010,49,Adjustment after commodity cycles with moderate efforts at economic diversification.
+Republic of Trinidad and Tobago / 特立尼达和多巴哥共和国,1976,2026,Caribbean / 加勒比,51,Energy-led Modern State,2011,2026,51,Strong fiscal position from energy sectors raising composite economic and governance indicators.
+Commonwealth of Dominica / 多米尼克国,1978,2026,Caribbean / 加勒比,28,Post-Independence Formation,1978,1999,26,Small island state with weak economic base and limited population but gradually stabilizing governance.
+Commonwealth of Dominica / 多米尼克国,1978,2026,Caribbean / 加勒比,28,Modern Development and Resilience,2000,2026,28,Improved governance and social services despite structural economic vulnerability.
+Saint Lucia / 圣卢西亚,1979,2026,Caribbean / 加勒比,35,Early Independence Consolidation,1979,1999,33,Tourism-led economy and stable parliamentary institutions but limited population and strategic capacity.
+Saint Lucia / 圣卢西亚,1979,2026,Caribbean / 加勒比,35,Modern Service Economy,2000,2026,35,Expanded tourism and services with moderate governance and cultural presence in the Caribbean.
+Saint Vincent and the Grenadines / 圣文森特和格林纳丁斯,1979,2026,Caribbean / 加勒比,31,Early Post-Independence State,1979,1999,29,Small economy and population constrained development despite institutional stability.
+Saint Vincent and the Grenadines / 圣文森特和格林纳丁斯,1979,2026,Caribbean / 加勒比,31,Contemporary Tourism and Governance,2000,2026,31,Moderate improvements in governance and tourism-driven economy with limited strategic capacity.
+Antigua and Barbuda / 安提瓜和巴布达,1981,2026,Caribbean / 加勒比,32,Founding Independence Era,1981,1999,30,Early governance consolidation supported by tourism and offshore finance sectors.
+Antigua and Barbuda / 安提瓜和巴布达,1981,2026,Caribbean / 加勒比,32,Modern Tourism Economy,2000,2026,32,Service-based economy and stable institutions raise composite indicators modestly.
+Federation of Saint Christopher (St. Kitts) and Nevis / 圣基茨和尼维斯联邦,1983,2026,Caribbean / 加勒比,32,Early Federal State Formation,1983,2004,30,Small-scale federal state with limited demographic and economic resources but stable governance.
+Federation of Saint Christopher (St. Kitts) and Nevis / 圣基茨和尼维斯联邦,1983,2026,Caribbean / 加勒比,32,Post-Sugar Economic Adjustment,2005,2026,32,Transition to tourism and services strengthened economic and governance stability.
+Barbados (Republic) / 巴巴多斯（共和国）,2021,2026,Caribbean / 加勒比,44,Early Republican Period,2021,2026,44,Highly stable governance and strong social services with modest population and military capacity.
+Kanem-Bornu Empire / 加涅姆-博尔努帝国,700,1902,Central Africa / 中非,55,Early Kanem Expansion,700,1380,52,Sahelian empire expanding trade and military influence across trans-Saharan routes.
+Kanem-Bornu Empire / 加涅姆-博尔努帝国,700,1902,Central Africa / 中非,55,Bornu Consolidation,1381,1700,55,Political reorganization around Bornu strengthened governance and regional military power.
+Kanem-Bornu Empire / 加涅姆-博尔努帝国,700,1902,Central Africa / 中非,55,Late Imperial Decline,1701,1902,48,Internal fragmentation and external pressures weakened political and economic strength.
+Kingdom of Kongo / 刚果王国,1390,1862,Central Africa / 中非,51,Early Kongo Formation,1390,1480,48,Regional kingdom consolidating political authority and trade networks in Central Africa.
+Kingdom of Kongo / 刚果王国,1390,1862,Central Africa / 中非,51,Atlantic Interaction Peak,1481,1665,51,"Heightened trade, diplomacy, and cultural exchange with Europeans increased influence and capacity."
+Kingdom of Kongo / 刚果王国,1390,1862,Central Africa / 中非,51,Fragmentation and Decline,1666,1862,44,Political fragmentation and external pressures reduced centralized authority and economic strength.
+Kingdom of Bamum / 巴穆姆王国,1394,1923,Central Africa / 中非,45,Early Bamum Kingdom,1394,1888,40,Long-lived regional kingdom with modest economic and demographic scale but stable governance traditions.
+Kingdom of Bamum / 巴穆姆王国,1394,1923,Central Africa / 中非,45,Njoya Reform Era,1889,1923,45,"Administrative, cultural, and technological innovations strengthened the kingdom’s institutions."
+Lunda Empire / 隆达帝国,1500,1887,Central Africa / 中非,51,Formation and Expansion,1500,1700,49,Regional imperial network expanding through trade and tributary relations.
+Lunda Empire / 隆达帝国,1500,1887,Central Africa / 中非,51,Imperial Apex,1701,1800,51,Peak territorial influence and political organization across Central Africa.
+Lunda Empire / 隆达帝国,1500,1887,Central Africa / 中非,51,Late Fragmentation,1801,1887,45,Declining cohesion and growing external pressures weakened imperial authority.
+Mandara Kingdom / 曼达拉王国,1500,1902,Central Africa / 中非,41,Formation and Early Expansion,1500,1700,38,Early consolidation of states and regional trade with limited demographic reach.
+Mandara Kingdom / 曼达拉王国,1500,1902,Central Africa / 中非,41,Apex Consolidation,1701,1850,41,Heightened military-political cohesion and regional influence within Sahel trade networks.
+Mandara Kingdom / 曼达拉王国,1500,1902,Central Africa / 中非,41,Late Decline and Colonial Pressure,1851,1902,35,Internal fragmentation and increasing external (colonial) pressures reduced composite strength.
+Sultanate of Bagirmi / 巴吉尔米苏丹国,1522,1897,Central Africa / 中非,36,Foundation and Regional Growth,1522,1750,34,Early state formation with expanding local influence but limited centralized economy.
+Sultanate of Bagirmi / 巴吉尔米苏丹国,1522,1897,Central Africa / 中非,36,Suzerainty and Colonial Encounters,1751,1897,36,Increased political integration and later external pressures produced modest administrative resilience.
+Luba Empire / 卢巴帝国,1550,1889,Central Africa / 中非,51,Formation and Territorial Expansion,1550,1700,48,Regional state-building with expanding trade and growing political institutions.
+Luba Empire / 卢巴帝国,1550,1889,Central Africa / 中非,51,Imperial Peak and Institutionalization,1701,1850,51,"Strong centralized authority, trade networks, and demographic reach mark the apex."
+Luba Empire / 卢巴帝国,1550,1889,Central Africa / 中非,51,Late Contraction and Colonial Pressure,1851,1889,44,External incursions and internal strain reduced economic and political capacity.
+Kingdom of Loango / 卢安果王国,1550,1883,Central Africa / 中非,37,Early Coastal Consolidation,1550,1700,35,Coastal polity developing trade links with Atlantic commerce but limited population base.
+Kingdom of Loango / 卢安果王国,1550,1883,Central Africa / 中非,37,Atlantic Trade Peak,1701,1800,37,Heightened participation in Atlantic trade increased cultural and economic influence.
+Kingdom of Loango / 卢安果王国,1550,1883,Central Africa / 中非,37,Late Decline and Colonial Encroachment,1801,1883,33,Declining autonomy under growing European colonial pressure and internal fragmentation.
+Kuba Kingdom / 库巴王国,1625,1884,Central Africa / 中非,48,Formation and Political Consolidation,1625,1790,44,Centralized kingdom formation with developing artistic and administrative systems.
+Kuba Kingdom / 库巴王国,1625,1884,Central Africa / 中非,48,Institutional Flourishing,1791,1884,48,"Strong cultural production, centralized governance, and regional trade mark the high period."
+Sultanate of Wadai / 瓦达伊苏丹国,1635,1912,Central Africa / 中非,51,Emergence and Expansion,1635,1800,49,Expansion across Saharan trade routes with growing military and political organization.
+Sultanate of Wadai / 瓦达伊苏丹国,1635,1912,Central Africa / 中非,51,Apex Hegemony,1801,1870,51,Peak territorial control and institutional strength within the region.
+Sultanate of Wadai / 瓦达伊苏丹国,1635,1912,Central Africa / 中非,51,Decline under External Pressure,1871,1912,45,Colonial incursions and internal strains reduced sovereignty and economic capacity.
+Yeke Kingdom / 耶凯王国,1856,1891,Central Africa / 中非,40,Yeke Kingdom,1856,1891,40,Short-lived centralized kingdom with notable regional control but limited demographic and economic foundations.
+Sultanate of Utetera / 乌特特拉苏丹国,1860,1894,Central Africa / 中非,30,Utetera Sultanate,1860,1894,30,"Brief regional polity with constrained population, economy, and administrative development."
+Republic of Cameroon / 喀麦隆共和国,1960,2026,Central Africa / 中非,47,Independence and Unitary Consolidation,1960,1979,42,Early state-building with limited industrialization and centralized governance under single-party rule.
+Republic of Cameroon / 喀麦隆共和国,1960,2026,Central Africa / 中非,47,Authoritarian Entrenchment and Resource Development,1980,1991,45,Strengthened fiscal base via resource extraction but constrained political pluralism.
+Republic of Cameroon / 喀麦隆共和国,1960,2026,Central Africa / 中非,47,Political Liberalization and Regional Challenges,1992,2026,47,"Partial liberalization, sustained economic role, and heightened regional political significance."
+Republic of Gabon / 加蓬共和国,1960,2026,Central Africa / 中非,39,Post-Independence Consolidation,1960,1987,38,Authoritarian developmental model with oil revenues supporting limited institutional capacity.
+Republic of Gabon / 加蓬共和国,1960,2026,Central Africa / 中非,39,Oil-driven Authoritarian Stability,1988,2009,39,Resource wealth sustained governance capacity though social breadth remained limited.
+Republic of Gabon / 加蓬共和国,1960,2026,Central Africa / 中非,39,Recent Volatility and Institutional Strain,2010,2026,36,Economic fluctuations and political tensions reduced composite indicators.
+Republic of Chad / 乍得共和国,1960,2026,Central Africa / 中非,38,Post-Independence Fragmentation,1960,1979,33,Weak post-colonial institutions and recurring rebellions limited state capacity.
+Republic of Chad / 乍得共和国,1960,2026,Central Africa / 中非,38,Habré Era and Militarization,1980,1990,36,Authoritarian centralization increased military strength but undermined governance and welfare.
+Republic of Chad / 乍得共和国,1960,2026,Central Africa / 中非,38,Déby Consolidation,1991,2021,38,Relative stability and stronger control over territory with improved resource-driven revenues.
+Republic of Chad / 乍得共和国,1960,2026,Central Africa / 中非,38,Transitional Turbulence,2022,2026,34,Coup-era instability reduced governance and economic performance despite continued territorial integrity.
+Republic of the Congo (Léopoldville) / 刚果共和国（利奥波德维尔）,1960,1971,Central Africa / 中非,28,Crisis and Fragmentation,1960,1964,24,Congo Crisis-era fragmentation and weak central authority undermined state capacity.
+Republic of the Congo (Léopold维尔) / 刚果共和国（利奥波德维尔）,1960,1971,Central Africa / 中非,28,Mobutu Consolidation,1965,1971,26,Early Mobutu consolidation increased central control but long-term institutional weakness persisted.
+Central African Republic (Early) / 中非共和国（早期）,1960,1976,Central Africa / 中非,22,Initial Independence and Instability,1960,1965,18,Weak institutions and regional unrest characterized the early republican period.
+Central African Republic (Early) / 中非共和国（早期）,1960,1976,Central Africa / 中非,22,Bokassa Authoritarian Rule,1966,1976,22,Authoritarian centralization increased coercive capacity but failed to raise economy or welfare.
+Republic of the Congo (Brazzaville-Early) / 刚果共和国（布拉柴维尔-早期）,1960,1969,Central Africa / 中非,22,Early Post-Independence Period,1960,1969,22,Single early phase of fragile governance and limited economic development.
+Republic of Equatorial Guinea / 赤道几内亚共和国,1968,2026,Central Africa / 中非,27,Macías Tyranny,1968,1979,16,"Brutal dictatorship devastated institutions, economy, and social welfare."
+Republic of Equatorial Guinea / 赤道几内亚共和国,1968,2026,Central Africa / 中非,27,Obiang Consolidation (Early),1980,1992,22,Coup-driven stabilization brought modest administrative order but limited inclusive development.
+Republic of Equatorial Guinea / 赤道几内亚共和国,1968,2026,Central Africa / 中非,27,Oil Authoritarianism,1993,2026,27,Resource wealth under authoritarian rule raised GDP and regime durability without broad social gains.
+People's Republic of the Congo (Brazzaville) / 刚果人民共和国（布拉柴维尔）,1969,1992,Central Africa / 中非,31,Socialist Consolidation,1969,1979,29,One-party socialist consolidation increased state capacity and international alignment.
+People's Republic of the Congo (Brazzaville) / 刚果人民共和国（布拉柴维尔）,1969,1992,Central Africa / 中非,31,Economic Strain and Transition,1980,1992,31,Economic difficulties and late reforms eroded capacity but political control remained significant.
+Republic of Zaire / 扎伊尔共和国,1971,1997,Central Africa / 中非,36,Mobutu Consolidation and Zairianization,1971,1984,34,Strong personal rule with expanded state apparatus but structural economic weaknesses grew.
+Republic of Zaire / 扎伊尔共和国,1971,1997,Central Africa / 中非,36,Authoritarian Apex,1985,1990,36,Peak personalist control and international recognition despite deepening corruption.
+Republic of Zaire / 扎伊尔共和国,1971,1997,Central Africa / 中非,36,Decline and Collapse,1991,1997,30,Economic mismanagement and conflict precipitated rapid loss of state cohesion.
+Democratic Republic of São Tomé and Príncipe / 圣多美和普林西比民主共和国,1975,2026,Central Africa / 中非,29,Single-Party Independence Era,1975,1990,24,Initial socialist policies and limited economic base constrained development.
+Democratic Republic of São Tomé and Príncipe / 圣多美和普林西比民主共和国,1975,2026,Central Africa / 中非,29,Democratic Transition,1991,2000,28,Political liberalization improved governance structures with modest economic gains.
+Democratic Republic of São Tomé and Príncipe / 圣多美和普林西比民主共和国,1975,2026,Central Africa / 中非,29,Contemporary Service Economy,2001,2026,29,Tourism and small-scale oil prospects strengthened fiscal capacity and institutional stability.
+Central African Empire / 中非帝国,1976,1979,Central Africa / 中非,22,Empire Period,1976,1979,22,Short-lived imperial transformation concentrated power but worsened international standing and economy.
+Central African Republic / 中非共和国,1979,2026,Central Africa / 中非,24,Post-Empire Transition,1979,1992,22,Restoration of republic saw recurrent coups and weak institutional rebuilding.
+Central African Republic / 中非共和国,1979,2026,Central Africa / 中非,24,Electoral Experimentation and Coups,1993,2002,24,Periodic attempts at democratic governance produced limited stability and social gains.
+Central African Republic / 中非共和国,1979,2026,Central Africa / 中非,24,Authoritarian Return and Civil War,2003,2012,20,Armed conflict and state fragmentation severely reduced governance and services.
+Central African Republic / 中非共和国,1979,2026,Central Africa / 中非,24,International Stabilization and Fragility,2013,2026,23,International interventions achieved partial stabilization but long-term recovery remains limited.
+Republic of the Congo (Brazzaville) / 刚果共和国（布拉柴维尔）,1992,2026,Central Africa / 中非,35,Multiparty Transition,1992,1997,30,Initial democratic opening enhanced political pluralism but economic base remained narrow.
+Republic of the Congo (Brazzaville) / 刚果共和国（布拉柴维尔）,1992,2026,Central Africa / 中非,35,Civil War and Regression,1998,2002,28,Violent conflict undermined institutions and economic activity.
+Republic of the Congo (Brazzaville) / 刚果共和国（布拉柴维尔）,1992,2026,Central Africa / 中非,35,Post-Conflict Oil Consolidation,2003,2026,35,Oil revenues and centralized governance restored fiscal capacity and regional influence.
+Democratic Republic of the Congo (Kinshasa) / 刚果民主共和国（金沙萨）,1997,2026,Central Africa / 中非,35,Second Congo War and Fragmentation,1997,2002,25,Large-scale regional war and state disintegration sharply reduced capacity.
+Democratic Republic of the Congo (Kinshasa) / 刚果民主共和国（金沙萨）,1997,2026,Central Africa / 中非,35,Post-War Reconstruction and Resource Recovery,2003,2018,33,International interventions and resource rents partially rebuilt institutions and economy.
+Democratic Republic of the Congo (Kinshasa) / 刚果民主共和国（金沙萨）,1997,2026,Central Africa / 中非,35,Contemporary Transition and International Engagement,2019,2026,35,Improved political management and external support increased stability and governance.
+Mutal / 穆塔尔,90,869,Central America / 中美,57,Early Classic Formation,90,378,50,Early state consolidation with growing political centers but limited population and economy.
+Mutal / 穆塔尔,90,869,Central America / 中美,57,Classic Apex,379,562,57,"Peak urbanization, monumentality, and cultural-technological florescence across the polity."
+Mutal / 穆塔尔,90,869,Central America / 中美,57,Terminal Decline,563,869,45,"Late-period fragmentation, population decline, and loss of central authority."
+Kaan / 卡安,400,950,Central America / 中美,54,Formation and Rivalry,400,599,48,State formation amid interstate rivalry with growing elite complexity.
+Kaan / 卡安,400,950,Central America / 中美,54,Classic Hegemony,600,790,54,Apex of political-military influence and cultural production in the Classic period.
+Kaan / 卡安,400,950,Central America / 中美,54,Late Contraction,791,950,42,Loss of hegemony and regional fragmentation reduced composite strength.
+Toltec Empire / 托尔特克帝国,510,1122,Central America / 中美,56,Proto-Toltec Formation,510,900,44,Long developmental phase of regional polities and increasing urban complexity.
+Toltec Empire / 托尔特克帝国,510,1122,Central America / 中美,56,Toltec Apex,901,1030,56,Political-military dominance and cultural influence across central Mesoamerica.
+Toltec Empire / 托尔特克帝国,510,1122,Central America / 中美,56,Late Fragmentation,1031,1122,48,Decline in central authority and economic integration before collapse.
+League of Mayapan / 玛雅潘联盟,1007,1441,Central America / 中美,38,Formation and Regional Alliance,1007,1200,34,Emergence of a federative polity binding several northern Yucatecan cities.
+League of Mayapan / 玛雅潘联盟,1007,1441,Central America / 中美,38,Apex Confederation,1201,1400,38,Relative political cohesion and peak trade/cultural coordination in the league.
+League of Mayapan / 玛雅潘联盟,1007,1441,Central America / 中美,38,Collapse and Dispersion,1401,1441,30,Internal strife and collapse dissolved the confederation and reduced regional capacity.
+Aztec Empire / 阿兹特克帝国,1428,1521,Central America / 中美,60,Foundation and Alliance Building,1428,1469,55,Formation of the Triple Alliance and consolidation of tributary networks.
+Aztec Empire / 阿兹特克帝国,1428,1521,Central America / 中美,60,Expansion and Apex,1470,1519,60,"Territorial expansion, strong military-economy, and cultural ascendancy mark the high point."
+Aztec Empire / 阿兹特克帝国,1428,1521,Central America / 中美,60,Conquest and Collapse,1520,1521,40,Rapid military defeat and institutional collapse under Spanish conquest.
+Mexican Empire (First Empire) / 墨西哥帝国（第一帝国）,1821,1823,Central America / 中美,36,Independent Imperial Interlude,1821,1823,36,Short-lived imperial government with limited institutional consolidation and economic base.
+United Mexican States (First Republic) / 墨西哥合众国（第一共和国）,1823,1835,Central America / 中美,39,Early Republican Formation,1823,1828,36,Post-imperial state-building with weak administrative capacity and factionalism.
+United Mexican States (First Republic) / 墨西哥合众国（第一共和国）,1823,1835,Central America / 中美,39,Political Polarization and Weak Growth,1829,1835,39,Intensified factional conflict and constrained economic/political consolidation.
+Federal Republic of Central America / 中美洲联邦共和国,1823,1841,Central America / 中美,31,Federal Consolidation,1823,1838,31,Initial union-building with modest economic links and limited institutional depth.
+Federal Republic of Central America / 中美洲联邦共和国,1823,1841,Central America / 中美,31,Dissolution and Fragmentation,1839,1841,25,Rapid political breakdown and secession reduced the federation’s composite strength.
+Mexican Republic (Centralist Republic) / 墨西哥共和国（集权共和国）,1835,1846,Central America / 中美,36,Centralist Republic,1835,1846,36,Centralized political experiment with modest administrative gains but continued instability and economic limits.
+Republic of Nicaragua / 尼加拉瓜共和国,1838,2026,Central America / 中美,44,Early Republican Formation,1838,1893,36,Fragmented post-colonial state-building with limited economy and demographic base.
+Republic of Nicaragua / 尼加拉瓜共和国,1838,2026,Central America / 中美,44,US Influence and Political Realignment,1894,1933,38,Increasing foreign intervention and elite consolidation raised administrative but not social capacity.
+Republic of Nicaragua / 尼加拉瓜共和国,1838,2026,Central America / 中美,44,Somoza Dynasty Consolidation,1934,1979,40,Authoritarian stability improved territorial control and economic extractive capacity at the expense of governance quality.
+Republic of Nicaragua / 尼加拉瓜共和国,1838,2026,Central America / 中美,44,Sandinista Revolutionary Period,1980,1990,42,High mobilization and social-program investment increased governance reach despite external pressures.
+Republic of Nicaragua / 尼加拉瓜共和国,1838,2026,Central America / 中美,44,Post-Revolution Contemporary Era,1991,2026,44,Pluralized politics with mixed economic performance and stabilized institutions at the present baseline.
+Free State of Costa Rica / 哥斯达黎加自由邦,1838,1847,Central America / 中美,31,Free State Period,1838,1847,31,Short-lived polity with limited institutional depth but emerging local governance structures.
+State of Los Altos / 洛斯阿尔托斯国,1838,1840,Central America / 中美,20,Los Altos Interlude,1838,1840,20,Brief secessionist state with minimal territorial/population base and weak institutions.
+Republic of Guatemala / 危地马拉共和国,1839,2026,Central America / 中美,46,Conservative Early Republic,1839,1870,38,Post-federation conservative order with limited modernization and uneven control.
+Republic of Guatemala / 危地马拉共和国,1839,2026,Central America / 中美,46,Liberal Reform and Oligarchic Growth,1871,1943,44,Liberal modernization and coffee export growth strengthened economy and state capacity.
+Republic of Guatemala / 危地马拉共和国,1839,2026,Central America / 中美,46,1944–1953 Democratic Reform,1944,1953,46,Social and land reforms temporarily increased social welfare and cultural dynamism.
+Republic of Guatemala / 危地马拉共和国,1839,2026,Central America / 中美,46,Cold War Era and Civil Conflict,1954,1996,33,Coup-driven repression and prolonged civil war severely reduced governance and welfare.
+Republic of Guatemala / 危地马拉共和国,1839,2026,Central America / 中美,46,Post-Peace Institutional Recovery,1997,2026,46,Peace accords and gradual institutional strengthening improved economy and governance.
+Republic of Honduras / 洪都拉斯共和国,1839,2026,Central America / 中美,41,Early Republican Consolidation,1839,1899,34,Fragmented elites and limited economic diversification constrained state capacity.
+Republic of Honduras / 洪都拉斯共和国,1839,2026,Central America / 中美,41,Banana-Era Integration,1900,1932,38,Increasing export-led growth under foreign firms raised economy but weakened governance independence.
+Republic of Honduras / 洪都拉斯共和国,1839,2026,Central America / 中美,41,Military Dominance,1933,1979,36,Authoritarian rule provided order and some infrastructure but limited social development.
+Republic of Honduras / 洪都拉斯共和国,1839,2026,Central America / 中美,41,Democratic Transition,1980,2008,40,Partial democratization and institutional improvements increased composite strength.
+Republic of Honduras / 洪都拉斯共和国,1839,2026,Central America / 中美,41,Contemporary Political Volatility,2009,2026,41,Recent democratic backsliding and resilience produce mixed economic and governance indicators.
+Republic of El Salvador / 萨尔瓦多共和国,1841,2026,Central America / 中美,41,Oligarchic and Reform Periods,1841,1931,32,Large-landowner dominance limited broad economic development and inclusive governance.
+Republic of El Salvador / 萨尔瓦多共和国,1841,2026,Central America / 中美,41,Military Rule and Repression,1932,1979,36,Authoritarian stability with limited social investment and rising militarization.
+Republic of El Salvador / 萨尔瓦多共和国,1841,2026,Central America / 中美,41,Civil War,1980,1992,38,Intense conflict degraded institutions and population but produced subsequent impetus for reform.
+Republic of El Salvador / 萨尔瓦多共和国,1841,2026,Central America / 中美,41,Post-War Reconstruction and Modernization,1993,2026,41,Peace-era reforms improved governance and economy though social challenges persist.
+Republic of Yucatán / 尤卡坦共和国,1841,1848,Central America / 中美,33,Independent Yucatán Republic,1841,1848,33,Short-lived separatist republic with moderate economic resources but limited longevity.
+United Mexican States (Second Federal Republic) / 墨西哥合众国（第二联邦共和国）,1846,1863,Central America / 中美,34,Mexican-American War and Aftermath,1846,1855,30,War losses and political fragmentation weakened economy and governance.
+United Mexican States (Second Federal Republic) / 墨西哥合众国（第二联邦共和国）,1846,1863,Central America / 中美,34,Reform Era and Instability,1856,1863,34,Liberal reforms and political contestation improved institutional frameworks but remained fragile.
+Republic of Costa Rica (First Republic) / 哥斯达黎加共和国（第一共和国）,1848,1948,Central America / 中美,46,Liberal Consolidation and Coffee Boom,1848,1900,42,Stable elite rule and coffee export growth strengthened fiscal and governance capacity.
+Republic of Costa Rica (First Republic) / 哥斯达黎加共和国（第一共和国）,1848,1948,Central America / 中美,46,Welfare Expansion and Institutional Maturation,1901,1948,46,Sustained social investments and stable institutions produced relatively high governance and welfare metrics.
+Mexican Empire (Second Empire) / 墨西哥帝国（第二帝国）,1863,1867,Central America / 中美,38,Second Mexican Empire,1863,1867,38,Short foreign-backed imperial regime with limited duration and contested legitimacy.
+United Mexican States / 墨西哥合众国,1867,2026,Central America / 中美,64,Restored Republic,1867,1876,48,Reconstruction and institutional rebuilding after empire with moderate economic recovery.
+United Mexican States / 墨西哥合众国,1867,2026,Central America / 中美,64,Porfiriato (Authoritarian Modernization),1877,1910,60,"Authoritarian stability with substantial economic growth, infrastructure, and state capacity."
+United Mexican States / 墨西哥合众国,1867,2026,Central America / 中美,64,Mexican Revolution and Turbulence,1911,1920,50,Widespread conflict disrupted institutions but led to long-term social and political transformations.
+United Mexican States / 墨西哥合众国,1867,2026,Central America / 中美,64,Post-Revolution Institutionalization,1921,1940,58,State-building and land/education reforms strengthened governance and social indicators.
+United Mexican States / 墨西哥合众国,1867,2026,Central America / 中美,64,Industrialization and Import Substitution,1941,1970,60,Rapid industrial and urban growth increased economic and technological capacities.
+United Mexican States / 墨西哥合众国,1867,2026,Central America / 中美,64,Neoliberal Adjustment,1971,2000,55,Market reforms raised some macro metrics but increased social inequality and governance challenges.
+United Mexican States / 墨西哥合众国,1867,2026,Central America / 中美,64,Contemporary Democratic Era,2001,2026,64,"Pluralized politics, stronger institutions, and diversified economy define the present baseline."
+Republic of Panama / 巴拿马共和国,1903,2026,Central America / 中美,44,Founding and Canal Era,1903,1939,40,Canal construction and U.S. control established strategic importance but limited inclusive development.
+Republic of Panama / 巴拿马共和国,1903,2026,Central America / 中美,44,Canal Sovereignty and Cold War,1940,1979,44,Growing administrative capacity and strategic geopolitics improved state strength.
+Republic of Panama / 巴拿马共和国,1903,2026,Central America / 中美,44,Transition to Sovereignty,1980,1999,42,Political maturation and development tempered by inequality and episodic instability.
+Republic of Panama / 巴拿马共和国,1903,2026,Central America / 中美,44,Contemporary Political-Economic Era,2000,2026,44,Canal turnover and diversified services underpin stable governance and fiscal capacity.
+Republic of Costa Rica (Second Republic) / 哥斯达黎加共和国（第二共和国）,1949,2026,Central America / 中美,50,Founding Welfare-State Consolidation,1949,1979,48,Institutional abolition of the army and social investment built strong governance foundations.
+Republic of Costa Rica (Second Republic) / 哥斯达黎加共和国（第二共和国）,1949,2026,Central America / 中美,50,Export Diversification and Stability,1980,1999,50,Stable democracy and diversified economy strengthened governance and social welfare.
+Republic of Costa Rica (Second Republic) / 哥斯达黎加共和国（第二共和国）,1949,2026,Central America / 中美,50,Modern Service Economy,2000,2026,50,High institutional quality and mature social services sustain present composite strength.
+Belize / 伯利兹,1981,2026,Central America / 中美,32,Independence and Early Statehood,1981,1999,30,Small population and narrow economic base limited administrative and social capacities.
+Belize / 伯利兹,1981,2026,Central America / 中美,32,Contemporary Tourism and Institutions,2000,2026,32,Tourism and gradual institutional consolidation modestly improved composite indicators.
+Greco-Bactrian Kingdom / 希腊-巴克特里亚王国,-256,-120,Central Asia / 中亚,53,Early Hellenistic Consolidation,-256,-180,50,Hellenistic foundations created urbanized centers and trade networks with moderate reach.
+Greco-Bactrian Kingdom / 希腊-巴克特里亚王国,-256,-120,Central Asia / 中亚,53,Apex Hellenistic Polity,-179,-120,53,"Strong cultural synthesis, military capability, and regional economic integration mark the peak."
+Kidarite Kingdom / 寄多罗王朝,320,467,Central Asia / 中亚,42,Kidarite Period,320,467,42,Regional nomadic-sedentary polity with limited area and economic depth but notable political cohesion.
+Hephthalite Empire / 嚈哒帝国,440,560,Central Asia / 中亚,55,Hephthalite Hegemony,440,560,55,Significant military dominance and cultural imprint across Central Asia with substantial territorial control.
+First Turkic Khaganate / 突厥汗国,552,603,Central Asia / 中亚,43,Formation and Consolidation,552,577,40,Initial confederation-building with rising military-political mobility but limited settled economy.
+First Turkic Khaganate / 突厥汗国,552,603,Central Asia / 中亚,43,Apex Khaganate,578,603,43,Unified khaganate exhibited peak military reach and political integration across steppe networks.
+Western Turkic Khaganate / 西突厥汗国,581,742,Central Asia / 中亚,43,Western Formation,581,640,40,Emergent confederation consolidating control over trade routes with variable administrative structures.
+Western Turkic Khaganate / 西突厥汗国,581,742,Central Asia / 中亚,43,Apex Western Khaganate,641,700,43,Strong regional influence and economic control at the polity’s height.
+Western Turkic Khaganate / 西突厥汗国,581,742,Central Asia / 中亚,43,Fragmentation and Decline,701,742,37,Internal division and external pressure reduced coherence and institutional capacity.
+Tokhara Yabgu State / 吐火罗叶护国,625,758,Central Asia / 中亚,50,Tokhara Formation,625,680,46,Emergence balancing nomadic and urban interests with moderate economic and cultural roles.
+Tokhara Yabgu State / 吐火罗叶护国,625,758,Central Asia / 中亚,50,Apex Yabgu Rule,681,740,50,Consolidated regional authority with strong trade links and administrative organization.
+Tokhara Yabgu State / 吐火罗叶护国,625,758,Central Asia / 中亚,50,Late Contraction,741,758,42,External incursions and internal weakening reduced territorial and economic strength.
+Kyrgyz Khaganate / 黠戛斯汗国,637,925,Central Asia / 中亚,30,Early Confederation,637,750,28,Initial tribal confederation with limited settled economy and narrow demographic base.
+Kyrgyz Khaganate / 黠戛斯汗国,637,925,Central Asia / 中亚,30,Peak Steppe Influence,751,820,30,Heightened regional role on the steppe with modest administrative structures.
+Kyrgyz Khaganate / 黠戛斯汗国,637,925,Central Asia / 中亚,30,Late Decline,821,925,26,Fragmentation and reduced regional relevance lowered composite indicators.
+Turk Shahis / 突厥沙希王朝,665,822,Central Asia / 中亚,43,Early Turk Shahi Rule,665,740,40,Frontier dynasty consolidating control with moderate military and cultural presence.
+Turk Shahis / 突厥沙希王朝,665,822,Central Asia / 中亚,43,Apex and Resistance,741,822,43,Heightened military resistance and administrative consolidation mark the polity’s peak.
+Zunbil Dynasty / 樽比勒王朝,680,870,Central Asia / 中亚,40,Early Zunbil Period,680,770,38,Regional religious-royal polity with limited demographic and economic scale.
+Zunbil Dynasty / 樽比勒王朝,680,870,Central Asia / 中亚,40,Late Zunbil Consolidation,771,870,40,Maintained localized political-religious authority with steady cultural significance.
+Second Turkic Khaganate / 后突厥汗国,682,744,Central Asia / 中亚,44,Reconstitution and Consolidation,682,693,38,Initial re-establishment of Turkic authority with growing military-political structures.
+Second Turkic Khaganate / 后突厥汗国,682,744,Central Asia / 中亚,44,Apex Khaganate,694,716,44,Peak unity and steppe control with strongest military and political integration.
+Second Turkic Khaganate / 后突厥汗国,682,744,Central Asia / 中亚,44,Fragmentation and Decline,717,744,40,Internal succession disputes and external pressure eroded centralized authority.
+Türgesh / 突骑施,699,766,Central Asia / 中亚,38,Emergence and Consolidation,699,728,36,Formation of Türgesh power and consolidation of regional client networks.
+Türgesh / 突骑施,699,766,Central Asia / 中亚,38,Apex Resistance,729,740,38,Heightened military activity and control over key routes mark the polity’s high point.
+Türgesh / 突骑施,699,766,Central Asia / 中亚,38,Decline and Absorption,741,766,34,Loss of cohesion and pressure from rivals reduced territorial and political capacity.
+Oghuz Yabgu State / 乌古斯叶护国,750,1055,Central Asia / 中亚,40,Formation and Expansion,750,900,36,Emerging confederation with growing steppe influence but limited settled economy.
+Oghuz Yabgu State / 乌古斯叶护国,750,1055,Central Asia / 中亚,40,Apex Confederation,901,1005,40,Peak military-political influence across western steppe corridors and strong tribal cohesion.
+Oghuz Yabgu State / 乌古斯叶护国,750,1055,Central Asia / 中亚,40,Fragmentation and Absorption,1006,1055,34,Gradual disintegration and absorption by successor polities reduced autonomy.
+Ghurid Dynasty / 古尔王朝,786,1215,Central Asia / 中亚,63,Early Local Rule,786,997,48,Regional chiefs establish dynastic foundations with growing administrative capacity.
+Ghurid Dynasty / 古尔王朝,786,1215,Central Asia / 中亚,63,Imperial Expansion and Apex,998,1186,63,Rapid military expansion into northern India and Persia with strong institutional consolidation.
+Ghurid Dynasty / 古尔王朝,786,1215,Central Asia / 中亚,63,Late Fragmentation and Decline,1187,1215,50,Successional conflicts and external pressures diminished central authority.
+Kara-Khanid Khanate / 喀喇汗国,840,1212,Central Asia / 中亚,54,Formation and Islamization,840,990,48,Consolidation of Turkic elites and gradual Islamicization increased cohesion and trade.
+Kara-Khanid Khanate / 喀喇汗国,840,1212,Central Asia / 中亚,54,Apex Transoxianan Polity,991,1105,54,"Peak territorial control, trade integration, and cultural-scholarly influence."
+Kara-Khanid Khanate / 喀喇汗国,840,1212,Central Asia / 中亚,54,Decline and Fragmentation,1106,1212,44,Internal division and rising rivals reduced cohesion and regional power.
+Khwarazmian Empire / 花剌子模帝国,1077,1231,Central Asia / 中亚,56,Rise and Consolidation,1077,1192,48,Gradual expansion from regional principality to unified state with growing administration.
+Khwarazmian Empire / 花剌子模帝国,1077,1231,Central Asia / 中亚,56,Apex under Ala ad-Din Muhammad,1193,1220,56,Rapid territorial expansion and centralized rule mark the empire’s high point.
+Khwarazmian Empire / 花剌子模帝国,1077,1231,Central Asia / 中亚,56,Mongol Destruction and Residuals,1221,1231,28,Devastating Mongol invasions collapsed central institutions and sharply reduced capacity.
+Qara Khitai / 西辽,1124,1218,Central Asia / 中亚,47,Founding and Consolidation,1124,1150,42,Liao-founded polity establishes rule over diverse Central Asian territories with administrative adaptation.
+Qara Khitai / 西辽,1124,1218,Central Asia / 中亚,47,Apex Suzerainty,1151,1185,47,Height of cross-regional suzerainty and commercial-political influence.
+Qara Khitai / 西辽,1124,1218,Central Asia / 中亚,47,Decline and Fall,1186,1218,36,Military defeats and pressure from rising neighbors led to loss of authority and territory.
+Chagatai Khanate / 察合台汗国,1224,1346,Central Asia / 中亚,47,Unified Chagatai Ulus,1224,1260,44,Early successor-state continuity with control of key Silk Road routes and steppe mobilization.
+Chagatai Khanate / 察合台汗国,1224,1346,Central Asia / 中亚,47,Dual Khanate Fragmentation,1261,1300,40,Division between eastern and western factions reduced central governance and cohesion.
+Chagatai Khanate / 察合台汗国,1224,1346,Central Asia / 中亚,47,Western Revival under Duwa,1301,1320,47,Temporary political and military consolidation restored regional influence near the overall peak.
+Chagatai Khanate / 察合台汗国,1224,1346,Central Asia / 中亚,47,Terminal Disintegration,1321,1346,36,Successional conflict and external pressure fragmented authority and diminished capacity.
+Ögedei Khanate / 窝阔台汗国,1224,1309,Central Asia / 中亚,41,Early Ögedeid Ulus,1224,1241,40,Established princely domain with administrative continuity and moderate military reach.
+Ögedei Khanate / 窝阔台汗国,1224,1309,Central Asia / 中亚,41,Post-Imperial Decline,1242,1260,35,Imperial succession struggles and decentralization weakened centralized control.
+Ögedei Khanate / 窝阔台汗国,1224,1309,Central Asia / 中亚,41,Residual Central Asian Domain,1261,1309,30,Remaining territories persisted but with reduced political and military influence.
+Timurid Empire / 帖木儿帝国,1370,1507,Central Asia / 中亚,70,Conquest and Imperial Formation,1370,1405,70,Timur’s campaigns forged a large militarized empire with major cultural and infrastructural patronage.
+Timurid Empire / 帖木儿帝国,1370,1507,Central Asia / 中亚,70,Post-Timur Consolidation,1406,1447,64,"Successors maintained significant artistic, administrative, and economic centers despite territorial loss."
+Timurid Empire / 帖木儿帝国,1370,1507,Central Asia / 中亚,70,Fragmentation and Successor States,1448,1507,52,Dynastic splits and rising local polities reduced centralized capacity though cultural influence persisted.
+Uzbek Khanate / 乌兹别克汗国,1428,1471,Central Asia / 中亚,37,Abu’l-Khayr Consolidation,1428,1457,37,Confederation-building under Abu’l-Khayr increased steppe military cohesion and regional influence.
+Uzbek Khanate / 乌兹别克汗国,1428,1471,Central Asia / 中亚,37,Post-Abu’l-Khayr Fragmentation,1458,1471,30,Leadership crises and defections fragmented the polity and lowered composite strength.
+Kazakh Khanate / 哈萨克汗国,1465,1847,Central Asia / 中亚,50,Formation and Early Expansion,1465,1598,44,Consolidation of tribal alliances and territorial expansion established the khanate’s foundations.
+Kazakh Khanate / 哈萨克汗国,1465,1847,Central Asia / 中亚,50,Three Zhuz Structure (Apex),1599,1718,50,Decentralized confederation stabilized regional power and reached the polity’s overall peak.
+Kazakh Khanate / 哈萨克汗国,1465,1847,Central Asia / 中亚,50,Dzungar Wars and Crisis,1719,1758,40,Intense conflict with neighboring powers weakened demographic and economic bases.
+Kazakh Khanate / 哈萨克汗国,1465,1847,Central Asia / 中亚,50,Russian Encroachment and Decline,1759,1847,36,Gradual loss of sovereignty and incorporation into the Russian imperial system reduced autonomy and capacity.
+Khanate of Bukhara / 布哈拉汗国,1501,1785,Central Asia / 中亚,49,Early Consolidation,1501,1600,44,Early Shaybanid consolidation of territory and trade routes with growing administrative structures.
+Khanate of Bukhara / 布哈拉汗国,1501,1785,Central Asia / 中亚,49,Imperial Apex,1601,1740,49,"Height of centralized rule, Silk Road control and institutional strength."
+Khanate of Bukhara / 布哈拉汗国,1501,1785,Central Asia / 中亚,49,Late Weakening,1741,1785,42,Internal fragmentation and rising external pressures reduced political and economic capacity.
+Khanate of Khiva / 希瓦汗国,1511,1873,Central Asia / 中亚,43,Formation and Regional Rule,1511,1700,39,Early khanate formation with modest demographic and economic base.
+Khanate of Khiva / 希瓦汗国,1511,1873,Central Asia / 中亚,43,Apex Khivan Khanate,1701,1800,43,"Relative political consolidation, trade control and cultural influence at its height."
+Khanate of Khiva / 希瓦汗国,1511,1873,Central Asia / 中亚,43,Decline under Imperial Pressure,1801,1873,36,Gradual loss of autonomy and economic strain under growing Russian influence.
+Hotak Dynasty / 汉达基王朝,1709,1738,Central Asia / 中亚,46,Rise and Conquest,1709,1722,44,Rapid local consolidation and military successes established short-lived regional power.
+Hotak Dynasty / 汉达基王朝,1709,1738,Central Asia / 中亚,46,Peak Hotak Rule,1723,1730,46,Maximum territorial reach and military dominance under central leadership.
+Hotak Dynasty / 汉达基王朝,1709,1738,Central Asia / 中亚,46,Collapse and Overthrow,1731,1738,38,Internal dissent and external counterattacks precipitated rapid collapse.
+Khanate of Kokand / 浩罕汗国,1709,1876,Central Asia / 中亚,41,Foundation and Local Consolidation,1709,1770,38,Emergence of Kokand polity with growing regional trade and administrative institutions.
+Khanate of Kokand / 浩罕汗国,1709,1876,Central Asia / 中亚,41,Expansion and Apex,1771,1840,41,"Territorial expansion, economic consolidation and cultural flourishing mark the high period."
+Khanate of Kokand / 浩罕汗国,1709,1876,Central Asia / 中亚,41,Decline and Russian Pressure,1841,1876,35,Military defeats and colonial encroachment eroded sovereignty and economy.
+Durrani Empire / 杜兰尼帝国,1747,1842,Central Asia / 中亚,53,Foundation and Zenith,1747,1793,53,"Ahmad Shah’s conquests created a large, militarized empire with strong administrative foundations."
+Durrani Empire / 杜兰尼帝国,1747,1842,Central Asia / 中亚,53,Fragmentation and Regionalization,1794,1818,48,Successor fragmentation and regional power shifts reduced central control and economic cohesion.
+Durrani Empire / 杜兰尼帝国,1747,1842,Central Asia / 中亚,53,Late Decline,1819,1842,40,Internal divisions and external pressures culminated in loss of imperial coherence.
+Maimana Khanate / 迈马纳汗国,1747,1892,Central Asia / 中亚,37,Early Consolidation,1747,1820,34,Local khanate formation with limited demographic and economic base.
+Maimana Khanate / 迈马纳汗国,1747,1892,Central Asia / 中亚,37,Late Survival,1821,1892,37,Adaptation to regional power shifts preserved autonomy though capacity remained limited.
+Tashkent State / 塔什干国,1784,1808,Central Asia / 中亚,35,Tashkent Khanate,1784,1808,35,Short-lived emirate with urban trade significance but constrained territorial reach.
+Emirate of Bukhara / 布哈拉酋长国,1785,1873,Central Asia / 中亚,41,Early Emirate Consolidation,1785,1825,38,Transition from khanate to emirate with strengthening of dynastic rule.
+Emirate of Bukhara / 布哈拉酋长国,1785,1873,Central Asia / 中亚,41,Mid-Period Stability,1826,1865,41,Relative institutional stability and continued regional influence at peak capacity.
+Emirate of Bukhara / 布哈拉酋长国,1785,1873,Central Asia / 中亚,41,Late Pressure and Decline,1866,1873,36,Russian and internal pressures reduced sovereignty and economic performance.
+Emirate of Afghanistan / 阿富汗酋长国,1823,1926,Central Asia / 中亚,44,Barakzai Consolidation,1823,1878,42,Establishment of dynastic rule with expanding territorial administration.
+Emirate of Afghanistan / 阿富汗酋长国,1823,1926,Central Asia / 中亚,44,Conflict and Adjustment,1879,1901,40,Anglo-Afghan conflicts and internal strain limited modernization and social welfare.
+Emirate of Afghanistan / 阿富汗酋长国,1823,1926,Central Asia / 中亚,44,Modernizing Monarchy,1902,1926,44,Incremental administrative reforms and relative political stabilization raised composite strength.
+Kara-Kyrgyz Khanate / 喀喇吉尔吉斯汗国,1842,1867,Central Asia / 中亚,27,Kara-Kyrgyz Period,1842,1867,27,Short-lived polity with limited territorial base and modest economic and administrative capacity.
+Kingdom of Afghanistan / 阿富汗王国,1926,1973,Central Asia / 中亚,47,Nadir and Early Monarchy,1926,1933,45,Restoration of monarchy with consolidation of authority and modest modernization.
+Kingdom of Afghanistan / 阿富汗王国,1926,1973,Central Asia / 中亚,47,Zahir Shah Era,1933,1973,47,Long peace and gradual modernization produced improved governance and economic indicators.
+Republic of Afghanistan / 阿富汗共和国,1973,1978,Central Asia / 中亚,41,Republican Interlude,1973,1978,41,Brief republican rule with attempted modernization but rising political polarization.
+Democratic Republic of Afghanistan / 阿富汗民主共和国,1978,1992,Central Asia / 中亚,35,Revolutionary Consolidation,1978,1984,33,Radical reforms and insurgency produced heavy social disruption and constrained economy.
+Democratic Republic of Afghanistan / 阿富汗民主共和国,1978,1992,Central Asia / 中亚,35,Soviet Intervention and Stalemate,1985,1989,35,Soviet military presence stabilized regime but economic and governance costs remained high.
+Democratic Republic of Afghanistan / 阿富汗民主共和国,1978,1992,Central Asia / 中亚,35,Post-Withdrawal Collapse,1990,1992,28,Withdrawal and renewed civil conflict sharply reduced state capacity.
+Republic of Uzbekistan / 乌兹别克斯坦共和国,1991,2026,Central Asia / 中亚,52,Post-Soviet Transition,1991,1999,46,Authoritarian consolidation under Karimov with limited liberalization and rebuilding of institutions.
+Republic of Uzbekistan / 乌兹别克斯坦共和国,1991,2026,Central Asia / 中亚,52,Authoritarian Consolidation and Stability,2000,2016,52,"Strong centralized control, economic stabilization, and increasing regional influence mark the peak."
+Republic of Uzbekistan / 乌兹别克斯坦共和国,1991,2026,Central Asia / 中亚,52,Reform and International Engagement,2017,2026,50,Gradual policy opening and economic reforms improved governance and economic indicators while retaining authoritarian control.
+Republic of Kazakhstan / 哈萨克斯坦共和国,1991,2026,Central Asia / 中亚,52,Early Independence and Shock Adjustment,1991,1999,45,Post-Soviet transition with economic shock and elite consolidation limited broad development.
+Republic of Kazakhstan / 哈萨克斯坦共和国,1991,2026,Central Asia / 中亚,52,Oil Boom and Authoritarian Modernization,2000,2009,52,Resource-driven growth and state modernization raised the polity to its overall peak.
+Republic of Kazakhstan / 哈萨克斯坦共和国,1991,2026,Central Asia / 中亚,52,Consolidation and Diversification Attempts,2010,2019,50,Continued centralized governance with efforts to diversify economy and strengthen institutions.
+Republic of Kazakhstan / 哈萨克斯坦共和国,1991,2026,Central Asia / 中亚,52,Recent Political Adjustment,2020,2026,49,Political recalibration and social pressures moderated but did not reverse prior capacity.
+Republic of Tajikistan / 塔吉克斯坦共和国,1991,2026,Central Asia / 中亚,38,Civil War and Fragmentation,1991,1996,24,"Civil conflict devastated institutions, population, and economic capacity."
+Republic of Tajikistan / 塔吉克斯坦共和国,1991,2026,Central Asia / 中亚,38,Post-War Stabilization,1997,2009,34,Peace and authoritarian consolidation gradually rebuilt governance and economic activity.
+Republic of Tajikistan / 塔吉克斯坦共和国,1991,2026,Central Asia / 中亚,38,Authoritarian Consolidation and Remittances,2010,2026,38,Strong central rule with reliance on remittances and limited institutional depth.
+Turkmenistan / 土库曼斯坦,1991,2026,Central Asia / 中亚,37,Cult of Personality Era (Niyazov),1991,2006,30,Highly personalized rule with limited institutional development and uneven resource management.
+Turkmenistan / 土库曼斯坦,1991,2026,Central Asia / 中亚,37,Post-Niyazov Transition,2007,2016,36,Incremental administrative strengthening under new leadership but continued authoritarianism.
+Turkmenistan / 土库曼斯坦,1991,2026,Central Asia / 中亚,37,Contemporary Authoritarian Resource State,2017,2026,37,Resource-driven regime durability with constrained social and political freedoms.
+Kyrgyz Republic / 吉尔吉斯共和国,1991,2026,Central Asia / 中亚,36,Initial Pluralization and Instability,1991,2004,31,Early experiments with pluralism mixed with elite fragmentation and weak institutions.
+Kyrgyz Republic / 吉尔吉斯共和国,1991,2026,Central Asia / 中亚,36,Revolutions and Political Volatility,2005,2010,34,Repeated uprisings and turnover produced institutional instability but active civic life.
+Kyrgyz Republic / 吉尔吉斯共和国,1991,2026,Central Asia / 中亚,36,Electoral Democracy and Fragile Governance,2011,2026,36,Comparatively open politics with persistent governance and economic constraints.
+Islamic State of Afghanistan / 阿富汗伊斯兰国,1992,2002,Central Asia / 中亚,26,Mujahideen Fragmentation,1992,1995,20,Inter-factional warfare left weak central institutions and poor social outcomes.
+Islamic State of Afghanistan / 阿富汗伊斯兰国,1992,2002,Central Asia / 中亚,26,Taliban Ascendancy,1996,2000,26,Taliban consolidated military control across most territory but governance and welfare were severely limited.
+Islamic State of Afghanistan / 阿富汗伊斯兰国,1992,2002,Central Asia / 中亚,26,Transitional Collapse and International Intervention,2001,2002,22,US invasion and regime collapse produced a brief low-capacity transitional period.
+Islamic Republic of Afghanistan / 阿富汗伊斯兰共和国,2004,2021,Central Asia / 中亚,43,Karzai Reconstruction Era,2004,2013,41,Post-2001 state-building with heavy international support improved governance and services modestly.
+Islamic Republic of Afghanistan / 阿富汗伊斯兰共和国,2004,2021,Central Asia / 中亚,43,Ghani Years and Drawdown,2014,2021,43,Expanded institutions and limited economic gains counterbalanced by security challenges and corruption.
+Islamic Emirate of Afghanistan / 阿富汗伊斯兰酋长国,2021,2026,Central Asia / 中亚,31,Taliban Rule (Post-2021),2021,2026,31,"Complete territorial control restored military authority but governance, rights, and economic openness remain constrained."
+Hunnic Empire / 匈人帝国,370,469,Central Europe / 中欧,38,Migration and Rise,370,430,35,Rapid steppe mobilization and territorial expansion with emerging political cohesion.
+Hunnic Empire / 匈人帝国,370,469,Central Europe / 中欧,38,Attila Apex,431,453,38,Peak military power and political dominance across Central Europe under centralized leadership.
+Hunnic Empire / 匈人帝国,370,469,Central Europe / 中欧,38,Fragmentation and Collapse,454,469,30,Post-Attila succession crises and loss of cohesion produced rapid territorial disintegration.
+Avar Khaganate / 阿瓦尔汗国,567,822,Central Europe / 中欧,43,Conquest and Consolidation,567,630,40,Early Avar expansion establishing khaganate control and tribute networks in the Carpathian basin.
+Avar Khaganate / 阿瓦尔汗国,567,822,Central Europe / 中欧,43,Avar Apex,631,760,43,"Maximum territorial control, military strength, and regional influence across the plains."
+Avar Khaganate / 阿瓦尔汗国,567,822,Central Europe / 中欧,43,Decline under Frankish Pressure,761,822,34,Military defeats and internal fragmentation reduced political and economic capacity.
+Samo's Empire / 萨莫帝国,631,658,Central Europe / 中欧,27,Samo's Confederation,631,658,27,Short-lived Slavic confederation achieving regional military success but limited institutional depth.
+Carantania / 卡兰塔尼亚,658,828,Central Europe / 中欧,27,Early Principality,658,740,25,Small mountain polity with limited population and economic base but local governance structures.
+Carantania / 卡兰塔尼亚,658,828,Central Europe / 中欧,27,Frankish Integration and Autonomy,741,828,27,Increasing external influence but retained regional identity and modest political resilience.
+Great Moravia / 大摩拉维亚公国,833,907,Central Europe / 中欧,38,Formation and Expansion,833,871,36,Consolidation of Slavic principalities and expansion through alliances and conquest.
+Great Moravia / 大摩拉维亚公国,833,907,Central Europe / 中欧,38,Peak under Svatopluk,872,894,38,Territorial apex with strong political organization and cultural influence across the region.
+Great Moravia / 大摩拉维亚公国,833,907,Central Europe / 中欧,38,Decline and Dissolution,895,907,32,Internal division and external pressure led to loss of central authority and fragmentation.
+East Francia / 东法兰克王国,843,962,Central Europe / 中欧,44,Early Carolingian Continuity,843,887,42,Post-division consolidation preserved royal institutions and regional control.
+East Francia / 东法兰克王国,843,962,Central Europe / 中欧,44,Ottonian Consolidation and Apex,888,962,44,"Strengthened royal administration, military organization, and cultural-political influence under Ottonian rulers."
+Duchy of Bohemia / 波希米亚公国,870,1198,Central Europe / 中欧,43,Přemyslid Consolidation,870,1002,40,"Emergence of dynastic rule, local institution-building, and territorial consolidation."
+Duchy of Bohemia / 波希米亚公国,870,1198,Central Europe / 中欧,43,Growth and Autonomy,1003,1100,43,Expanded political influence and cultural development while maintaining regional autonomy.
+Duchy of Bohemia / 波希米亚公国,870,1198,Central Europe / 中欧,43,High Medieval Transition,1101,1198,39,Integration into wider Central European politics with stable institutions but limited expansion.
+Grand Principality of Hungary / 匈牙利大公国,895,1000,Central Europe / 中欧,39,Migration and Settlement,895,955,38,Consolidation of Magyar groups and establishment of territorial control across the Carpathian Basin.
+Grand Principality of Hungary / 匈牙利大公国,895,1000,Central Europe / 中欧,39,State Formation and Christianization,956,1000,39,Process of state-building and religious-political integration increased governance and regional standing.
+Holy Roman Empire / 神圣罗马帝国,962,1806,Central Europe / 中欧,57,Early Imperial Formation,962,1155,50,Ottonian-Salian consolidation created institutional backbone and territorial core.
+Holy Roman Empire / 神圣罗马帝国,962,1806,Central Europe / 中欧,57,Investiture & High Middle Ages,1156,1250,54,Expanded princely structures and economic integration increased composite capacity.
+Holy Roman Empire / 神圣罗马帝国,962,1806,Central Europe / 中欧,57,Late Medieval Fragmentation,1251,1500,56,Relatively high cultural and economic influence despite growing political particularism.
+Holy Roman Empire / 神圣罗马帝国,962,1806,Central Europe / 中欧,57,Early Modern Complexity,1501,1806,57,"Peak institutional complexity, economic weight, and enduring cultural-legal influence to 1806."
+Civitas Schinesghe / 波兰公国,966,1025,Central Europe / 中欧,31,Polanic Consolidation,966,992,28,Initial state formation under Mieszko I with limited demographic and economic reach.
+Civitas Schinesghe / 波兰公国,966,1025,Central Europe / 中欧,31,Piast Expansion and Coronation,993,1025,31,Bolesław’s consolidation increased territorial control and international standing.
+Kingdom of Hungary / 匈牙利王国,1000,1526,Central Europe / 中欧,57,Árpádian Consolidation,1000,1301,52,State formation and medieval consolidation expanded institutions and regional influence.
+Kingdom of Hungary / 匈牙利王国,1000,1526,Central Europe / 中欧,57,High Medieval Apex,1302,1526,57,"Peak territorial, military, and institutional strength culminating before Mohács."
+Kingdom of Poland / 波兰王国,1025,1569,Central Europe / 中欧,60,Piast Consolidation,1025,1385,55,Fragmentation and reunification produced steady growth in governance and cultural output.
+Kingdom of Poland / 波兰王国,1025,1569,Central Europe / 中欧,60,Jagiellonian Apex,1386,1569,60,"Territorial expansion, dynastic unions, and cultural florescence mark the polity’s high point."
+Kingdom of Bohemia / 波希米亚王国,1198,1620,Central Europe / 中欧,50,Přemyslid and Early Growth,1198,1310,45,Dynastic consolidation and regional trade fostered steady institutional development.
+Kingdom of Bohemia / 波希米亚王国,1198,1620,Central Europe / 中欧,50,Charlesian Apex,1311,1378,50,"Under Luxembourg rule cultural, economic, and political influence reached a peak."
+Kingdom of Bohemia / 波希米亚王国,1198,1620,Central Europe / 中欧,50,Late Medieval to Early Modern Transition,1379,1620,48,Continued cultural importance but increasing external pressures and confessional conflict.
+State of the Teutonic Order / 条顿骑士团国,1226,1525,Central Europe / 中欧,46,Conquest & Crusading Expansion,1226,1350,42,Military-religious state-building created territorial control and economic bases in Prussia.
+State of the Teutonic Order / 条顿骑士团国,1226,1525,Central Europe / 中欧,46,Apex and Administrative Maturity,1351,1410,46,Administrative consolidation and economic integration mark the high point before Grunwald.
+State of the Teutonic Order / 条顿骑士团国,1226,1525,Central Europe / 中欧,46,Decline and Secularization,1411,1525,39,Military defeat and political isolation led to territorial loss and institutional weakening.
+Electorate of Saxony / 萨克森选侯国,1356,1806,Central Europe / 中欧,49,Late Medieval Electorate,1356,1499,45,Electoral establishment with growing regional princely authority and economic bases.
+Electorate of Saxony / 萨克森选侯国,1356,1806,Central Europe / 中欧,49,Reformation and Electoral Prominence,1500,1648,49,Religious leadership and cultural-economic strength elevated the electorate’s influence.
+Electorate of Saxony / 萨克森选侯国,1356,1806,Central Europe / 中欧,49,Early Modern Consolidation,1649,1806,47,Recovery and institutional resilience preserved significant regional capacity into the Napoleonic era.
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,1453,1804,Central Europe / 中欧,67,Habsburg Consolidation and Border Defense,1453,1526,58,Early territorial consolidation and defense against Ottoman expansion strengthened administration.
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,1453,1804,Central Europe / 中欧,67,Counter-Reformation and Institutional Growth,1527,1648,62,Administrative centralization and confessional consolidation increased governance capacity.
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,1453,1804,Central Europe / 中欧,67,Imperial Hegemony and Military Consolidation,1649,1740,65,Dynastic expansion and military strengthening increased regional influence.
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,1453,1804,Central Europe / 中欧,67,Reform and Late Habsburg Strength,1741,1804,67,Administrative reforms and fiscal modernization produced peak institutional capacity.
+Duchy of Prussia / 普鲁士公国（勃兰登堡-普鲁士）,1525,1701,Central Europe / 中欧,42,Ducal Foundation under Polish Suzerainty,1525,1618,36,Small duchy with limited autonomy and modest economic and military capacity.
+Duchy of Prussia / 普鲁士公国（勃兰登堡-普鲁士）,1525,1701,Central Europe / 中欧,42,Brandenburg-Prussia Personal Union and Consolidation,1619,1688,40,Union with Brandenburg strengthened administrative and territorial integration.
+Duchy of Prussia / 普鲁士公国（勃兰登堡-普鲁士）,1525,1701,Central Europe / 中欧,42,Militarization and Kingdom Preparation,1689,1701,42,Military expansion and fiscal reform prepared elevation to a kingdom.
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,1569,1795,Central Europe / 中欧,60,Union and Golden Age,1569,1648,60,Large federative state with strong cultural output and extensive territory.
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,1569,1795,Central Europe / 中欧,60,Crisis and Military Strain,1649,1688,52,Wars and internal instability weakened governance and economy.
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,1569,1795,Central Europe / 中欧,60,Saxon Era Recovery Attempts,1689,1763,56,Partial stabilization occurred but systemic political weaknesses persisted.
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,1569,1795,Central Europe / 中欧,60,Terminal Decline and Partitions,1764,1795,40,External intervention and institutional paralysis led to state collapse.
+Electorate of Bavaria / 巴伐利亚选侯国,1623,1806,Central Europe / 中欧,44,War and Reconstruction,1623,1700,40,Thirty Years' War devastation followed by gradual rebuilding.
+Electorate of Bavaria / 巴伐利亚选侯国,1623,1806,Central Europe / 中欧,44,Electoral Consolidation and Cultural Growth,1701,1806,44,Administrative stabilization and cultural development marked peak strength.
+Electorate of Brunswick-Lunenburg / 不伦瑞克-吕讷堡选侯国,1692,1807,Central Europe / 中欧,39,Early Electoral Formation,1692,1713,36,Initial establishment of electoral institutions with limited power base.
+Electorate of Brunswick-Lunenburg / 不伦瑞克-吕讷堡选侯国,1692,1807,Central Europe / 中欧,39,Personal Union Influence Era,1714,1807,39,Personal union with Britain increased diplomatic and economic standing.
+Kingdom of Prussia / 普鲁士王国,1701,1871,Central Europe / 中欧,63,Early Kingdom Formation,1701,1740,50,Administrative modernization and consolidation built foundations of state power.
+Kingdom of Prussia / 普鲁士王国,1701,1871,Central Europe / 中欧,63,Frederickian Military State,1741,1806,60,Military success and bureaucratic efficiency raised Prussia to great power status.
+Kingdom of Prussia / 普鲁士王国,1701,1871,Central Europe / 中欧,63,Reform and Industrial Expansion,1807,1861,62,"Post-Napoleonic reforms strengthened economy, governance, and technology."
+Kingdom of Prussia / 普鲁士王国,1701,1871,Central Europe / 中欧,63,Bismarckian Unification Peak,1862,1871,63,Military victories and diplomatic strategy culminated in German unification.
+Principality of Liechtenstein / 列支敦士登亲王国,1719,2026,Central Europe / 中欧,44,Early Principality Formation,1719,1805,28,Small sovereign court-state with limited population and economic base.
+Principality of Liechtenstein / 列支敦士登亲王国,1719,2026,Central Europe / 中欧,44,Mediatization and Adaptation,1806,1918,32,Loss of immediacy but continued dynastic stability and gradual administrative consolidation.
+Principality of Liechtenstein / 列支敦士登亲王国,1719,2026,Central Europe / 中欧,44,Interwar Neutrality and Financial Foundations,1919,1945,34,Neutral stance and beginning of fiscal/financial identity increased resilience.
+Principality of Liechtenstein / 列支敦士登亲王国,1719,2026,Central Europe / 中欧,44,Postwar Modernization,1946,1990,36,Sustained institutional development and economic modernization raise composite strength.
+Principality of Liechtenstein / 列支敦士登亲王国,1719,2026,Central Europe / 中欧,44,Integration and Financial-State Maturity,1991,2026,44,Service-oriented economy and strong governance produce the polity’s current peak.
+Helvetic Republic / 海尔维第共和国,1798,1803,Central Europe / 中欧,29,Helvetic Republic (single phase),1798,1803,29,Short-lived centralized republic with weak institutional depth and heavy external influence.
+Valais Republic / 瓦莱共和国,1802,1810,Central Europe / 中欧,23,Valais Republic (single phase),1802,1810,23,Brief revolutionary-era polity with minimal territorial/population base and low institutional capacity.
+Electorate of Hesse / 黑森选侯国,1803,1866,Central Europe / 中欧,36,Napoleonic Transformation,1803,1814,30,Political restructuring under Napoleonic dominance with limited economic expansion.
+Electorate of Hesse / 黑森选侯国,1803,1866,Central Europe / 中欧,36,Restoration and Conservative Order,1815,1847,34,Post-Napoleonic recovery and conservative institutional consolidation.
+Electorate of Hesse / 黑森选侯国,1803,1866,Central Europe / 中欧,36,Revolutionary Upheaval,1848,1851,28,Brief political turbulence reduced governance and economic performance.
+Electorate of Hesse / 黑森选侯国,1803,1866,Central Europe / 中欧,36,Late Electorate Stability,1852,1866,36,Administrative stabilization and modest economic improvement prior to annexation.
+Austrian Empire / 奥地利帝国,1804,1867,Central Europe / 中欧,59,Founding and Napoleonic Era,1804,1814,50,Creation under Habsburg dynasty with wartime mobilization and administrative consolidation.
+Austrian Empire / 奥地利帝国,1804,1867,Central Europe / 中欧,59,Metternich Order and Institutional Consolidation,1815,1847,56,Conservative international role and strengthened fiscal-administrative systems.
+Austrian Empire / 奥地利帝国,1804,1867,Central Europe / 中欧,59,Revolutionary Crisis and Short-Term Disruption,1848,1851,45,Revolutions reduced short-term governance effectiveness and economic stability.
+Austrian Empire / 奥地利帝国,1804,1867,Central Europe / 中欧,59,Bach System and Reformed Habsburg Strength,1852,1867,59,Administrative reforms and regained political-economic capacity define the peak phase.
+Kingdom of Bavaria / 巴伐利亚王国,1806,1871,Central Europe / 中欧,50,Kingdom Foundation and Napoleonic Alignment,1806,1814,44,Elevation to kingdom with institutional reshaping under Napoleonic influence.
+Kingdom of Bavaria / 巴伐利亚王国,1806,1871,Central Europe / 中欧,50,Restoration and State-Building,1815,1847,48,Administrative consolidation and economic recovery increase composite strength.
+Kingdom of Bavaria / 巴伐利亚王国,1806,1871,Central Europe / 中欧,50,Revolutionary Disturbance,1848,1851,42,Political unrest temporarily weakened governance and economic performance.
+Kingdom of Bavaria / 巴伐利亚王国,1806,1871,Central Europe / 中欧,50,Industrializing Consolidation,1852,1871,50,Modernization and institutional maturity produce the polity’s apex.
+Kingdom of Saxony / 萨克森王国,1806,1871,Central Europe / 中欧,48,Kingdom Creation and Napoleonic Aftermath,1806,1814,42,Elevation to kingdom with limited resources but important regional position.
+Kingdom of Saxony / 萨克森王国,1806,1871,Central Europe / 中欧,48,Restoration and Cultural-Economic Growth,1815,1847,46,Recovery with significant cultural and proto-industrial development.
+Kingdom of Saxony / 萨克森王国,1806,1871,Central Europe / 中欧,48,Revolutionary Shock,1848,1851,40,Short-term political instability reduced composite indicators.
+Kingdom of Saxony / 萨克森王国,1806,1871,Central Europe / 中欧,48,Late Modernization and Integration,1852,1871,48,Industrial growth and administrative strengthening mark the high phase.
+Grand Duchy of Baden / 巴登大公国,1806,1871,Central Europe / 中欧,47,Grand Duchy Foundation and Reform,1806,1814,42,Creation and early administrative reforms under Napoleonic settlement.
+Grand Duchy of Baden / 巴登大公国,1806,1871,Central Europe / 中欧,47,Constitutional Development and Economic Growth,1815,1847,45,Constitutional reform and economic modernization improved composite strength.
+Grand Duchy of Baden / 巴登大公国,1806,1871,Central Europe / 中欧,47,Revolutionary Interruption,1848,1851,39,Revolutionary disturbances temporarily reduced governance and stability.
+Grand Duchy of Baden / 巴登大公国,1806,1871,Central Europe / 中欧,47,Industrial Consolidation,1852,1871,47,Economic modernization and administrative consolidation reach the polity’s peak.
+Kingdom of Württemberg / 符腾堡王国,1806,1871,Central Europe / 中欧,45,Kingdom Establishment,1806,1814,40,Elevation to kingdom with state reorganization and limited economic base.
+Kingdom of Württemberg / 符腾堡王国,1806,1871,Central Europe / 中欧,45,Restoration and Institutional Growth,1815,1847,43,Post-Napoleonic reforms and moderate economic development strengthen governance.
+Kingdom of Württemberg / 符腾堡王国,1806,1871,Central Europe / 中欧,45,Revolutionary Period,1848,1851,37,Political upheaval temporarily reduced institutional effectiveness.
+Kingdom of Württemberg / 符腾堡王国,1806,1871,Central Europe / 中欧,45,Late Consolidation and Modernization,1852,1871,45,Administrative reform and economic improvement mark the late peak.
+Grand Duchy of Hesse / 黑森大公国,1806,1871,Central Europe / 中欧,38,Formation and Napoleonic Alignment,1806,1814,32,State creation under Napoleonic reorganization with limited resources.
+Grand Duchy of Hesse / 黑森大公国,1806,1871,Central Europe / 中欧,38,Restoration and Moderate Growth,1815,1847,36,Gradual institutional development and regional economic contribution.
+Grand Duchy of Hesse / 黑森大公国,1806,1871,Central Europe / 中欧,38,Revolutionary Disturbance,1848,1851,30,Revolutionary events constrained governance and social stability.
+Grand Duchy of Hesse / 黑森大公国,1806,1871,Central Europe / 中欧,38,Late Institutional Stabilization,1852,1871,38,Post-revolution consolidation and modest economic gains restored composite strength.
+Duchy of Nassau / 拿骚公国,1806,1866,Central Europe / 中欧,33,Napoleonic Creation and Early Rule,1806,1815,28,Created under Napoleonic order with limited autonomy and modest resources.
+Duchy of Nassau / 拿骚公国,1806,1866,Central Europe / 中欧,33,Restoration and Administrative Consolidation,1816,1847,31,Post-Napoleonic stabilization improved institutions but economic base remained small.
+Duchy of Nassau / 拿骚公国,1806,1866,Central Europe / 中欧,33,Revolutionary Turbulence,1848,1851,26,Revolutionary unrest temporarily weakened governance and fiscal capacity.
+Duchy of Nassau / 拿骚公国,1806,1866,Central Europe / 中欧,33,Late Electorate Stability and Annexation,1852,1866,33,Relative administrative consolidation prior to Prussian annexation marks the polity’s peak.
+Duchy of Warsaw / 华沙公国,1807,1815,Central Europe / 中欧,36,Napoleonic Client State,1807,1815,36,Short-lived Napoleonic duchy with mobilized administration but limited longevity and resources.
+Kingdom of Hanover / 汉诺威王国,1814,1866,Central Europe / 中欧,38,Restoration and Dynastic Consolidation,1814,1837,35,Reestablished monarchy with conservative institutions and modest modernization.
+Kingdom of Hanover / 汉诺威王国,1814,1866,Central Europe / 中欧,38,Industrial and Administrative Growth,1838,1856,37,Infrastructure and economic development strengthened state capacity.
+Kingdom of Hanover / 汉诺威王国,1814,1866,Central Europe / 中欧,38,Pre-Unification Crisis and Annexation,1857,1866,38,Political-military tensions and Prussian ascendancy culminated in annexation.
+Grand Duchy of Mecklenburg-Schwerin / 梅克伦堡-什未林大公国,1815,1871,Central Europe / 中欧,33,Post-Napoleonic Restoration,1815,1847,30,Conservative restoration limited reform and economic expansion.
+Grand Duchy of Mecklenburg-Schwerin / 梅克伦堡-什未林大公国,1815,1871,Central Europe / 中欧,33,1848 Turmoil and Slow Modernization,1848,1851,28,Revolutionary disturbances slowed institutional progress.
+Grand Duchy of Mecklenburg-Schwerin / 梅克伦堡-什未林大公国,1815,1871,Central Europe / 中欧,33,Late Administrative Consolidation,1852,1871,33,Gradual modernization and stability improved composite indicators before German unification.
+Swiss Confederation / 瑞士联邦,1848,2026,Central Europe / 中欧,63,Federal Founding and Institutional Formation,1848,1874,55,Creation of a federal constitution established durable institutions and rule of law.
+Swiss Confederation / 瑞士联邦,1848,2026,Central Europe / 中欧,63,Industrialization and Neutrality Consolidation,1875,1914,60,Industrial growth and firm neutrality expanded economy and international standing.
+Swiss Confederation / 瑞士联邦,1848,2026,Central Europe / 中欧,63,World Wars and Social Consolidation,1915,1945,58,Neutrality preserved sovereignty while social cohesion and institutional resilience deepened.
+Swiss Confederation / 瑞士联邦,1848,2026,Central Europe / 中欧,63,Postwar Prosperity and Institutional Peak,1946,1990,63,"High economic development, social welfare, and strong governance mark the peak phase."
+Swiss Confederation / 瑞士联邦,1848,2026,Central Europe / 中欧,63,Contemporary Integration and Stability,1991,2026,62,Continued high governance and economic strength with globalization-era adjustments.
+Austria-Hungary / 奥匈帝国,1867,1918,Central Europe / 中欧,61,Austro-Hungarian Compromise and Formation,1867,1890,58,Creation of dual monarchy stabilized governance and expanded industrialization.
+Austria-Hungary / 奥匈帝国,1867,1918,Central Europe / 中欧,61,Belle Époque Apex,1891,1913,61,"Economic growth, cultural florescence, and strong multinational administration mark the peak."
+Austria-Hungary / 奥匈帝国,1867,1918,Central Europe / 中欧,61,World War I and Collapse,1914,1918,36,Mass mobilization and defeat precipitated imperial disintegration and institutional collapse.
+German Empire / 德意志帝国,1871,1918,Central Europe / 中欧,80,Unification and Bismarckian Consolidation,1871,1890,70,"State-building, administrative modernization, and industrial growth laid the foundation for great-power status."
+German Empire / 德意志帝国,1871,1918,Central Europe / 中欧,80,Wilhelmine Expansion and Peak,1891,1913,80,"Rapid industrial, military, and scientific ascendancy produce the polity’s apex in composite strength."
+German Empire / 德意志帝国,1871,1918,Central Europe / 中欧,80,World War I and Dissolution,1914,1918,50,"Total war strained economy and society, ending in defeat and imperial collapse."
