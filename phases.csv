@@ -725,7 +725,7 @@ Western Han / 西汉,-202,9,East Asia / 东亚,80,Late Western Han Decline,-86,9
 Wiman Chosŏn / 卫满朝鲜,-194,-108,East Asia / 东亚,37,Wiman Chosŏn Consolidation,-194,-140,37,Frontier kingdom consolidated control over northern Korea and regional trade networks.
 Wiman Chosŏn / 卫满朝鲜,-194,-108,East Asia / 东亚,37,Late Period and Han Conquest,-139,-108,33,Increasing Han pressure and internal tensions culminated in conquest and incorporation.
 Silla / 新罗,-57,935,East Asia / 东亚,58,Early Tribal Kingdom,-57,356,40,Emerging polity with limited territorial scale and gradually developing aristocratic institutions.
-Silla / 新罗,-57,935,East Asia / 东亚,58,Three Kingdoms Consolidation,357,668,55,Military expansion and institutional development culminated in victory over Baekje and Goguryeo.
+Silla / 新罗,-57,935,East Asia / 东亚,58,Three Kingdoms Consolidation,357,668,53,Military expansion and institutional development culminated in victory over Baekje and Goguryeo.
 Silla / 新罗,-57,935,East Asia / 东亚,58,Unified Silla Apex,669,780,58,Political unity of most of the peninsula supported strong cultural and economic development.
 Silla / 新罗,-57,935,East Asia / 东亚,58,Late Silla Decline,781,935,45,Aristocratic factionalism and regional rebellions gradually eroded central authority.
 Xin / 新,9,23,East Asia / 东亚,44,Wang Mang Reform Regime,9,23,44,Radical economic and administrative reforms attempted large-scale restructuring but destabilized the state.
@@ -845,3 +845,226 @@ Balhae / 渤海,698,926,East Asia / 东亚,46,Late Decline and Conquest,851,926,
 Japan (Nara-Heian Period) / 日本（奈良-平安时代）,710,1185,East Asia / 东亚,48,Nara Period: Centralized Court Formation,710,794,40,Imperial codification and Buddhist-state patronage created early centralized institutions.
 Japan (Nara-Heian Period) / 日本（奈良-平安时代）,710,1185,East Asia / 东亚,48,Heian Peak: Aristocratic Culture and Stability,795,1066,48,"Fujiwara hegemony, court culture, and economic stability mark the polity’s apex."
 Japan (Nara-Heian Period) / 日本（奈良-平安时代）,710,1185,East Asia / 东亚,48,Late Heian Fragmentation and War,1067,1185,34,Provincial militarization and warrior ascendancy culminated in the Gempei wars and regime change.
+Nanzhao / 南诏,738,902,East Asia / 东亚,39,Founding and Consolidation,738,760,34,Early unification of peripheral tribes and consolidation of royal authority around Dali.
+Nanzhao / 南诏,738,902,East Asia / 东亚,39,Expansion and Peak,761,829,39,"Territorial expansion, trade integration, and strong court institutions mark the polity’s apex."
+Nanzhao / 南诏,738,902,East Asia / 东亚,39,Decline and Fragmentation,830,902,29,Internal succession disputes and external pressure gradually eroded central control.
+Uyghur Khaganate / 回鹘汗国,742,848,East Asia / 东亚,51,Formation and Steppe Consolidation,742,756,44,Post-Göktürk reorganization produced rapid confederational consolidation across the steppe.
+Uyghur Khaganate / 回鹘汗国,742,848,East Asia / 东亚,51,Apex Hegemony,757,840,51,"Dominant steppe polity with strong military, trade links, and diplomatic leverage over Tang China."
+Uyghur Khaganate / 回鹘汗国,742,848,East Asia / 东亚,51,Collapse and Succession,841,848,28,Internal factionalism and military defeats precipitated rapid collapse and fragmentation.
+Yan (An-Shi) / 燕（安史）,756,763,East Asia / 东亚,32,An–Shi Rebellion,756,763,32,Insurrectionary regime centered in the north that briefly challenged Tang authority before suppression.
+Qocho / 高昌回鹘,843,1132,East Asia / 东亚,49,Foundation and Oasis Consolidation,843,900,44,Establishment of Uyghur rule in Gaochang and consolidation of Silk Road urban administration.
+Qocho / 高昌回鹘,843,1132,East Asia / 东亚,49,Commercial Apex and Cultural Synthesis,901,1030,49,Peak economic and cultural integration as a major Silk Road urban polity.
+Qocho / 高昌回鹘,843,1132,East Asia / 东亚,49,Late Pressure and Transition,1031,1132,34,External military pressures and shifting trade routes reduced autonomy and capacity.
+Guiyi Prefecture / 归义军,851,1036,East Asia / 东亚,45,Formation and Frontier Rule,851,900,40,Local military-governor consolidation maintained control of oasis and trade corridors.
+Guiyi Prefecture / 归义军,851,1036,East Asia / 东亚,45,Regional Apex,901,975,45,"Relative regional stability, trade revenue, and administrative order mark the high phase."
+Guiyi Prefecture / 归义军,851,1036,East Asia / 东亚,45,Decline and Absorption,976,1036,30,Increasing pressure from neighboring polities and loss of trade primacy weakened governance.
+Later Baekje / 后百济,892,936,East Asia / 东亚,28,Later Baekje,892,936,28,Short-lived successor kingdom with limited resources that was overtaken by stronger Korean polities.
+Ganzhou Uyghur Kingdom / 甘州回鹘,894,1036,East Asia / 东亚,45,Establishment and Consolidation,894,950,38,Oasis-based Uyghur polity consolidating control of caravan routes and local administration.
+Ganzhou Uyghur Kingdom / 甘州回鹘,894,1036,East Asia / 东亚,45,Peak Regional Influence,951,1036,45,Heightened commercial and political influence across Gansu corridor before decline.
+Former Jin / 前晋,896,923,East Asia / 东亚,39,Founding and Consolidation,896,915,36,Initial consolidation of Jin authority in northern circuits after late Tang fragmentation.
+Former Jin / 前晋,896,923,East Asia / 东亚,39,Terminal Instability and Fall,916,923,28,Internal coups and external pressure precipitated rapid collapse and replacement.
+T'aebong / 后高句丽,901,918,East Asia / 东亚,28,T'aebong,901,918,28,Short-lived kingdom formed from Goguryeo remnants that was overrun by later Korean polities.
+Qi / 岐,901,924,East Asia / 东亚,27,Qi,901,924,27,Brief regional polity with limited institutional depth and eventual absorption by stronger neighbors.
+Wu / 吴（十国）,902,937,East Asia / 东亚,46,Formation and Regional Consolidation,902,923,40,Emergence as a major southern state with growing administrative and military structures.
+Wu / 吴（十国）,902,937,East Asia / 东亚,46,Peak and Late Stability,924,937,46,Strong maritime economy and court governance define the high period before dynastic change.
+Dachanghe / 大长和,902,928,East Asia / 东亚,31,Dachanghe,902,928,31,Short-lived regional regime with modest resources that persisted until absorption by neighbors.
+Wuyue / 吴越（十国）,907,978,East Asia / 东亚,55,Founding and Coastal Consolidation,907,939,50,Qian family consolidated the Yangtze delta with strong maritime commerce and stable governance.
+Wuyue / 吴越（十国）,907,978,East Asia / 东亚,55,Commercial Apex and Cultural Flourishing,940,978,55,"Prosperous maritime trade, stable institutions, and cultural patronage mark the polity’s peak."
+Former Shu / 前蜀（十国）,907,925,East Asia / 东亚,48,Founding and State-Building,907,915,44,Liang and later Wang rulers built centralized administration and local economic bases.
+Former Shu / 前蜀（十国）,907,925,East Asia / 东亚,48,Apex and Administrative Consolidation,916,925,48,"Relative stability, cultural patronage, and military organization represent the polity’s high point."
+Later Liang / 后梁,907,923,East Asia / 东亚,38,Foundation and Early Rule,907,915,35,Xu Wen–Zhuo family consolidation created a fragile but functioning early regime.
+Later Liang / 后梁,907,923,East Asia / 东亚,38,Late Instability and Collapse,916,923,38,Factionalism and military weakness culminated in loss of legitimacy and dynastic replacement.
+Chu / 楚（十国）,907,951,East Asia / 东亚,37,Founding and Territorial Consolidation,907,930,33,Initial centralization and control of the middle Yangtze established the kingdom’s base.
+Chu / 楚（十国）,907,951,East Asia / 东亚,37,Peak Regional Influence,931,947,37,Heightened administrative reach and military presence mark the polity’s apex.
+Chu / 楚（十国）,907,951,East Asia / 东亚,37,Decline and Annexation,948,951,24,Internal divisions and external pressure led to rapid territorial loss and absorption.
+Min / 闽（十国）,909,945,East Asia / 东亚,37,Formation and Maritime Consolidation,909,933,34,Maritime trade and regional authority centered on Fujian provided modest cohesion.
+Min / 闽（十国）,909,945,East Asia / 东亚,37,Late Fragmentation and Fall,934,945,37,Internal factionalism and military defeats eroded central control and led to conquest.
+Zhao (Chengde) / 赵（成德军）,910,921,East Asia / 东亚,31,Chengde Regency and Local Rule,910,921,31,Regional military governorship maintained local order but lacked broader state capacity.
+Yan (Lulong) / 燕（卢龙军）,911,914,East Asia / 东亚,27,Lulong Military Regime,911,914,27,Short-lived military regime controlling the Lulong circuit with limited institutional depth.
+Liao / 辽,916,1125,East Asia / 东亚,60,Khitan Confederation and Early Expansion,916,947,50,Unification of Khitan tribes and expansion into northern China laid the foundation for statehood.
+Liao / 辽,916,1125,East Asia / 东亚,60,Imperial Apex and Institutionalization,948,1031,60,"Territorial consolidation, dual administration, and strong military–diplomatic reach mark the high period."
+Liao / 辽,916,1125,East Asia / 东亚,60,Mature State and Cultural Integration,1032,1100,56,"Stable institutions, trade, and cultural synthesis sustained high composite strength."
+Liao / 辽,916,1125,East Asia / 东亚,60,Late Decline and Fragmentation,1101,1125,28,Internal succession crises and rising external pressures culminated in collapse.
+Southern Han / 南汉（十国）,917,971,East Asia / 东亚,43,Founding and Coastal Consolidation,917,941,38,Maritime commerce and regional administration under Liu family rule established the state’s base.
+Southern Han / 南汉（十国）,917,971,East Asia / 东亚,43,Peak and Regional Influence,942,962,43,Relative economic vitality and administrative coherence mark the polity’s apex.
+Southern Han / 南汉（十国）,917,971,East Asia / 东亚,43,Decline and Conquest,963,971,26,Late military weakness and external conquest ended independent rule.
+Goryeo / 高丽,918,1392,East Asia / 东亚,57,Foundation and Unification,918,943,52,Wang Geon’s consolidation unified the peninsula and established enduring institutions.
+Goryeo / 高丽,918,1392,East Asia / 东亚,57,Imperial Apex and Cultural Flourishing,944,1150,57,"Centralized bureaucracy, cultural patronage, and regional influence represent the polity’s peak."
+Goryeo / 高丽,918,1392,East Asia / 东亚,57,Late Decentralization and Mongol Impact,1151,1270,45,Mongol domination and internal aristocratic pressures reduced sovereign capacity and autonomy.
+Goryeo / 高丽,918,1392,East Asia / 东亚,57,Terminal Decline and Transition,1271,1392,36,Prolonged factionalism and weakened institutions culminated in the dynasty’s replacement.
+Later Tang / 后唐,923,937,East Asia / 东亚,45,Foundation and Early Consolidation,923,926,45,Rapid military consolidation under Li Cunxu established imperial institutions and initial authority.
+Later Tang / 后唐,923,937,East Asia / 东亚,45,Factional Breakdown and Collapse,927,937,30,Successional conflict and military factionalism eroded governance and led to dynastic fall.
+Jingnan / 荆南（十国）,924,963,East Asia / 东亚,29,Jingnan,924,963,29,Long-lived regional regime with modest resources that maintained local autonomy through pragmatic governance.
+Dayining / 大义宁,929,937,East Asia / 东亚,28,Dayining,929,937,28,Short-lived separatist regime with limited territorial control and weak institutions.
+Later Shu / 后蜀（十国）,934,965,East Asia / 东亚,48,Founding and Consolidation,934,959,48,Local consolidation and cultural patronage under Wang family rule created the polity’s peak capacity.
+Later Shu / 后蜀（十国）,934,965,East Asia / 东亚,48,Late Decline and Conquest,960,965,34,Military pressure from stronger neighbors and internal limits produced territorial loss and collapse.
+Later Jin / 后晋,936,947,East Asia / 东亚,34,Later Jin,936,947,34,Short-lived northern dynasty with strong military origins but limited institutional depth and eventual overthrow.
+Southern Tang / 南唐（十国）,937,975,East Asia / 东亚,48,Establishment and Cultural-Administrative Peak,937,958,48,"State-building, economic prosperity, and cultural patronage defined the polity’s high phase."
+Southern Tang / 南唐（十国）,937,975,East Asia / 东亚,48,Late Decline and Absorption,959,975,34,Military setbacks and diplomatic isolation led to progressive loss of sovereignty.
+Dali Kingdom / 大理,937,1254,East Asia / 东亚,48,Foundation and Regional Consolidation,937,1030,44,Formation of centralized Dali rule linking highland agrarian bases with frontier trade networks.
+Dali Kingdom / 大理,937,1254,East Asia / 东亚,48,Apex Political and Cultural Phase,1031,1120,48,"Strong centralized monarchy, thriving trade, and cultural patronage mark the polity’s peak."
+Dali Kingdom / 大理,937,1254,East Asia / 东亚,48,Late Pressure and Mongol Conquest,1121,1254,32,Increasing external pressure and eventual Mongol incorporation reduced autonomy and capacity.
+Later Han / 后汉,947,951,East Asia / 东亚,34,Later Han,947,951,34,Brief restoration with modest administrative control that quickly succumbed to rival powers.
+Qingyuan Prefecture / 清源军,949,978,East Asia / 东亚,39,Qingyuan Prefecture,949,978,39,Regional military-governor polity maintaining local order and controlling important southern circuits.
+Later Zhou / 后周,951,960,East Asia / 东亚,52,Foundation and Reform Consolidation,951,955,52,Guo Wei’s restoration and institutional reforms established strong central authority and military efficiency.
+Later Zhou / 后周,951,960,East Asia / 东亚,52,Consolidation and Succession,956,960,40,Continued centralization and military preparedness maintained high state capacity until dynastic transition.
+Northern Han / 北汉（十国）,951,979,East Asia / 东亚,32,Northern Han,951,979,32,Peripheral Shanxi polity preserving continuity of Tang elites with limited resources and recurring military pressure.
+Northern Song / 北宋,960,1127,East Asia / 东亚,73,Founding and Consolidation,960,997,66,Post-Tang reunification and institutional consolidation established strong civil governance.
+Northern Song / 北宋,960,1127,East Asia / 东亚,73,Economic and Cultural Apex,998,1110,73,"Commercial growth, technological advances, and cultural florescence mark the polity’s high point."
+Northern Song / 北宋,960,1127,East Asia / 东亚,73,Late Military Crisis and Collapse,1111,1127,50,Jurchen military pressure and frontier failures eroded military capacity and precipitated dynastic loss.
+Western Xia / 西夏,1038,1127,East Asia / 东亚,43,Foundation and Tangut Consolidation,1038,1067,38,State formation and consolidation of Tangut institutions created a durable regional polity.
+Western Xia / 西夏,1038,1127,East Asia / 东亚,43,Apex and Regional Power,1068,1100,43,Strong military organization and control over Silk Road corridors mark the peak phase.
+Western Xia / 西夏,1038,1127,East Asia / 东亚,43,Late Pressure and Decline,1101,1127,30,Increasing external pressure from Liao/Jin and internal strains reduced sovereignty and capacity.
+Jin / 金,1115,1234,East Asia / 东亚,61,Founding and Rapid Expansion,1115,1149,58,Jurchen military victories and rapid territorial gains established state structures and regional dominance.
+Jin / 金,1115,1234,East Asia / 东亚,61,Consolidation and Administrative Peak,1150,1200,61,Administrative integration and military strength produced the polity’s apex.
+Jin / 金,1115,1234,East Asia / 东亚,61,Fragmentation and Decline,1201,1234,38,Late internal division and Mongol pressures precipitated territorial loss and collapse.
+Southern Song / 南宋,1127,1279,East Asia / 东亚,68,Reestablishment and Recovery,1127,1162,60,Political reconstitution in the south with economic recovery and institutional rebuilding after northern loss.
+Southern Song / 南宋,1127,1279,East Asia / 东亚,68,Commercial and Cultural Apex,1163,1270,68,"Maritime trade, fiscal resilience, and cultural achievements mark the high phase despite military limits."
+Southern Song / 南宋,1127,1279,East Asia / 东亚,68,Mongol Pressure and Fall,1271,1279,45,Sustained Mongol campaigns and blockade undermined state capacity and ended independent rule.
+Khamag Mongol / 蒙兀国,1131,1206,East Asia / 东亚,31,Proto-Confederation Formation,1131,1165,24,Emerging tribal confederation with limited centralized institutions and modest regional reach.
+Khamag Mongol / 蒙兀国,1131,1206,East Asia / 东亚,31,Confederational Strengthening,1166,1195,31,Greater steppe cohesion and military-political influence mark the polity’s strongest phase.
+Khamag Mongol / 蒙兀国,1131,1206,East Asia / 东亚,31,Late Consolidation before Empire,1196,1206,28,Final consolidation under rising leaders increased cohesion but remained below fully imperial scale.
+Kamakura Shogunate / 日本（镰仓幕府）,1185,1333,East Asia / 东亚,49,Founding and Institutionalization,1185,1221,44,Establishment of warrior governance and the shogunal-bakufu administrative framework stabilized rule.
+Kamakura Shogunate / 日本（镰仓幕府）,1185,1333,East Asia / 东亚,49,Hōjō Regency Apex,1222,1274,49,"Hōjō regency consolidated military rule and administrative order, representing the shogunate’s high point."
+Kamakura Shogunate / 日本（镰仓幕府）,1185,1333,East Asia / 东亚,49,Decline and Collapse,1275,1333,35,"Mongol wars, economic strain, and political factionalism weakened the regime leading to fall."
+Mongol Empire / 蒙古帝国,1206,1260,East Asia / 东亚,75,Unification and State Formation,1206,1227,72,Temüjin’s unification and institutional reforms created a highly capable steppe polity.
+Mongol Empire / 蒙古帝国,1206,1260,East Asia / 东亚,75,Great Expansion and Imperial Apex,1228,1259,75,"Vast conquests, integrated logistics, and unprecedented military reach define the empire’s peak."
+Mongol Empire / 蒙古帝国,1206,1260,East Asia / 东亚,75,Post-Möngke Successional Shock,1260,1260,50,Möngke’s death and immediate succession crises produced rapid strategic recalibration and partial fragmentation.
+Eastern Liao / 东辽,1213,1269,East Asia / 东亚,32,Founding and Local Consolidation,1213,1219,28,Initial establishment and consolidation of Khitan/Jurchen remnant authority in the northeast.
+Eastern Liao / 东辽,1213,1269,East Asia / 东亚,32,Administrative Consolidation and Trade,1220,1239,32,Relative stability with strengthened administration and control of local trade routes marks the peak.
+Eastern Liao / 东辽,1213,1269,East Asia / 东亚,32,Mongol Pressure and Demise,1240,1269,24,Increasing Mongol pressure and loss of territory precipitated political collapse.
+Eastern Xia / 东夏,1215,1233,East Asia / 东亚,31,Founding and Early Rule,1215,1225,28,Puxian Wannu’s foundation established a short-lived frontier regime with regional control.
+Eastern Xia / 东夏,1215,1233,East Asia / 东亚,31,Apex Consolidation,1226,1230,31,Temporary consolidation of authority and resistance to neighboring powers represent the high point.
+Eastern Xia / 东夏,1215,1233,East Asia / 东亚,31,Mongol Campaigns and Fall,1231,1233,22,Rapid Mongol military campaigns ended independent rule and dissolved institutions.
+Yuan / 元,1271,1368,East Asia / 东亚,72,Conquest and Founding Consolidation,1271,1294,68,"Kublai’s unification, administrative reforms, and institutional foundation established imperial capacity."
+Yuan / 元,1271,1368,East Asia / 东亚,72,Imperial Apex and Integration,1295,1330,72,"Territorial integration, economic expansion, and cultural-technological flourishing mark the dynasty’s peak."
+Yuan / 元,1271,1368,East Asia / 东亚,72,Late Decline and Fragmentation,1331,1368,48,"Fiscal strain, factionalism, and uprisings undermined central authority leading to collapse."
+Muromachi Shogunate / 日本（室町幕府）,1336,1573,East Asia / 东亚,48,Founding and Institutionalization,1336,1392,44,Establishment of the bakufu and initial stabilization of warrior governance.
+Muromachi Shogunate / 日本（室町幕府）,1336,1573,East Asia / 东亚,48,Hōjō/Hōjō-like Regency Apex,1393,1467,48,Consolidation of shogunal institutions and relative national stability mark the high phase.
+Muromachi Shogunate / 日本（室町幕府）,1336,1573,East Asia / 东亚,48,Onin War and Sengoku Transition,1468,1573,30,Onin War and ensuing warring-period fragmentation sharply reduced central authority.
+Moghulistan / 东察合台汗国,1346,1462,East Asia / 东亚,41,Formation and Tribal Consolidation,1346,1370,36,Emergence as a Chagatai successor with consolidated tribal confederation and steppe control.
+Moghulistan / 东察合台汗国,1346,1462,East Asia / 东亚,41,Regional Hegemony,1371,1420,41,"Relative political cohesion, control over caravan routes, and military capacity mark the peak."
+Moghulistan / 东察合台汗国,1346,1462,East Asia / 东亚,41,Fragmentation and Decline,1421,1462,26,Internal division and external pressures fragmented authority and reduced state capacity.
+Phagmodrupa / 帕木竹巴,1358,1618,East Asia / 东亚,45,Founding and Centralization,1358,1435,40,Establishment of central Tibetan authority and consolidation of regional governance.
+Phagmodrupa / 帕木竹巴,1358,1618,East Asia / 东亚,45,Apex Stability and Cultural Patronage,1436,1565,45,"Relative political stability, religious patronage, and cultural development mark the high phase."
+Phagmodrupa / 帕木竹巴,1358,1618,East Asia / 东亚,45,Decline and Regional Fragmentation,1566,1618,28,Late internal rivalries and external influences eroded central rule and autonomy.
+Ming / 明,1368,1644,East Asia / 东亚,76,Founding & Early Consolidation,1368,1402,70,"Post-Yuan reunification, institutional rebuilding and territorial consolidation set strong foundations."
+Ming / 明,1368,1644,East Asia / 东亚,76,High Ming Apex,1403,1520,76,"Commercial growth, fiscal strength, naval projection and cultural-technological florescence mark the dynasty’s peak."
+Ming / 明,1368,1644,East Asia / 东亚,76,Mid–Late Strain and Collapse,1521,1644,58,"Fiscal strain, military decline, and internal rebellions reduced state capacity leading to collapse."
+Tatars (Mongols) / 鞑靼（蒙古）,1388,1635,East Asia / 东亚,38,Early Reconfiguration,1388,1450,34,Post-Genghis steppe polities reorganized with intermittent raids and limited centralized control.
+Tatars (Mongols) / 鞑靼（蒙古）,1388,1635,East Asia / 东亚,38,Relative Strength and Influence,1451,1550,38,Heightened steppe cohesion and periodic military-political influence across frontier zones.
+Tatars (Mongols) / 鞑靼（蒙古）,1388,1635,East Asia / 东亚,38,Late Fragmentation,1551,1635,24,"Fragmentation, sedentary pressures, and loss of cohesion reduced regional power."
+Kara Del / 哈密国,1389,1513,East Asia / 东亚,37,Establishment and Oasis Consolidation,1389,1470,34,Founding dynasty consolidated Hami oasis control and integrated Silk Road trade corridors.
+Kara Del / 哈密国,1389,1513,East Asia / 东亚,37,Apex Commercial-Political Phase,1471,1506,37,Peak political stability and commercial prosperity under local ruling houses.
+Kara Del / 哈密国,1389,1513,East Asia / 东亚,37,Late Pressure and Absorption,1507,1513,28,Rising external pressure and loss of autonomy culminated in absorption by larger polities.
+Joseon / 朝鲜王朝,1392,1897,East Asia / 东亚,62,Founding and Institutional Consolidation,1392,1591,62,"Strong centralization, land reforms, and neo-Confucian institutionalization established long-run stability."
+Joseon / 朝鲜王朝,1392,1897,East Asia / 东亚,62,Imjin War & Recovery,1592,1699,48,Severe military crisis followed by reconstruction and partial recovery of administrative capacity.
+Joseon / 朝鲜王朝,1392,1897,East Asia / 东亚,62,Late Joseon Stabilization and Reform Pressures,1700,1897,58,"Relative stability, fiscal constraints, and late reform attempts shaped late-period governance."
+Oirat Confederation / 四卫拉特,1399,1634,East Asia / 东亚,44,Formation and Confederational Growth,1399,1520,40,Emergence of Oirat confederation with increasing military cohesion and steppe influence.
+Oirat Confederation / 四卫拉特,1399,1634,East Asia / 东亚,44,Apex and Regional Hegemony,1521,1600,44,Dzungar/Oirat military-political consolidation and regional dominance mark the high phase.
+Oirat Confederation / 四卫拉特,1399,1634,East Asia / 东亚,44,Late Fragmentation and Decline,1601,1634,28,Internal splits and rising rivals reduced cohesion and territorial control.
+Ryukyu Kingdom / 琉球国,1429,1872,East Asia / 东亚,46,Unification and Independent Apex,1429,1608,46,Unified monarchy achieved maritime commerce prosperity and vibrant cultural exchange across East Asia.
+Ryukyu Kingdom / 琉球国,1429,1872,East Asia / 东亚,46,Satsuma Suzerainty and Constrained Autonomy,1609,1872,34,After 1609 vassalage to Satsuma significantly reduced sovereignty though economic life continued.
+Rinpungpa / 仁蚌巴,1435,1565,East Asia / 东亚,39,Emergence and Consolidation,1435,1465,34,Founder families consolidated regional power in central Tibet with growing patronage networks.
+Rinpungpa / 仁蚌巴,1435,1565,East Asia / 东亚,39,Apex Regional Hegemony,1466,1545,39,Heightened military-political control and cultural patronage mark the polity’s peak.
+Rinpungpa / 仁蚌巴,1435,1565,East Asia / 东亚,39,Decline and Replacement,1546,1565,24,Internal factionalism and rival dynastic pressures led to loss of central authority.
+Turpan Khanate / 吐鲁番汗国,1462,1570,East Asia / 东亚,39,Foundation and Caravan Consolidation,1462,1505,36,Establishment of Turpan oasis polity with consolidation of caravan routes and local administration.
+Turpan Khanate / 吐鲁番汗国,1462,1570,East Asia / 东亚,39,Apex Political Cohesion,1506,1545,39,Peak control over trade routes and relative political stability mark the high phase.
+Turpan Khanate / 吐鲁番汗国,1462,1570,East Asia / 东亚,39,Late Pressure and Fall,1546,1570,26,External military pressure and internal strain reduced sovereignty and led to collapse.
+Yarkent Khanate / 叶尔羌汗国,1514,1705,East Asia / 东亚,44,Establishment and Early Consolidation,1514,1590,40,Founding khanate consolidated oasis cities and caravan trade with growing administrative order.
+Yarkent Khanate / 叶尔羌汗国,1514,1705,East Asia / 东亚,44,Apex and Commercial Prosperity,1591,1670,44,"Heightened political stability, trade dominance, and cultural patronage mark the high period."
+Yarkent Khanate / 叶尔羌汗国,1514,1705,East Asia / 东亚,44,Late Decline and Fragmentation,1671,1705,28,Internal factionalism and external incursions fragmented authority and weakened the khanate.
+Tsangpa / 藏巴汗,1565,1642,East Asia / 东亚,43,Rise and Centralization,1565,1605,40,Formation of Tsangpa authority with consolidation of central Tibetan polities and military organization.
+Tsangpa / 藏巴汗,1565,1642,East Asia / 东亚,43,Apex Hegemony,1606,1620,43,Heightened control over central Tibet and patronage of significant religious institutions mark the peak.
+Tsangpa / 藏巴汗,1565,1642,East Asia / 东亚,43,Decline and Ganden Phodrang Challenge,1621,1642,28,Military setbacks and rival religious-political forces precipitated decline and eventual defeat.
+Japan (Azuchi–Momoyama Period) / 日本（安土桃山时代）,1568,1600,East Asia / 东亚,53,Oda Consolidation,1568,1582,48,Oda Nobunaga’s military breakthroughs and institutional innovations established centralizing momentum.
+Japan (Azuchi–Momoyama Period) / 日本（安土桃山时代）,1568,1600,East Asia / 东亚,53,Toyotomi Unification Apex,1583,1600,53,Hideyoshi completed political and fiscal unification and enacted major social reorganizations at the peak.
+Edo Shogunate / 日本（江户幕府）,1603,1868,East Asia / 东亚,61,Early Tokugawa Consolidation,1603,1650,58,"Foundation of bakufu institutions, land surveys, and stabilization after civil war."
+Edo Shogunate / 日本（江户幕府）,1603,1868,East Asia / 东亚,61,Stable Tokugawa Order and Economic Growth,1651,1789,61,"Prolonged peace, commercial expansion, and administrative maturity mark the high phase."
+Edo Shogunate / 日本（江户幕府）,1603,1868,East Asia / 东亚,61,Late Crisis and Opening,1790,1868,46,"Late fiscal strain, social pressures, and external intrusion weakened the shogunate leading to collapse."
+Later Jin / 后金,1616,1636,East Asia / 东亚,42,Unification and Jurchen Consolidation,1616,1626,40,Nurhaci’s consolidation of Jurchen tribes and military organization created the state base.
+Later Jin / 后金,1616,1636,East Asia / 东亚,42,Transition to Qing Apex,1627,1636,42,Hong Taiji consolidated institutions and prepared the polity for imperial conquest of Ming China.
+Zheng Clique / 明郑,1628,1683,East Asia / 东亚,44,Ming-Loyalist Maritime Resistance,1628,1661,44,Koxinga’s naval power and Taiwan base sustained the strongest Ming-loyalist opposition phase.
+Zheng Clique / 明郑,1628,1683,East Asia / 东亚,44,Late Resistance and Decline,1662,1683,30,Loss of continental footholds and progressive isolation reduced military and administrative capacity.
+Dzungar Khanate / 准噶尔汗国,1635,1757,East Asia / 东亚,48,Formation and Consolidation,1635,1680,40,Confederational formation and steppe consolidation established Dzungar military capacity.
+Dzungar Khanate / 准噶尔汗国,1635,1757,East Asia / 东亚,48,Apex Hegemony,1681,1745,48,"Peak territorial control, military strength, and political influence across Central Asia."
+Dzungar Khanate / 准噶尔汗国,1635,1757,East Asia / 东亚,48,Decline and Defeat,1746,1757,24,Internal strife and Qing military campaigns precipitated rapid collapse.
+Qing / 清,1636,1912,East Asia / 东亚,75,Conquest and Consolidation,1636,1683,70,"Manchu conquest, institution-building, and territorial integration established imperial foundations."
+Qing / 清,1636,1912,East Asia / 东亚,75,High Qing Apex,1684,1796,75,"Territorial peak, fiscal robustness, and cultural-economic florescence mark the dynasty’s prime."
+Qing / 清,1636,1912,East Asia / 东亚,75,Mid–Late Strains,1797,1850,62,"Fiscal stress, population pressures, and military setbacks began eroding state capacity."
+Qing / 清,1636,1912,East Asia / 东亚,75,Terminal Decline and Collapse,1851,1912,40,"Internal rebellions, foreign wars, and institutional failure culminated in dynastic collapse."
+Khoshut Khanate / 和硕特汗国,1642,1717,East Asia / 东亚,43,Foundation and Tibetan Patronage,1642,1670,38,Establishment of Khoshut rule and patronage of the Gelug order secured regional influence.
+Khoshut Khanate / 和硕特汗国,1642,1717,East Asia / 东亚,43,Apex and Religious-Political Hegemony,1671,1700,43,Strong military backing of Tibetan institutions and regional authority mark the high phase.
+Khoshut Khanate / 和硕特汗国,1642,1717,East Asia / 东亚,43,Decline and Absorption,1701,1717,26,Loss of internal cohesion and Qing pressure diminished sovereignty and ended independent rule.
+Great Shun / 大顺,1643,1646,East Asia / 东亚,36,Li Zicheng Revolt and Short Regime,1643,1646,36,Peasant-led revolutionary regime that achieved rapid territorial gains but failed to build sustainable institutions.
+Great Xi / 大西,1643,1647,East Asia / 东亚,27,Zhang Xianzhong Regime,1643,1647,27,Short-lived separatist state in Sichuan with extreme policies and rapid collapse.
+Southern Ming / 南明,1644,1683,East Asia / 东亚,45,Early Loyalist Resistance,1644,1662,45,Multiple Ming claimants sustained sizable resistance and regional administrations after 1644.
+Southern Ming / 南明,1644,1683,East Asia / 东亚,45,Late Remnants and Collapse,1663,1683,26,"Fragmentation, dwindling resources, and systematic Qing suppression ended remaining resistance."
+Taiping Heavenly Kingdom / 太平天国,1851,1864,East Asia / 东亚,43,Rise and Early Victories,1851,1853,40,Rapid mobilization and early military successes established a broad anti-Qing base.
+Taiping Heavenly Kingdom / 太平天国,1854,1856,East Asia / 东亚,43,Apex Expansion,1854,1856,43,Maximal territorial control and administrative experimentation mark the polity’s peak.
+Taiping Heavenly Kingdom / 太平天国,1857,1864,East Asia / 东亚,43,Fragmentation and Collapse,1857,1864,28,"Internal factionalism, logistic failures, and Qing reconquest precipitated rapid collapse."
+Empire of Japan / 大日本帝国,1868,1947,East Asia / 东亚,75,Meiji Modernization and Consolidation,1868,1912,75,"Comprehensive fiscal, legal, and military reforms created the modern imperial state and economic foundations."
+Empire of Japan / 大日本帝国,1868,1947,East Asia / 东亚,75,Taishō Liberal Interlude,1912,1926,66,Political liberalization and economic growth increased institutional complexity but limited strategic reach.
+Empire of Japan / 大日本帝国,1868,1947,East Asia / 东亚,75,Showa Militarization and War,1927,1945,72,Militarized expansion and industrial mobilization raised military capacity while undermining governance.
+Empire of Japan / 大日本帝国,1868,1947,East Asia / 东亚,75,Occupation and Surrender,1945,1947,22,"Defeat, occupation, and institutional collapse ended imperial sovereignty."
+Korean Empire / 大韩帝国,1897,1910,East Asia / 东亚,38,Founding and Reform Effort,1897,1904,38,Rapid modernization reforms and assertion of sovereignty mark the polity’s brief peak.
+Korean Empire / 大韩帝国,1897,1910,East Asia / 东亚,38,Protectorate and Annexation,1905,1910,20,"Russo-Japanese outcomes, Japanese protectorate status, and annexation terminated independence."
+Bogd Khanate / 博克多汗国,1911,1919,East Asia / 东亚,29,Restoration and Theocratic Rule,1911,1915,29,Monarchical restoration combined with religious authority created initial stability.
+Bogd Khanate / 博克多汗国,1911,1919,East Asia / 东亚,29,Political Fragmentation,1916,1919,22,Internal factionalism and external pressures reduced state capacity and led to collapse.
+Republic of China / 中华民国,1912,1949,East Asia / 东亚,56,Early Republican Fragmentation,1912,1926,40,Warlordism and weak central authority constrained national governance and development.
+Republic of China / 中华民国,1912,1949,East Asia / 东亚,56,Nanjing Decade: National Consolidation,1927,1937,56,Kuomintang centralization and developmental policies produced the polity’s strongest coherent phase.
+Republic of China / 中华民国,1912,1949,East Asia / 东亚,56,War with Japan,1937,1945,44,Total war mobilization and occupation severely strained institutions and economy.
+Republic of China / 中华民国,1912,1949,East Asia / 东亚,56,Civil War and Loss of Mainland,1946,1949,28,Internal warfare and governance collapse culminated in retreat to Taiwan.
+Tibet / 西藏,1912,1951,East Asia / 东亚,38,Post-Qing Autonomy and Consolidation,1912,1938,34,De facto autonomy with limited institutional modernization but relative internal order.
+Tibet / 西藏,1912,1951,East Asia / 东亚,38,External Pressure and Incorporation,1939,1951,30,Increasing external interventions and PLA occupation ended traditional autonomy.
+Mongolian People's Republic / 蒙古人民共和国,1924,1992,East Asia / 东亚,40,Founding Socialist Consolidation,1924,1945,34,Soviet-backed state formation with collectivization and institutional centralization.
+Mongolian People's Republic / 蒙古人民共和国,1924,1992,East Asia / 东亚,40,Socialist Institutional Peak,1946,1960,40,"Deepening Soviet ties, planned economy, and state consolidation characterize the high phase."
+Mongolian People's Republic / 蒙古人民共和国,1924,1992,East Asia / 东亚,40,Late Socialist Stagnation and Transition,1961,1992,28,Economic stagnation and eventual political liberalization produced gradual systemic erosion.
+Japan / 日本国,1947,2026,East Asia / 东亚,70,Occupation & Early Recovery,1947,1954,42,US occupation reforms stabilized institutions and set conditions for later growth.
+Japan / 日本国,1947,2026,East Asia / 东亚,70,High-Growth Industrialization,1955,1973,70,"Rapid industrialization, export-led growth, and broad social development mark the peak."
+Japan / 日本国,1947,2026,East Asia / 东亚,70,Oil Shocks & Structural Adjustment,1974,1989,65,Energy crises and structural shifts slowed growth but advanced technological capacity.
+Japan / 日本国,1947,2026,East Asia / 东亚,70,"Bubble, Lost Decade & Adjustment",1990,2002,60,Asset collapse and prolonged stagnation created persistent macro and fiscal challenges.
+Japan / 日本国,1947,2026,East Asia / 东亚,70,"Recovery, Abenomics & Demographic Headwinds",2003,2026,69,"Partial recovery, policy experimentation and demographic pressure shape modern performance."
+Republic of Korea / 大韩民国,1948,2026,East Asia / 东亚,68,Foundation & Korean War,1948,1959,28,War and reconstruction constrained early institutional and economic capacity.
+Republic of Korea / 大韩民国,1948,2026,East Asia / 东亚,68,Industrialization & Authoritarian Growth,1960,1987,60,State-led industrialization and export promotion transformed economic scale.
+Republic of Korea / 大韩民国,1948,2026,East Asia / 东亚,68,Democratization & Technological Leap,1988,1997,68,Transition to democracy and rapid tech-led growth represent the polity’s apex.
+Republic of Korea / 大韩民国,1948,2026,East Asia / 东亚,68,Asian Financial Crisis & Recovery,1998,2007,56,Crisis-induced reform restored competitiveness and modernized finance.
+Republic of Korea / 大韩民国,1948,2026,East Asia / 东亚,68,Mature High-Tech Democracy,2008,2026,64,"Digital economy, global integration, and consolidated democratic institutions define the baseline."
+Democratic People's Republic of Korea / 朝鲜民主主义人民共和国,1948,2026,East Asia / 东亚,38,Founding & War,1948,1957,30,"Establishment and wartime devastation shaped the early centralized, militarized state."
+Democratic People's Republic of Korea / 朝鲜民主主义人民共和国,1948,2026,East Asia / 东亚,38,Consolidation & Mobilized Economy,1958,1989,38,Heavy industrialization and militarization increased state capacity within an isolated model.
+Democratic People's Republic of Korea / 朝鲜民主主义人民共和国,1948,2026,East Asia / 东亚,38,Famine & Systemic Collapse,1990,2001,20,Economic collapse and humanitarian crisis sharply reduced composite state performance.
+Democratic People's Republic of Korea / 朝鲜民主主义人民共和国,1948,2026,East Asia / 东亚,38,Partial Stabilization & Militarized Stasis,2002,2026,32,Limited recovery with continued isolation and prioritization of military capabilities.
+People's Republic of China / 中华人民共和国,1949,2026,East Asia / 东亚,79,Revolutionary State-Building (Mao),1949,1976,30,Mass campaigns and political upheaval undermined economic modernization despite state consolidation.
+People's Republic of China / 中华人民共和国,1949,2026,East Asia / 东亚,79,Reform & Opening Initial Phase,1977,1999,65,"Market reforms restored growth, institutional capacity, and international engagement."
+People's Republic of China / 中华人民共和国,1949,2026,East Asia / 东亚,79,"Integration, Globalization & Apex",2000,2012,79,"WTO entry, rapid industrialization, and global integration mark the peak period."
+People's Republic of China / 中华人民共和国,1949,2026,East Asia / 东亚,79,Strategic Consolidation & Tech Push,2013,2026,77,State-led modernization and geopolitical assertiveness strengthen capacity while raising tensions.
+Republic of China (Taiwan) / 中华民国（台湾）,1949,2026,East Asia / 东亚,55,KMT Consolidation & Land Reform,1949,1978,40,"Authoritarian consolidation, land reform, and export groundwork set the development foundation."
+Republic of China (Taiwan) / 中华民国（台湾）,1949,2026,East Asia / 东亚,55,Export-Led Industrialization,1979,1987,55,Rapid industrial transformation and rising living standards represent the economic apex.
+Republic of China (Taiwan) / 中华民国（台湾）,1949,2026,East Asia / 东亚,55,Democratization & Institutional Deepening,1988,2000,50,Political liberalization and institutional maturation improved governance quality.
+Republic of China (Taiwan) / 中华民国（台湾）,1949,2026,East Asia / 东亚,55,High-Tech Leadership & Democratic Consolidation,2001,2026,55,Semiconductor leadership and stable democracy sustain the polity’s contemporary strength.
+Mongolia / 蒙古国,1992,2026,East Asia / 东亚,38,Transition Shock & Institutional Build-Up,1992,2003,24,Rapid liberalization produced economic hardship and institutional gaps in the early transition.
+Mongolia / 蒙古国,1992,2026,East Asia / 东亚,38,Resource Boom & Governance Gains,2004,2011,38,Mineral-driven growth increased revenues and state capacity during the boom.
+Mongolia / 蒙古国,1992,2026,East Asia / 东亚,38,"Stabilization, Diversification Attempts",2012,2026,34,Attempts at economic diversification and democratic consolidation amid volatility characterize recent years.
+Old Great Bulgaria / 大保加利亚,632,668,East Europe / 东欧,30,Old Great Bulgaria (single phase),632,668,30,Steppe confederation under Kubrat with limited institutional depth but notable regional presence.
+Khazar Khanate / 可萨汗国,650,969,East Europe / 东欧,53,Formation and Turkic Consolidation,650,720,45,Emergence from Turkic polities and consolidation of a multiethnic trading polity in the Volga–Caspian zone.
+Khazar Khanate / 可萨汗国,650,969,East Europe / 东欧,53,Commercial-Diplomatic Apex,721,860,53,"Peak commercial integration, Silk Road connectivity, and diplomatic influence between Byzantium and the Islamic world."
+Khazar Khanate / 可萨汗国,650,969,East Europe / 东欧,53,Decline and Fragmentation,861,969,30,Military pressures and rising regional powers eroded Khazar authority leading to collapse.
+Kievan Rus' / 基辅罗斯,882,1240,East Europe / 东欧,58,Formation and Varangian Foundations,882,980,50,"Varangian-led state formation, urban growth, and consolidation of riverine trade networks."
+Kievan Rus' / 基辅罗斯,882,1240,East Europe / 东欧,58,Kievan Apex and Cultural Flourishing,981,1132,58,"Political unity under strong princes, commercial expansion, and cultural-religious consolidation mark the apex."
+Kievan Rus' / 基辅罗斯,882,1240,East Europe / 东欧,58,Fragmentation and Mongol Conquest,1133,1240,30,Political disunity and the Mongol invasions culminated in the end of Kievan preeminence.
+Principality of Polotsk / 波洛茨克公国,945,1307,East Europe / 东欧,43,Founding and Local Consolidation,945,1100,36,Early regional consolidation around the Dvina with developing trade links and princely governance.
+Principality of Polotsk / 波洛茨克公国,945,1307,East Europe / 东欧,43,Polotsk Apex and Regional Role,1101,1200,43,"Heightened regional autonomy, trade activity, and occasional political prominence."
+Principality of Polotsk / 波洛茨克公国,945,1307,East Europe / 东欧,43,Decline and Lithuanian Pressure,1201,1307,28,Gradual loss of independence under Lithuanian expansion and internal limits.
+Principality of Volhynia / 沃伦公国,987,1199,East Europe / 东欧,38,Foundation and Growth,987,1120,34,State formation and consolidation of agrarian and trade bases in the Volhynian lands.
+Principality of Volhynia / 沃伦公国,987,1199,East Europe / 东欧,38,Apex Integration and Regional Power,1121,1199,38,"Political consolidation, regional alliances, and economic stability mark the high phase."
+Principality of Chernigov / 切尔尼戈夫公国,1024,1402,East Europe / 东欧,43,Early Growth and Regional Influence,1024,1237,40,Expansion and strong princely houses made Chernigov a major Rus' center before Mongol impact.
+Principality of Chernigov / 切尔尼戈夫公国,1024,1402,East Europe / 东欧,43,Mongol Vassalage and Persistence,1238,1402,34,Adaptation under Mongol domination with reduced autonomy but continued regional presence.
+Principality of Pereyaslavl / 佩列亚斯拉夫公国,1054,1239,East Europe / 东欧,39,Founding and Regional Role,1054,1169,36,Established as an important frontier principality with riverine trade and military responsibilities.
+Principality of Pereyaslavl / 佩列亚斯拉夫公国,1054,1239,East Europe / 东欧,39,Late Period to Mongol Conquest,1170,1239,39,Heightened military significance and administrative standing until Mongol destruction.
+Principality of Smolensk / 斯摩棱斯克公国,1054,1404,East Europe / 东欧,38,Early Principality and Growth,1054,1238,34,Regional consolidation on key trade routes and development of urban centers.
+Principality of Smolensk / 斯摩棱斯克公国,1054,1404,East Europe / 东欧,38,Mongol Era and Lithuanian Contestation,1239,1404,28,Reduced autonomy under Mongol influence followed by Lithuanian pressures and decline.
+Principality of Galicia / 加利西亚公国,1124,1199,East Europe / 东欧,38,Formation and Consolidation,1124,1158,32,Emergence of Galicia as a regional principality with growing economic and military capacity.
+Principality of Galicia / 加利西亚公国,1124,1199,East Europe / 东欧,38,Apex under Regional Princes,1159,1199,38,"Political consolidation, military successes, and enhanced regional influence mark the high phase."
+Principality of Vladimir-Suzdal / 弗拉基米尔-苏兹达尔大公国,1125,1389,East Europe / 东欧,48,Rise and Territorial Expansion,1125,1237,44,Territorial consolidation and institutional strengthening established northerly Rus' dominance.
+Principality of Vladimir-Suzdal / 弗拉基米尔-苏兹达尔大公国,1125,1389,East Europe / 东欧,48,Mongol Vassalage and Political Apex,1238,1328,48,Adaptation to Mongol suzerainty while maintaining princely prestige and administrative growth.
+Principality of Vladimir-Suzdal / 弗拉基米尔-苏兹达尔大公国,1125,1389,East Europe / 东欧,48,Late Fragmentation and Moscow Rise,1329,1389,30,Internal factionalism and the ascendancy of rival centers (notably Moscow) reduced regional primacy.
