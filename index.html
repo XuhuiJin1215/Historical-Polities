@@ -451,7 +451,7 @@
 
 <nav>
   <button class="active" onclick="switchTab('table')">📜 All Polities</button>
-  <button onclick="switchTab('query')">🗓 Query by Year</button>
+  <button onclick="switchTab('query')">📅 Query by Year</button>
   <button onclick="switchTab('update')">📥 How to Update</button>
 </nav>
 
@@ -1002,7 +1002,7 @@ function runYearQuery(){
           <div class="card-scores"><span class="score-badge ${scoreColor(score)}" title="Phase Score">${score !== null ? score : '—'}</span></div>
         </div>
         <div class="card-meta">
-          <span>🗓 ${startDisp} to ${endDisp}</span>
+          <span>📅 ${startDisp} to ${endDisp}</span>
           <span>📍 ${(p['Region'] || '').replace(/ \/ .*/, '')}</span>
           ${p['Language'] ? `<span>🗣 ${p['Language'].split('/')[0].trim()}</span>` : ''}
           ${p['Ethnic Group'] ? `<span>👥 ${p['Ethnic Group'].split('/')[0].trim()}</span>` : ''}
