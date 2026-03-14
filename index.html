@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -31,6 +32,7 @@
 
   *{ box-sizing: border-box; margin: 0; padding: 0; }
 
+  /* Restore the previous “historic” look: Crimson Pro body, Cinzel headings */
   body{
     font-family: 'Crimson Pro', Georgia, serif;
     background: var(--bg);
@@ -40,6 +42,7 @@
     line-height: 1.5;
   }
 
+  /* Header (historic) */
   header{
     background: linear-gradient(180deg, #1a1308 0%, var(--bg2) 100%);
     border-bottom: 1px solid var(--gold-dim);
@@ -66,6 +69,7 @@
     font-style: italic;
   }
 
+  /* Tab Nav */
   nav{
     display: flex;
     border-bottom: 1px solid var(--border);
@@ -148,11 +152,12 @@
     background: var(--bg2);
   }
 
+  /* keep table slightly roomy (like original) but not huge; min-width retained */
   table{
     width: 100%;
     border-collapse: collapse;
     font-size: 0.82rem;
-    min-width: 900px;
+    min-width: 900px; /* keep original min-width feel */
   }
 
   thead th{
@@ -224,17 +229,7 @@
     font-size: 0.8rem;
   }
 
-  .rating-pill{
-    display: inline-block;
-    min-width: 22px;
-    padding: 0.12rem 0.38rem;
-    border-radius: 12px;
-    text-align: center;
-    line-height: 1.2;
-    font-weight: 700;
-    font-size: 0.74rem;
-  }
-
+  /* Expanded row */
   .expanded-row td{
     padding: 0;
     border-bottom: 2px solid var(--gold-dim);
@@ -272,6 +267,7 @@
     width: 100%;
   }
 
+  /* Query tab */
   .query-hero{
     background: var(--bg2);
     border: 1px solid var(--border);
@@ -328,24 +324,6 @@
     font-weight: 700;
   }
   .year-input-wrap button:hover{ background: var(--gold); }
-
-  .query-filter-select{
-    padding: 0.7rem 1rem;
-    font-family: 'Crimson Pro', serif;
-    font-size: 0.95rem;
-    background: var(--bg3);
-    border: 1px solid var(--gold-dim);
-    border-radius: 4px;
-    color: var(--text);
-    min-width: 220px;
-  }
-  .query-filter-select:focus{
-    outline: none;
-    border-color: var(--gold);
-  }
-  .query-filter-select option{
-    background: var(--bg3);
-  }
 
   .year-display{ font-family: 'Cinzel', serif; font-size: 0.8rem; color: var(--text-dim); margin-top: 0.5rem; }
 
@@ -404,6 +382,7 @@
   .update-box ol{ padding-left: 1.2rem; color: var(--text-dim); font-size: 0.85rem; line-height: 2; }
   .update-box code{ background: var(--bg3); border: 1px solid var(--border); padding: 0.1rem 0.4rem; border-radius: 3px; font-family: monospace; font-size: 0.8rem; color: var(--gold-light); }
 
+  /* Score color classes (kept) + S updated to dark green */
   .s-s{ background: rgba(186,104,200,0.2);color: #ce93d8;border: 1px solid rgba(186,104,200,0.3);}
   .s-a{ background: rgba(76,175,80,0.2); color: #81c784; border: 1px solid rgba(76,175,80,0.3); }
   .s-b{ background: rgba(100,181,246,0.2); color: #90caf9; border: 1px solid rgba(100,181,246,0.3); }
@@ -427,6 +406,7 @@
   ::-webkit-scrollbar-thumb{ background: var(--border); border-radius: 3px; }
   ::-webkit-scrollbar-thumb:hover{ background: var(--gold-dim); }
 
+  /* Compact Area column (kept from your request) */
   thead th:nth-child(6), td:nth-child(6){
     max-width: 120px;
     white-space: nowrap;
@@ -438,9 +418,8 @@
     main { padding: 0.6rem; }
     .controls input, .controls select { min-width: 100%; }
     .expanded-content { grid-template-columns: 1fr 1fr; }
-    thead th:nth-child(6), td:nth-child(6){ max-width: 100px; }
-    table { min-width: 760px; }
-    .query-filter-select{ min-width: 100%; }
+    thead th:nth-child(6), td:nth-child(6){ max-width: 100px; } /* slightly smaller on mobile */
+    table { min-width: 760px; } /* a little smaller than original for better mobile fit */
   }
 </style>
 </head>
@@ -511,18 +490,10 @@
     <div class="query-hero">
       <h2>Query Polities by Year</h2>
       <p>Enter any year to see polities active at that time and their phase score. Use negative numbers for BCE (e.g. -500 = 500 BCE).</p>
-
       <div class="year-input-wrap">
         <input type="number" id="year-input" placeholder="e.g. 1200" min="-3000" max="2100">
         <button onclick="runYearQuery()">Search ↵</button>
       </div>
-
-      <div class="year-input-wrap" style="margin-top:0.8rem;">
-        <select id="query-region-filter" class="query-filter-select">
-          <option value="">All Regions</option>
-        </select>
-      </div>
-
       <div class="year-display" id="year-display">Year results will appear below.</div>
     </div>
 
@@ -632,26 +603,9 @@ function postProcessData(){
 /* ========= Initialize UI ========= */
 function initUI(){
   const regions = Array.from(new Set(allPolities.map(p => (p['Region']||'').split('/')[0].trim()).filter(Boolean))).sort();
-
   const sel = document.getElementById('region-filter');
   sel.innerHTML = '<option value="">All Regions</option>';
-  regions.forEach(r => {
-    const opt = document.createElement('option');
-    opt.value = r;
-    opt.textContent = r;
-    sel.appendChild(opt);
-  });
-
-  const querySel = document.getElementById('query-region-filter');
-  if (querySel){
-    querySel.innerHTML = '<option value="">All Regions</option>';
-    regions.forEach(r => {
-      const opt = document.createElement('option');
-      opt.value = r;
-      opt.textContent = r;
-      querySel.appendChild(opt);
-    });
-  }
+  regions.forEach(r => { const opt = document.createElement('option'); opt.value = r; opt.textContent = r; sel.appendChild(opt); });
 
   filterTable();
 }
@@ -706,10 +660,7 @@ function sortData(){
 function sortTable(col){
   if (sortCol === col) sortDir = (sortDir === 'asc' ? 'desc' : 'asc');
   else { sortCol = col; sortDir = 'desc'; }
-  document.querySelectorAll('thead th').forEach(th => {
-    th.classList.remove('sorted-asc','sorted-desc');
-    if (th.dataset.col === col) th.classList.add('sorted-' + sortDir);
-  });
+  document.querySelectorAll('thead th').forEach(th => { th.classList.remove('sorted-asc','sorted-desc'); if (th.dataset.col === col) th.classList.add('sorted-' + sortDir); });
   sortData();
   renderTable();
 }
@@ -729,6 +680,7 @@ function renderTable(){
   page.forEach((p, idx) => {
     const tr = document.createElement('tr');
 
+    // build final ratings cell with all nine dims (compact)
     const ratingsHtml = RATING_DIMS.map(dim => {
       const val = p[dim] || p[dim+' '] || '';
       return `<span title="${dim}" style="display:inline-block; vertical-align:middle; margin-right:6px;">${ratingPill(val)}</span>`;
@@ -738,7 +690,7 @@ function renderTable(){
       <td class="name-cell" title="${(p['Political Entities']||'')}">${p['Political Entities'] || '—'}</td>
       <td class="num">${formatYear(p['Start'])}</td>
       <td class="num">${formatYear(p['End'])}</td>
-      <td>${(p['Region'] || '').replace(/ \\/ .*/, '')}</td>
+      <td>${(p['Region'] || '').replace(/ \/ .*/, '')}</td>
       <td><span class="score-badge ${scoreColor(p['Overall'])}">${p['Overall'] || '—'}</span></td>
       <td class="num" title="${p['Area (thousand km2)'] || ''}">${p['Area (thousand km2)'] ? Number(p['Area (thousand km2)']).toLocaleString() + 'k' : '—'}</td>
       <td class="num">${p['Population (million)'] || '—'}</td>
@@ -808,23 +760,15 @@ function renderPagination(total){
   pag.appendChild(btn('‹', Math.max(1, currentPage-1), currentPage === 1));
   let start = Math.max(1, currentPage-2);
   let end = Math.min(pages, currentPage+2);
-  if (start > 1){
-    pag.appendChild(btn('1',1));
-    if (start > 2) pag.appendChild(Object.assign(document.createElement('span'), {textContent:'…', style:'color:var(--text-dim); padding:0 6px'}));
-  }
+  if (start > 1){ pag.appendChild(btn('1',1)); if (start > 2) pag.appendChild(Object.assign(document.createElement('span'), {textContent:'…', style:'color:var(--text-dim); padding:0 6px'})); }
   for (let p = start; p <= end; p++) pag.appendChild(btn(p, p, false, p === currentPage));
-  if (end < pages){
-    if (end < pages - 1) pag.appendChild(Object.assign(document.createElement('span'), {textContent:'…', style:'color:var(--text-dim); padding:0 6px'}));
-    pag.appendChild(btn(pages, pages));
-  }
+  if (end < pages){ if (end < pages - 1) pag.appendChild(Object.assign(document.createElement('span'), {textContent:'…', style:'color:var(--text-dim); padding:0 6px'})); pag.appendChild(btn(pages, pages)); }
   pag.appendChild(btn('›', Math.min(pages, currentPage+1), currentPage === pages));
 }
 
 /* ========= YEAR QUERY ========= */
 function runYearQuery(){
   const val = (document.getElementById('year-input').value || '').trim();
-  const selectedRegion = (document.getElementById('query-region-filter')?.value || '').trim();
-
   if (!val){
     document.getElementById('query-results').innerHTML = '<div class="empty-state"><div class="icon">⚠</div>Please enter a year.</div>';
     return;
@@ -836,12 +780,11 @@ function runYearQuery(){
     return;
   }
 
+  // safe string for header/display (avoid calling string methods on numbers)
   const labelStr = String(year);
-  document.getElementById('year-display').textContent =
-    selectedRegion
-      ? `Showing polities active in ${labelStr} · Region: ${selectedRegion}`
-      : `Showing polities active in ${labelStr}`;
+  document.getElementById('year-display').textContent = `Showing polities active in ${labelStr}`;
 
+  // find matching phases active in this year
   const matches = [];
   allPhases.forEach(ph => {
     const ps = toNum(ph['Phase Start']) || toNum(ph['PhaseStart']) || toNum(ph['Phase_Start']) || toNum(ph['Start Year']);
@@ -863,39 +806,34 @@ function runYearQuery(){
     return;
   }
 
+  // map each match to a polity row from polities CSV
   const mapped = matches.map(m => {
-    let row = allPolities.find(p => (p['Political Entities'] || '').trim() === (m.polityName || '').trim());
+    let row = allPolities.find(p => (p['Political Entities']||'').trim() === (m.polityName||'').trim());
     if (!row) {
-      const shortName = (m.polityName || '').split('/')[0].trim();
-      row = allPolities.find(p => (p['Political Entities'] || '').startsWith(shortName));
+      const shortName = (m.polityName||'').split('/')[0].trim();
+      row = allPolities.find(p => (p['Political Entities']||'').startsWith(shortName));
     }
-    return {
-      phase: m.phase,
-      polity: row,
-      phaseScore: m.phaseScore || (row ? toNum(row['Overall']) : 0)
-    };
-  }).filter(x => {
-    if (!x.polity) return false;
-    if (!selectedRegion) return true;
-    const polityRegion = ((x.polity['Region'] || '').split('/')[0].trim());
-    return polityRegion === selectedRegion;
-  });
+    return { phase: m.phase, polity: row, phaseScore: m.phaseScore || (row ? toNum(row['Overall']) : 0) };
+  }).filter(x => x.polity); // drop unmatched phases
 
   if (mapped.length === 0){
-    document.getElementById('query-results').innerHTML = `<div class="empty-state"><div class="icon">🏜</div>No polities match ${labelStr}${selectedRegion ? ` in ${selectedRegion}` : ''}.</div>`;
+    document.getElementById('query-results').innerHTML = `<div class="empty-state"><div class="icon">🏜</div>No polities in the main table match phases for ${labelStr}.</div>`;
     return;
   }
 
+  // sort by phase score descending
   mapped.sort((a, b) => b.phaseScore - a.phaseScore);
 
+  // render cards: header uses labelStr (string) — no toUpperCase() on numbers
   const container = document.getElementById('query-results');
   const total = mapped.length;
-  let html = `<div class="query-results-header"><h3>⚔ ${total} POLITIES IN ${labelStr}${selectedRegion ? ` · ${selectedRegion.toUpperCase()}` : ''}</h3><span style="color:var(--text-dim);font-size:0.78rem">Sorted by Phase Score</span></div>`;
+  let html = `<div class="query-results-header"><h3>⚔ ${total} POLITIES IN ${labelStr}</h3><span style="color:var(--text-dim);font-size:0.78rem">Sorted by Phase Score</span></div>`;
   html += '<div class="cards-grid">';
   mapped.forEach((item, i) => {
     const p = item.polity;
     const ph = item.phase;
     const score = item.phaseScore;
+    // display polity start/end as raw numbers "637 to 925" (or fallback to formatted)
     const startDisp = (p && (p['Start'] !== undefined)) ? p['Start'] : (p && p['Start Year']) ? p['Start Year'] : '—';
     const endDisp   = (p && (p['End']   !== undefined)) ? p['End']   : (p && p['End Year'])   ? p['End Year']   : '—';
     html += `
@@ -907,7 +845,7 @@ function runYearQuery(){
         </div>
         <div class="card-meta">
           <span>🗓 ${startDisp} to ${endDisp}</span>
-          <span>📍 ${(p['Region']||'').replace(/ \\/ .*/, '')}</span>
+          <span>📍 ${(p['Region']||'').replace(/ \/ .*/, '')}</span>
           ${p['Language'] ? `<span>🗣 ${p['Language'].split('/')[0].trim()}</span>` : ''}
           ${p['Ethnic Group'] ? `<span>👥 ${p['Ethnic Group'].split('/')[0].trim()}</span>` : ''}
         </div>
@@ -924,19 +862,12 @@ function switchTab(tab){
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
   document.getElementById('tab-' + tab).classList.add('active');
-  const idx = ['table','query','update'].indexOf(tab);
-  if (idx >= 0) document.querySelectorAll('nav button')[idx].classList.add('active');
+  const idx = ['table','query','update'].indexOf(tab); if (idx >= 0) document.querySelectorAll('nav button')[idx].classList.add('active');
 }
 
 document.addEventListener('DOMContentLoaded', () => {
   const yinput = document.getElementById('year-input');
   if (yinput) yinput.addEventListener('keydown', (e) => { if (e.key === 'Enter') runYearQuery(); });
-
-  const qRegion = document.getElementById('query-region-filter');
-  if (qRegion) qRegion.addEventListener('change', () => {
-    const yearVal = (document.getElementById('year-input')?.value || '').trim();
-    if (yearVal) runYearQuery();
-  });
 });
 
 /* Boot */
