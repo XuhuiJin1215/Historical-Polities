@@ -452,7 +452,6 @@
 <nav>
   <button class="active" onclick="switchTab('table')">📜 All Polities</button>
   <button onclick="switchTab('query')">📅 Query by Year</button>
-  <button onclick="switchTab('update')">📥 How to Update</button>
 </nav>
 
 <main>
@@ -523,20 +522,6 @@
     </div>
 
     <div id="query-results"></div>
-  </div>
-
-  <div id="tab-update" class="tab">
-    <div class="update-box">
-      <h3>📥 HOW TO UPDATE THE DATABASE</h3>
-      <p style="color:var(--text-dim); font-size:0.85rem; margin-bottom:0.8rem;">To update, export your two sheets as CSV files named <code>polities.csv</code> and <code>phases.csv</code> and overwrite them in the same folder as this page. Then refresh the page.</p>
-
-      <ol>
-        <li>Sheet 1 → <code>polities.csv</code> (columns: Political Entities, Start, End, … Overall)</li>
-        <li>Sheet 2 → <code>phases.csv</code> (columns: Polity, Start Year, End Year, Region, Overall Score, Phase Name, Phase Start, Phase End, Phase Score, Notes)</li>
-      </ol>
-
-      <p style="color:var(--text-dim); font-size:0.85rem;"><strong style="color:var(--gold);">Note</strong>: the CSV parser reads the last calculated values, so ensure Excel saved after calculations.</p>
-    </div>
   </div>
 
 </main>
@@ -1021,7 +1006,7 @@ function switchTab(tab){
   document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
   document.getElementById('tab-' + tab).classList.add('active');
 
-  const idx = ['table','query','update'].indexOf(tab);
+  const idx = ['table','query'].indexOf(tab);
   if (idx >= 0) document.querySelectorAll('nav button')[idx].classList.add('active');
 }
 
