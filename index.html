@@ -275,6 +275,35 @@
     width: 100%;
   }
 
+  .multi-select {
+  position: relative;
+  min-width: 180px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.4rem;
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.multi-select label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.multi-select input {
+  accent-color: var(--gold-dim);
+}
+
+.multi-select .placeholder {
+  color: var(--text-dim);
+  padding: 0.2rem;
+}
+
   .query-hero{
     background: var(--bg2);
     border: 1px solid var(--border);
@@ -464,7 +493,7 @@
   <div id="tab-table" class="tab active">
     <div class="controls">
       <input id="search" placeholder="🔍 Search polities…" oninput="filterTable()">
-      <select id="region-filter" onchange="filterTable()">
+      <div class="multi-select" id="region-filter"></div>
         <option value="">All Regions</option>
       </select>
       <select id="score-filter" onchange="filterTable()">
@@ -518,9 +547,8 @@
       </div>
 
       <div class="year-input-wrap" style="margin-top:0.8rem;">
-        <select id="query-region-filter" class="query-filter-select">
-          <option value="">All Regions</option>
-        </select>
+        <select id="query-region-filter" class="query-filter-select" multiple>
+</select>
       </div>
 
       <div class="year-display" id="year-display">Year results will appear below.</div>
@@ -660,6 +688,7 @@ function postProcessData(){
 }
 
 function initUI(){
+  selectedRegions = [];
   const regions = Array.from(
     new Set(
       allPolities.map(p => (p['Region'] || '').split('/')[0].trim()).filter(Boolean)
@@ -903,7 +932,11 @@ function renderPagination(total){
 
 function runYearQuery(){
   const val = (document.getElementById('year-input').value || '').trim();
-  const selectedRegion = (document.getElementById('query-region-filter').value || '').trim();
+ const regionSelect = document.getElementById('query-region-filter');
+
+selectedRegions = Array.from(regionSelect.selectedOptions)
+  .map(opt => opt.value)
+  .filter(v => v);
 
   if (!val){
     document.getElementById('query-results').innerHTML = '<div class="empty-state"><div class="icon">⚠</div>Please enter a year.</div>';
@@ -960,9 +993,11 @@ function runYearQuery(){
     };
   }).filter(x => {
     if (!x.polity) return false;
-    if (!selectedRegion) return true;
-    const polityRegion = ((x.polity['Region'] || '').split('/')[0].trim());
-    return polityRegion === selectedRegion;
+    if (selectedRegions.length === 0) return true;
+
+const polityRegion = ((x.polity['Region'] || '').split('/')[0].trim());
+
+return selectedRegions.includes(polityRegion);
   });
 
   if (mapped.length === 0){
@@ -1038,12 +1073,11 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const qRegion = document.getElementById('query-region-filter');
-  if (qRegion) {
-    qRegion.addEventListener('change', () => {
-      const yearVal = (document.getElementById('year-input').value || '').trim();
-      if (yearVal) runYearQuery();
-    });
-  }
+if (qRegion) {
+  qRegion.addEventListener('change', () => {
+    runYearQuery();
+  });
+}
 });
 
 loadCSVFiles();
