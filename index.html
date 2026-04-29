@@ -984,7 +984,16 @@ function runYearQuery(){
         <span class="rank-num">#${i+1}</span>
         <div class="card-top">
           <div class="card-name">${p['Political Entities'] || '—'}</div>
-          <div class="card-scores"><span class="score-badge ${scoreColor(score)}" title="Phase Score">${score !== null ? score : '—'}</span></div>
+          const overallScore = p ? toNum(p['Overall']) : null;
+
+<div class="card-scores">
+  <span class="score-badge ${scoreColor(score)}" title="Phase Score">
+    ${score !== null ? score : '—'}
+  </span>
+  <span class="score-badge ${scoreColor(overallScore)}" title="Overall Score" style="opacity:0.75;">
+    ${overallScore !== null && !isNaN(overallScore) ? overallScore : '—'}
+  </span>
+</div>
         </div>
         <div class="card-meta">
           <span>📅 ${startDisp} to ${endDisp}</span>
