@@ -988,11 +988,12 @@ function runYearQuery(){
 
 html += `
   <div class="polity-card" role="article" tabindex="0">
-    <span class="rank-num">#${i+1}</span>
+    
     <div class="card-top">
       <div class="card-name">${p['Political Entities'] || '—'}</div>
 
       <div class="card-scores">
+      <span class="rank-num">#${i+1}</span>
   <span class="score-badge ${scoreColor(score)}" title="Phase Score">
     ${score !== null ? score : '—'}
   </span>
