@@ -397,7 +397,16 @@
   .card-phase .phase-name{ color: var(--gold); font-family: 'Cinzel', serif; font-size: 0.7rem; letter-spacing: 0.06em; }
   .card-phase .phase-note{ color: var(--text-dim); font-style: italic; margin-top: 0.15rem; font-size: 0.75rem; }
 
-  .rank-num{ position: absolute; top: 0.7rem; right: 0.8rem; font-family: 'Cinzel', serif; font-size: 0.65rem; color: var(--text-dim); letter-spacing: 0.05em; }
+  .rank-num{
+  position: absolute;
+  top: 0.2rem;
+  right: 0.35rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  letter-spacing: 0.05em;
+  pointer-events: none;
+}
 
   .empty-state{ text-align: center; padding: 3rem 1rem; color: var(--text-dim); font-style: italic; }
   .empty-state .icon{ font-size: 2.5rem; margin-bottom: 0.5rem; opacity: 0.4; }
@@ -994,7 +1003,7 @@ html += `
 
       <div class="card-scores">
 
-  <span class="score-badge ${scoreColor(score)}" title="Phase Score" style="position:relative;">
+  <span class="score-badge ${scoreColor(score)}" title="Phase Score" style="position:relative; padding-top:0.9rem; padding-right:1.2rem;">
   <span class="rank-num">#${i+1}</span>
   ${score !== null ? score : '—'}
 </span>
