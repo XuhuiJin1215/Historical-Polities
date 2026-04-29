@@ -1000,8 +1000,9 @@ html += `
       <div class="card-name">${p['Political Entities'] || '—'}</div>
 
       <div class="card-scores">
+
   <span class="score-badge ${scoreColor(score)}" title="Phase Score">
-    ${score !== null ? score : '—'}
+    #${i+1} ${score !== null ? score : '—'}
   </span>
 
   <span style="opacity:0.6; font-size:0.85rem;">/</span>
@@ -1009,6 +1010,7 @@ html += `
   <span class="score-badge ${scoreColor(overallScore)} overall-mini" title="Overall Score">
     ${overallScore !== null && !isNaN(overallScore) ? overallScore : '—'}
   </span>
+
 </div>
 
     </div>
