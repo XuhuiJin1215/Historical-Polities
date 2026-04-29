@@ -994,10 +994,10 @@ html += `
 
       <div class="card-scores">
 
-  <span class="score-badge ${scoreColor(score)}" title="Phase Score">
-    <span class="rank-num">#${i+1}</span>
-    ${score !== null ? score : '—'}
-  </span>
+  <span class="score-badge ${scoreColor(score)}" title="Phase Score" style="position:relative;">
+  <span class="rank-num">#${i+1}</span>
+  ${score !== null ? score : '—'}
+</span>
 
   <span style="opacity:0.6; font-size:0.85rem;">/</span>
 
