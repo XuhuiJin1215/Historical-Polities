@@ -233,11 +233,6 @@
     font-size: 0.74rem;
   }
 
-  .overall-mini{
-  transform: scale(0.85);
-  opacity: 0.75;
-}
-
   .expanded-row td{
     padding: 0;
     border-bottom: 2px solid var(--gold-dim);
@@ -954,13 +949,10 @@ function runYearQuery(){
     }
 
     return {
-  phase: m.phase,
-  polity: row,
-  phaseScore: (m.phaseScore !== null && !isNaN(m.phaseScore))
-    ? m.phaseScore
-    : null,
-  overallScore: row ? toNum(row['Overall']) : null
-};
+      phase: m.phase,
+      polity: row,
+      phaseScore: m.phaseScore || (row ? toNum(row['Overall']) : 0)
+    };
   }).filter(x => {
     if (!x.polity) return false;
     if (!selectedRegion) return true;
@@ -973,11 +965,7 @@ function runYearQuery(){
     return;
   }
 
-  mapped.sort((a, b) => {
-  const aScore = (a.phaseScore !== null) ? a.phaseScore : -Infinity;
-  const bScore = (b.phaseScore !== null) ? b.phaseScore : -Infinity;
-  return bScore - aScore;
-});
+  mapped.sort((a, b) => b.phaseScore - a.phaseScore);
 
   const container = document.getElementById('query-results');
   const total = mapped.length;
@@ -991,38 +979,31 @@ function runYearQuery(){
     const startDisp = (p && (p['Start'] !== undefined)) ? p['Start'] : ((p && p['Start Year']) ? p['Start Year'] : '—');
     const endDisp = (p && (p['End'] !== undefined)) ? p['End'] : ((p && p['End Year']) ? p['End Year'] : '—');
 
-   const overallScore = p ? toNum(p['Overall']) : null;
+    html += `
+      <div class="polity-card" role="article" tabindex="0">
+        <span class="rank-num">#${i+1}</span>
+        <div class="card-top">
+          <div class="card-name">${p['Political Entities'] || '—'}</div>
+          const overallScore = p ? toNum(p['Overall']) : null;
 
-html += `
-  <div class="polity-card" role="article" tabindex="0">
-    <span class="rank-num">#${i+1}</span>
-    <div class="card-top">
-      <div class="card-name">${p['Political Entities'] || '—'}</div>
-
-      <div class="card-scores">
-
+<div class="card-scores">
   <span class="score-badge ${scoreColor(score)}" title="Phase Score">
-    #${i+1} ${score !== null ? score : '—'}
+    ${score !== null ? score : '—'}
   </span>
-
-  <span style="opacity:0.6; font-size:0.85rem;">/</span>
-
-  <span class="score-badge ${scoreColor(overallScore)} overall-mini" title="Overall Score">
+  <span class="score-badge ${scoreColor(overallScore)}" title="Overall Score" style="opacity:0.75;">
     ${overallScore !== null && !isNaN(overallScore) ? overallScore : '—'}
   </span>
-
 </div>
-
-    </div>
-    <div class="card-meta">
-      <span>📅 ${startDisp} to ${endDisp}</span>
-      <span>📍 ${(p['Region'] || '').replace(/ \/ .*/, '')}</span>
-      ${p['Language'] ? `<span>🗣 ${p['Language'].split('/')[0].trim()}</span>` : ''}
-      ${p['Ethnic Group'] ? `<span>👥 ${p['Ethnic Group'].split('/')[0].trim()}</span>` : ''}
-    </div>
-    ${ph && (ph['Phase Name'] || ph['Notes']) ? `<div class="card-phase"><div class="phase-name">${ph['Phase Name'] || ''}</div>${ph['Notes'] ? `<div class="phase-note">${ph['Notes']}</div>` : ''}</div>` : ''}
-  </div>
-`;
+        </div>
+        <div class="card-meta">
+          <span>📅 ${startDisp} to ${endDisp}</span>
+          <span>📍 ${(p['Region'] || '').replace(/ \/ .*/, '')}</span>
+          ${p['Language'] ? `<span>🗣 ${p['Language'].split('/')[0].trim()}</span>` : ''}
+          ${p['Ethnic Group'] ? `<span>👥 ${p['Ethnic Group'].split('/')[0].trim()}</span>` : ''}
+        </div>
+        ${ph && (ph['Phase Name'] || ph['Notes']) ? `<div class="card-phase"><div class="phase-name">${ph['Phase Name'] || ''}</div>${ph['Notes'] ? `<div class="phase-note">${ph['Notes']}</div>` : ''}</div>` : ''}
+      </div>
+    `;
   });
 
   html += '</div>';
