@@ -233,6 +233,11 @@
     font-size: 0.74rem;
   }
 
+  .overall-mini{
+  transform: scale(0.85);
+  opacity: 0.75;
+}
+
   .expanded-row td{
     padding: 0;
     border-bottom: 2px solid var(--gold-dim);
@@ -988,13 +993,16 @@ html += `
       <div class="card-name">${p['Political Entities'] || '—'}</div>
 
       <div class="card-scores">
-        <span class="score-badge ${scoreColor(score)}" title="Phase Score">
-          ${score !== null ? score : '—'}
-        </span>
-        <span class="score-badge ${scoreColor(overallScore)}" title="Overall Score" style="opacity:0.75;">
-          ${overallScore !== null && !isNaN(overallScore) ? overallScore : '—'}
-        </span>
-      </div>
+  <span class="score-badge ${scoreColor(score)}" title="Phase Score">
+    ${score !== null ? score : '—'}
+  </span>
+
+  <span style="opacity:0.6; font-size:0.85rem;">/</span>
+
+  <span class="score-badge ${scoreColor(overallScore)} overall-mini" title="Overall Score">
+    ${overallScore !== null && !isNaN(overallScore) ? overallScore : '—'}
+  </span>
+</div>
 
     </div>
     <div class="card-meta">
