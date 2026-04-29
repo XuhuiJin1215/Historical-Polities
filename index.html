@@ -954,10 +954,13 @@ function runYearQuery(){
     }
 
     return {
-      phase: m.phase,
-      polity: row,
-      phaseScore: m.phaseScore || (row ? toNum(row['Overall']) : 0)
-    };
+  phase: m.phase,
+  polity: row,
+  phaseScore: (m.phaseScore !== null && !isNaN(m.phaseScore))
+    ? m.phaseScore
+    : null,
+  overallScore: row ? toNum(row['Overall']) : null
+};
   }).filter(x => {
     if (!x.polity) return false;
     if (!selectedRegion) return true;
@@ -970,7 +973,11 @@ function runYearQuery(){
     return;
   }
 
-  mapped.sort((a, b) => b.phaseScore - a.phaseScore);
+  mapped.sort((a, b) => {
+  const aScore = (a.phaseScore !== null) ? a.phaseScore : -Infinity;
+  const bScore = (b.phaseScore !== null) ? b.phaseScore : -Infinity;
+  return bScore - aScore;
+});
 
   const container = document.getElementById('query-results');
   const total = mapped.length;
