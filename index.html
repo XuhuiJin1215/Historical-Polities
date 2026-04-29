@@ -192,7 +192,7 @@
   .ms-item{
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 4px;
     padding: 0.42rem 0.75rem;
     cursor: pointer;
     font-size: 0.85rem;
@@ -200,12 +200,14 @@
   }
   .ms-item:hover{ background: rgba(201,168,76,0.08); }
   .ms-item input[type=checkbox]{
-    accent-color: var(--gold);
-    width: 13px;
-    height: 13px;
-    flex-shrink: 0;
-    cursor: pointer;
-  }
+  accent-color: var(--gold);
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
   .ms-item label{
     cursor: pointer;
     color: var(--text);
