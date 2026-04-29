@@ -136,6 +136,7 @@
     position: relative;
     flex: 1;
     min-width: 140px;
+    align-self: flex-start;
   }
   .ms-btn{
     width: 100%;
@@ -198,6 +199,8 @@
     cursor: pointer;
     font-size: 0.85rem;
     transition: background 0.15s;
+    width: 100%;        /* add this */
+    box-sizing: border-box;  /* add this */
   }
   .ms-item:hover{ background: rgba(201,168,76,0.08); }
   .ms-item input[type=checkbox]{
