@@ -192,16 +192,18 @@
   .ms-panel.open{ display: block; }
 
   .ms-item{
-    display: flex;
-    align-items: center;
-    gap: 2px;
-    padding: 0.42rem 0.75rem;
-    cursor: pointer;
-    font-size: 0.85rem;
-    transition: background 0.15s;
-    width: 100%;        /* add this */
-    box-sizing: border-box;  /* add this */
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2px;
+  padding: 0.42rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.15s;
+  width: 100%;
+  box-sizing: border-box;
+}
   .ms-item:hover{ background: rgba(201,168,76,0.08); }
   .ms-item input[type=checkbox]{
   accent-color: var(--gold);
