@@ -844,16 +844,19 @@ function parseCSV(filename){
     Papa.parse(filename, {
       download: true, header: true, skipEmptyLines: true,
       transformHeader: h => tidyKey(h),
-      complete: res => resolve(res.data.map(r => {
-        const o = {};
-        Object.keys(r).forEach(k => { o[tidyKey(k)] = (r[k]==null?''):(''+ r[k]).trim(); });
-        return o;
-      })),
-      error: (err) => { console.error(filename+' error', err); resolve([]); }
+      complete: res => {
+        console.log(filename + ' loaded: ' + res.data.length + ' rows');
+        resolve(res.data.map(r => {
+          const o = {};
+          Object.keys(r).forEach(k => { o[tidyKey(k)] = (r[k]==null?''):(''+ r[k]).trim(); });
+          return o;
+        }));
+      },
+      error: (err) => { console.error(filename+' FAILED:', err); resolve([]); }
     });
   });
 }
-
+  
 function loadCSVFiles(){
   Promise.all([
     parseCSV('polities.csv'),
