@@ -1136,14 +1136,7 @@ function runYearQuery(){
     return selectedRegions.includes((x.polity['Region']||'').split('/')[0].trim());
   });
 
-  if(!mapped.length){
-  document.getElementById('query-results').innerHTML =
-    `<div class="empty-state">
-      <div class="icon">🏜</div>
-      No polities match ${labelStr}${regionLabel ? ' in ' + regionLabel : ''}.
-    </div>`;
-  return;
-}
+  if(!mapped.length){ document.getElementById('query-results').innerHTML=`<div class="empty-state"><div class="icon">🏜</div>No polities match ${labelStr}${regionLabel?` in ${regionLabel}`:''}</div>`; return; }
 
   mapped.sort((a,b)=>b.phaseScore-a.phaseScore);
 
