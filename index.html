@@ -4,676 +4,190 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Historical Polities Database</title>
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
-
 <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
-
 <style>
-  :root{
-    --gold: #c9a84c;
-    --gold-light: #e8c97a;
-    --gold-dim: #7a6230;
-    --bg: #0e0c08;
-    --bg2: #181410;
-    --bg3: #231e16;
-    --bg4: #2d2620;
-    --text: #e8dfc8;
-    --text-dim: #9a8f78;
-    --border: #3a3020;
-    --accent: #8b3a3a;
-    --shadow: 0 4px 24px rgba(0,0,0,0.7);
-  }
-
-  *{ box-sizing: border-box; margin: 0; padding: 0; }
-
-  body{
-    font-family: 'Crimson Pro', Georgia, serif;
-    background: var(--bg);
-    color: var(--text);
-    min-height: 100vh;
-    font-size: 16px;
-    line-height: 1.5;
-  }
-
-  header{
-    background: linear-gradient(180deg, #1a1308 0%, var(--bg2) 100%);
-    border-bottom: 1px solid var(--gold-dim);
-    padding: 1.2rem 1rem 0.8rem;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    box-shadow: 0 2px 20px rgba(0,0,0,0.8);
-  }
-  header h1{
-    font-family: 'Cinzel', serif;
-    font-size: clamp(1.1rem, 4vw, 1.8rem);
-    color: var(--gold);
-    letter-spacing: 0.12em;
-    text-shadow: 0 0 30px rgba(201,168,76,0.4);
-    font-weight: 600;
-  }
-  header p{
-    font-size: 0.78rem;
-    color: var(--text-dim);
-    letter-spacing: 0.08em;
-    margin-top: 0.2rem;
-    font-style: italic;
-  }
-
-  nav{
-    display: flex;
-    border-bottom: 1px solid var(--border);
-    background: var(--bg2);
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
-  nav::-webkit-scrollbar{ display: none; }
-
-  nav button{
-    flex: 1;
-    min-width: 120px;
-    padding: 0.75rem 1rem;
-    background: none;
-    border: none;
-    border-bottom: 3px solid transparent;
-    color: var(--text-dim);
-    font-family: 'Cinzel', serif;
-    font-size: 0.72rem;
-    letter-spacing: 0.1em;
-    cursor: pointer;
-    transition: all 0.2s;
-    white-space: nowrap;
-  }
-  nav button.active{
-    color: var(--gold);
-    border-bottom-color: var(--gold);
-    background: rgba(201,168,76,0.06);
-  }
-  nav button:hover:not(.active){
-    color: var(--text);
-    background: rgba(255,255,255,0.03);
-  }
-
-  main{ padding: 1rem; max-width: 1400px; margin: 0 auto; }
-
-  .tab{ display: none; }
-  .tab.active{ display: block; }
-
-  .controls{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.6rem;
-    margin-bottom: 1rem;
-    padding: 0.8rem;
-    background: var(--bg2);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    align-items: flex-start;
-  }
-  .controls input{
-    flex: 1;
-    min-width: 140px;
-    padding: 0.55rem 0.75rem;
-    background: var(--bg3);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    color: var(--text);
-    font-family: 'Crimson Pro', serif;
-    font-size: 0.9rem;
-  }
-  .controls input::placeholder{ color: var(--text-dim); }
-  .controls input:focus{
-    outline: none;
-    border-color: var(--gold-dim);
-  }
-
-  /* ── Multi-select dropdown ── */
-  .ms-wrap{
-    position: relative;
-    flex: 1;
-    min-width: 140px;
-    align-self: flex-start;
-  }
-  .ms-btn{
-    width: 100%;
-    padding: 0.55rem 0.75rem;
-    background: var(--bg3);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    color: var(--text);
-    font-family: 'Crimson Pro', serif;
-    font-size: 0.9rem;
-    cursor: pointer;
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 6px;
-    transition: border-color 0.2s;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  .ms-btn:hover,
-  .ms-btn.open{ border-color: var(--gold-dim); }
-  .ms-btn .ms-label{
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    flex: 1;
-    text-align: left;
-  }
-  .ms-btn .ms-arrow{
-    font-size: 0.6rem;
-    color: var(--text-dim);
-    flex-shrink: 0;
-    transition: transform 0.2s;
-  }
-  .ms-btn.open .ms-arrow{ transform: rotate(180deg); }
-
-  .ms-panel{
-    display: none;
-    position: absolute;
-    top: calc(100% + 3px);
-    left: 0;
-    right: 0;
-    background: var(--bg3);
-    border: 1px solid var(--gold-dim);
-    border-radius: 4px;
-    z-index: 400;
-    max-height: 240px;
-    overflow-y: auto;
-    min-width: 180px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.6);
-    text-align: left;
-  }
-  .ms-panel.open{ display: block; }
-
-  .ms-item{
-    display: block;
-    padding: 0.42rem 0.75rem;
-    cursor: pointer;
-    font-size: 0.85rem;
-    transition: background 0.15s;
-    width: 100%;
-    box-sizing: border-box;
-    text-align: left;
-  }
-  .ms-item:hover{ background: rgba(201,168,76,0.08); }
-  .ms-item input[type=checkbox]{
-    accent-color: var(--gold);
-    width: 13px;
-    height: 13px;
-    min-width: 13px;
-    max-width: 13px;
-    max-height: 13px;
-    flex-shrink: 0;
-    cursor: pointer;
-    margin: 0;
-    vertical-align: middle;
-  }
-  .ms-item label{
-    cursor: pointer;
-    color: var(--text);
-    white-space: nowrap;
-    padding-left: 0;
-    margin-left: 0;
-  }
-
-  .ms-badge{
-    display: inline-block;
-    padding: 0.08rem 0.38rem;
-    background: rgba(201,168,76,0.25);
-    color: var(--gold);
-    border-radius: 10px;
-    font-size: 0.72rem;
-    margin-left: 3px;
-    font-weight: 600;
-    vertical-align: middle;
-  }
-
-  /* query tab region wrap */
-  .query-ms-wrap{
-    min-width: 220px;
-    width: 220px;
-  }
-
-  .count-bar{
-    font-size: 0.78rem;
-    color: var(--text-dim);
-    margin-bottom: 0.6rem;
-    padding: 0 0.2rem;
-    font-style: italic;
-  }
-
-  .table-wrap{
-    overflow-x: auto;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    background: var(--bg2);
-  }
-
-  table{
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.82rem;
-    min-width: 900px;
-  }
-
-  thead th{
-    background: var(--bg3);
-    padding: 0.65rem 0.75rem;
-    text-align: left;
-    font-family: 'Cinzel', serif;
-    font-size: 0.65rem;
-    letter-spacing: 0.08em;
-    color: var(--gold);
-    border-bottom: 1px solid var(--border);
-    white-space: nowrap;
-    cursor: pointer;
-    user-select: none;
-    position: sticky;
-    top: 0;
-  }
-  thead th:hover{ color: var(--gold-light); }
-
-  thead th .sort-indicator{
-    display: inline-block;
-    margin-left: 4px;
-    opacity: 0.4;
-    font-size: 0.7em;
-  }
-  thead th.sorted-asc .sort-indicator::after{ content: '▲'; opacity: 1; }
-  thead th.sorted-desc .sort-indicator::after{ content: '▼'; opacity: 1; }
-  thead th:not(.sorted-asc):not(.sorted-desc) .sort-indicator::after{ content: '⇅'; }
-
-  tbody tr{
-    border-bottom: 1px solid rgba(58,48,32,0.5);
-    transition: background 0.15s;
-    cursor: pointer;
-  }
-  tbody tr:hover{ background: rgba(201,168,76,0.06); }
-  tbody tr.expanded{ background: rgba(201,168,76,0.08); }
-
-  td{
-    padding: 0.55rem 0.75rem;
-    color: var(--text);
-    vertical-align: middle;
-  }
-  td.name-cell{
-    font-weight: 600;
-    color: var(--gold-light);
-    min-width: 200px;
-    max-width: 260px;
-  }
-  td.num{ text-align: right; font-variant-numeric: tabular-nums; }
-
-  .score-badge{
-    display: inline-block;
-    padding: 0.15rem 0.5rem;
-    border-radius: 12px;
-    font-weight: 600;
-    font-size: 0.85rem;
-    min-width: 36px;
-    text-align: center;
-  }
-
-  .rating-badge{
-    display: inline-block;
-    width: 22px;
-    height: 22px;
-    border-radius: 4px;
-    text-align: center;
-    line-height: 22px;
-    font-weight: 700;
-    font-size: 0.8rem;
-  }
-
-  .rating-pill{
-    display: inline-block;
-    min-width: 22px;
-    padding: 0.12rem 0.38rem;
-    border-radius: 12px;
-    text-align: center;
-    line-height: 1.2;
-    font-weight: 700;
-    font-size: 0.74rem;
-  }
-
-  .overall-mini{
-    transform: scale(0.85);
-    opacity: 0.75;
-  }
-
-  .expanded-row td{
-    padding: 0;
-    border-bottom: 2px solid var(--gold-dim);
-  }
-  .expanded-content{
-    padding: 1rem;
-    background: var(--bg3);
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 0.6rem;
-  }
-
-  .detail-item label{
-    font-family: 'Cinzel', serif;
-    font-size: 0.6rem;
-    letter-spacing: 0.1em;
-    color: var(--gold-dim);
-    display: block;
-    margin-bottom: 0.15rem;
-  }
-  .detail-item span{ font-size: 0.85rem; color: var(--text); }
-
-  .rating-row{
-    grid-column: 1 / -1;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    align-items: center;
-  }
-  .rating-row label{
-    font-family: 'Cinzel', serif;
-    font-size: 0.6rem;
-    letter-spacing: 0.1em;
-    color: var(--gold-dim);
-    width: 100%;
-  }
-
-  .query-hero{
-    background: var(--bg2);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 1.5rem 1rem;
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-  .query-hero h2{
-    font-family: 'Cinzel', serif;
-    font-size: clamp(1rem, 3vw, 1.4rem);
-    color: var(--gold);
-    margin-bottom: 0.5rem;
-    letter-spacing: 0.1em;
-  }
-  .query-hero p{
-    color: var(--text-dim);
-    font-size: 0.85rem;
-    margin-bottom: 1.2rem;
-    font-style: italic;
-  }
-
-  .year-input-wrap{
-    display: flex;
-    gap: 0.6rem;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .year-input-wrap input{
-    padding: 0.7rem 1rem;
-    font-family: 'Cinzel', serif;
-    font-size: 1.1rem;
-    background: var(--bg3);
-    border: 1px solid var(--gold-dim);
-    border-radius: 4px;
-    color: var(--gold-light);
-    width: 160px;
-    text-align: center;
-    letter-spacing: 0.05em;
-  }
-  .year-input-wrap input:focus{ outline: none; border-color: var(--gold); }
-  .year-input-wrap button{
-    padding: 0.7rem 1.5rem;
-    background: var(--gold-dim);
-    border: 1px solid var(--gold);
-    border-radius: 4px;
-    color: var(--bg);
-    font-family: 'Cinzel', serif;
-    font-size: 0.8rem;
-    letter-spacing: 0.1em;
-    cursor: pointer;
-    transition: background 0.2s;
-    font-weight: 700;
-  }
-  .year-input-wrap button:hover{ background: var(--gold); }
-
-  .year-display{ font-family: 'Cinzel', serif; font-size: 0.8rem; color: var(--text-dim); margin-top: 0.5rem; }
-
-  .query-results-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 0.6rem;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-  }
-  .query-results-header h3{
-    font-family: 'Cinzel', serif;
-    font-size: 0.8rem;
-    color: var(--gold);
-    letter-spacing: 0.1em;
-  }
-
-  .cards-grid{ display: flex; flex-direction: column; gap: 0.6rem; }
-
-  .polity-card{
-    background: var(--bg2);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 0.9rem 1rem;
-    position: relative;
-    overflow: hidden;
-    transition: border-color 0.2s;
-  }
-  .polity-card::before{
-    content: '';
-    position: absolute;
-    left: 0; top: 0; bottom: 0;
-    width: 3px;
-    background: var(--gold-dim);
-  }
-  .polity-card:hover{ border-color: var(--gold-dim); }
-
-  .card-top{ display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.4rem; }
-  .card-name{ font-size: 0.95rem; font-weight: 600; color: var(--gold-light); line-height: 1.3; }
-  .card-scores{ display: flex; gap: 0.4rem; flex-shrink: 0; align-items: center; }
-  .card-meta{ font-size: 0.78rem; color: var(--text-dim); display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; }
-  .card-meta span{ display: flex; align-items: center; gap: 0.25rem; }
-  .card-phase{ margin-top: 0.5rem; padding: 0.4rem 0.6rem; background: rgba(201,168,76,0.07); border: 1px solid rgba(201,168,76,0.15); border-radius: 4px; font-size: 0.78rem; }
-  .card-phase .phase-name{ color: var(--gold); font-family: 'Cinzel', serif; font-size: 0.7rem; letter-spacing: 0.06em; }
-  .card-phase .phase-note{ color: var(--text-dim); font-style: italic; margin-top: 0.15rem; font-size: 0.75rem; }
-
-  /* ── Rulers box ── */
-  .card-rulers{
-    margin-top: 0.5rem;
-    border: 1px solid rgba(201,168,76,0.15);
-    border-radius: 4px;
-    overflow: hidden;
-  }
-  .card-rulers-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.35rem 0.6rem;
-    background: rgba(139,58,58,0.15);
-    border-bottom: 1px solid rgba(201,168,76,0.12);
-    cursor: pointer;
-    user-select: none;
-  }
-  .card-rulers-header:hover{ background: rgba(139,58,58,0.25); }
-  .card-rulers-title{
-    font-family: 'Cinzel', serif;
-    font-size: 0.65rem;
-    letter-spacing: 0.08em;
-    color: var(--gold);
-  }
-  .card-rulers-toggle{
-    font-size: 0.6rem;
-    color: var(--text-dim);
-    transition: transform 0.2s;
-  }
-  .card-rulers-toggle.open{ transform: rotate(180deg); }
-  .card-rulers-body{
-    display: none;
-    padding: 0.5rem 0.6rem;
-    background: rgba(0,0,0,0.15);
-  }
-  .card-rulers-body.open{ display: block; }
-
-  .rulers-group{ margin-top: 0.5rem; }
-  .rulers-group:first-child{ margin-top: 0; }
-  .rulers-group-title{
-    font-family: 'Cinzel', serif;
-    font-size: 0.58rem;
-    letter-spacing: 0.07em;
-    color: var(--gold-dim);
-    margin-bottom: 0.3rem;
-    text-transform: uppercase;
-    border-bottom: 1px solid rgba(58,48,32,0.6);
-    padding-bottom: 0.2rem;
-  }
-
-  .ruler-row{
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 0.5rem;
-    padding: 0.2rem 0;
-    font-size: 0.78rem;
-    border-bottom: 1px solid rgba(58,48,32,0.3);
-  }
-  .ruler-row:last-child{ border-bottom: none; }
-  .ruler-name{ color: var(--text-dim); flex: 1; line-height: 1.3; }
-  .ruler-name.current{ color: var(--text); font-weight: 600; }
-  .ruler-years{
-    color: var(--text-dim);
-    font-size: 0.72rem;
-    white-space: nowrap;
-    flex-shrink: 0;
-    font-variant-numeric: tabular-nums;
-  }
-  .ruler-current-tag{
-    display: inline-block;
-    padding: 0.05rem 0.3rem;
-    background: rgba(201,168,76,0.18);
-    color: var(--gold);
-    border-radius: 3px;
-    font-size: 0.6rem;
-    font-family: 'Cinzel', serif;
-    letter-spacing: 0.04em;
-    margin-left: 5px;
-    vertical-align: middle;
-  }
-
-  .rank-num{ position: absolute; top: 0.7rem; right: 0.8rem; font-family: 'Cinzel', serif; font-size: 0.65rem; color: var(--text-dim); letter-spacing: 0.05em; }
-
-  .empty-state{ text-align: center; padding: 3rem 1rem; color: var(--text-dim); font-style: italic; }
-  .empty-state .icon{ font-size: 2.5rem; margin-bottom: 0.5rem; opacity: 0.4; }
-
-  .s-s{ background: rgba(186,104,200,0.2);color: #ce93d8;border: 1px solid rgba(186,104,200,0.3);}
-  .s-a{ background: rgba(76,175,80,0.2); color: #81c784; border: 1px solid rgba(76,175,80,0.3); }
-  .s-b{ background: rgba(100,181,246,0.2); color: #90caf9; border: 1px solid rgba(100,181,246,0.3); }
-  .s-c{ background: rgba(255,183,77,0.2); color: #ffcc02; border: 1px solid rgba(255,183,77,0.3); }
-  .s-d{ background: rgba(229,115,115,0.2); color: #ef9a9a; border: 1px solid rgba(229,115,115,0.3); }
-
-  .overall-S{ background: rgba(186,104,200,0.2);color: #ce93d8;border: 1px solid rgba(186,104,200,0.3); }
-  .overall-A{ background: rgba(76,175,80,0.2); color: #81c784; border: 1px solid rgba(76,175,80,0.3); }
-  .overall-B{ background: rgba(100,181,246,0.2); color: #90caf9; border: 1px solid rgba(100,181,246,0.3); }
-  .overall-C{ background: rgba(255,183,77,0.2); color: #ffcc02; border: 1px solid rgba(255,183,77,0.3); }
-  .overall-D{ background: rgba(229,115,115,0.2); color: #ef9a9a; border: 1px solid rgba(229,115,115,0.3); }
-
-  .pagination{ display: flex; justify-content: center; align-items: center; gap: 0.4rem; margin-top: 1rem; flex-wrap: wrap; }
-  .pagination button{ padding: 0.35rem 0.75rem; background: var(--bg3); border: 1px solid var(--border); border-radius: 4px; color: var(--text-dim); font-family: 'Cinzel', serif; font-size: 0.7rem; cursor: pointer; transition: all 0.15s; }
-  .pagination button:hover{ border-color: var(--gold-dim); color: var(--text); }
-  .pagination button.active{ background: var(--gold-dim); color: var(--bg); border-color: var(--gold); }
-  .pagination button:disabled{ opacity: 0.3; cursor: default; }
-
-  ::-webkit-scrollbar{ width: 6px; height: 6px; }
-  ::-webkit-scrollbar-track{ background: var(--bg2); }
-  ::-webkit-scrollbar-thumb{ background: var(--border); border-radius: 3px; }
-  ::-webkit-scrollbar-thumb:hover{ background: var(--gold-dim); }
-
-  thead th:nth-child(6), td:nth-child(6){
-    max-width: 120px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  @media (max-width: 600px) {
-    main { padding: 0.6rem; }
-    .controls input, .ms-wrap { min-width: 100%; }
-    .expanded-content { grid-template-columns: 1fr 1fr; }
-    thead th:nth-child(6), td:nth-child(6){ max-width: 100px; }
-    table { min-width: 760px; }
-    .query-ms-wrap { min-width: 100%; width: 100%; }
-  }
+:root{
+  --gold:#c9a84c;--gold-light:#e8c97a;--gold-dim:#7a6230;
+  --bg:#0e0c08;--bg2:#181410;--bg3:#231e16;--bg4:#2d2620;
+  --text:#e8dfc8;--text-dim:#9a8f78;--border:#3a3020;--accent:#8b3a3a;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Crimson Pro',Georgia,serif;background:var(--bg);color:var(--text);min-height:100vh;font-size:16px;line-height:1.5;}
+header{background:linear-gradient(180deg,#1a1308 0%,var(--bg2) 100%);border-bottom:1px solid var(--gold-dim);padding:1.2rem 1rem 0.8rem;text-align:center;position:sticky;top:0;z-index:100;box-shadow:0 2px 20px rgba(0,0,0,0.8);}
+header h1{font-family:'Cinzel',serif;font-size:clamp(1.1rem,4vw,1.8rem);color:var(--gold);letter-spacing:0.12em;text-shadow:0 0 30px rgba(201,168,76,0.4);font-weight:600;}
+header p{font-size:0.78rem;color:var(--text-dim);letter-spacing:0.08em;margin-top:0.2rem;font-style:italic;}
+nav{display:flex;border-bottom:1px solid var(--border);background:var(--bg2);overflow-x:auto;scrollbar-width:none;}
+nav::-webkit-scrollbar{display:none;}
+nav button{flex:1;min-width:120px;padding:0.75rem 1rem;background:none;border:none;border-bottom:3px solid transparent;color:var(--text-dim);font-family:'Cinzel',serif;font-size:0.72rem;letter-spacing:0.1em;cursor:pointer;transition:all 0.2s;white-space:nowrap;}
+nav button.active{color:var(--gold);border-bottom-color:var(--gold);background:rgba(201,168,76,0.06);}
+nav button:hover:not(.active){color:var(--text);background:rgba(255,255,255,0.03);}
+main{padding:1rem;max-width:1400px;margin:0 auto;}
+.tab{display:none;}.tab.active{display:block;}
+.controls{display:flex;flex-wrap:wrap;gap:0.6rem;margin-bottom:1rem;padding:0.8rem;background:var(--bg2);border:1px solid var(--border);border-radius:6px;align-items:flex-start;}
+.controls input{flex:1;min-width:140px;padding:0.55rem 0.75rem;background:var(--bg3);border:1px solid var(--border);border-radius:4px;color:var(--text);font-family:'Crimson Pro',serif;font-size:0.9rem;}
+.controls input::placeholder{color:var(--text-dim);}
+.controls input:focus{outline:none;border-color:var(--gold-dim);}
+.ms-wrap{position:relative;flex:1;min-width:140px;align-self:flex-start;}
+.ms-btn{width:100%;padding:0.55rem 0.75rem;background:var(--bg3);border:1px solid var(--border);border-radius:4px;color:var(--text);font-family:'Crimson Pro',serif;font-size:0.9rem;cursor:pointer;text-align:left;display:flex;justify-content:space-between;align-items:center;gap:6px;transition:border-color 0.2s;white-space:nowrap;overflow:hidden;}
+.ms-btn:hover,.ms-btn.open{border-color:var(--gold-dim);}
+.ms-btn .ms-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;text-align:left;}
+.ms-btn .ms-arrow{font-size:0.6rem;color:var(--text-dim);flex-shrink:0;transition:transform 0.2s;}
+.ms-btn.open .ms-arrow{transform:rotate(180deg);}
+.ms-panel{display:none;position:absolute;top:calc(100% + 3px);left:0;right:0;background:var(--bg3);border:1px solid var(--gold-dim);border-radius:4px;z-index:400;max-height:240px;overflow-y:auto;min-width:180px;box-shadow:0 6px 20px rgba(0,0,0,0.6);text-align:left;}
+.ms-panel.open{display:block;}
+.ms-item{display:block;padding:0.42rem 0.75rem;cursor:pointer;font-size:0.85rem;transition:background 0.15s;width:100%;box-sizing:border-box;text-align:left;}
+.ms-item:hover{background:rgba(201,168,76,0.08);}
+.ms-item input[type=checkbox]{accent-color:var(--gold);width:13px;height:13px;min-width:13px;max-width:13px;max-height:13px;cursor:pointer;margin:0;vertical-align:middle;}
+.ms-item label{cursor:pointer;color:var(--text);white-space:nowrap;}
+.ms-badge{display:inline-block;padding:0.08rem 0.38rem;background:rgba(201,168,76,0.25);color:var(--gold);border-radius:10px;font-size:0.72rem;margin-left:3px;font-weight:600;vertical-align:middle;}
+.query-ms-wrap{min-width:220px;width:220px;}
+.count-bar{font-size:0.78rem;color:var(--text-dim);margin-bottom:0.6rem;padding:0 0.2rem;font-style:italic;}
+.table-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:6px;background:var(--bg2);}
+table{width:100%;border-collapse:collapse;font-size:0.82rem;min-width:900px;}
+thead th{background:var(--bg3);padding:0.65rem 0.75rem;text-align:left;font-family:'Cinzel',serif;font-size:0.65rem;letter-spacing:0.08em;color:var(--gold);border-bottom:1px solid var(--border);white-space:nowrap;cursor:pointer;user-select:none;position:sticky;top:0;}
+thead th:hover{color:var(--gold-light);}
+thead th .sort-indicator{display:inline-block;margin-left:4px;opacity:0.4;font-size:0.7em;}
+thead th.sorted-asc .sort-indicator::after{content:'▲';opacity:1;}
+thead th.sorted-desc .sort-indicator::after{content:'▼';opacity:1;}
+thead th:not(.sorted-asc):not(.sorted-desc) .sort-indicator::after{content:'⇅';}
+tbody tr{border-bottom:1px solid rgba(58,48,32,0.5);transition:background 0.15s;cursor:pointer;}
+tbody tr:hover{background:rgba(201,168,76,0.06);}
+tbody tr.expanded{background:rgba(201,168,76,0.08);}
+td{padding:0.55rem 0.75rem;color:var(--text);vertical-align:middle;}
+td.name-cell{font-weight:600;color:var(--gold-light);min-width:200px;max-width:260px;}
+td.num{text-align:right;font-variant-numeric:tabular-nums;}
+.score-badge{display:inline-block;padding:0.15rem 0.5rem;border-radius:12px;font-weight:600;font-size:0.85rem;min-width:36px;text-align:center;}
+.rating-badge{display:inline-block;width:22px;height:22px;border-radius:4px;text-align:center;line-height:22px;font-weight:700;font-size:0.8rem;}
+.rating-pill{display:inline-block;min-width:22px;padding:0.12rem 0.38rem;border-radius:12px;text-align:center;line-height:1.2;font-weight:700;font-size:0.74rem;}
+.overall-mini{transform:scale(0.85);opacity:0.75;}
+.expanded-row td{padding:0;border-bottom:2px solid var(--gold-dim);}
+.expanded-content{padding:1rem;background:var(--bg3);display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:0.6rem;}
+.detail-item label{font-family:'Cinzel',serif;font-size:0.6rem;letter-spacing:0.1em;color:var(--gold-dim);display:block;margin-bottom:0.15rem;}
+.detail-item span{font-size:0.85rem;color:var(--text);}
+.rating-row{grid-column:1 / -1;display:flex;flex-wrap:wrap;gap:0.5rem;align-items:center;}
+.rating-row label{font-family:'Cinzel',serif;font-size:0.6rem;letter-spacing:0.1em;color:var(--gold-dim);width:100%;}
+.query-hero{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:1.5rem 1rem;text-align:center;margin-bottom:1rem;}
+.query-hero h2{font-family:'Cinzel',serif;font-size:clamp(1rem,3vw,1.4rem);color:var(--gold);margin-bottom:0.5rem;letter-spacing:0.1em;}
+.query-hero p{color:var(--text-dim);font-size:0.85rem;margin-bottom:1.2rem;font-style:italic;}
+.year-input-wrap{display:flex;gap:0.6rem;justify-content:center;align-items:center;flex-wrap:wrap;}
+.year-input-wrap input{padding:0.7rem 1rem;font-family:'Cinzel',serif;font-size:1.1rem;background:var(--bg3);border:1px solid var(--gold-dim);border-radius:4px;color:var(--gold-light);width:160px;text-align:center;letter-spacing:0.05em;}
+.year-input-wrap input:focus{outline:none;border-color:var(--gold);}
+.year-input-wrap button{padding:0.7rem 1.5rem;background:var(--gold-dim);border:1px solid var(--gold);border-radius:4px;color:var(--bg);font-family:'Cinzel',serif;font-size:0.8rem;letter-spacing:0.1em;cursor:pointer;transition:background 0.2s;font-weight:700;}
+.year-input-wrap button:hover{background:var(--gold);}
+.year-display{font-family:'Cinzel',serif;font-size:0.8rem;color:var(--text-dim);margin-top:0.5rem;}
+.query-results-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:0.6rem;flex-wrap:wrap;gap:0.4rem;}
+.query-results-header h3{font-family:'Cinzel',serif;font-size:0.8rem;color:var(--gold);letter-spacing:0.1em;}
+.cards-grid{display:flex;flex-direction:column;gap:0.6rem;}
+.polity-card{background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:0.9rem 1rem;position:relative;overflow:hidden;transition:border-color 0.2s;}
+.polity-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--gold-dim);}
+.polity-card:hover{border-color:var(--gold-dim);}
+.card-top{display:flex;justify-content:space-between;align-items:flex-start;gap:0.5rem;margin-bottom:0.4rem;}
+.card-name{font-size:0.95rem;font-weight:600;color:var(--gold-light);line-height:1.3;}
+.card-scores{display:flex;gap:0.4rem;flex-shrink:0;align-items:center;}
+.card-meta{font-size:0.78rem;color:var(--text-dim);display:flex;flex-wrap:wrap;gap:0.4rem 1rem;}
+.card-meta span{display:flex;align-items:center;gap:0.25rem;}
+.card-phase{margin-top:0.5rem;padding:0.4rem 0.6rem;background:rgba(201,168,76,0.07);border:1px solid rgba(201,168,76,0.15);border-radius:4px;font-size:0.78rem;}
+.card-phase .phase-name{color:var(--gold);font-family:'Cinzel',serif;font-size:0.7rem;letter-spacing:0.06em;}
+.card-phase .phase-note{color:var(--text-dim);font-style:italic;margin-top:0.15rem;font-size:0.75rem;}
+.card-rulers{margin-top:0.5rem;border:1px solid rgba(201,168,76,0.15);border-radius:4px;overflow:hidden;}
+.card-rulers-header{display:flex;align-items:center;justify-content:space-between;padding:0.35rem 0.6rem;background:rgba(139,58,58,0.15);border-bottom:1px solid rgba(201,168,76,0.12);cursor:pointer;user-select:none;}
+.card-rulers-header:hover{background:rgba(139,58,58,0.25);}
+.card-rulers-title{font-family:'Cinzel',serif;font-size:0.65rem;letter-spacing:0.08em;color:var(--gold);}
+.card-rulers-toggle{font-size:0.6rem;color:var(--text-dim);transition:transform 0.2s;}
+.card-rulers-toggle.open{transform:rotate(180deg);}
+.card-rulers-body{display:none;padding:0.5rem 0.6rem;background:rgba(0,0,0,0.15);}
+.card-rulers-body.open{display:block;}
+.rulers-group{margin-top:0.5rem;}
+.rulers-group:first-child{margin-top:0;}
+.rulers-group-title{font-family:'Cinzel',serif;font-size:0.58rem;letter-spacing:0.07em;color:var(--gold-dim);margin-bottom:0.3rem;text-transform:uppercase;border-bottom:1px solid rgba(58,48,32,0.6);padding-bottom:0.2rem;}
+.ruler-row{display:flex;align-items:baseline;justify-content:space-between;gap:0.5rem;padding:0.2rem 0;font-size:0.78rem;border-bottom:1px solid rgba(58,48,32,0.3);}
+.ruler-row:last-child{border-bottom:none;}
+.ruler-name{color:var(--text-dim);flex:1;line-height:1.3;}
+.ruler-name.current{color:var(--text);font-weight:600;}
+.ruler-years{color:var(--text-dim);font-size:0.72rem;white-space:nowrap;flex-shrink:0;font-variant-numeric:tabular-nums;}
+.ruler-current-tag{display:inline-block;padding:0.05rem 0.3rem;background:rgba(201,168,76,0.18);color:var(--gold);border-radius:3px;font-size:0.6rem;font-family:'Cinzel',serif;letter-spacing:0.04em;margin-left:5px;vertical-align:middle;}
+.rank-num{position:absolute;top:0.7rem;right:0.8rem;font-family:'Cinzel',serif;font-size:0.65rem;color:var(--text-dim);letter-spacing:0.05em;}
+.empty-state{text-align:center;padding:3rem 1rem;color:var(--text-dim);font-style:italic;}
+.empty-state .icon{font-size:2.5rem;margin-bottom:0.5rem;opacity:0.4;}
+.s-s{background:rgba(186,104,200,0.2);color:#ce93d8;border:1px solid rgba(186,104,200,0.3);}
+.s-a{background:rgba(76,175,80,0.2);color:#81c784;border:1px solid rgba(76,175,80,0.3);}
+.s-b{background:rgba(100,181,246,0.2);color:#90caf9;border:1px solid rgba(100,181,246,0.3);}
+.s-c{background:rgba(255,183,77,0.2);color:#ffcc02;border:1px solid rgba(255,183,77,0.3);}
+.s-d{background:rgba(229,115,115,0.2);color:#ef9a9a;border:1px solid rgba(229,115,115,0.3);}
+.overall-S{background:rgba(186,104,200,0.2);color:#ce93d8;border:1px solid rgba(186,104,200,0.3);}
+.overall-A{background:rgba(76,175,80,0.2);color:#81c784;border:1px solid rgba(76,175,80,0.3);}
+.overall-B{background:rgba(100,181,246,0.2);color:#90caf9;border:1px solid rgba(100,181,246,0.3);}
+.overall-C{background:rgba(255,183,77,0.2);color:#ffcc02;border:1px solid rgba(255,183,77,0.3);}
+.overall-D{background:rgba(229,115,115,0.2);color:#ef9a9a;border:1px solid rgba(229,115,115,0.3);}
+.pagination{display:flex;justify-content:center;align-items:center;gap:0.4rem;margin-top:1rem;flex-wrap:wrap;}
+.pagination button{padding:0.35rem 0.75rem;background:var(--bg3);border:1px solid var(--border);border-radius:4px;color:var(--text-dim);font-family:'Cinzel',serif;font-size:0.7rem;cursor:pointer;transition:all 0.15s;}
+.pagination button:hover{border-color:var(--gold-dim);color:var(--text);}
+.pagination button.active{background:var(--gold-dim);color:var(--bg);border-color:var(--gold);}
+.pagination button:disabled{opacity:0.3;cursor:default;}
+::-webkit-scrollbar{width:6px;height:6px;}
+::-webkit-scrollbar-track{background:var(--bg2);}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px;}
+::-webkit-scrollbar-thumb:hover{background:var(--gold-dim);}
+thead th:nth-child(6),td:nth-child(6){max-width:120px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+@media(max-width:600px){
+  main{padding:0.6rem;}
+  .controls input,.ms-wrap{min-width:100%;}
+  .expanded-content{grid-template-columns:1fr 1fr;}
+  thead th:nth-child(6),td:nth-child(6){max-width:100px;}
+  table{min-width:760px;}
+  .query-ms-wrap{min-width:100%;width:100%;}
+}
 </style>
 </head>
 <body>
 
 <header>
-  <h1>⚔ Historical Polities Database ⚔</h1>
+  <h1>&#9876; Historical Polities Database &#9876;</h1>
   <p>A comparative study of empires, kingdoms, and states across history</p>
 </header>
 
 <nav>
-  <button class="active" onclick="switchTab('table')">📜 All Polities</button>
-  <button onclick="switchTab('query')">📅 Query by Year</button>
+  <button class="active" onclick="switchTab('table')">&#128220; All Polities</button>
+  <button onclick="switchTab('query')">&#128197; Query by Year</button>
 </nav>
 
 <main>
-
-  <!-- ══════════════════════════════════════════════════════ TABLE TAB -->
   <div id="tab-table" class="tab active">
     <div class="controls">
-      <input id="search" placeholder="🔍 Search polities…" oninput="filterTable()">
-
-      <!-- Region multi-select -->
+      <input id="search" placeholder="Search polities..." oninput="filterTable()">
       <div class="ms-wrap" id="ms-region">
         <button class="ms-btn" onclick="msToggle('ms-region')">
-          <span class="ms-label">All Regions</span>
-          <span class="ms-arrow">▼</span>
+          <span class="ms-label">All Regions</span><span class="ms-arrow">&#9660;</span>
         </button>
         <div class="ms-panel" id="ms-region-panel"></div>
       </div>
-
-      <!-- Score multi-select -->
       <div class="ms-wrap" id="ms-score">
         <button class="ms-btn" onclick="msToggle('ms-score')">
-          <span class="ms-label">All Scores</span>
-          <span class="ms-arrow">▼</span>
+          <span class="ms-label">All Scores</span><span class="ms-arrow">&#9660;</span>
         </button>
         <div class="ms-panel">
-          <div class="ms-item"><input type="checkbox" id="sc90" value="90" onchange="msLabelSync('ms-score','All Scores');filterTable()"><label for="sc90">≥ 90 Exceptional</label></div>
-          <div class="ms-item"><input type="checkbox" id="sc70" value="70" onchange="msLabelSync('ms-score','All Scores');filterTable()"><label for="sc70">≥ 70 High</label></div>
-          <div class="ms-item"><input type="checkbox" id="sc50" value="50" onchange="msLabelSync('ms-score','All Scores');filterTable()"><label for="sc50">≥ 50 Mid-High</label></div>
-          <div class="ms-item"><input type="checkbox" id="sc30" value="30" onchange="msLabelSync('ms-score','All Scores');filterTable()"><label for="sc30">≥ 30 Average</label></div>
+          <div class="ms-item"><input type="checkbox" id="sc90" value="90" onchange="msLabelSync('ms-score','All Scores');filterTable()"><label for="sc90">90+ Exceptional</label></div>
+          <div class="ms-item"><input type="checkbox" id="sc70" value="70" onchange="msLabelSync('ms-score','All Scores');filterTable()"><label for="sc70">70+ High</label></div>
+          <div class="ms-item"><input type="checkbox" id="sc50" value="50" onchange="msLabelSync('ms-score','All Scores');filterTable()"><label for="sc50">50+ Mid-High</label></div>
+          <div class="ms-item"><input type="checkbox" id="sc30" value="30" onchange="msLabelSync('ms-score','All Scores');filterTable()"><label for="sc30">30+ Average</label></div>
         </div>
       </div>
-
-      <!-- Era multi-select -->
       <div class="ms-wrap" id="ms-era">
         <button class="ms-btn" onclick="msToggle('ms-era')">
-          <span class="ms-label">All Eras</span>
-          <span class="ms-arrow">▼</span>
+          <span class="ms-label">All Eras</span><span class="ms-arrow">&#9660;</span>
         </button>
         <div class="ms-panel">
-          <div class="ms-item"><input type="checkbox" id="era-ancient"      value="ancient"      onchange="msLabelSync('ms-era','All Eras');filterTable()"><label for="era-ancient">Ancient (before 500 CE)</label></div>
-          <div class="ms-item"><input type="checkbox" id="era-medieval"     value="medieval"     onchange="msLabelSync('ms-era','All Eras');filterTable()"><label for="era-medieval">Medieval (500–1500)</label></div>
-          <div class="ms-item"><input type="checkbox" id="era-early-modern" value="early-modern" onchange="msLabelSync('ms-era','All Eras');filterTable()"><label for="era-early-modern">Early Modern (1500–1800)</label></div>
-          <div class="ms-item"><input type="checkbox" id="era-modern"       value="modern"       onchange="msLabelSync('ms-era','All Eras');filterTable()"><label for="era-modern">Modern (1800+)</label></div>
+          <div class="ms-item"><input type="checkbox" id="era-ancient" value="ancient" onchange="msLabelSync('ms-era','All Eras');filterTable()"><label for="era-ancient">Ancient (before 500 CE)</label></div>
+          <div class="ms-item"><input type="checkbox" id="era-medieval" value="medieval" onchange="msLabelSync('ms-era','All Eras');filterTable()"><label for="era-medieval">Medieval (500-1500)</label></div>
+          <div class="ms-item"><input type="checkbox" id="era-early-modern" value="early-modern" onchange="msLabelSync('ms-era','All Eras');filterTable()"><label for="era-early-modern">Early Modern (1500-1800)</label></div>
+          <div class="ms-item"><input type="checkbox" id="era-modern" value="modern" onchange="msLabelSync('ms-era','All Eras');filterTable()"><label for="era-modern">Modern (1800+)</label></div>
         </div>
       </div>
     </div>
-
-    <div class="count-bar" id="count-bar">Loading…</div>
-
+    <div class="count-bar" id="count-bar">Loading...</div>
     <div class="table-wrap">
       <table id="main-table">
         <thead>
@@ -683,7 +197,7 @@
             <th data-col="End" onclick="sortTable('End')">End <span class="sort-indicator"></span></th>
             <th data-col="Region" onclick="sortTable('Region')">Region <span class="sort-indicator"></span></th>
             <th data-col="Overall" onclick="sortTable('Overall')">Overall <span class="sort-indicator"></span></th>
-            <th data-col="Area (thousand km2)" onclick="sortTable('Area (thousand km2)')">Area (k km²) <span class="sort-indicator"></span></th>
+            <th data-col="Area (thousand km2)" onclick="sortTable('Area (thousand km2)')">Area (k km2) <span class="sort-indicator"></span></th>
             <th data-col="Population (million)" onclick="sortTable('Population (million)')">Pop (M) <span class="sort-indicator"></span></th>
             <th>Ratings</th>
           </tr>
@@ -691,66 +205,61 @@
         <tbody id="table-body"></tbody>
       </table>
     </div>
-
     <div class="pagination" id="pagination"></div>
   </div>
 
-  <!-- ══════════════════════════════════════════════════════ QUERY TAB -->
   <div id="tab-query" class="tab">
     <div class="query-hero">
       <h2>Query Polities by Year</h2>
-      <p>Enter any year to see polities active at that time and their phase score. Use negative numbers for BCE (e.g. -500 = 500 BCE).</p>
-
+      <p>Enter any year to see polities active at that time. Use negative numbers for BCE (e.g. -500 = 500 BCE).</p>
       <div class="year-input-wrap">
         <input type="number" id="year-input" placeholder="e.g. 1200" min="-3000" max="2100">
-        <button onclick="runYearQuery()">Search ↵</button>
+        <button onclick="runYearQuery()">Search</button>
       </div>
-
-      <!-- Query region multi-select -->
       <div class="year-input-wrap" style="margin-top:0.8rem;">
         <div class="ms-wrap query-ms-wrap" id="ms-query-region">
           <button class="ms-btn" onclick="msToggle('ms-query-region')">
-            <span class="ms-label">All Regions</span>
-            <span class="ms-arrow">▼</span>
+            <span class="ms-label">All Regions</span><span class="ms-arrow">&#9660;</span>
           </button>
           <div class="ms-panel" id="ms-query-region-panel"></div>
         </div>
       </div>
-
       <div class="year-display" id="year-display">Year results will appear below.</div>
     </div>
-
     <div id="query-results"></div>
   </div>
-
 </main>
 
 <script>
-let allPolities = [];
-let allPhases   = [];
-let allRulers   = [];
-let filtered    = [];
-let sortCol     = 'Overall';
-let sortDir     = 'desc';
-let currentPage = 1;
-const PAGE_SIZE = 50;
-let expandedRowIndex = null;
+var allPolities = [];
+var allPhases = [];
+var allRulers = [];
+var filtered = [];
+var sortCol = 'Overall';
+var sortDir = 'desc';
+var currentPage = 1;
+var PAGE_SIZE = 50;
+var expandedRowIndex = null;
+var RATING_DIMS = ['Duration','Area','Population','Economics','Military','Culture','Technology','Governance','Social'];
 
-const RATING_DIMS = ['Duration','Area','Population','Economics','Military','Culture','Technology','Governance','Social'];
-
-/* ── Helpers ── */
-function tidyKey(k){
+function tidyKey(k) {
   if (!k && k !== 0) return k;
   return k.toString().trim();
 }
-function toNum(v){
+
+function toNum(v) {
   if (v === null || v === undefined || v === '') return NaN;
-  const s = ('' + v).replace(/,/g,'').replace(/[^\d.\-]/g,'');
-  const n = parseFloat(s);
+  var s = ('' + v).replace(/,/g, '').replace(/[^\d.\-]/g, '');
+  var n = parseFloat(s);
   return isFinite(n) ? n : NaN;
 }
-function formatYear(y){ const n = parseInt(y); return isNaN(n) ? '—' : n; }
-function scoreColor(n){
+
+function formatYear(y) {
+  var n = parseInt(y);
+  return isNaN(n) ? '-' : n;
+}
+
+function scoreColor(n) {
   n = parseInt(n) || 0;
   if (n >= 90) return 'overall-S';
   if (n >= 70) return 'overall-A';
@@ -758,444 +267,500 @@ function scoreColor(n){
   if (n >= 30) return 'overall-C';
   return 'overall-D';
 }
-function ratingClass(r){
+
+function ratingClass(r) {
   if (!r) return '';
-  return ({ A:'s-a', B:'s-b', C:'s-c', D:'s-d', S:'s-s' })[(r+'').trim().toUpperCase()] || '';
+  var map = { A:'s-a', B:'s-b', C:'s-c', D:'s-d', S:'s-s' };
+  return map[(r + '').trim().toUpperCase()] || '';
 }
-function ratingBadge(r){
+
+function ratingBadge(r) {
   if (!r) return '';
-  return `<span class="rating-badge ${ratingClass(r)}">${(r+'').trim().toUpperCase()}</span>`;
-}
-function ratingPill(r){
-  if (!r) return `<span class="rating-pill" style="opacity:0.45">—</span>`;
-  return `<span class="rating-pill ${ratingClass(r)}">${(r+'').trim().toUpperCase()}</span>`;
+  return '<span class="rating-badge ' + ratingClass(r) + '">' + (r + '').trim().toUpperCase() + '</span>';
 }
 
-/* ── Rulers lookup ── */
-function getRulersForPolity(polityName, year){
-  const needle = (polityName || '').trim().toLowerCase();
-  const needleShort = needle.split('/')[0].trim();
+function ratingPill(r) {
+  if (!r) return '<span class="rating-pill" style="opacity:0.45">-</span>';
+  return '<span class="rating-pill ' + ratingClass(r) + '">' + (r + '').trim().toUpperCase() + '</span>';
+}
 
-  const matches = allRulers.filter(r => {
-    const hay      = (r['Polity'] || '').trim().toLowerCase();
-    const hayShort = hay.split('/')[0].trim();
-    return hay === needle || hayShort === needleShort ||
-           hay.startsWith(needleShort) || needle.startsWith(hayShort);
-  });
-
+function getRulersForPolity(polityName, year) {
+  var needle = (polityName || '').trim().toLowerCase();
+  var needleShort = needle.split('/')[0].trim();
+  var matches = [];
+  for (var i = 0; i < allRulers.length; i++) {
+    var r = allRulers[i];
+    var hay = (r['Polity'] || '').trim().toLowerCase();
+    var hayShort = hay.split('/')[0].trim();
+    if (hay === needle || hayShort === needleShort ||
+        hay.indexOf(needleShort) === 0 || needle.indexOf(hayShort) === 0) {
+      matches.push(r);
+    }
+  }
   if (!matches.length) return null;
-
-  // Group by Title, preserve insertion order
-  const groups = {};
-  matches.forEach(r => {
-    const title = (r['Title'] || 'Ruler').trim();
-    const rs = toNum(r['Start']);
-    const re = toNum(r['End']);
+  var groups = {};
+  for (var j = 0; j < matches.length; j++) {
+    var rec = matches[j];
+    var title = (rec['Title'] || 'Ruler').trim();
+    var rs = toNum(rec['Start']);
+    var re = toNum(rec['End']);
     if (!groups[title]) groups[title] = [];
     groups[title].push({
-      name:      (r['Name'] || '').trim(),
-      start:     isNaN(rs) ? null : rs,
-      end:       isNaN(re) ? null : re,
+      name: (rec['Name'] || '').trim(),
+      start: isNaN(rs) ? null : rs,
+      end: isNaN(re) ? null : re,
       isCurrent: !isNaN(rs) && !isNaN(re) && rs <= year && re >= year
     });
-  });
-
-  // Sort each group by start year
-  Object.values(groups).forEach(arr => arr.sort((a,b) => (a.start||0) - (b.start||0)));
+  }
+  var keys = Object.keys(groups);
+  for (var k = 0; k < keys.length; k++) {
+    groups[keys[k]].sort(function(a, b) { return (a.start || 0) - (b.start || 0); });
+  }
   return groups;
 }
 
-/* ── Multi-select helpers ── */
-function msToggle(wrapId){
-  const wrap  = document.getElementById(wrapId);
-  const panel = wrap.querySelector('.ms-panel');
-  const btn   = wrap.querySelector('.ms-btn');
-  const isOpen = panel.classList.contains('open');
-  document.querySelectorAll('.ms-panel').forEach(p => p.classList.remove('open'));
-  document.querySelectorAll('.ms-btn').forEach(b => b.classList.remove('open'));
-  if (!isOpen){ panel.classList.add('open'); btn.classList.add('open'); }
+function msToggle(wrapId) {
+  var wrap = document.getElementById(wrapId);
+  var panel = wrap.querySelector('.ms-panel');
+  var btn = wrap.querySelector('.ms-btn');
+  var isOpen = panel.classList.contains('open');
+  var allPanels = document.querySelectorAll('.ms-panel');
+  var allBtns = document.querySelectorAll('.ms-btn');
+  for (var i = 0; i < allPanels.length; i++) allPanels[i].classList.remove('open');
+  for (var j = 0; j < allBtns.length; j++) allBtns[j].classList.remove('open');
+  if (!isOpen) { panel.classList.add('open'); btn.classList.add('open'); }
 }
-function msGetValues(wrapId){
-  const wrap = document.getElementById(wrapId);
+
+function msGetValues(wrapId) {
+  var wrap = document.getElementById(wrapId);
   if (!wrap) return [];
-  return Array.from(wrap.querySelectorAll('input[type=checkbox]:checked')).map(cb => cb.value);
+  var checked = wrap.querySelectorAll('input[type=checkbox]:checked');
+  var vals = [];
+  for (var i = 0; i < checked.length; i++) vals.push(checked[i].value);
+  return vals;
 }
-function msLabelSync(wrapId, allLabel){
-  const wrap = document.getElementById(wrapId);
+
+function msLabelSync(wrapId, allLabel) {
+  var wrap = document.getElementById(wrapId);
   if (!wrap) return;
-  const checked = wrap.querySelectorAll('input[type=checkbox]:checked');
-  const lbl = wrap.querySelector('.ms-label');
-  if (checked.length === 0){
+  var checked = wrap.querySelectorAll('input[type=checkbox]:checked');
+  var lbl = wrap.querySelector('.ms-label');
+  if (checked.length === 0) {
     lbl.textContent = allLabel;
   } else {
-    lbl.innerHTML = allLabel.replace(/^All /,'') + ` <span class="ms-badge">${checked.length}</span>`;
+    lbl.innerHTML = allLabel.replace(/^All /, '') + ' <span class="ms-badge">' + checked.length + '</span>';
   }
 }
-document.addEventListener('click', e => {
-  if (!e.target.closest('.ms-wrap')){
-    document.querySelectorAll('.ms-panel').forEach(p => p.classList.remove('open'));
-    document.querySelectorAll('.ms-btn').forEach(b => b.classList.remove('open'));
+
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('.ms-wrap')) {
+    var allPanels = document.querySelectorAll('.ms-panel');
+    var allBtns = document.querySelectorAll('.ms-btn');
+    for (var i = 0; i < allPanels.length; i++) allPanels[i].classList.remove('open');
+    for (var j = 0; j < allBtns.length; j++) allBtns[j].classList.remove('open');
   }
 });
 
-/* ── CSV loading ── */
-function parseCSV(filename){
-  return new Promise(resolve => {
+function parseCSV(filename) {
+  return new Promise(function(resolve) {
     Papa.parse(filename, {
-      download: true, header: true, skipEmptyLines: true,
-      transformHeader: h => tidyKey(h),
-      complete: res => {
+      download: true,
+      header: true,
+      skipEmptyLines: true,
+      transformHeader: function(h) { return tidyKey(h); },
+      complete: function(res) {
         console.log(filename + ' loaded: ' + res.data.length + ' rows');
-        resolve(res.data.map(r => {
-          const o = {};
-          Object.keys(r).forEach(k => { o[tidyKey(k)] = (r[k]==null?''):(''+ r[k]).trim(); });
-          return o;
-        }));
+        var out = [];
+        for (var i = 0; i < res.data.length; i++) {
+          var r = res.data[i];
+          var o = {};
+          var keys = Object.keys(r);
+          for (var j = 0; j < keys.length; j++) {
+            var k = tidyKey(keys[j]);
+            o[k] = (r[keys[j]] == null) ? '' : ('' + r[keys[j]]).trim();
+          }
+          out.push(o);
+        }
+        resolve(out);
       },
-      error: (err) => { console.error(filename+' FAILED:', err); resolve([]); }
+      error: function(err) {
+        console.error(filename + ' FAILED:', err);
+        resolve([]);
+      }
     });
   });
 }
-  
-function loadCSVFiles(){
+
+function loadCSVFiles() {
   Promise.all([
     parseCSV('polities.csv'),
     parseCSV('phases.csv'),
     parseCSV('rulers.csv')
-  ]).then(([polities, phases, rulers]) => {
-    allPolities = polities;
-    allPhases   = phases;
-    allRulers   = rulers;
+  ]).then(function(results) {
+    allPolities = results[0];
+    allPhases = results[1];
+    allRulers = results[2];
     postProcessData();
     initUI();
   });
 }
 
-function postProcessData(){
-  allPolities.forEach(p => {
-    ['Start','End','Duration (year)','Area (thousand km2)','Population (million)','Overall'].forEach(k => {
-      if (p.hasOwnProperty(k)) p[`__num__${k}`] = toNum(p[k]);
-    });
-  });
-  allPhases.forEach(ph => {
-    ['Phase Start','Phase End','Phase Score','Start Year','End Year','Overall Score'].forEach(k => {
-      if (ph.hasOwnProperty(k)) ph[`__num__${k}`] = toNum(ph[k]);
-    });
-  });
+function postProcessData() {
+  var pk = ['Start','End','Duration (year)','Area (thousand km2)','Population (million)','Overall'];
+  for (var i = 0; i < allPolities.length; i++) {
+    for (var j = 0; j < pk.length; j++) {
+      if (allPolities[i].hasOwnProperty(pk[j])) allPolities[i]['__num__' + pk[j]] = toNum(allPolities[i][pk[j]]);
+    }
+  }
+  var phk = ['Phase Start','Phase End','Phase Score','Start Year','End Year','Overall Score'];
+  for (var a = 0; a < allPhases.length; a++) {
+    for (var b = 0; b < phk.length; b++) {
+      if (allPhases[a].hasOwnProperty(phk[b])) allPhases[a]['__num__' + phk[b]] = toNum(allPhases[a][phk[b]]);
+    }
+  }
 }
 
-/* ── UI init ── */
-function initUI(){
-  const regions = Array.from(
-    new Set(allPolities.map(p => (p['Region']||'').split('/')[0].trim()).filter(Boolean))
-  ).sort();
+function initUI() {
+  var regionSet = {};
+  for (var i = 0; i < allPolities.length; i++) {
+    var r = (allPolities[i]['Region'] || '').split('/')[0].trim();
+    if (r) regionSet[r] = true;
+  }
+  var regions = Object.keys(regionSet).sort();
 
-  function buildRegionPanel(panelId, parentWrapId, onchangeCode){
-    const panel = document.getElementById(panelId);
+  function buildRegionPanel(panelId, parentWrapId, onchangeCode) {
+    var panel = document.getElementById(panelId);
     if (!panel) return;
-    panel.innerHTML = regions.map((r,i) =>
-      `<div class="ms-item">
-        <input type="checkbox" id="${panelId}-${i}" value="${r}"
-          onchange="msLabelSync('${parentWrapId}','All Regions');${onchangeCode}">
-        <label for="${panelId}-${i}">${r}</label>
-      </div>`
-    ).join('');
+    var html = '';
+    for (var i = 0; i < regions.length; i++) {
+      var r = regions[i];
+      var safeR = r.replace(/'/g, "\\'");
+      html += '<div class="ms-item"><input type="checkbox" id="' + panelId + '-' + i + '" value="' + r + '" onchange="msLabelSync(\'' + parentWrapId + '\',\'All Regions\');' + onchangeCode + '"><label for="' + panelId + '-' + i + '">' + r + '</label></div>';
+    }
+    panel.innerHTML = html;
   }
 
-  buildRegionPanel('ms-region-panel',      'ms-region',       'filterTable()');
+  buildRegionPanel('ms-region-panel', 'ms-region', 'filterTable()');
   buildRegionPanel('ms-query-region-panel', 'ms-query-region', 'runYearQuery()');
   filterTable();
 }
 
-/* ── Filtering ── */
-function filterTable(){
-  const q       = (document.getElementById('search').value||'').toLowerCase().trim();
-  const regions = msGetValues('ms-region');
-  const scores  = msGetValues('ms-score').map(Number);
-  const eras    = msGetValues('ms-era');
+function filterTable() {
+  var q = (document.getElementById('search').value || '').toLowerCase().trim();
+  var regions = msGetValues('ms-region');
+  var scoreVals = msGetValues('ms-score');
+  var scores = [];
+  for (var s = 0; s < scoreVals.length; s++) scores.push(Number(scoreVals[s]));
+  var eras = msGetValues('ms-era');
 
-  filtered = allPolities.filter(p => {
-    if (q){
-      const hay = [p['Political Entities'],p['Region'],p['Ethnic Group'],p['Religion'],p['Capital'],p['Language']].join(' ').toLowerCase();
-      if (!hay.includes(q)) return false;
+  filtered = [];
+  for (var i = 0; i < allPolities.length; i++) {
+    var p = allPolities[i];
+    if (q) {
+      var hay = [p['Political Entities'],p['Region'],p['Ethnic Group'],p['Religion'],p['Capital'],p['Language']].join(' ').toLowerCase();
+      if (hay.indexOf(q) === -1) continue;
     }
-    if (regions.length){
-      if (!regions.includes((p['Region']||'').split('/')[0].trim())) return false;
+    if (regions.length) {
+      var pr = (p['Region'] || '').split('/')[0].trim();
+      var found = false;
+      for (var ri = 0; ri < regions.length; ri++) { if (regions[ri] === pr) { found = true; break; } }
+      if (!found) continue;
     }
-    if (scores.length){
-      const ov = parseInt(p['Overall'])||0;
-      if (!scores.some(min => ov >= min)) return false;
+    if (scores.length) {
+      var ov = parseInt(p['Overall']) || 0;
+      var scoreOk = false;
+      for (var si = 0; si < scores.length; si++) { if (ov >= scores[si]) { scoreOk = true; break; } }
+      if (!scoreOk) continue;
     }
-    if (eras.length){
-      const start = parseInt(p['Start']), end = parseInt(p['End']);
-      if (isNaN(start)||isNaN(end)) return false;
-      const inEra = era =>
-        (era==='ancient'      && end<=500) ||
-        (era==='medieval'     && start<=1500 && end>=500) ||
-        (era==='early-modern' && start<=1800 && end>=1500) ||
-        (era==='modern'       && end>=1800);
-      if (!eras.some(inEra)) return false;
+    if (eras.length) {
+      var pstart = parseInt(p['Start']), pend = parseInt(p['End']);
+      if (isNaN(pstart) || isNaN(pend)) continue;
+      var eraOk = false;
+      for (var ei = 0; ei < eras.length; ei++) {
+        var era = eras[ei];
+        if ((era === 'ancient' && pend <= 500) ||
+            (era === 'medieval' && pstart <= 1500 && pend >= 500) ||
+            (era === 'early-modern' && pstart <= 1800 && pend >= 1500) ||
+            (era === 'modern' && pend >= 1800)) { eraOk = true; break; }
+      }
+      if (!eraOk) continue;
     }
-    return true;
-  });
-  sortData(); currentPage = 1; renderTable();
+    filtered.push(p);
+  }
+  sortData();
+  currentPage = 1;
+  renderTable();
 }
 
-/* ── Sorting ── */
-function sortData(){
-  filtered.sort((a,b) => {
-    const an = a[`__num__${sortCol}`], bn = b[`__num__${sortCol}`];
-    if (!isNaN(an)&&!isNaN(bn)) return sortDir==='asc'?an-bn:bn-an;
-    const av=(a[sortCol]||'').toString().toLowerCase(), bv=(b[sortCol]||'').toString().toLowerCase();
-    if(av<bv) return sortDir==='asc'?-1:1;
-    if(av>bv) return sortDir==='asc'?1:-1;
+function sortData() {
+  filtered.sort(function(a, b) {
+    var an = a['__num__' + sortCol], bn = b['__num__' + sortCol];
+    if (!isNaN(an) && !isNaN(bn)) return sortDir === 'asc' ? an - bn : bn - an;
+    var av = (a[sortCol] || '').toString().toLowerCase();
+    var bv = (b[sortCol] || '').toString().toLowerCase();
+    if (av < bv) return sortDir === 'asc' ? -1 : 1;
+    if (av > bv) return sortDir === 'asc' ? 1 : -1;
     return 0;
   });
 }
-function sortTable(col){
-  if(sortCol===col) sortDir=sortDir==='asc'?'desc':'asc';
-  else { sortCol=col; sortDir='desc'; }
-  document.querySelectorAll('thead th').forEach(th => {
-    th.classList.remove('sorted-asc','sorted-desc');
-    if(th.dataset.col===col) th.classList.add('sorted-'+sortDir);
-  });
-  sortData(); renderTable();
+
+function sortTable(col) {
+  if (sortCol === col) sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+  else { sortCol = col; sortDir = 'desc'; }
+  var ths = document.querySelectorAll('thead th');
+  for (var i = 0; i < ths.length; i++) {
+    ths[i].classList.remove('sorted-asc', 'sorted-desc');
+    if (ths[i].dataset.col === col) ths[i].classList.add('sorted-' + sortDir);
+  }
+  sortData();
+  renderTable();
 }
 
-/* ── Render table ── */
-function renderTable(){
-  const total = filtered.length;
-  const start = (currentPage-1)*PAGE_SIZE;
-  const end   = Math.min(start+PAGE_SIZE, total);
+function renderTable() {
+  var total = filtered.length;
+  var start = (currentPage - 1) * PAGE_SIZE;
+  var end = Math.min(start + PAGE_SIZE, total);
   document.getElementById('count-bar').textContent = total
-    ? `Showing ${start+1}–${end} of ${total} polities` : 'No polities to show';
-
-  const tbody = document.getElementById('table-body');
+    ? 'Showing ' + (start + 1) + '-' + end + ' of ' + total + ' polities'
+    : 'No polities to show';
+  var tbody = document.getElementById('table-body');
   tbody.innerHTML = '';
-  filtered.slice(start,end).forEach((p,idx) => {
-    const tr = document.createElement('tr');
-    const ratingsHtml = RATING_DIMS.map(dim => {
-      const val = p[dim]||p[dim+' ']||'';
-      return `<span title="${dim}" style="display:inline-block;vertical-align:middle;margin-right:6px;">${ratingPill(val)}</span>`;
-    }).join('');
-    tr.innerHTML = `
-      <td class="name-cell" title="${p['Political Entities']||''}">${p['Political Entities']||'—'}</td>
-      <td class="num">${formatYear(p['Start'])}</td>
-      <td class="num">${formatYear(p['End'])}</td>
-      <td>${(p['Region']||'').replace(/ \/ .*/,'')}</td>
-      <td><span class="score-badge ${scoreColor(p['Overall'])}">${p['Overall']||'—'}</span></td>
-      <td class="num" title="${p['Area (thousand km2)']||''}">${p['Area (thousand km2)']?Number(p['Area (thousand km2)']).toLocaleString()+'k':'—'}</td>
-      <td class="num">${p['Population (million)']||'—'}</td>
-      <td>${ratingsHtml}</td>
-    `;
-    tr.onclick = () => toggleExpand(tr, p, start+idx);
-    tbody.appendChild(tr);
-  });
+  var slice = filtered.slice(start, end);
+  for (var idx = 0; idx < slice.length; idx++) {
+    (function(p, globalIdx) {
+      var tr = document.createElement('tr');
+      var ratingsHtml = '';
+      for (var d = 0; d < RATING_DIMS.length; d++) {
+        var dim = RATING_DIMS[d];
+        var val = p[dim] || p[dim + ' '] || '';
+        ratingsHtml += '<span title="' + dim + '" style="display:inline-block;vertical-align:middle;margin-right:6px;">' + ratingPill(val) + '</span>';
+      }
+      tr.innerHTML =
+        '<td class="name-cell" title="' + (p['Political Entities'] || '') + '">' + (p['Political Entities'] || '-') + '</td>' +
+        '<td class="num">' + formatYear(p['Start']) + '</td>' +
+        '<td class="num">' + formatYear(p['End']) + '</td>' +
+        '<td>' + (p['Region'] || '').replace(/ \/ .*/, '') + '</td>' +
+        '<td><span class="score-badge ' + scoreColor(p['Overall']) + '">' + (p['Overall'] || '-') + '</span></td>' +
+        '<td class="num">' + (p['Area (thousand km2)'] ? Number(p['Area (thousand km2)']).toLocaleString() + 'k' : '-') + '</td>' +
+        '<td class="num">' + (p['Population (million)'] || '-') + '</td>' +
+        '<td>' + ratingsHtml + '</td>';
+      tr.onclick = function() { toggleExpand(tr, p, globalIdx); };
+      tbody.appendChild(tr);
+    })(slice[idx], start + idx);
+  }
   renderPagination(total);
 }
 
-/* ── Row expand ── */
-function toggleExpand(tr, p, idx){
-  const existing = document.querySelector('.expanded-row');
-  if(existing){
+function toggleExpand(tr, p, idx) {
+  var existing = document.querySelector('.expanded-row');
+  if (existing) {
     existing.remove();
-    document.querySelectorAll('tbody tr.expanded').forEach(r => r.classList.remove('expanded'));
-    if(expandedRowIndex===idx){ expandedRowIndex=null; return; }
+    var exps = document.querySelectorAll('tbody tr.expanded');
+    for (var i = 0; i < exps.length; i++) exps[i].classList.remove('expanded');
+    if (expandedRowIndex === idx) { expandedRowIndex = null; return; }
   }
-  expandedRowIndex=idx; tr.classList.add('expanded');
-  const detailTr = document.createElement('tr');
+  expandedRowIndex = idx;
+  tr.classList.add('expanded');
+  var detailTr = document.createElement('tr');
   detailTr.className = 'expanded-row';
-  const td = document.createElement('td'); td.colSpan=8;
-  td.innerHTML = `
-    <div class="expanded-content">
-      <div class="detail-item"><label>ETHNIC GROUP</label><span>${p['Ethnic Group']||'—'}</span></div>
-      <div class="detail-item"><label>LANGUAGE</label><span>${p['Language']||'—'}</span></div>
-      <div class="detail-item"><label>RELIGION</label><span>${p['Religion']||'—'}</span></div>
-      <div class="detail-item"><label>FOUNDER</label><span>${p['Founder']||'—'}</span></div>
-      <div class="detail-item"><label>CAPITAL</label><span>${p['Capital']||'—'}</span></div>
-      <div class="detail-item"><label>PRESENT DAY</label><span>${p['Present Day Location']||'—'}</span></div>
-      <div class="detail-item"><label>DURATION</label><span>${p['Duration (year)']?p['Duration (year)']+' years':(p['Duration']||'—')}</span></div>
-      <div class="detail-item"><label>AREA</label><span>${p['Area (thousand km2)']?Number(p['Area (thousand km2)']).toLocaleString()+' thousand km²':'—'}</span></div>
-      <div class="detail-item"><label>POPULATION</label><span>${p['Population (million)']?p['Population (million)']+' million':'—'}</span></div>
-      <div class="rating-row">
-        <label>ALL RATINGS</label>
-        ${RATING_DIMS.map(r=>`<span title="${r}">${r.substring(0,3).toUpperCase()} ${ratingBadge(p[r])}</span>`).join('')}
-      </div>
-    </div>`;
-  detailTr.appendChild(td); tr.after(detailTr);
+  var td = document.createElement('td');
+  td.colSpan = 8;
+  var ratingsAll = '';
+  for (var d = 0; d < RATING_DIMS.length; d++) {
+    var r = RATING_DIMS[d];
+    ratingsAll += '<span title="' + r + '">' + r.substring(0,3).toUpperCase() + ' ' + ratingBadge(p[r]) + '</span>';
+  }
+  td.innerHTML =
+    '<div class="expanded-content">' +
+    '<div class="detail-item"><label>ETHNIC GROUP</label><span>' + (p['Ethnic Group'] || '-') + '</span></div>' +
+    '<div class="detail-item"><label>LANGUAGE</label><span>' + (p['Language'] || '-') + '</span></div>' +
+    '<div class="detail-item"><label>RELIGION</label><span>' + (p['Religion'] || '-') + '</span></div>' +
+    '<div class="detail-item"><label>FOUNDER</label><span>' + (p['Founder'] || '-') + '</span></div>' +
+    '<div class="detail-item"><label>CAPITAL</label><span>' + (p['Capital'] || '-') + '</span></div>' +
+    '<div class="detail-item"><label>PRESENT DAY</label><span>' + (p['Present Day Location'] || '-') + '</span></div>' +
+    '<div class="detail-item"><label>DURATION</label><span>' + (p['Duration (year)'] ? p['Duration (year)'] + ' years' : (p['Duration'] || '-')) + '</span></div>' +
+    '<div class="detail-item"><label>AREA</label><span>' + (p['Area (thousand km2)'] ? Number(p['Area (thousand km2)']).toLocaleString() + ' thousand km2' : '-') + '</span></div>' +
+    '<div class="detail-item"><label>POPULATION</label><span>' + (p['Population (million)'] ? p['Population (million)'] + ' million' : '-') + '</span></div>' +
+    '<div class="rating-row"><label>ALL RATINGS</label>' + ratingsAll + '</div>' +
+    '</div>';
+  detailTr.appendChild(td);
+  tr.after(detailTr);
 }
 
-/* ── Pagination ── */
-function renderPagination(total){
-  const pages = Math.ceil(total/PAGE_SIZE);
-  const pag = document.getElementById('pagination');
-  pag.innerHTML = ''; if(pages<=1) return;
-  const btn = (label,page,disabled,active) => {
-    const b=document.createElement('button'); b.textContent=label;
-    if(disabled) b.disabled=true; if(active) b.classList.add('active');
-    b.onclick=()=>{ currentPage=page; renderTable(); window.scrollTo({top:0,behavior:'smooth'}); };
+function renderPagination(total) {
+  var pages = Math.ceil(total / PAGE_SIZE);
+  var pag = document.getElementById('pagination');
+  pag.innerHTML = '';
+  if (pages <= 1) return;
+  function makeBtn(label, page, disabled, active) {
+    var b = document.createElement('button');
+    b.textContent = label;
+    if (disabled) b.disabled = true;
+    if (active) b.classList.add('active');
+    b.onclick = function() { currentPage = page; renderTable(); window.scrollTo({top:0,behavior:'smooth'}); };
     return b;
-  };
-  pag.appendChild(btn('‹',Math.max(1,currentPage-1),currentPage===1));
-  let s=Math.max(1,currentPage-2), e=Math.min(pages,currentPage+2);
-  if(s>1){ pag.appendChild(btn('1',1)); if(s>2) pag.appendChild(Object.assign(document.createElement('span'),{textContent:'…',style:'color:var(--text-dim);padding:0 6px'})); }
-  for(let p=s;p<=e;p++) pag.appendChild(btn(p,p,false,p===currentPage));
-  if(e<pages){ if(e<pages-1) pag.appendChild(Object.assign(document.createElement('span'),{textContent:'…',style:'color:var(--text-dim);padding:0 6px'})); pag.appendChild(btn(pages,pages)); }
-  pag.appendChild(btn('›',Math.min(pages,currentPage+1),currentPage===pages));
+  }
+  pag.appendChild(makeBtn('<', Math.max(1, currentPage - 1), currentPage === 1));
+  var s = Math.max(1, currentPage - 2), e = Math.min(pages, currentPage + 2);
+  if (s > 1) {
+    pag.appendChild(makeBtn('1', 1));
+    if (s > 2) { var sp = document.createElement('span'); sp.textContent = '...'; sp.style.cssText = 'color:var(--text-dim);padding:0 6px'; pag.appendChild(sp); }
+  }
+  for (var pg = s; pg <= e; pg++) pag.appendChild(makeBtn(pg, pg, false, pg === currentPage));
+  if (e < pages) {
+    if (e < pages - 1) { var sp2 = document.createElement('span'); sp2.textContent = '...'; sp2.style.cssText = 'color:var(--text-dim);padding:0 6px'; pag.appendChild(sp2); }
+    pag.appendChild(makeBtn(pages, pages));
+  }
+  pag.appendChild(makeBtn('>', Math.min(pages, currentPage + 1), currentPage === pages));
 }
 
-/* ── Rulers HTML builder ── */
-function buildRulersHTML(polityName, year, cardIndex){
-  const groups = getRulersForPolity(polityName, year);
+function buildRulersHTML(polityName, year, cardIndex) {
+  var groups = getRulersForPolity(polityName, year);
   if (!groups || !Object.keys(groups).length) return '';
-
-  const bodyId  = `rulers-body-${cardIndex}`;
-  const arrowId = `rulers-arrow-${cardIndex}`;
-
-  let currentCount = 0;
-  Object.values(groups).forEach(arr => arr.forEach(r => { if(r.isCurrent) currentCount++; }));
-
-  const countTag = currentCount
-    ? `<span class="ms-badge" style="background:rgba(139,58,58,0.3);color:#e8c97a;margin-left:6px;">${currentCount} active</span>`
+  var bodyId = 'rulers-body-' + cardIndex;
+  var arrowId = 'rulers-arrow-' + cardIndex;
+  var currentCount = 0;
+  var gkeys = Object.keys(groups);
+  for (var gi = 0; gi < gkeys.length; gi++) {
+    var arr = groups[gkeys[gi]];
+    for (var ai = 0; ai < arr.length; ai++) { if (arr[ai].isCurrent) currentCount++; }
+  }
+  var countTag = currentCount
+    ? '<span class="ms-badge" style="background:rgba(139,58,58,0.3);color:#e8c97a;margin-left:6px;">' + currentCount + ' active</span>'
     : '';
-
-  let groupsHtml = '';
-  Object.entries(groups).forEach(([title, rulers]) => {
-    const rowsHtml = rulers.map(r => {
-      const ys = r.start !== null ? r.start : '?';
-      const ye = r.end   !== null ? r.end   : '?';
-      const tag = r.isCurrent ? `<span class="ruler-current-tag">NOW</span>` : '';
-      return `<div class="ruler-row">
-        <span class="ruler-name ${r.isCurrent?'current':''}">${r.name}${tag}</span>
-        <span class="ruler-years">${ys}–${ye}</span>
-      </div>`;
-    }).join('');
-    groupsHtml += `<div class="rulers-group">
-      <div class="rulers-group-title">${title}</div>
-      ${rowsHtml}
-    </div>`;
-  });
-
-  return `<div class="card-rulers">
-    <div class="card-rulers-header" onclick="toggleRulers('${bodyId}','${arrowId}')">
-      <span class="card-rulers-title">👑 RULERS${countTag}</span>
-      <span class="card-rulers-toggle" id="${arrowId}">▼</span>
-    </div>
-    <div class="card-rulers-body" id="${bodyId}">
-      ${groupsHtml}
-    </div>
-  </div>`;
-}
-
-function toggleRulers(bodyId, arrowId){
-  const body  = document.getElementById(bodyId);
-  const arrow = document.getElementById(arrowId);
-  if(!body) return;
-  const isOpen = body.classList.contains('open');
-  body.classList.toggle('open', !isOpen);
-  if(arrow) arrow.classList.toggle('open', !isOpen);
-}
-
-/* ── Year query ── */
-function runYearQuery(){
-  const val = (document.getElementById('year-input').value||'').trim();
-  const selectedRegions = msGetValues('ms-query-region');
-
-  if(!val){ document.getElementById('query-results').innerHTML='<div class="empty-state"><div class="icon">⚠</div>Please enter a year.</div>'; return; }
-  const year = parseInt(val,10);
-  if(isNaN(year)){ document.getElementById('query-results').innerHTML='<div class="empty-state"><div class="icon">⚠</div>Please enter a valid numeric year.</div>'; return; }
-
-  const labelStr    = String(year);
-  const regionLabel = selectedRegions.length
-    ? (selectedRegions.length===1?selectedRegions[0]:`${selectedRegions.length} Regions`) : '';
-
-  document.getElementById('year-display').textContent = regionLabel
-    ? `Showing polities active in ${labelStr} · Region: ${regionLabel}`
-    : `Showing polities active in ${labelStr}`;
-
-  const matches = [];
-  allPhases.forEach(ph => {
-    const ps = toNum(ph['Phase Start'])||toNum(ph['PhaseStart'])||toNum(ph['Phase_Start'])||toNum(ph['Start Year']);
-    const pe = toNum(ph['Phase End'])  ||toNum(ph['PhaseEnd'])  ||toNum(ph['Phase_End'])  ||toNum(ph['End Year']);
-    if(!isNaN(ps)&&!isNaN(pe)&&ps<=year&&pe>=year){
-      const polityName = ph['Polity']||ph['Political Entities']||ph['Polity Name']||'';
-      const phaseScore = toNum(ph['Phase Score'])||toNum(ph['PhaseScore'])||toNum(ph['Phase_Score'])||NaN;
-      matches.push({ phase:ph, polityName, phaseScore:isNaN(phaseScore)?null:phaseScore });
+  var groupsHtml = '';
+  for (var gi2 = 0; gi2 < gkeys.length; gi2++) {
+    var title = gkeys[gi2];
+    var rulers = groups[title];
+    var rowsHtml = '';
+    for (var ri = 0; ri < rulers.length; ri++) {
+      var rul = rulers[ri];
+      var ys = rul.start !== null ? rul.start : '?';
+      var ye = rul.end !== null ? rul.end : '?';
+      var tag = rul.isCurrent ? '<span class="ruler-current-tag">NOW</span>' : '';
+      rowsHtml += '<div class="ruler-row"><span class="ruler-name' + (rul.isCurrent ? ' current' : '') + '">' + rul.name + tag + '</span><span class="ruler-years">' + ys + '-' + ye + '</span></div>';
     }
-  });
+    groupsHtml += '<div class="rulers-group"><div class="rulers-group-title">' + title + '</div>' + rowsHtml + '</div>';
+  }
+  return '<div class="card-rulers"><div class="card-rulers-header" onclick="toggleRulers(\'' + bodyId + '\',\'' + arrowId + '\')"><span class="card-rulers-title">&#128081; RULERS' + countTag + '</span><span class="card-rulers-toggle" id="' + arrowId + '">&#9660;</span></div><div class="card-rulers-body" id="' + bodyId + '">' + groupsHtml + '</div></div>';
+}
 
-  if(!matches.length){ document.getElementById('query-results').innerHTML=`<div class="empty-state"><div class="icon">🏜</div>No phases found for ${labelStr}.</div>`; return; }
+function toggleRulers(bodyId, arrowId) {
+  var body = document.getElementById(bodyId);
+  var arrow = document.getElementById(arrowId);
+  if (!body) return;
+  var isOpen = body.classList.contains('open');
+  body.classList.toggle('open', !isOpen);
+  if (arrow) arrow.classList.toggle('open', !isOpen);
+}
 
-  const mapped = matches.map(m => {
-    let row = allPolities.find(p=>(p['Political Entities']||'').trim()===(m.polityName||'').trim());
-    if(!row){ const sn=(m.polityName||'').split('/')[0].trim(); row=allPolities.find(p=>(p['Political Entities']||'').startsWith(sn)); }
-    return { phase:m.phase, polity:row, phaseScore:m.phaseScore||(row?toNum(row['Overall']):0) };
-  }).filter(x => {
-    if(!x.polity) return false;
-    if(!selectedRegions.length) return true;
-    return selectedRegions.includes((x.polity['Region']||'').split('/')[0].trim());
-  });
+function runYearQuery() {
+  var val = (document.getElementById('year-input').value || '').trim();
+  var selectedRegions = msGetValues('ms-query-region');
+  if (!val) { document.getElementById('query-results').innerHTML = '<div class="empty-state"><div class="icon">!</div>Please enter a year.</div>'; return; }
+  var year = parseInt(val, 10);
+  if (isNaN(year)) { document.getElementById('query-results').innerHTML = '<div class="empty-state"><div class="icon">!</div>Please enter a valid numeric year.</div>'; return; }
+  var labelStr = String(year);
+  var regionLabel = '';
+  if (selectedRegions.length === 1) regionLabel = selectedRegions[0];
+  else if (selectedRegions.length > 1) regionLabel = selectedRegions.length + ' Regions';
+  document.getElementById('year-display').textContent = regionLabel
+    ? 'Showing polities active in ' + labelStr + ' - Region: ' + regionLabel
+    : 'Showing polities active in ' + labelStr;
 
-  if(!mapped.length){ document.getElementById('query-results').innerHTML=`<div class="empty-state"><div class="icon">🏜</div>No polities match ${labelStr}${regionLabel?` in ${regionLabel}`:''}</div>`; return; }
+  var matches = [];
+  for (var pi = 0; pi < allPhases.length; pi++) {
+    var ph = allPhases[pi];
+    var ps = toNum(ph['Phase Start']) || toNum(ph['PhaseStart']) || toNum(ph['Phase_Start']) || toNum(ph['Start Year']);
+    var pe = toNum(ph['Phase End']) || toNum(ph['PhaseEnd']) || toNum(ph['Phase_End']) || toNum(ph['End Year']);
+    if (!isNaN(ps) && !isNaN(pe) && ps <= year && pe >= year) {
+      var polityName = ph['Polity'] || ph['Political Entities'] || ph['Polity Name'] || '';
+      var phaseScore = toNum(ph['Phase Score']) || toNum(ph['PhaseScore']) || toNum(ph['Phase_Score']) || NaN;
+      matches.push({ phase: ph, polityName: polityName, phaseScore: isNaN(phaseScore) ? null : phaseScore });
+    }
+  }
 
-  mapped.sort((a,b)=>b.phaseScore-a.phaseScore);
+  if (!matches.length) { document.getElementById('query-results').innerHTML = '<div class="empty-state"><div class="icon">?</div>No phases found for ' + labelStr + '.</div>'; return; }
 
-  const container    = document.getElementById('query-results');
-  const regionHeader = regionLabel?` · ${regionLabel.toUpperCase()}`:'';
-  let html = `<div class="query-results-header"><h3>⚔ ${mapped.length} POLITIES IN ${labelStr}${regionHeader}</h3><span style="color:var(--text-dim);font-size:0.78rem">Sorted by Phase Score</span></div>`;
-  html += '<div class="cards-grid">';
+  var mapped = [];
+  for (var mi = 0; mi < matches.length; mi++) {
+    var m = matches[mi];
+    var row = null;
+    for (var pi2 = 0; pi2 < allPolities.length; pi2++) {
+      if ((allPolities[pi2]['Political Entities'] || '').trim() === (m.polityName || '').trim()) { row = allPolities[pi2]; break; }
+    }
+    if (!row) {
+      var sn = (m.polityName || '').split('/')[0].trim();
+      for (var pi3 = 0; pi3 < allPolities.length; pi3++) {
+        if ((allPolities[pi3]['Political Entities'] || '').indexOf(sn) === 0) { row = allPolities[pi3]; break; }
+      }
+    }
+    if (!row) continue;
+    if (selectedRegions.length) {
+      var pr = (row['Region'] || '').split('/')[0].trim();
+      var regionMatch = false;
+      for (var sri = 0; sri < selectedRegions.length; sri++) { if (selectedRegions[sri] === pr) { regionMatch = true; break; } }
+      if (!regionMatch) continue;
+    }
+    mapped.push({ phase: m.phase, polity: row, phaseScore: m.phaseScore || toNum(row['Overall']) || 0 });
+  }
 
-  mapped.forEach((item,i) => {
-    const p  = item.polity;
-    const ph = item.phase;
-    const score        = item.phaseScore;
-    const overallScore = p ? toNum(p['Overall']) : null;
-    const startDisp    = p['Start']!==undefined ? p['Start'] : (p['Start Year']||'—');
-    const endDisp      = p['End']  !==undefined ? p['End']   : (p['End Year']  ||'—');
-    const rulersHtml   = buildRulersHTML(p['Political Entities'], year, i);
+  if (!mapped.length) { document.getElementById('query-results').innerHTML = '<div class="empty-state"><div class="icon">?</div>No polities match ' + labelStr + (regionLabel ? ' in ' + regionLabel : '') + '.</div>'; return; }
 
-    html += `<div class="polity-card" role="article" tabindex="0">
-      <span class="rank-num">#${i+1}</span>
-      <div class="card-top">
-        <div class="card-name">${p['Political Entities']||'—'}</div>
-        <div class="card-scores">
-          <span class="score-badge ${scoreColor(score)}" title="Phase Score">${score!==null?score:'—'}</span>
-          <span style="opacity:0.6;font-size:0.85rem;">/</span>
-          <span class="score-badge ${scoreColor(overallScore)} overall-mini" title="Overall Score">${overallScore!==null&&!isNaN(overallScore)?overallScore:'—'}</span>
-        </div>
-      </div>
-      <div class="card-meta">
-        <span>📅 ${startDisp} to ${endDisp}</span>
-        <span>📍 ${(p['Region']||'').replace(/ \/ .*/,'')}</span>
-        ${p['Language']    ?`<span>🗣 ${p['Language'].split('/')[0].trim()}</span>`    :''}
-        ${p['Ethnic Group']?`<span>👥 ${p['Ethnic Group'].split('/')[0].trim()}</span>`:''}
-      </div>
-      ${ph&&(ph['Phase Name']||ph['Notes'])?`<div class="card-phase"><div class="phase-name">${ph['Phase Name']||''}</div>${ph['Notes']?`<div class="phase-note">${ph['Notes']}</div>`:''}</div>`:''}
-      ${rulersHtml}
-    </div>`;
-  });
+  mapped.sort(function(a, b) { return b.phaseScore - a.phaseScore; });
+
+  var container = document.getElementById('query-results');
+  var regionHeader = regionLabel ? ' - ' + regionLabel.toUpperCase() : '';
+  var html = '<div class="query-results-header"><h3>' + mapped.length + ' POLITIES IN ' + labelStr + regionHeader + '</h3><span style="color:var(--text-dim);font-size:0.78rem">Sorted by Phase Score</span></div><div class="cards-grid">';
+
+  for (var ii = 0; ii < mapped.length; ii++) {
+    var item = mapped[ii];
+    var p = item.polity;
+    var iph = item.phase;
+    var score = item.phaseScore;
+    var overallScore = toNum(p['Overall']);
+    var startDisp = p['Start'] !== undefined ? p['Start'] : (p['Start Year'] || '-');
+    var endDisp = p['End'] !== undefined ? p['End'] : (p['End Year'] || '-');
+    var rulersHtml = buildRulersHTML(p['Political Entities'], year, ii);
+    var phaseBox = '';
+    if (iph && (iph['Phase Name'] || iph['Notes'])) {
+      phaseBox = '<div class="card-phase"><div class="phase-name">' + (iph['Phase Name'] || '') + '</div>' + (iph['Notes'] ? '<div class="phase-note">' + iph['Notes'] + '</div>' : '') + '</div>';
+    }
+    var langSpan = p['Language'] ? '<span>' + p['Language'].split('/')[0].trim() + '</span>' : '';
+    var ethSpan = p['Ethnic Group'] ? '<span>' + p['Ethnic Group'].split('/')[0].trim() + '</span>' : '';
+    html += '<div class="polity-card" role="article" tabindex="0">' +
+      '<span class="rank-num">#' + (ii + 1) + '</span>' +
+      '<div class="card-top"><div class="card-name">' + (p['Political Entities'] || '-') + '</div>' +
+      '<div class="card-scores">' +
+      '<span class="score-badge ' + scoreColor(score) + '" title="Phase Score">' + (score !== null ? score : '-') + '</span>' +
+      '<span style="opacity:0.6;font-size:0.85rem;">/</span>' +
+      '<span class="score-badge ' + scoreColor(overallScore) + ' overall-mini" title="Overall Score">' + (!isNaN(overallScore) ? overallScore : '-') + '</span>' +
+      '</div></div>' +
+      '<div class="card-meta"><span>' + startDisp + ' to ' + endDisp + '</span><span>' + (p['Region'] || '').replace(/ \/ .*/, '') + '</span>' + langSpan + ethSpan + '</div>' +
+      phaseBox + rulersHtml +
+      '</div>';
+  }
 
   html += '</div>';
   container.innerHTML = html;
 }
 
-/* ── Tab switching ── */
-function switchTab(tab){
-  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
-  document.querySelectorAll('nav button').forEach(b=>b.classList.remove('active'));
-  document.getElementById('tab-'+tab).classList.add('active');
-  const idx=['table','query'].indexOf(tab);
-  if(idx>=0) document.querySelectorAll('nav button')[idx].classList.add('active');
+function switchTab(tab) {
+  var tabs = document.querySelectorAll('.tab');
+  var navBtns = document.querySelectorAll('nav button');
+  for (var i = 0; i < tabs.length; i++) tabs[i].classList.remove('active');
+  for (var j = 0; j < navBtns.length; j++) navBtns[j].classList.remove('active');
+  document.getElementById('tab-' + tab).classList.add('active');
+  var idx = ['table', 'query'].indexOf(tab);
+  if (idx >= 0) navBtns[idx].classList.add('active');
 }
 
-/* ── Boot ── */
-document.addEventListener('DOMContentLoaded',()=>{
-  const y=document.getElementById('year-input');
-  if(y) y.addEventListener('keydown',e=>{ if(e.key==='Enter') runYearQuery(); });
+document.addEventListener('DOMContentLoaded', function() {
+  var y = document.getElementById('year-input');
+  if (y) y.addEventListener('keydown', function(e) { if (e.key === 'Enter') runYearQuery(); });
 });
 
 loadCSVFiles();
 </script>
-
 </body>
 </html>
