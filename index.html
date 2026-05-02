@@ -631,9 +631,10 @@ function buildRulersHTML(polityName, year, cardIndex) {
     if (!names.length) continue;
     hasAny = true;
     currentRows +=
-      '<div class="ruler-row" style="border-bottom:1px solid rgba(58,48,32,0.3);padding:0.2rem 0;">' +
-      '<span class="ruler-name current">' + names.join(' &bull; ') + '</span>' +
-      '<span style="color:var(--gold-dim);font-size:0.68rem;font-family:\'Cinzel\',serif;margin-left:0.5rem;">' + title + '</span>' +
+      '<div style="border-bottom:1px solid rgba(58,48,32,0.3);padding:0.2rem 0;line-height:1.4;">' +
+      '<span style="color:var(--text);font-size:13px;font-weight:600;">' + names.join(' &bull; ') + '</span>' +
+      '&nbsp;&nbsp;&nbsp;' +
+      '<span style="color:var(--gold-dim);font-size:11px;font-family:\'Cinzel\',serif;">' + title + '</span>' +
       '</div>';
   }
 
