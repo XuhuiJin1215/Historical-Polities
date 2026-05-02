@@ -145,8 +145,7 @@ thead th:nth-child(6),td:nth-child(6){max-width:120px;white-space:nowrap;overflo
 <body>
 
 <header>
-  <h1>&#9876; Historical Polities Database &#9876;</h1>
-  <p>A comparative study of empires, kingdoms, and states across history</p>
+  <h1> Historical Polities Database </h1>
 </header>
 
 <nav>
@@ -617,32 +616,34 @@ function renderPagination(total) {
 function buildRulersHTML(polityName, year, cardIndex) {
   var groups = getRulersForPolity(polityName, year);
   if (!groups || !Object.keys(groups).length) return '';
-  var bodyId = 'rulers-body-' + cardIndex;
-  var arrowId = 'rulers-arrow-' + cardIndex;
-  var currentCount = 0;
   var gkeys = Object.keys(groups);
+
+  // Collect only rulers active in the queried year
+  var currentRows = '';
+  var hasAny = false;
   for (var gi = 0; gi < gkeys.length; gi++) {
-    var arr = groups[gkeys[gi]];
-    for (var ai = 0; ai < arr.length; ai++) { if (arr[ai].isCurrent) currentCount++; }
-  }
-  var countTag = currentCount
-    ? '<span class="ms-badge" style="background:rgba(139,58,58,0.3);color:#e8c97a;margin-left:6px;">' + currentCount + ' active</span>'
-    : '';
-  var groupsHtml = '';
-  for (var gi2 = 0; gi2 < gkeys.length; gi2++) {
-    var title = gkeys[gi2];
+    var title = gkeys[gi];
     var rulers = groups[title];
-    var rowsHtml = '';
     for (var ri = 0; ri < rulers.length; ri++) {
       var rul = rulers[ri];
-      var ys = rul.start !== null ? rul.start : '?';
-      var ye = rul.end !== null ? rul.end : '?';
-      var tag = rul.isCurrent ? '<span class="ruler-current-tag">NOW</span>' : '';
-      rowsHtml += '<div class="ruler-row"><span class="ruler-name' + (rul.isCurrent ? ' current' : '') + '">' + rul.name + tag + '</span><span class="ruler-years">' + ys + '-' + ye + '</span></div>';
+      if (!rul.isCurrent) continue;
+      hasAny = true;
+      currentRows +=
+        '<div class="ruler-row">' +
+        '<span class="ruler-name current">' + rul.name + '</span>' +
+        '<span class="ruler-years" style="color:var(--gold-dim);font-size:0.7rem;">' + title + '</span>' +
+        '</div>';
     }
-    groupsHtml += '<div class="rulers-group"><div class="rulers-group-title">' + title + '</div>' + rowsHtml + '</div>';
   }
-  return '<div class="card-rulers"><div class="card-rulers-header" onclick="toggleRulers(\'' + bodyId + '\',\'' + arrowId + '\')"><span class="card-rulers-title">&#128081; RULERS' + countTag + '</span><span class="card-rulers-toggle" id="' + arrowId + '">&#9660;</span></div><div class="card-rulers-body" id="' + bodyId + '">' + groupsHtml + '</div></div>';
+
+  if (!hasAny) return '';
+
+  return '<div class="card-rulers">' +
+    '<div class="card-rulers-header" style="cursor:default;">' +
+    '<span class="card-rulers-title">&#128081; RULERS IN ' + year + '</span>' +
+    '</div>' +
+    '<div class="card-rulers-body open">' + currentRows + '</div>' +
+    '</div>';
 }
 
 function toggleRulers(bodyId, arrowId) {
@@ -726,8 +727,8 @@ function runYearQuery() {
     if (iph && (iph['Phase Name'] || iph['Notes'])) {
       phaseBox = '<div class="card-phase"><div class="phase-name">' + (iph['Phase Name'] || '') + '</div>' + (iph['Notes'] ? '<div class="phase-note">' + iph['Notes'] + '</div>' : '') + '</div>';
     }
-    var langSpan = p['Language'] ? '<span>' + p['Language'].split('/')[0].trim() + '</span>' : '';
-    var ethSpan = p['Ethnic Group'] ? '<span>' + p['Ethnic Group'].split('/')[0].trim() + '</span>' : '';
+    var langSpan = p['Language'] ? '<span>&#128483; ' + p['Language'].split('/')[0].trim() + '</span>' : '';
+    var ethSpan = p['Ethnic Group'] ? '<span>&#128101; ' + p['Ethnic Group'].split('/')[0].trim() + '</span>' : '';
     html += '<div class="polity-card" role="article" tabindex="0">' +
       '<span class="rank-num">#' + (ii + 1) + '</span>' +
       '<div class="card-top"><div class="card-name">' + (p['Political Entities'] || '-') + '</div>' +
@@ -736,7 +737,7 @@ function runYearQuery() {
       '<span style="opacity:0.6;font-size:0.85rem;">/</span>' +
       '<span class="score-badge ' + scoreColor(overallScore) + ' overall-mini" title="Overall Score">' + (!isNaN(overallScore) ? overallScore : '-') + '</span>' +
       '</div></div>' +
-      '<div class="card-meta"><span>' + startDisp + ' to ' + endDisp + '</span><span>' + (p['Region'] || '').replace(/ \/ .*/, '') + '</span>' + langSpan + ethSpan + '</div>' +
+      '<div class="card-meta"><span>&#128197; ' + startDisp + ' to ' + endDisp + '</span><span>&#128205; ' + (p['Region'] || '').replace(/ \/ .*/, '') + '</span>' + langSpan + ethSpan + '</div>' +
       phaseBox + rulersHtml +
       '</div>';
   }
