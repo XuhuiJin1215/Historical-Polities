@@ -198,9 +198,9 @@ Kidarite Kingdom / 寄多罗王朝,320,467,Central Asia / 中亚,42,Kidarite Per
 Hephthalite Empire / 嚈哒帝国,440,560,Central Asia / 中亚,55,Hephthalite Hegemony,440,560,55,Significant military dominance and cultural imprint across Central Asia with substantial territorial control.
 First Turkic Khaganate / 突厥汗国,552,603,Central Asia / 中亚,43,Formation and Consolidation,552,577,40,Initial confederation-building with rising military-political mobility but limited settled economy.
 First Turkic Khaganate / 突厥汗国,552,603,Central Asia / 中亚,43,Apex Khaganate,578,603,43,Unified khaganate exhibited peak military reach and political integration across steppe networks.
-Western Turkic Khaganate / 西突厥汗国,581,742,Central Asia / 中亚,43,Western Formation,581,640,40,Emergent confederation consolidating control over trade routes with variable administrative structures.
-Western Turkic Khaganate / 西突厥汗国,581,742,Central Asia / 中亚,43,Apex Western Khaganate,641,700,43,Strong regional influence and economic control at the polity’s height.
-Western Turkic Khaganate / 西突厥汗国,581,742,Central Asia / 中亚,43,Fragmentation and Decline,701,742,37,Internal division and external pressure reduced coherence and institutional capacity.
+Western Turkic Khaganate / 西突厥汗国,603,742,Central Asia / 中亚,43,Western Formation,603,640,40,Emergent confederation consolidating control over trade routes with variable administrative structures.
+Western Turkic Khaganate / 西突厥汗国,603,742,Central Asia / 中亚,43,Apex Western Khaganate,641,700,43,Strong regional influence and economic control at the polity’s height.
+Western Turkic Khaganate / 西突厥汗国,603,742,Central Asia / 中亚,43,Fragmentation and Decline,701,742,37,Internal division and external pressure reduced coherence and institutional capacity.
 Tokhara Yabgu State / 吐火罗叶护国,625,758,Central Asia / 中亚,50,Tokhara Formation,625,680,46,Emergence balancing nomadic and urban interests with moderate economic and cultural roles.
 Tokhara Yabgu State / 吐火罗叶护国,625,758,Central Asia / 中亚,50,Apex Yabgu Rule,681,740,50,Consolidated regional authority with strong trade links and administrative organisation.
 Tokhara Yabgu State / 吐火罗叶护国,625,758,Central Asia / 中亚,50,Late Contraction,741,758,42,External incursions and internal weakening reduced territorial and economic strength.
@@ -830,8 +830,8 @@ Chen / 陈,557,589,East Asia / 东亚,41,Founding and Stabilisation,557,573,41,C
 Chen / 陈,557,589,East Asia / 东亚,41,Late Weakening and Sui Conquest,574,589,30,Limited military capacity left the state vulnerable to Sui reunification campaigns.
 Sui / 隋,581,619,East Asia / 东亚,63,Founding and Early Consolidation,581,604,56,Centralised reforms and canal construction established imperial structures and fiscal capacity.
 Sui / 隋,581,619,East Asia / 东亚,63,Imperial Mobilisation and Collapse,605,619,48,Massive military campaigns and grand projects overstretched resources and precipitated rapid collapse.
-Eastern Turkic Khaganate / 东突厥汗国,583,630,East Asia / 东亚,39,Formation and Steppe Consolidation,583,609,34,Confederation-building and steppe military cohesion created a durable nomadic polity.
-Eastern Turkic Khaganate / 东突厥汗国,583,630,East Asia / 东亚,39,Apex Hegemony and Fall,610,630,39,Peak diplomatic-military influence over northern China followed by defeat and collapse.
+Eastern Turkic Khaganate / 东突厥汗国,603,630,East Asia / 东亚,39,Formation and Steppe Consolidation,603,609,34,Confederation-building and steppe military cohesion created a durable nomadic polity.
+Eastern Turkic Khaganate / 东突厥汗国,603,630,East Asia / 东亚,39,Apex Hegemony and Fall,610,630,39,Peak diplomatic-military influence over northern China followed by defeat and collapse.
 Tang / 唐,618,907,East Asia / 东亚,82,Founding and Early Consolidation,618,627,76,Li Yuan and early reforms re-established imperial order and institutional foundations.
 Tang / 唐,618,907,East Asia / 东亚,82,High Tang Apex,628,755,82,"Territorial expansion, economic prosperity, and cultural-technological florescence mark the dynasty’s peak."
 Tang / 唐,618,907,East Asia / 东亚,82,Mid Tang Recovery,756,835,72,"Post-rebellion restoration of central authority and renewed cultural production, but with limits."
