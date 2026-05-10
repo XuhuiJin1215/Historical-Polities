@@ -575,7 +575,7 @@ function toggleExpand(tr, p, idx) {
     '<div class="detail-item"><label>CAPITAL</label><span>' + (p['Capital'] || '-') + '</span></div>' +
     '<div class="detail-item"><label>PRESENT DAY</label><span>' + (p['Present Day Location'] || '-') + '</span></div>' +
     '<div class="detail-item"><label>DURATION</label><span>' + (p['Duration (year)'] ? p['Duration (year)'] + ' years' : (p['Duration'] || '-')) + '</span></div>' +
-    '<div class="detail-item"><label>AREA</label><span>' + (p['Area (thousand km2)'] ? Number(p['Area (thousand km2)']).toLocaleString() + ' thousand km2' : '-') + '</span></div>' +
+    '<div class="detail-item"><label>AREA</label><span>' + (p['Area (thousand km2)'] ? Number(p['Area (thousand km2)']).toLocaleString() + ' thousand km<sup>2</sup>' : '-') + '</span></div>' +
     '<div class="detail-item"><label>POPULATION</label><span>' + (p['Population (million)'] ? p['Population (million)'] + ' million' : '-') + '</span></div>' +
     '<div class="rating-row"><label>ALL RATINGS</label>' + ratingsAll + '</div>' +
     '</div>';
