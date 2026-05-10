@@ -195,7 +195,7 @@ thead th:nth-child(6),td:nth-child(6){max-width:120px;white-space:nowrap;overflo
             <th data-col="End" onclick="sortTable('End')">End <span class="sort-indicator"></span></th>
             <th data-col="Region" onclick="sortTable('Region')">Region <span class="sort-indicator"></span></th>
             <th data-col="Overall" onclick="sortTable('Overall')">Overall <span class="sort-indicator"></span></th>
-            <th data-col="Area (thousand km2)" onclick="sortTable('Area (thousand km2)')">Area (k km2) <span class="sort-indicator"></span></th>
+            <th data-col="Area (thousand km2)" onclick="sortTable('Area (thousand km2)')">Area (k km<sup>2</sup>) <span class="sort-indicator"></span></th>
             <th data-col="Population (million)" onclick="sortTable('Population (million)')">Pop (M) <span class="sort-indicator"></span></th>
             <th>Ratings</th>
           </tr>
@@ -289,9 +289,7 @@ function getRulersForPolity(polityName, year) {
   for (var i = 0; i < allRulers.length; i++) {
     var r = allRulers[i];
     var hay = (r['Polity'] || '').trim().toLowerCase();
-    var hayShort = hay.split('/')[0].trim();
-    if (hay === needle || hayShort === needleShort ||
-        hay.indexOf(needleShort) === 0 || needle.indexOf(hayShort) === 0) {
+    if (hay === needle) {
       matches.push(r);
     }
   }
@@ -539,7 +537,7 @@ function renderTable() {
         '<td class="num">' + formatYear(p['End']) + '</td>' +
         '<td>' + (p['Region'] || '').replace(/ \/ .*/, '') + '</td>' +
         '<td><span class="score-badge ' + scoreColor(p['Overall']) + '">' + (p['Overall'] || '-') + '</span></td>' +
-        '<td class="num">' + (p['Area (thousand km2)'] ? Number(p['Area (thousand km2)']).toLocaleString() + 'k' : '-') + '</td>' +
+        '<td class="num">' + (p['Area (thousand km2)'] ? Number(p['Area (thousand km2)']).toLocaleString() : '-') + '</td>' +
         '<td class="num">' + (p['Population (million)'] || '-') + '</td>' +
         '<td>' + ratingsHtml + '</td>';
       tr.onclick = function() { toggleExpand(tr, p, globalIdx); };
