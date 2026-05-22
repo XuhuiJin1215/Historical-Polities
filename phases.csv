@@ -204,9 +204,9 @@ Western Turkic Khaganate / 西突厥汗国,603,742,Central Asia / 中亚,43,Frag
 Tokhara Yabgu State / 吐火罗叶护国,625,758,Central Asia / 中亚,50,Tokhara Formation,625,680,46,Emergence balancing nomadic and urban interests with moderate economic and cultural roles.
 Tokhara Yabgu State / 吐火罗叶护国,625,758,Central Asia / 中亚,50,Apex Yabgu Rule,681,740,50,Consolidated regional authority with strong trade links and administrative organisation.
 Tokhara Yabgu State / 吐火罗叶护国,625,758,Central Asia / 中亚,50,Late Contraction,741,758,42,External incursions and internal weakening reduced territorial and economic strength.
-Kyrgyz Khaganate / 黠戛斯汗国,637,925,Central Asia / 中亚,30,Early Confederation,637,750,28,Initial tribal confederation with limited settled economy and narrow demographic base.
-Kyrgyz Khaganate / 黠戛斯汗国,637,925,Central Asia / 中亚,30,Peak Steppe Influence,751,820,30,Heightened regional role on the steppe with modest administrative structures.
-Kyrgyz Khaganate / 黠戛斯汗国,637,925,Central Asia / 中亚,30,Late Decline,821,925,26,Fragmentation and reduced regional relevance lowered composite indicators.
+Kyrgyz Khaganate / 黠戛斯汗国,693,925,Central Asia / 中亚,30,Early Confederation,693,750,28,Initial tribal confederation with limited settled economy and narrow demographic base.
+Kyrgyz Khaganate / 黠戛斯汗国,693,925,Central Asia / 中亚,30,Peak Steppe Influence,751,820,30,Heightened regional role on the steppe with modest administrative structures.
+Kyrgyz Khaganate / 黠戛斯汗国,693,925,Central Asia / 中亚,30,Late Decline,821,925,26,Fragmentation and reduced regional relevance lowered composite indicators.
 Turk Shahis / 突厥沙希王朝,665,822,Central Asia / 中亚,43,Early Turk Shahi Rule,665,740,40,Frontier dynasty consolidating control with moderate military and cultural presence.
 Turk Shahis / 突厥沙希王朝,665,822,Central Asia / 中亚,43,Apex and Resistance,741,822,43,Heightened military resistance and administrative consolidation mark the polity’s peak.
 Zunbil Dynasty / 樽比勒王朝,680,870,Central Asia / 中亚,40,Early Zunbil Period,680,770,38,Regional religious-royal polity with limited demographic and economic scale.
@@ -232,13 +232,10 @@ Khwarazmian Empire / 花剌子模帝国,1077,1231,Central Asia / 中亚,56,Mongo
 Qara Khitai / 西辽,1124,1218,Central Asia / 中亚,47,Founding and Consolidation,1124,1150,42,Liao-founded polity establishes rule over diverse Central Asian territories with administrative adaptation.
 Qara Khitai / 西辽,1124,1218,Central Asia / 中亚,47,Apex Suzerainty,1151,1185,47,Height of cross-regional suzerainty and commercial-political influence.
 Qara Khitai / 西辽,1124,1218,Central Asia / 中亚,47,Decline and Fall,1186,1218,36,Military defeats and pressure from rising neighbors led to loss of authority and territory.
-Chagatai Khanate / 察合台汗国,1224,1346,Central Asia / 中亚,47,Unified Chagatai Ulus,1224,1260,44,Early successor-state continuity with control of key Silk Road routes and steppe mobilisation.
-Chagatai Khanate / 察合台汗国,1224,1346,Central Asia / 中亚,47,Dual Khanate Fragmentation,1261,1300,40,Division between eastern and western factions reduced central governance and cohesion.
-Chagatai Khanate / 察合台汗国,1224,1346,Central Asia / 中亚,47,Western Revival Under Duwa,1301,1320,47,Temporary political and military consolidation restored regional influence near the overall peak.
-Chagatai Khanate / 察合台汗国,1224,1346,Central Asia / 中亚,47,Terminal Disintegration,1321,1346,36,Successional conflict and external pressure fragmented authority and diminished capacity.
-Ögedei Khanate / 窝阔台汗国,1224,1309,Central Asia / 中亚,41,Early Ögedeid Ulus,1224,1241,40,Established princely domain with administrative continuity and moderate military reach.
-Ögedei Khanate / 窝阔台汗国,1224,1309,Central Asia / 中亚,41,Post-imperial Decline,1242,1260,35,Imperial succession struggles and decentralisation weakened centralised control.
-Ögedei Khanate / 窝阔台汗国,1224,1309,Central Asia / 中亚,41,Residual Central Asian Domain,1261,1309,30,Remaining territories persisted but with reduced political and military influence.
+Chagatai Khanate / 察合台汗国,1226,1346,Central Asia / 中亚,47,Unified Chagatai Ulus,1226,1260,44,Early successor-state continuity with control of key Silk Road routes and steppe mobilisation.
+Chagatai Khanate / 察合台汗国,1226,1346,Central Asia / 中亚,47,Dual Khanate Fragmentation,1261,1300,40,Division between eastern and western factions reduced central governance and cohesion.
+Chagatai Khanate / 察合台汗国,1226,1346,Central Asia / 中亚,47,Western Revival Under Duwa,1301,1320,47,Temporary political and military consolidation restored regional influence near the overall peak.
+Chagatai Khanate / 察合台汗国,1226,1346,Central Asia / 中亚,47,Terminal Disintegration,1321,1346,36,Successional conflict and external pressure fragmented authority and diminished capacity.
 Timurid Empire / 帖木儿帝国,1370,1507,Central Asia / 中亚,70,Conquest and Imperial Formation,1370,1405,70,Timur’s campaigns forged a large militarised empire with major cultural and infrastructural patronage.
 Timurid Empire / 帖木儿帝国,1370,1507,Central Asia / 中亚,70,Post-timur Consolidation,1406,1447,64,"Successors maintained significant artistic, administrative, and economic centres despite territorial loss."
 Timurid Empire / 帖木儿帝国,1370,1507,Central Asia / 中亚,70,Fragmentation and Successor States,1448,1507,52,Dynastic splits and rising local polities reduced centralised capacity though cultural influence persisted.
@@ -260,9 +257,9 @@ Hotak Dynasty / 汉达基王朝,1709,1738,Central Asia / 中亚,46,Collapse and 
 Khanate of Kokand / 浩罕汗国,1709,1876,Central Asia / 中亚,41,Foundation and Local Consolidation,1709,1770,38,Emergence of Kokand polity with growing regional trade and administrative institutions.
 Khanate of Kokand / 浩罕汗国,1709,1876,Central Asia / 中亚,41,Expansion and Apex,1771,1840,41,"Territorial expansion, economic consolidation and cultural flourishing mark the high period."
 Khanate of Kokand / 浩罕汗国,1709,1876,Central Asia / 中亚,41,Decline and Russian Pressure,1841,1876,35,Military defeats and colonial encroachment eroded sovereignty and economy.
-Durrani Empire / 杜兰尼帝国,1747,1842,Central Asia / 中亚,53,Foundation and Zenith,1747,1793,53,"Ahmad Shah’s conquests created a large, militarised empire with strong administrative foundations."
-Durrani Empire / 杜兰尼帝国,1747,1842,Central Asia / 中亚,53,Fragmentation and Regionalisation,1794,1818,48,Successor fragmentation and regional power shifts reduced central control and economic cohesion.
-Durrani Empire / 杜兰尼帝国,1747,1842,Central Asia / 中亚,53,Late Decline,1819,1842,40,Internal divisions and external pressures culminated in loss of imperial coherence.
+Durrani Empire / 杜兰尼帝国,1747,1843,Central Asia / 中亚,53,Foundation and Zenith,1747,1793,53,"Ahmad Shah’s conquests created a large, militarised empire with strong administrative foundations."
+Durrani Empire / 杜兰尼帝国,1747,1843,Central Asia / 中亚,53,Fragmentation and Regionalisation,1794,1818,48,Successor fragmentation and regional power shifts reduced central control and economic cohesion.
+Durrani Empire / 杜兰尼帝国,1747,1843,Central Asia / 中亚,53,Late Decline,1819,1843,40,Internal divisions and external pressures culminated in loss of imperial coherence.
 Maimana Khanate / 迈马纳汗国,1747,1892,Central Asia / 中亚,37,Early Consolidation,1747,1820,34,Local khanate formation with limited demographic and economic base.
 Maimana Khanate / 迈马纳汗国,1747,1892,Central Asia / 中亚,37,Late Survival,1821,1892,37,Adaptation to regional power shifts preserved autonomy though capacity remained limited.
 Tashkent State / 塔什干国,1784,1808,Central Asia / 中亚,35,Tashkent Khanate,1784,1808,35,Short-lived emirate with urban trade significance but constrained territorial reach.
