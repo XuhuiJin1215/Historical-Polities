@@ -2621,7 +2621,7 @@ Tang / 唐,Emperor / 皇帝,Li Shimin / 李世民（唐太宗）,626,649
 Tang / 唐,Emperor / 皇帝,Li Zhi / 李治（唐高宗）,649,683
 Tang / 唐,Emperor / 皇帝,Li Xian / 李显（唐中宗）,684,684
 Tang / 唐,Emperor / 皇帝,Li Dan / 李旦（唐睿宗）,684,690
-Tang / 唐,Emperor / 皇帝,Wu Zhao / 武曌,690,705
+Tang / 唐,Empress / 女皇,Wu Zhao / 武曌,690,705
 Tang / 唐,Emperor / 皇帝,Li Xian / 李显（唐中宗）,705,710
 Tang / 唐,Emperor / 皇帝,Li Chongmao / 李重茂（唐殇帝）,710,710
 Tang / 唐,Emperor / 皇帝,Li Dan / 李旦（唐睿宗）,710,712
@@ -5933,3 +5933,2414 @@ Khanate of Sibir / 西伯利亚汗国,Khan / 汗,Qasim / 卡西姆,1504,1530
 Khanate of Sibir / 西伯利亚汗国,Khan / 汗,Yadgar bin Qasim / 雅迪格尔,1530,1563
 Khanate of Sibir / 西伯利亚汗国,Khan / 汗,Kuchum Khan / 库楚汗,1563,1598
 Uryankhay Republic / 乌梁海共和国,Ambyn-Noyan / 总管,Oyun Kombu-Dorzhu / 贡布多尔济,1911,1914
+Akkadian Empire / 阿卡德帝国,King / 国王,Sargon / 萨尔贡,-2334,-2279
+Akkadian Empire / 阿卡德帝国,King / 国王,Rimush / 理木什,-2279,-2270
+Akkadian Empire / 阿卡德帝国,King / 国王,Manishtushu / 马尼什图苏,-2270,-2255
+Akkadian Empire / 阿卡德帝国,King / 国王,Naram-Sin / 纳拉姆辛,-2255,-2218
+Akkadian Empire / 阿卡德帝国,King / 国王,Shar-Kali-Sharri / 沙尔卡利沙利,-2218,-2193
+Akkadian Empire / 阿卡德帝国,King / 国王,Igigi / 伊吉吉,-2193,-2192
+Akkadian Empire / 阿卡德帝国,King / 国王,Imi / 伊米,-2192,-2191
+Akkadian Empire / 阿卡德帝国,King / 国王,Nanum / 纳努姆,-2191,-2190
+Akkadian Empire / 阿卡德帝国,King / 国王,Ilulu / 伊鲁鲁,-2190,-2189
+Akkadian Empire / 阿卡德帝国,King / 国王,Dudu / 杜杜,-2189,-2168
+Akkadian Empire / 阿卡德帝国,King / 国王,Shu-turul / 舒图鲁尔,-2168,-2154
+Gutian Dynasty / 库提王朝,King / 国王,Erridupizir / 厄里杜皮兹尔,-2220,-2211
+Gutian Dynasty / 库提王朝,King / 国王,Imta / 伊姆塔,-2211,-2208
+Gutian Dynasty / 库提王朝,King / 国王,Inkishush / 因基苏什,-2208,-2202
+Gutian Dynasty / 库提王朝,King / 国王,Sarlagab / 萨尔拉加布,-2202,-2196
+Gutian Dynasty / 库提王朝,King / 国王,Shulme / 舒尔美,-2196,-2190
+Gutian Dynasty / 库提王朝,King / 国王,Elulmesh / 埃鲁尔美什,-2190,-2184
+Gutian Dynasty / 库提王朝,King / 国王,Inimabakesh / 因尼马巴克什,-2184,-2179
+Gutian Dynasty / 库提王朝,King / 国王,Igeshaush / 伊格沙乌什,-2179,-2173
+Gutian Dynasty / 库提王朝,King / 国王,Yarlagab / 亚尔拉加布,-2173,-2158
+Gutian Dynasty / 库提王朝,King / 国王,Ibate / 伊巴特,-2158,-2155
+Gutian Dynasty / 库提王朝,King / 国王,Yarla / 亚尔拉,-2155,-2152
+Gutian Dynasty / 库提王朝,King / 国王,Kurum / 库鲁姆,-2151,-2151
+Gutian Dynasty / 库提王朝,King / 国王,Apil-kin / 阿皮尔金,-2151,-2148
+Gutian Dynasty / 库提王朝,King / 国王,La-erabum / 拉埃拉布姆,-2148,-2146
+Gutian Dynasty / 库提王朝,King / 国王,Irarum / 伊拉鲁姆,-2146,-2144
+Gutian Dynasty / 库提王朝,King / 国王,Ibranum / 伊布拉努姆,-2144,-2143
+Gutian Dynasty / 库提王朝,King / 国王,Hablum / 哈布鲁姆,-2143,-2141
+Gutian Dynasty / 库提王朝,King / 国王,Puzur-Suen / 普祖尔苏恩,-2141,-2134
+Gutian Dynasty / 库提王朝,King / 国王,Yarlaganda / 亚尔拉甘达,-2134,-2127
+Gutian Dynasty / 库提王朝,King / 国王,Si'um / 锡乌姆,-2127,-2120
+Gutian Dynasty / 库提王朝,King / 国王,Tirigan / 提里甘,-2120,-2119
+Third Dynasty of Ur / 乌尔第三王朝,King / 国王,Ur-Nammu / 乌尔纳姆,-2112,-2094
+Third Dynasty of Ur / 乌尔第三王朝,King / 国王,Shulgi / 舒尔吉,-2094,-2046
+Third Dynasty of Ur / 乌尔第三王朝,King / 国王,Amar-Sin / 阿马尔辛,-2046,-2038
+Third Dynasty of Ur / 乌尔第三王朝,King / 国王,Shu-Sin / 舒辛,-2037,-2029
+Third Dynasty of Ur / 乌尔第三王朝,King / 国王,Ibbi-Sin / 伊比辛,-2028,-2004
+First Dynasty of Isin / 伊辛第一王朝,King / 国王,Ishbi-Erra / 伊什比埃拉,-2017,-1985
+First Dynasty of Isin / 伊辛第一王朝,King / 国王,Shu-Ilishu / 舒伊里苏,-1984,-1975
+First Dynasty of Isin / 伊辛第一王朝,King / 国王,Iddin-Dagan / 伊丁达甘,-1974,-1954
+First Dynasty of Isin / 伊辛第一王朝,King / 国王,Ishme-Dagan / 伊什美达甘,-1953,-1935
+First Dynasty of Isin / 伊辛第一王朝,King / 国王,Lipit-Ishtar / 利皮特伊什塔尔,-1934,-1924
+First Dynasty of Isin / 伊辛第一王朝,King / 国王,Ur-Ninurta / 乌尔尼努尔塔,-1923,-1896
+First Dynasty of Isin / 伊辛第一王朝,King / 国王,Bur-Suen / 布尔苏恩,-1895,-1874
+First Dynasty of Isin / 伊辛第一王朝,King / 国王,Lipit-Enlil / 利皮特恩利尔,-1873,-1869
+First Dynasty of Isin / 伊辛第一王朝,King / 国王,Erra-imitti / 埃拉伊米提,-1868,-1861
+First Dynasty of Isin / 伊辛第一王朝,King / 国王,Ikūn-pî-Ištar / 伊昆皮伊什塔尔,-1861,-1860
+First Dynasty of Isin / 伊辛第一王朝,King / 国王,Enlil-bani / 恩利尔巴尼,-1860,-1837
+First Dynasty of Isin / 伊辛第一王朝,King / 国王,Zambiya / 赞比亚,-1836,-1834
+First Dynasty of Isin / 伊辛第一王朝,King / 国王,Iter-pisha / 伊特皮沙,-1833,-1830
+First Dynasty of Isin / 伊辛第一王朝,King / 国王,Ur-du-kuga / 乌尔杜库加,-1829,-1826
+First Dynasty of Isin / 伊辛第一王朝,King / 国王,Suen-magir / 苏恩马吉尔,-1825,-1817
+First Dynasty of Isin / 伊辛第一王朝,King / 国王,Damiq-ilishu / 达米克伊里苏,-1816,-1794
+Old Babylonian Empire / 古巴比伦帝国,King / 国王,Sumu-abum / 苏姆阿布姆,-1894,-1881
+Old Babylonian Empire / 古巴比伦帝国,King / 国王,Sumu-la-El / 苏姆拉埃尔,-1881,-1845
+Old Babylonian Empire / 古巴比伦帝国,King / 国王,Sabium / 萨比乌姆,-1845,-1831
+Old Babylonian Empire / 古巴比伦帝国,King / 国王,Apil-Sin / 阿皮尔辛,-1831,-1813
+Old Babylonian Empire / 古巴比伦帝国,King / 国王,Sin-muballit / 辛穆巴利特,-1813,-1792
+Old Babylonian Empire / 古巴比伦帝国,King / 国王,Hammurabi / 汉谟拉比,-1792,-1750
+Old Babylonian Empire / 古巴比伦帝国,King / 国王,Samsuiluna / 萨姆苏伊鲁纳,-1750,-1712
+Old Babylonian Empire / 古巴比伦帝国,King / 国王,Abieshu / 阿比埃苏,-1712,-1684
+Old Babylonian Empire / 古巴比伦帝国,King / 国王,Ammiditana / 阿米迪塔纳,-1684,-1647
+Old Babylonian Empire / 古巴比伦帝国,King / 国王,Ammisaduqa / 阿米萨杜卡,-1647,-1626
+Old Babylonian Empire / 古巴比伦帝国,King / 国王,Samsuditana / 萨姆苏迪塔纳,-1626,-1595
+Yamhad / 亚姆哈德王国,King / 国王,Sumu-Epuh / 苏穆埃普,-1810,-1780
+Yamhad / 亚姆哈德王国,King / 国王,Yarim-Lim I / 亚里姆利姆一世,-1780,-1764
+Yamhad / 亚姆哈德王国,King / 国王,Hammurabi I / 汉谟拉比一世,-1764,-1750
+Yamhad / 亚姆哈德王国,King / 国王,Abba-El I / 阿巴埃尔一世,-1750,-1720
+Yamhad / 亚姆哈德王国,King / 国王,Yarim-Lim II / 亚里姆利姆二世,-1720,-1700
+Yamhad / 亚姆哈德王国,King / 国王,Niqmi-Epuh / 尼克米埃普,-1700,-1675
+Yamhad / 亚姆哈德王国,King / 国王,Irkabtum / 伊尔卡布图姆,-1675,-1658
+Yamhad / 亚姆哈德王国,King / 国王,Yarim-Lim III / 亚里姆利姆三世,-1658,-1625
+Yamhad / 亚姆哈德王国,King / 国王,Hammurabi III / 汉谟拉比三世,-1625,-1600
+Yamhad / 亚姆哈德王国,King / 国王,Ilim-Ilimma I / 伊利姆伊利马一世,-1550,-1517
+Hittite Empire / 赫梯帝国,King / 国王,Labarna I / 拉巴尔纳一世,-1650,-1625
+Hittite Empire / 赫梯帝国,King / 国王,Hattusili I / 哈图西里一世,-1625,-1600
+Hittite Empire / 赫梯帝国,King / 国王,Mursili I / 穆尔西里一世,-1600,-1585
+Hittite Empire / 赫梯帝国,King / 国王,Hantili I / 汉提里一世,-1585,-1570
+Hittite Empire / 赫梯帝国,King / 国王,Zidanta I / 兹丹塔一世,-1570,-1570
+Hittite Empire / 赫梯帝国,King / 国王,Ammuna / 阿穆纳,-1570,-1550
+Hittite Empire / 赫梯帝国,King / 国王,Huzziya I / 胡兹亚一世,-1550,-1550
+Hittite Empire / 赫梯帝国,King / 国王,Telipinu / 特利皮努,-1550,-1530
+Hittite Empire / 赫梯帝国,King / 国王,Alluwamna / 阿卢万纳,-1530,-1515
+Hittite Empire / 赫梯帝国,King / 国王,Hantili II / 汉提里二世,-1515,-1505
+Hittite Empire / 赫梯帝国,King / 国王,Tahurwaili / 塔胡尔瓦里,-1505,-1500
+Hittite Empire / 赫梯帝国,King / 国王,Zidanta II / 兹丹塔二世,-1500,-1485
+Hittite Empire / 赫梯帝国,King / 国王,Huzziya II / 胡兹亚二世,-1485,-1470
+Hittite Empire / 赫梯帝国,King / 国王,Muwatalli I / 穆瓦塔里一世,-1470,-1465
+Hittite Empire / 赫梯帝国,King / 国王,Tudhaliya I / 图达利亚一世,-1465,-1440
+Hittite Empire / 赫梯帝国,King / 国王,Hattusili II / 哈图西里二世,-1440,-1425
+Hittite Empire / 赫梯帝国,King / 国王,Tudhaliya II / 图达利亚二世,-1425,-1390
+Hittite Empire / 赫梯帝国,King / 国王,Arnuwanda I / 阿努万达一世,-1390,-1370
+Hittite Empire / 赫梯帝国,King / 国王,Tudhaliya III / 图达利亚三世,-1370,-1350
+Hittite Empire / 赫梯帝国,King / 国王,Suppiluliuma I / 苏庇路里乌玛一世,-1350,-1319
+Hittite Empire / 赫梯帝国,King / 国王,Arnuwanda II / 阿努万达二世,-1319,-1318
+Hittite Empire / 赫梯帝国,King / 国王,Mursili II / 穆尔西里二世,-1318,-1295
+Hittite Empire / 赫梯帝国,King / 国王,Muwatalli II / 穆瓦塔里二世,-1295,-1272
+Hittite Empire / 赫梯帝国,King / 国王,Mursili III / 穆尔西里三世,-1272,-1265
+Hittite Empire / 赫梯帝国,King / 国王,Hattusili III / 哈图西里三世,-1265,-1240
+Hittite Empire / 赫梯帝国,King / 国王,Tudhaliya IV / 图达利亚四世,-1240,-1215
+Hittite Empire / 赫梯帝国,King / 国王,Arnuwanda III / 阿努万达三世,-1215,-1210
+Hittite Empire / 赫梯帝国,King / 国王,Suppiluliuma II / 苏庇路里乌玛二世,-1209,-1180
+Mitanni / 米坦尼,King / 国王,Kirta / 基尔塔,-1540,-1510
+Mitanni / 米坦尼,King / 国王,Shuttarna I / 舒塔尔纳一世,-1510,-1490
+Mitanni / 米坦尼,King / 国王,Parattarna I / 帕拉塔尔纳一世,-1490,-1480
+Mitanni / 米坦尼,King / 国王,Parshatatar / 帕沙塔塔尔,-1480,-1460
+Mitanni / 米坦尼,King / 国王,Shaushtatar / 肖什塔塔尔,-1460,-1435
+Mitanni / 米坦尼,King / 国王,Parattarna II / 帕拉塔尔纳二世,-1435,-1425
+Mitanni / 米坦尼,King / 国王,Shaitarna / 沙塔尔纳,-1425,-1400
+Mitanni / 米坦尼,King / 国王,Artatama I / 阿尔塔塔玛一世,-1400,-1380
+Mitanni / 米坦尼,King / 国王,Shuttarna II / 舒塔尔纳二世,-1380,-1360
+Mitanni / 米坦尼,King / 国王,Artashumara / 阿尔塔舒马拉,-1360,-1358
+Mitanni / 米坦尼,King / 国王,Tushratta / 图什拉塔,-1358,-1335
+Mitanni / 米坦尼,King / 国王,Artatama II (rival) / 阿尔塔塔玛二世（竞争者）,-1335,-1330
+Mitanni / 米坦尼,King / 国王,Shuttarna III (rival) / 舒塔尔纳三世（竞争者）,-1330,-1330
+Mitanni / 米坦尼,King / 国王,Shattiwaza / 沙提瓦扎,-1330,-1305
+Mitanni / 米坦尼,King / 国王,Shattuara I / 沙图亚拉一世,-1305,-1285
+Mitanni / 米坦尼,King / 国王,Wasashatta / 瓦萨沙塔,-1285,-1265
+Mitanni / 米坦尼,King / 国王,Shattuara II / 沙图亚拉二世,-1265,-1260
+Kassite Dynasty / 加喜特王朝,King / 国王,Burnaburiash I / 布尔纳布里亚什一世,-1500,-1500
+Kassite Dynasty / 加喜特王朝,King / 国王,Ulamburiash / 乌兰布里亚什,-1480,-1480
+Kassite Dynasty / 加喜特王朝,King / 国王,Agum III / 阿古姆三世,-1470,-1470
+Kassite Dynasty / 加喜特王朝,King / 国王,Karaindash / 卡拉因达什,-1410,-1410
+Kassite Dynasty / 加喜特王朝,King / 国王,Kadashman-Harbe I / 卡达什曼-哈尔贝一世,-1400,-1400
+Kassite Dynasty / 加喜特王朝,King / 国王,Kurigalzu I / 库里加尔祖一世,-1400,-1375
+Kassite Dynasty / 加喜特王朝,King / 国王,Kadashman-Enlil I / 卡达什曼-恩利尔一世,-1374,-1360
+Kassite Dynasty / 加喜特王朝,King / 国王,Burnaburiash II / 布尔纳布里亚什二世,-1359,-1333
+Kassite Dynasty / 加喜特王朝,King / 国王,Kara-Hardash / 卡拉哈尔达什,-1333,-1333
+Kassite Dynasty / 加喜特王朝,King / 国王,Nazi-Bugash (rival) / 纳齐-布加什（竞争者）,-1333,-1333
+Kassite Dynasty / 加喜特王朝,King / 国王,Kurigalzu II / 库里加尔祖二世,-1332,-1308
+Kassite Dynasty / 加喜特王朝,King / 国王,Nazi-Maruttash / 纳齐-马鲁塔什,-1307,-1282
+Kassite Dynasty / 加喜特王朝,King / 国王,Kadashman-Turgu / 卡达什曼-图尔古,-1281,-1264
+Kassite Dynasty / 加喜特王朝,King / 国王,Kadashman-Enlil II / 卡达什曼-恩利尔二世,-1263,-1255
+Kassite Dynasty / 加喜特王朝,King / 国王,Kudur-Enlil / 库杜尔-恩利尔,-1254,-1246
+Kassite Dynasty / 加喜特王朝,King / 国王,Shagarakti-Shuriash / 沙加拉克提-舒里亚什,-1245,-1233
+Kassite Dynasty / 加喜特王朝,King / 国王,Kashtiliash IV / 卡什提利亚什四世,-1232,-1225
+Kassite Dynasty / 加喜特王朝,King / 国王,Enlil-nadin-shumi / 恩利尔-纳丁-舒米,-1224,-1224
+Kassite Dynasty / 加喜特王朝,King / 国王,Kadashman-Harbe II / 卡达什曼-哈尔贝二世,-1223,-1223
+Kassite Dynasty / 加喜特王朝,King / 国王,Adad-shuma-iddina / 阿达德-舒马-伊迪纳,-1222,-1217
+Kassite Dynasty / 加喜特王朝,King / 国王,Adad-shuma-usur / 阿达德-舒马-乌苏尔,-1216,-1187
+Kassite Dynasty / 加喜特王朝,King / 国王,Meli-Shipak II / 梅利-希帕克二世,-1186,-1172
+Kassite Dynasty / 加喜特王朝,King / 国王,Marduk-apla-iddina I / 马尔杜克-阿普拉-伊迪纳一世,-1171,-1159
+Kassite Dynasty / 加喜特王朝,King / 国王,Zababa-shuma-iddin / 扎巴巴-舒马-伊丁,-1158,-1158
+Kassite Dynasty / 加喜特王朝,King / 国王,Enlil-nadin-ahi / 恩利尔-纳丁-阿希,-1157,-1155
+Arzawa / 阿尔萨瓦,King / 国王,Kupanta-Kurunta / 库潘塔-库伦塔,-1440,-1400
+Arzawa / 阿尔萨瓦,King / 国王,Tarhuntaradu / 塔尔胡恩塔拉杜,-1400,-1350
+Arzawa / 阿尔萨瓦,King / 国王,Tarkasnawa / 塔尔卡斯纳瓦,-1350,-1320
+Arzawa / 阿尔萨瓦,King / 国王,Uhha-Ziti / 乌哈-兹提,-1320,-1300
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Ashur-uballit I / 亚述-乌巴里特一世,-1363,-1328
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Enlil-nirari / 恩利尔-尼拉里,-1327,-1318
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Arik-den-ili / 阿里克-丹-伊利,-1317,-1306
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Adad-nirari I / 阿达德-尼拉里一世,-1305,-1274
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Shalmaneser I / 沙尔马纳塞尔一世,-1273,-1244
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Tukulti-Ninurta I / 图库尔提-尼努尔塔一世,-1243,-1207
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Ashur-nadin-apli / 亚述-纳丁-阿普利,-1206,-1203
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Ashur-nirari III / 亚述-尼拉里三世,-1202,-1197
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Enlil-kudurri-usur / 恩利尔-库杜里-乌苏尔,-1196,-1192
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Ninurta-apal-Ekur / 尼努尔塔-阿帕尔-埃库尔,-1191,-1179
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Ashur-dan I / 亚述-丹一世,-1178,-1133
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Ninurta-tukulti-Ashur / 尼努尔塔-图库尔提-亚述,-1132,-1132
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Mutakkil-Nusku / 穆塔基尔-努斯库,-1132,-1132
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Ashur-resh-ishi I / 亚述-雷什-伊西一世,-1132,-1115
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Tiglath-Pileser I / 提格拉-帕拉萨尔一世,-1114,-1076
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Asharid-apal-Ekur / 阿沙里德-阿帕尔-埃库尔,-1075,-1074
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Ashur-bel-kala / 亚述-贝尔-卡拉,-1073,-1056
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Eriba-Adad II / 埃里巴-阿达德二世,-1055,-1054
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Shamshi-Adad IV / 沙姆什-阿达德四世,-1053,-1050
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Ashurnasirpal I / 亚述纳西尔帕一世,-1049,-1031
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Shalmaneser II / 沙尔马纳塞尔二世,-1030,-1019
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Ashur-nirari IV / 亚述-尼拉里四世,-1018,-1013
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Ashur-rabi II / 亚述-拉比二世,-1012,-972
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Ashur-resh-ishi II / 亚述-雷什-伊西二世,-971,-967
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Tiglath-Pileser II / 提格拉-帕拉萨尔二世,-966,-935
+Middle Assyrian Empire / 中亚述帝国,King / 国王,Ashur-dan II / 亚述-丹二世,-934,-912
+Kingdom of Edom / 以东王国,King / 国王,Kaus-malaka / 考斯-马拉卡,-745,-745
+Kingdom of Edom / 以东王国,King / 国王,Aya-ramu / 阿亚-拉穆,-701,-701
+Kingdom of Edom / 以东王国,King / 国王,Kaus-gabri / 考斯-加布里,-680,-680
+Kingdom of Moab / 摩押王国,King / 国王,Kamosh-ayat / 卡摩斯-阿亚特,-900,-870
+Kingdom of Moab / 摩押王国,King / 国王,Mesha / 米沙,-870,-840
+Kingdom of Moab / 摩押王国,King / 国王,Salmanu / 萨尔马努,-744,-727
+Kingdom of Moab / 摩押王国,King / 国王,Kammusu-nadbi / 卡穆苏-纳德比,-704,-704
+Kingdom of Moab / 摩押王国,King / 国王,Musuri / 穆苏里,-670,-668
+Kingdom of Moab / 摩押王国,King / 国王,Kamas-halta / 卡马斯-哈尔塔,-668,-633
+Colchis / 科尔喀斯,King / 国王,Kuji / 库吉,-325,-280
+Colchis / 科尔喀斯,King / 国王,Akes / 阿凯斯,-300,-300
+Colchis / 科尔喀斯,King / 国王,Saulaces / 萨乌拉切斯,-200,-100
+Colchis / 科尔喀斯,King / 国王,Mithridates / 米特里达梯,-80,-80
+Colchis / 科尔喀斯,King / 国王,Machares / 马卡雷斯,-65,-65
+Colchis / 科尔喀斯,King / 国王,Aristarchus / 阿里斯塔克斯,-63,-47
+Kingdom of Lydia / 吕底亚王国,King / 国王,Gyges / 巨吉斯,-680,-644
+Kingdom of Lydia / 吕底亚王国,King / 国王,Ardys / 阿尔杜斯,-644,-637
+Kingdom of Lydia / 吕底亚王国,King / 国王,Sadyattes / 萨杜阿铁斯,-637,-635
+Kingdom of Lydia / 吕底亚王国,King / 国王,Alyattes / 阿律阿铁斯,-635,-585
+Kingdom of Lydia / 吕底亚王国,King / 国王,Croesus / 克罗伊斯,-585,-546
+Kingdom of Phrygia / 弗里吉亚王国,King / 国王,Gordias / 戈耳狄俄斯,-800,-740
+Kingdom of Phrygia / 弗里吉亚王国,King / 国王,Midas / 弥达斯,-740,-675
+Kingdom of Aram-Damascus / 亚兰大马士革王国,King / 国王,Hezion / 希漂安,-960,-960
+Kingdom of Aram-Damascus / 亚兰大马士革王国,King / 国王,Tabrimmon / 他布临门,-930,-930
+Kingdom of Aram-Damascus / 亚兰大马士革王国,King / 国王,Ben-Hadad I / 便哈达一世,-885,-865
+Kingdom of Aram-Damascus / 亚兰大马士革王国,King / 国王,Ben-Hadad II (Hadadezer) / 哈大以谢,-865,-842
+Kingdom of Aram-Damascus / 亚兰大马士革王国,King / 国王,Hazael / 哈薛,-842,-796
+Kingdom of Aram-Damascus / 亚兰大马士革王国,King / 国王,Ben-Hadad III / 便哈达三世,-796,-792
+Kingdom of Aram-Damascus / 亚兰大马士革王国,King / 国王,Hadianu / 哈底亚努,-780,-754
+Kingdom of Aram-Damascus / 亚兰大马士革王国,King / 国王,Rezin / 利汛,-754,-732
+Kingdom of Ammon / 亚扪王国,King / 国王,Baasha son of Rehob / 巴沙,-853,-853
+Kingdom of Ammon / 亚扪王国,King / 国王,Shanip / 沙尼普,-734,-734
+Kingdom of Ammon / 亚扪王国,King / 国王,Peduel / 比多伊勒,-720,-720
+Kingdom of Ammon / 亚扪王国,King / 国王,Barachel / 巴拉结,-670,-670
+Kingdom of Ammon / 亚扪王国,King / 国王,Amminadab I / 亚米拿达一世,-650,-640
+Kingdom of Ammon / 亚扪王国,King / 国王,Hissalel / 希沙利勒,-640,-620
+Kingdom of Ammon / 亚扪王国,King / 国王,Amminadab II / 亚米拿达二世,-620,-590
+Kingdom of Ammon / 亚扪王国,King / 国王,Baalis / 巴力念,-590,-582
+United Kingdom of Israel / 以色列联合王国,King / 国王,Saul / 扫罗,-1047,-1007
+United Kingdom of Israel / 以色列联合王国,King / 国王,Ish-bosheth / 伊施波设,-1007,-1000
+United Kingdom of Israel / 以色列联合王国,King / 国王,David / 大卫,-1010,-970
+United Kingdom of Israel / 以色列联合王国,King / 国王,Solomon / 所罗门,-970,-930
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Rehoboam / 罗波安,-930,-913
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Abijah / 亚比央,-913,-911
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Asa / 亚撒,-911,-870
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Jehoshaphat / 约沙法,-870,-848
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Jehoram / 约兰,-848,-841
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Ahaziah / 亚哈谢,-842,-841
+Kingdom of Judah / 犹大王国（南国）,Queen / 女王,Athaliah / 亚他利雅,-841,-835
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Jehoash / 约阿施,-835,-796
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Amaziah / 亚玛谢,-796,-767
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Uzziah / 乌西雅,-791,-740
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Jotham / 约坦,-750,-735
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Ahaz / 亚哈斯,-735,-715
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Hezekiah / 希西家,-715,-686
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Manasseh / 玛拿西,-697,-643
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Amon / 亚们,-643,-641
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Josiah / 约西亚,-640,-609
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Jehoahaz / 约哈斯,-609,-609
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Jehoiakim / 约雅敬,-609,-598
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Jehoiachin / 约雅斤,-598,-597
+Kingdom of Judah / 犹大王国（南国）,King / 国王,Zedekiah / 西底家,-597,-587
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Jeroboam I / 耶罗波安一世,-930,-910
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Nadab / 拿答,-910,-909
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Baasha / 巴沙,-909,-886
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Elah / 以拉,-886,-885
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Zimri / 心利,-885,-885
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Tibni / 提比尼,-885,-880
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Omri / 暗利,-885,-874
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Ahab / 亚哈,-874,-853
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Ahaziah / 亚哈谢,-853,-852
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Joram / 约兰,-852,-841
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Jehu / 耶户,-841,-814
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Jehoahaz / 约哈斯,-814,-798
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Jehoash / 约阿施,-798,-782
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Jeroboam II / 耶罗波安二世,-782,-753
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Zechariah / 撒迦利雅,-753,-752
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Shallum / 沙龙,-752,-752
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Menahem / 米拿现,-752,-742
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Pekahiah / 比加辖,-742,-740
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Pekah / 比加,-740,-732
+Kingdom of Israel / 以色列王国 （北国）,King / 国王,Hoshea / 何细亚,-732,-720
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Adad-nirari II / 阿达德·尼拉里二世,-911,-891
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Tukulti-Ninurta II / 图库尔蒂·尼努尔塔二世,-890,-884
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Ashurnasirpal II / 亚述纳西尔帕二世,-884,-859
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Shalmaneser III / 沙尔马那塞尔三世,-859,-824
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Shamshi-Adad V / 珊西·阿达德五世,-824,-811
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Adad-nirari III / 阿达德·尼拉里三世,-811,-783
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Shalmaneser IV / 沙尔马那塞尔四世,-783,-773
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Ashur-dan III / 亚述·丹三世,-773,-755
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Ashur-nirari V / 亚述·尼拉里五世,-755,-745
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Tiglath-Pileser III / 提格拉特·帕拉萨尔三世,-745,-727
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Shalmaneser V / 沙尔马那塞尔五世,-727,-722
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Sargon II / 萨尔贡二世,-722,-705
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Sennacherib / 西拿基立,-705,-681
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Esarhaddon / 以撒哈顿,-681,-669
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Ashurbanipal / 亚述巴尼拔,-669,-631
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Ashur-etil-ilani / 亚述·埃提尔·伊拉尼,-631,-627
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Sin-shar-ishkun / 辛·沙尔·伊什昆,-627,-612
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Sin-shumu-lishir (usurper) / 辛·苏穆·利希尔（篡位者）,-626,-626
+Neo-Assyrian Empire / 新亚述帝国,King / 国王,Ashur-uballit II / 亚述·乌巴利特二世,-612,-609
+Urartu / 乌拉尔图,King / 国王,Arame / 阿拉姆,-858,-844
+Urartu / 乌拉尔图,King / 国王,Lutipri / 卢提普里,-844,-834
+Urartu / 乌拉尔图,King / 国王,Sarduri I / 萨尔杜里一世,-834,-828
+Urartu / 乌拉尔图,King / 国王,Ishpuini / 伊什普伊尼,-828,-810
+Urartu / 乌拉尔图,King / 国王,Menua / 梅努阿,-810,-786
+Urartu / 乌拉尔图,King / 国王,Inushpua / 伊努什普阿,-788,-786
+Urartu / 乌拉尔图,King / 国王,Argishti I / 阿尔吉什提一世,-786,-764
+Urartu / 乌拉尔图,King / 国王,Sarduri II / 萨尔杜里二世,-764,-735
+Urartu / 乌拉尔图,King / 国王,Rusa I / 鲁萨一世,-735,-714
+Urartu / 乌拉尔图,King / 国王,Melartua / 梅拉尔图阿,-714,-714
+Urartu / 乌拉尔图,King / 国王,Argishti II / 阿尔吉什提二世,-714,-680
+Urartu / 乌拉尔图,King / 国王,Rusa II / 鲁萨二世,-680,-639
+Urartu / 乌拉尔图,King / 国王,Sarduri III / 萨尔杜里三世,-639,-635
+Urartu / 乌拉尔图,King / 国王,Erimena / 埃里梅纳,-635,-629
+Urartu / 乌拉尔图,King / 国王,Rusa III / 鲁萨三世,-629,-615
+Urartu / 乌拉尔图,King / 国王,Sarduri IV / 萨尔杜里四世,-615,-595
+Urartu / 乌拉尔图,King / 国王,Rusa IV / 鲁萨四世,-595,-585
+Qedarite Confederation / 基达尔联盟,Queen / 女王,Zabibe / 扎比贝,-750,-735
+Qedarite Confederation / 基达尔联盟,Queen / 女王,Samsi / 萨姆西,-735,-710
+Qedarite Confederation / 基达尔联盟,Queen / 女王,Yatie / 亚提耶,-710,-695
+Qedarite Confederation / 基达尔联盟,Queen / 女王,Te'elhunu / 特尔胡努,-690,-676
+Qedarite Confederation / 基达尔联盟,Queen / 女王,Tabua / 塔布阿,-676,-675
+Qedarite Confederation / 基达尔联盟,King / 国王,Hazail / 哈扎伊勒,-690,-676
+Qedarite Confederation / 基达尔联盟,King / 国王,Yautha / 亚乌沙,-676,-652
+Qedarite Confederation / 基达尔联盟,King / 国王,Ammuladi / 阿穆拉迪,-652,-644
+Qedarite Confederation / 基达尔联盟,King / 国王,Abiyate / 阿比亚特,-644,-620
+Qedarite Confederation / 基达尔联盟,King / 国王,Geshem / 基善,-445,-430
+Qedarite Confederation / 基达尔联盟,King / 国王,Qaynu bar Geshem / 卡伊努·巴尔·基善,-430,-410
+Median Kingdom / 米底王国,King / 国王,Deioces / 狄奥塞斯,-700,-678
+Median Kingdom / 米底王国,King / 国王,Phraortes / 弗拉奥尔泰斯,-678,-625
+Median Kingdom / 米底王国,King / 国王,Cyaxares / 居阿克萨雷斯,-625,-585
+Median Kingdom / 米底王国,King / 国王,Astyages / 阿斯提阿格斯,-585,-550
+Neo-Babylonian Empire / 新巴比伦帝国,King / 国王,Nabopolassar / 那波帕拉萨尔,-626,-605
+Neo-Babylonian Empire / 新巴比伦帝国,King / 国王,Nebuchadnezzar II / 尼布甲尼撒二世,-605,-562
+Neo-Babylonian Empire / 新巴比伦帝国,King / 国王,Amel-Marduk / 阿美尔·马尔杜克,-562,-560
+Neo-Babylonian Empire / 新巴比伦帝国,King / 国王,Neriglissar / 内里格利萨尔,-560,-556
+Neo-Babylonian Empire / 新巴比伦帝国,King / 国王,Labashi-Marduk / 拉巴什·马尔杜克,-556,-556
+Neo-Babylonian Empire / 新巴比伦帝国,King / 国王,Nabonidus / 那波尼度,-556,-539
+Kingdom of Sheba / 示巴王国,King / 国王,Karib'il Watar II / 卡里布·伊勒·瓦塔尔二世,-620,-600
+Kingdom of Sheba / 示巴王国,King / 国王,Sumuh'ali Dharih / 苏穆胡阿里·达里赫,-600,-580
+Kingdom of Sheba / 示巴王国,King / 国王,Karib'il Watar III / 卡里布·伊勒·瓦塔尔三世,-580,-570
+Kingdom of Sheba / 示巴王国,King / 国王,Ilisharah I / 伊利沙拉赫一世,-570,-560
+Kingdom of Sheba / 示巴王国,King / 国王,Yada'il Bayin V / 亚达伊勒·拜因五世,-560,-540
+Kingdom of Sheba / 示巴王国,King / 国王,Yakrib Malik Watar IV / 亚克里布·马利克·瓦塔尔四世,-540,-520
+Kingdom of Sheba / 示巴王国,King / 国王,Yatha' Amar Bayin IV / 亚沙·阿马尔·拜因四世,-520,-500
+Kingdom of Sheba / 示巴王国,King / 国王,Karib'il Watar IV / 卡里布·伊勒·瓦塔尔四世,-500,-480
+Kingdom of Sheba / 示巴王国,King / 国王,Sumuh'ali Yanuf VI / 苏穆胡阿里·亚努夫六世,-480,-460
+Kingdom of Sheba / 示巴王国,King / 国王,Ilsharih II / 伊勒沙里赫二世,-460,-445
+Kingdom of Sheba / 示巴王国,King / 国王,Zamir Ali Bayin I / 扎米尔·阿里·拜因一世,-445,-430
+Kingdom of Sheba / 示巴王国,King / 国王,Yada'il Watar II / 亚达伊勒·瓦塔尔二世,-430,-410
+Kingdom of Sheba / 示巴王国,King / 国王,Zamir Ali Bayin II / 扎米尔·阿里·拜因二世,-410,-390
+Kingdom of Sheba / 示巴王国,King / 国王,Karib'il Watar V / 卡里布·伊勒·瓦塔尔五世,-390,-370
+Kingdom of Sheba / 示巴王国,King / 国王,Karib Yuhan'im / 卡里布·尤哈尼姆,-350,-330
+Kingdom of Sheba / 示巴王国,King / 国王,Karib'il Watar VI / 卡里布·伊勒·瓦塔尔六世,-330,-310
+Kingdom of Sheba / 示巴王国,King / 国王,Wahhab Shamsam / 瓦哈布·沙姆萨姆,-310,-290
+Kingdom of Sheba / 示巴王国,King / 国王,Anmar Yuha'min I / 安马尔·尤哈明一世,-290,-270
+Kingdom of Sheba / 示巴王国,King / 国王,Dhamar Ali Dharih II / 达马尔·阿里·达里赫二世,-270,-250
+Kingdom of Sheba / 示巴王国,King / 国王,Nasha'karib Yuha'min / 纳沙卡里布·尤哈明,-250,-230
+Kingdom of Sheba / 示巴王国,King / 国王,Nasir Yuhan'em / 纳西尔·尤哈内姆,-200,-180
+Kingdom of Sheba / 示巴王国,King / 国王,Wahhab Al-Yahiz II / 瓦哈布·亚希兹二世,-180,-160
+Kingdom of Sheba / 示巴王国,King / 国王,Karib'il Watar Yuhan'im / 卡里布·伊勒·瓦塔尔·尤哈尼姆,-160,-145
+Kingdom of Sheba / 示巴王国,King / 国王,Yarim 'Aymin / 亚里姆·阿明,-145,-115
+Kingdom of Sheba / 示巴王国,King / 国王,Far'am Yanhab / 法拉姆·亚哈布,-130,-125
+Kingdom of Sheba / 示巴王国,King / 国王,Dhamar Ali Yahbur / 达马尔·阿里·亚赫布尔,135,175
+Kingdom of Sheba / 示巴王国,King / 国王,Shammar Yahr'ish / 沙马尔·亚赫里什,275,275
+Achaemenid Empire / 阿契美尼德王朝,Shahanshah / 沙汉沙,Cyrus the Great / 居鲁士大帝,-550,-530
+Achaemenid Empire / 阿契美尼德王朝,Shahanshah / 沙汉沙,Cambyses II / 冈比西斯二世,-530,-522
+Achaemenid Empire / 阿契美尼德王朝,Shahanshah / 沙汉沙,Bardiya / 巴尔迪亚,-522,-522
+Achaemenid Empire / 阿契美尼德王朝,Shahanshah / 沙汉沙,Darius I / 大流士一世,-522,-486
+Achaemenid Empire / 阿契美尼德王朝,Shahanshah / 沙汉沙,Xerxes I / 薛西斯一世,-486,-465
+Achaemenid Empire / 阿契美尼德王朝,Shahanshah / 沙汉沙,Artaxerxes I / 阿尔塔薛西斯一世,-465,-424
+Achaemenid Empire / 阿契美尼德王朝,Shahanshah / 沙汉沙,Xerxes II / 薛西斯二世,-424,-424
+Achaemenid Empire / 阿契美尼德王朝,Shahanshah / 沙汉沙,Sogdianus / 塞基迪亚努斯,-424,-423
+Achaemenid Empire / 阿契美尼德王朝,Shahanshah / 沙汉沙,Darius II / 大流士二世,-423,-404
+Achaemenid Empire / 阿契美尼德王朝,Shahanshah / 沙汉沙,Artaxerxes II / 阿尔塔薛西斯二世,-404,-358
+Achaemenid Empire / 阿契美尼德王朝,Shahanshah / 沙汉沙,Artaxerxes III / 阿尔塔薛西斯三世,-358,-338
+Achaemenid Empire / 阿契美尼德王朝,Shahanshah / 沙汉沙,Artaxerxes IV Arses / 阿尔塔薛西斯四世,-338,-336
+Achaemenid Empire / 阿契美尼德王朝,Shahanshah / 沙汉沙,Darius III / 大流士三世,-336,-330
+Kingdom of Cappadocia / 卡帕多西亚王国,King / 国王,Ariarathes I / 阿里阿拉特斯一世,-331,-322
+Kingdom of Cappadocia / 卡帕多西亚王国,King / 国王,Ariarathes II / 阿里阿拉特斯二世,-301,-280
+Kingdom of Cappadocia / 卡帕多西亚王国,King / 国王,Ariaramnes / 阿里阿姆内斯,-280,-230
+Kingdom of Cappadocia / 卡帕多西亚王国,King / 国王,Ariarathes III / 阿里阿拉特斯三世,-255,-220
+Kingdom of Cappadocia / 卡帕多西亚王国,King / 国王,Ariarathes IV Eusebes / 阿里阿拉特斯四世,-220,-163
+Kingdom of Cappadocia / 卡帕多西亚王国,King / 国王,Ariarathes V Eusebes Philopator / 阿里阿拉特斯五世,-163,-130
+Kingdom of Cappadocia / 卡帕多西亚王国,King / 国王,Orophernes (rival) / 奥罗费尔内斯（对立王）,-157,-157
+Kingdom of Cappadocia / 卡帕多西亚王国,King / 国王,Ariarathes VI Epiphanes Philopator / 阿里阿拉特斯六世,-130,-116
+Kingdom of Cappadocia / 卡帕多西亚王国,King / 国王,Ariarathes VII Philometor / 阿里阿拉特斯七世,-116,-101
+Kingdom of Cappadocia / 卡帕多西亚王国,King / 国王,Ariarathes VIII / 阿里阿拉特斯八世,-101,-96
+Kingdom of Cappadocia / 卡帕多西亚王国,King / 国王,Ariarathes IX / 阿里阿拉特斯九世,-101,-85
+Kingdom of Cappadocia / 卡帕多西亚王国,King / 国王,Ariobarzanes I Philoromaios / 阿里奥巴尔扎内斯一世,-95,-63
+Kingdom of Cappadocia / 卡帕多西亚王国,King / 国王,Ariobarzanes II Philopator / 阿里奥巴尔扎内斯二世,-63,-51
+Kingdom of Cappadocia / 卡帕多西亚王国,King / 国王,Ariobarzanes III Eusebes Philoromaios / 阿里奥巴尔扎内斯三世,-51,-42
+Kingdom of Cappadocia / 卡帕多西亚王国,King / 国王,Ariarathes X Eusebes Philadelphos / 阿里阿拉特斯十世,-42,-36
+Kingdom of Cappadocia / 卡帕多西亚王国,King / 国王,Archelaus / 阿尔凯劳斯,-36,17
+Atropatene / 阿特罗帕特尼王国,King / 国王,Atropates / 阿特罗帕特斯,-323,-300
+Atropatene / 阿特罗帕特尼王国,King / 国王,Artabazanes / 阿尔塔巴赞内斯,-221,-221
+Atropatene / 阿特罗帕特尼王国,King / 国王,Mithridates I / 米特里达梯一世,-67,-66
+Atropatene / 阿特罗帕特尼王国,King / 国王,Darius I / 大流士一世,-65,-65
+Atropatene / 阿特罗帕特尼王国,King / 国王,Ariobarzanes I / 阿里奥巴尔扎内斯一世,-65,-56
+Atropatene / 阿特罗帕特尼王国,King / 国王,Artavasdes I / 阿尔塔瓦兹德斯一世,-56,-30
+Atropatene / 阿特罗帕特尼王国,King / 国王,Asinnalus / 阿西纳卢斯,-30,-25
+Atropatene / 阿特罗帕特尼王国,King / 国王,Ariobarzanes II / 阿里奥巴尔扎内斯二世,-25,4
+Atropatene / 阿特罗帕特尼王国,King / 国王,Artavasdes II / 阿尔塔瓦兹德斯二世,4,6
+Atropatene / 阿特罗帕特尼王国,King / 国王,Artabanus / 阿尔塔巴努斯,6,12
+Atropatene / 阿特罗帕特尼王国,King / 国王,Vonones II / 沃诺内斯二世,11,51
+Atropatene / 阿特罗帕特尼王国,King / 国王,Pacorus / 帕科鲁斯,51,78
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Seleucus I Nicator / 塞琉古一世,-312,-281
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Antiochus I Soter / 安条克一世,-281,-261
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Antiochus II Theos / 安条克二世,-261,-246
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Seleucus II Callinicus / 塞琉古二世,-246,-225
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Seleucus III Ceraunus / 塞琉古三世,-225,-223
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Antiochus Hierax / 安条克·希拉克斯,-240,-226
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Antiochus III the Great / 安条克三世,-223,-187
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Seleucus IV Philopator / 塞琉古四世,-187,-175
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Antiochus IV Epiphanes / 安条克四世,-175,-164
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Antiochus V Eupator / 安条克五世,-164,-162
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Demetrius I Soter / 德米特里一世,-162,-150
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Alexander I Balas / 亚历山大一世·巴拉斯,-150,-145
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Demetrius II Nicator / 德米特里二世,-145,-138
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Antiochus VI Dionysus / 安条克六世,-145,-140
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Diodotus Tryphon / 狄奥多图斯·特里丰,-140,-138
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Antiochus VII Sidetes / 安条克七世,-138,-129
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Demetrius II Nicator / 德米特里二世,-129,-126
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Alexander II Zabinas / 亚历山大二世·扎比纳斯,-128,-123
+Seleucid Empire / 塞琉古帝国,Basilissa / 巴西利萨,Cleopatra Thea / 克娄巴特拉·忒亚,-126,-123
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Seleucus V Philometor / 塞琉古五世,-126,-125
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Antiochus VIII Grypus / 安条克八世,-125,-96
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Antiochus IX Cyzicenus / 安条克九世,-114,-95
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Seleucus VI Epiphanes / 塞琉古六世,-96,-95
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Demetrius III Eucaerus / 德米特里三世,-96,-87
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Antiochus X Eusebes / 安条克十世,-95,-92
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Antiochus XI Epiphanes / 安条克十一世,-94,-93
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Philip I Philadelphus / 腓力一世,-94,-83
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Antiochus XII Dionysus / 安条克十二世,-87,-84
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Antiochus XIII Asiaticus / 安条克十三世,-69,-64
+Seleucid Empire / 塞琉古帝国,Basileus / 巴西琉斯,Philip II Philoromaeus / 腓力二世,-65,-63
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Pharnavaz I / 法尔纳瓦兹一世,-302,-234
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Sauromaces I / 萨乌罗马塞斯一世,-234,-159
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Mirian I / 米里安一世,-159,-109
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Pharnajom / 法尔纳乔姆,-109,-90
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Artaxias I / 阿尔塔克西亚斯一世,-90,-78
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Artoces / 阿尔托塞斯,-78,-63
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Pharnavaz II / 法尔纳瓦兹二世,-63,-30
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Mirian II / 米里安二世,-30,-20
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Artaxias II / 阿尔塔克西亚斯二世,-20,1
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Pharasmanes I the Great / 法拉斯曼内斯一世,1,58
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Mihrdat I / 米赫尔达特一世,58,106
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Amazasp I / 阿马扎斯普一世,106,116
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Pharasmanes II the Valiant / 法拉斯曼内斯二世,116,132
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Ghadam / 加达姆,132,135
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Pharasmanes III / 法拉斯曼内斯三世,135,185
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Amazasp II / 阿马扎斯普二世,185,189
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Rev I the Just / 列夫一世,189,216
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Vache / 瓦切,216,234
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Bacurius I / 巴库里乌斯一世,234,249
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Mihrdat II / 米赫尔达特二世,249,265
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Amazasp III (anti-king) / 阿马扎斯普三世（对立王）,260,265
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Aspacures I / 阿斯帕库雷斯一世,265,284
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Mirian III / 米里安三世,284,361
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Rev II / 列夫二世,345,361
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Sauromaces II / 萨乌罗马塞斯二世,361,363
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Aspacures II / 阿斯帕库雷斯二世,363,365
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Mihrdat III / 米赫尔达特三世,365,380
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Aspacures III / 阿斯帕库雷斯三世,380,394
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Trdat / 特尔达特,394,406
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Pharasmanes IV / 法拉斯曼内斯四世,406,409
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Mihrdat IV / 米赫尔达特四世,409,411
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Archil I / 阿尔奇尔一世,411,435
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Mihrdat V / 米赫尔达特五世,435,447
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Vakhtang I Gorgasali / 瓦赫坦格一世,447,522
+Kingdom of Iberia / 伊比利亚王国,King / 国王,Dachi / 达奇,522,523
+Kingdom of Pergamon / 帕加马王国,King / 国王,Philetaerus / 菲莱泰罗斯,-282,-263
+Kingdom of Pergamon / 帕加马王国,King / 国王,Eumenes I / 欧迈尼斯一世,-263,-241
+Kingdom of Pergamon / 帕加马王国,King / 国王,Attalus I / 阿塔罗斯一世,-241,-197
+Kingdom of Pergamon / 帕加马王国,King / 国王,Eumenes II / 欧迈尼斯二世,-197,-159
+Kingdom of Pergamon / 帕加马王国,King / 国王,Attalus II / 阿塔罗斯二世,-159,-138
+Kingdom of Pergamon / 帕加马王国,King / 国王,Attalus III / 阿塔罗斯三世,-138,-133
+Kingdom of Pergamon / 帕加马王国,King / 国王,Eumenes III / 欧迈尼斯三世,-133,-129
+Kingdom of Pontus / 本都王国,King / 国王,Mithridates I / 米特里达梯一世,-281,-266
+Kingdom of Pontus / 本都王国,King / 国王,Ariobarzanes / 阿里奥巴尔扎尼斯,-266,-250
+Kingdom of Pontus / 本都王国,King / 国王,Mithridates II / 米特里达梯二世,-250,-220
+Kingdom of Pontus / 本都王国,King / 国王,Mithridates III / 米特里达梯三世,-220,-185
+Kingdom of Pontus / 本都王国,King / 国王,Pharnaces I / 法尔纳克一世,-185,-170
+Kingdom of Pontus / 本都王国,King / 国王,Mithridates IV / 米特里达梯四世,-170,-150
+Kingdom of Pontus / 本都王国,Queen / 女王,Laodice / 拉俄狄刻,-170,-150
+Kingdom of Pontus / 本都王国,King / 国王,Mithridates V / 米特里达梯五世,-150,-120
+Kingdom of Pontus / 本都王国,King / 国王,Mithridates VI / 米特里达梯六世,-120,-63
+Kingdom of Pontus / 本都王国,King / 国王,Pharnaces II / 法尔纳克二世,-63,-47
+Kingdom of Pontus / 本都王国,King / 国王,Darius / 达里乌斯,-47,-37
+Kingdom of Pontus / 本都王国,King / 国王,Arsaces / 阿尔萨西斯,-37,-37
+Kingdom of Pontus / 本都王国,King / 国王,Polemon I / 波列蒙一世,-37,-8
+Kingdom of Pontus / 本都王国,Queen / 女王,Pythodoris / 皮托多里达,-8,38
+Kingdom of Pontus / 本都王国,King / 国王,Polemon II / 波列蒙二世,38,62
+Kingdom of Sophene / 索菲尼王国,King / 国王,Sames I / 萨美斯一世,-260,-260
+Kingdom of Sophene / 索菲尼王国,King / 国王,Arsames I / 阿尔萨美斯一世,-260,-228
+Kingdom of Sophene / 索菲尼王国,King / 国王,Arsames II / 阿尔萨美斯二世,-230,-220
+Kingdom of Sophene / 索菲尼王国,King / 国王,Xerxes / 薛西斯,-228,-212
+Kingdom of Sophene / 索菲尼王国,King / 国王,Zariadres / 扎里亚德里斯,-200,-188
+Kingdom of Sophene / 索菲尼王国,King / 国王,Mithrobouzanes / 米特罗布扎尼斯,-188,-163
+Nabataean Kingdom / 纳巴泰王国,King / 国王,Aretas I / 阿雷塔斯一世,-169,-169
+Nabataean Kingdom / 纳巴泰王国,King / 国王,Aretas II / 阿雷塔斯二世,-103,-96
+Nabataean Kingdom / 纳巴泰王国,King / 国王,Obodas I / 奥博达斯一世,-96,-85
+Nabataean Kingdom / 纳巴泰王国,King / 国王,Rabbel I / 拉贝勒一世,-85,-85
+Nabataean Kingdom / 纳巴泰王国,King / 国王,Aretas III / 阿雷塔斯三世,-87,-62
+Nabataean Kingdom / 纳巴泰王国,King / 国王,Obodas II / 奥博达斯二世,-62,-59
+Nabataean Kingdom / 纳巴泰王国,King / 国王,Malichus I / 马利库斯一世,-59,-30
+Nabataean Kingdom / 纳巴泰王国,King / 国王,Obodas III / 奥博达斯三世,-30,-9
+Nabataean Kingdom / 纳巴泰王国,King / 国王,Aretas IV / 阿雷塔斯四世,-9,40
+Nabataean Kingdom / 纳巴泰王国,King / 国王,Malichus II / 马利库斯二世,40,70
+Nabataean Kingdom / 纳巴泰王国,King / 国王,Rabbel II / 拉贝勒二世,70,106
+Nabataean Kingdom / 纳巴泰王国,Queen Regent / 摄政女王,Shaqilath II / 沙基拉特二世,70,76
+Parthian Empire / 安息帝国,King / 国王,Arsaces I / 阿尔沙克一世,-247,-211
+Parthian Empire / 安息帝国,King / 国王,Arsaces II / 阿尔沙克二世,-211,-191
+Parthian Empire / 安息帝国,King / 国王,Priapatius / 弗里阿帕提乌斯,-191,-176
+Parthian Empire / 安息帝国,King / 国王,Phraates I / 弗拉特斯一世,-176,-171
+Parthian Empire / 安息帝国,King / 国王,Mithridates I / 米特里达梯一世,-171,-132
+Parthian Empire / 安息帝国,King / 国王,Phraates II / 弗拉特斯二世,-132,-127
+Parthian Empire / 安息帝国,King / 国王,Artabanus I / 阿尔达班一世,-127,-124
+Parthian Empire / 安息帝国,King / 国王,Mithridates II / 米特里达梯二世,-124,-91
+Parthian Empire / 安息帝国,King / 国王,Gotarzes I / 古达尔兹一世,-95,-90
+Parthian Empire / 安息帝国,King / 国王,Orodes I / 奥罗德斯一世,-90,-80
+Parthian Empire / 安息帝国,King / 国王,Sinatruces I / 西纳特鲁西斯一世,-75,-75
+Parthian Empire / 安息帝国,King / 国王,Phraates III / 弗拉特斯三世,-70,-57
+Parthian Empire / 安息帝国,King / 国王,Mithridates IV / 米特里达梯四世,-57,-54
+Parthian Empire / 安息帝国,King / 国王,Orodes II / 奥罗德斯二世,-57,-38
+Parthian Empire / 安息帝国,King / 国王,Phraates IV / 弗拉特斯四世,-38,-2
+Parthian Empire / 安息帝国,King / 国王,Phraates V / 弗拉特斯五世,-2,4
+Parthian Empire / 安息帝国,Queen / 女王,Musa / 穆萨,-2,4
+Parthian Empire / 安息帝国,King / 国王,Orodes III / 奥罗德斯三世,6,6
+Parthian Empire / 安息帝国,King / 国王,Vonones I / 沃诺内斯一世,8,12
+Parthian Empire / 安息帝国,King / 国王,Artabanus II / 阿尔达班二世,10,38
+Parthian Empire / 安息帝国,King / 国王,Vardanes I / 瓦尔达尼斯一世,40,47
+Parthian Empire / 安息帝国,King / 国王,Gotarzes II / 古达尔兹二世,40,51
+Parthian Empire / 安息帝国,King / 国王,Vonones II / 沃诺内斯二世,51,51
+Parthian Empire / 安息帝国,King / 国王,Vologases I / 沃洛加西斯一世,50,79
+Parthian Empire / 安息帝国,King / 国王,Pacorus II / 帕科鲁斯二世,75,110
+Parthian Empire / 安息帝国,King / 国王,Vologases III / 沃洛加西斯三世,105,147
+Parthian Empire / 安息帝国,King / 国王,Vologases IV / 沃洛加西斯四世,147,191
+Parthian Empire / 安息帝国,King / 国王,Vologases V / 沃洛加西斯五世,191,208
+Parthian Empire / 安息帝国,King / 国王,Vologases VI / 沃洛加西斯六世,208,224
+Parthian Empire / 安息帝国,King / 国王,Artabanus IV / 阿尔达班四世,216,224
+Kingdom of Commagene / 科马基尼王国,King / 国王,Ptolemaeus / 托勒密乌斯,-163,-130
+Kingdom of Commagene / 科马基尼王国,King / 国王,Sames II / 萨美斯二世,-130,-109
+Kingdom of Commagene / 科马基尼王国,King / 国王,Mithridates I Callinicus / 米特里达梯一世·卡利尼库斯,-109,-70
+Kingdom of Commagene / 科马基尼王国,King / 国王,Antiochus I / 安条克一世,-70,-38
+Kingdom of Commagene / 科马基尼王国,King / 国王,Mithridates II / 米特里达梯二世,-38,-20
+Kingdom of Commagene / 科马基尼王国,King / 国王,Mithridates III / 米特里达梯三世,-20,-12
+Kingdom of Commagene / 科马基尼王国,King / 国王,Antiochus III / 安条克三世,-12,17
+Kingdom of Commagene / 科马基尼王国,King / 国王,Antiochus IV / 安条克四世,38,72
+Kingdom of Hatra / 哈特拉王国,Lord / 主,Nashrihab / 纳什里哈布,120,125
+Kingdom of Hatra / 哈特拉王国,Lord / 主,Naṣru / 纳斯鲁,125,140
+Kingdom of Hatra / 哈特拉王国,King / 国王,Sanatruq I / 萨纳特鲁克一世,140,180
+Kingdom of Hatra / 哈特拉王国,King / 国王,Vologash I / 沃洛加什一世,140,180
+Kingdom of Hatra / 哈特拉王国,King / 国王,Abdsamiya / 阿卜萨米亚,180,205
+Kingdom of Hatra / 哈特拉王国,King / 国王,Sanatruq II / 萨纳特鲁克二世,205,241
+Hasmonean Kingdom / 哈斯蒙尼王国,Ethnarch / 族长,Simon Thassi / 西蒙·塔西,-141,-135
+Hasmonean Kingdom / 哈斯蒙尼王国,Ethnarch / 族长,John Hyrcanus I / 约翰·许尔卡努斯一世,-134,-104
+Hasmonean Kingdom / 哈斯蒙尼王国,King / 国王,Aristobulus I / 阿里斯托布鲁斯一世,-104,-103
+Hasmonean Kingdom / 哈斯蒙尼王国,King / 国王,Alexander Jannaeus / 亚历山大·雅内乌斯,-103,-76
+Hasmonean Kingdom / 哈斯蒙尼王国,King / 国王,Hyrcanus II / 许尔卡努斯二世,-67,-66
+Hasmonean Kingdom / 哈斯蒙尼王国,King / 国王,Aristobulus II / 阿里斯托布鲁斯二世,-66,-63
+Hasmonean Kingdom / 哈斯蒙尼王国,King / 国王,Antigonus II / 安提戈努斯二世,-40,-37
+Hasmonean Kingdom / 哈斯蒙尼王国,Queen / 女王,Salome Alexandra / 莎乐美·亚历山德拉,-76,-67
+Hasmonean Kingdom / 哈斯蒙尼王国,High Priest / 大祭司,Hyrcanus II / 许尔卡努斯二世,-63,-40
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Dhamar Ali Yahbur / 达马尔·阿里·亚胡布尔,135,175
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Shammar Yahri'sh / 沙马尔·亚赫里什,275,300
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Dhamar Ali Yahbur II / 达马尔·阿里·亚胡布尔二世,321,324
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Tharan Yuhanim / 塔兰·尤哈尼姆,324,375
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Malkikarib Yuhamin / 马尔基卡里布·尤哈明,375,400
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Abu Karib As'ad / 阿布·卡里布·阿萨德,390,420
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Hassan Yuha'min / 哈桑·尤哈明,440,450
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Sharhabil Yafar / 沙尔哈比尔·亚法尔,450,465
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Sharhabil Yakkuf / 沙尔哈比尔·亚库夫,465,480
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Lakhni'ah Yanuf / 拉赫尼亚·亚努夫,480,502
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Marthad'ilan Yu'nim / 马尔塔迪兰·尤尼姆,502,504
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Marthad'ilan Yanuf / 马尔塔迪兰·亚努夫,504,515
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Ma'dikarib Ya'fur / 马迪卡里布·亚福尔,515,517
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Dhu Nuwas / 祖·努瓦斯,517,530
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Sumyafa Ashwa / 苏米亚法·阿什瓦,530,535
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Abraha / 阿布拉哈,535,570
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Yaksum ibn Abraha / 亚克苏姆·本·阿布拉哈,570,571
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Masruq ibn Abraha / 马斯鲁克·本·阿布拉哈,571,572
+Kingdom of Himyar / 希木叶尔王国,King / 国王,Ma'adi Yakrib ibn Abi Murrah / 马阿迪·亚克里布·本·阿比·穆拉,572,578
+Armenian Empire / 亚美尼亚帝国,King / 国王,Tigranes II / 提格兰二世,-83,-69
+Herodian Kingdom / 希律王国,King / 国王,Herod the Great / 希律大帝,-37,-4
+Ghassanids / 伽珊尼德,King / 国王,Jafnah ibn Amr / 贾夫纳·本·阿姆尔,220,265
+Ghassanids / 伽珊尼德,King / 国王,Amr ibn Jafnah / 阿姆尔·本·贾夫纳,265,270
+Ghassanids / 伽珊尼德,King / 国王,Tha'laba ibn Amr / 萨阿拉巴·本·阿姆尔,270,287
+Ghassanids / 伽珊尼德,King / 国王,Jabalah IV ibn al-Harith / 贾巴拉四世·本·哈里斯,518,528
+Ghassanids / 伽珊尼德,King / 国王,Al-Harith V ibn Jabalah / 哈里斯五世·本·贾巴拉,528,569
+Ghassanids / 伽珊尼德,King / 国王,Al-Mundhir III ibn al-Harith / 蒙齐尔三世·本·哈里斯,569,581
+Ghassanids / 伽珊尼德,King / 国王,Al-Nu'man VI ibn al-Mundhir / 努阿曼六世·本·蒙齐尔,581,583
+Ghassanids / 伽珊尼德,King / 国王,Jafnah / 贾夫纳,587,591
+Ghassanids / 伽珊尼德,King / 国王,Jabala ibn al-Ayham / 贾巴拉·本·艾亚姆,632,638
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Ardashir I / 阿尔达希尔一世,224,242
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Shapur I / 沙普尔一世,240,270
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Hormizd I / 霍尔米兹德一世,270,271
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Bahram I / 巴赫拉姆一世,271,274
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Bahram II / 巴赫拉姆二世,274,293
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Bahram III / 巴赫拉姆三世,293,293
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Narseh / 纳尔塞,293,302
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Hormizd II / 霍尔米兹德二世,302,309
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Adur Narseh / 阿杜尔·纳尔塞,309,309
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Shapur II / 沙普尔二世,309,379
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Ardashir II / 阿尔达希尔二世,379,383
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Shapur III / 沙普尔三世,383,388
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Bahram IV / 巴赫拉姆四世,388,399
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Yazdegerd I / 耶兹德加德一世,399,420
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Shapur IV / 沙普尔四世,420,420
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Khosrow / 霍斯劳,420,420
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Bahram V / 巴赫拉姆五世,420,438
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Yazdegerd II / 耶兹德加德二世,438,457
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Hormizd III / 霍尔米兹德三世,457,459
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Peroz I / 佩罗兹一世,457,484
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Balash / 巴拉什,484,488
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Kavad I / 卡瓦德一世,488,496
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Jamasp / 贾马斯普,496,498
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Kavad I / 卡瓦德一世,498,531
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Khosrow I / 霍斯劳一世,531,579
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Hormizd IV / 霍尔米兹德四世,579,590
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Khosrow II / 霍斯劳二世,590,590
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Bahram Chobin / 巴赫拉姆·乔宾,590,591
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Khosrow II / 霍斯劳二世,591,628
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Kavad II / 卡瓦德二世,628,628
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Ardashir III / 阿尔达希尔三世,628,630
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Shahrbaraz / 沙赫尔巴拉兹,630,630
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Boran / 布兰,630,630
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Shapur-i Shahrvaraz / 沙普尔·沙赫尔瓦拉兹,630,630
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Azarmidokht / 阿扎尔米多赫特,630,631
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Boran / 布兰,631,632
+Sasanian Empire / 萨珊王朝,Shahanshah / 沙汉沙,Yazdegerd III / 耶兹德加德三世,632,651
+Lakhmid Kingdom / 拉赫姆王国,King / 国王,Amr ibn Adi / 阿姆尔·本·阿迪,268,295
+Lakhmid Kingdom / 拉赫姆王国,King / 国王,Imru al-Qays I ibn Amr / 伊姆鲁·盖斯一世·本·阿姆尔,295,328
+Lakhmid Kingdom / 拉赫姆王国,King / 国王,Amr ibn Imru al-Qays / 阿姆尔·本·伊姆鲁·盖斯,328,363
+Lakhmid Kingdom / 拉赫姆王国,King / 国王,Aws ibn Qallam / 奥斯·本·卡拉姆,363,368
+Lakhmid Kingdom / 拉赫姆王国,King / 国王,Imru al-Qays II ibn Amr / 伊姆鲁·盖斯二世·本·阿姆尔,368,390
+Lakhmid Kingdom / 拉赫姆王国,King / 国王,Al-Nu'man I ibn Imru al-Qays / 努阿曼一世·本·伊姆鲁·盖斯,390,418
+Lakhmid Kingdom / 拉赫姆王国,King / 国王,Al-Mundhir I ibn al-Nu'man / 蒙齐尔一世·本·努阿曼,418,461
+Lakhmid Kingdom / 拉赫姆王国,King / 国王,Al-Nu'man II ibn al-Aswad / 努阿曼二世·本·阿斯瓦德,497,503
+Lakhmid Kingdom / 拉赫姆王国,King / 国王,Abu Ya'fur ibn Alqama / 阿布·亚富尔·本·阿勒卡迈,503,505
+Lakhmid Kingdom / 拉赫姆王国,King / 国王,Al-Mundhir III ibn al-Nu'man / 蒙齐尔三世·本·努阿曼,505,554
+Lakhmid Kingdom / 拉赫姆王国,King / 国王,Amr ibn Hind / 阿姆尔·本·欣德,554,569
+Lakhmid Kingdom / 拉赫姆王国,King / 国王,Qabus ibn al-Mundhir / 卡布斯·本·蒙齐尔,569,573
+Lakhmid Kingdom / 拉赫姆王国,King / 国王,Al-Mundhir IV ibn al-Mundhir / 蒙齐尔四世·本·蒙齐尔,575,580
+Lakhmid Kingdom / 拉赫姆王国,King / 国王,Al-Nu'man III ibn al-Mundhir / 努阿曼三世·本·蒙齐尔,580,602
+Kingdom of Kinda / 坎达王国,King / 国王,Al-Harith ibn Amr / 哈里斯·本·阿姆尔,502,528
+Qarinvand Dynasty / 卡伦王朝,Ispahbad / 伊斯帕赫巴德,Vindadhhurmuzd / 温达德霍尔穆兹德,765,809
+Qarinvand Dynasty / 卡伦王朝,Ispahbad / 伊斯帕赫巴德,Qarin ibn Vindadhhurmuzd / 卡林·本·温达德霍尔穆兹德,815,817
+Qarinvand Dynasty / 卡伦王朝,Ispahbad / 伊斯帕赫巴德,Mazyar / 马兹亚尔,817,839
+Qarinvand Dynasty / 卡伦王朝,Ispahbad / 伊斯帕赫巴德,Quhyar / 库亚尔,839,839
+First Islamic State / 麦地那伊斯兰国,Prophet / 先知,Muhammad / 穆罕默德,622,632
+Rashidun Caliphate / 正统哈里发国,Caliph / 哈里发,Abu Bakr / 阿布·伯克尔,632,634
+Rashidun Caliphate / 正统哈里发国,Caliph / 哈里发,Umar / 欧麦尔,634,644
+Rashidun Caliphate / 正统哈里发国,Caliph / 哈里发,Uthman / 奥斯曼,644,656
+Rashidun Caliphate / 正统哈里发国,Caliph / 哈里发,Ali / 阿里,656,661
+Rashidun Caliphate / 正统哈里发国,Caliph / 哈里发,Hasan ibn Ali / 哈桑·伊本·阿里,661,661
+Dabuyid Dynasty / 达布亚王朝,Ispahbadh / 伊斯帕赫巴德,Gil Gavbara / 吉尔·加夫巴拉,642,660
+Dabuyid Dynasty / 达布亚王朝,Ispahbadh / 伊斯帕赫巴德,Dabuya / 达布亚,660,712
+Dabuyid Dynasty / 达布亚王朝,Ispahbadh / 伊斯帕赫巴德,Farrukhan the Great / 法鲁汉大帝,712,728
+Dabuyid Dynasty / 达布亚王朝,Ispahbadh / 伊斯帕赫巴德,Dadhburzmihr / 达德布尔兹米赫尔,728,741
+Dabuyid Dynasty / 达布亚王朝,Ispahbadh / 伊斯帕赫巴德,Farrukhan the Little / 小法鲁汉,741,748
+Dabuyid Dynasty / 达布亚王朝,Ispahbadh / 伊斯帕赫巴德,Khurshid / 霍尔希德,741,760
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Farrukhzad / 法鲁赫扎德,651,665
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Surkhab I / 苏尔哈布一世,673,717
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Mihr Mardan / 米赫尔·马尔丹,717,755
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Surkhab II / 苏尔哈布二世,755,772
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Sharwin I / 沙尔温一世,772,817
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Shahriyar I / 沙赫里亚尔一世,817,825
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Shapur / 沙普尔,825,825
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Qarin I / 卡林一世,839,867
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Rustam I / 鲁斯塔姆一世,867,896
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Sharwin II / 沙尔温二世,896,930
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Shahriyar II / 沙赫里亚尔二世,930,964
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Rustam II / 鲁斯塔姆二世,964,979
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,al-Marzuban / 马尔祖班,979,986
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Sharwin III / 沙尔温三世,986,986
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Shahriyar III / 沙赫里亚尔三世,986,987
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,al-Marzuban / 马尔祖班,987,998
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Shahriyar III / 沙赫里亚尔三世,998,998
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,al-Marzuban / 马尔祖班,998,1006
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Abu Ja'far Muhammad / 阿布·贾法尔·穆罕默德,1006,1027
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Qarin II / 卡林二世,1057,1074
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Shahriyar IV / 沙赫里亚尔四世,1074,1114
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Qarin III / 卡林三世,1114,1117
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Rustam III / 鲁斯塔姆三世,1117,1118
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Ali I / 阿里一世,1118,1142
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Shah Ghazi Rustam / 沙赫·加齐·鲁斯塔姆,1142,1165
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Hasan I / 哈桑一世,1165,1173
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Ardashir I / 阿尔达希尔一世,1173,1205
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Rustam V / 鲁斯塔姆五世,1205,1210
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Ardashir II / 阿尔达希尔二世,1238,1249
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Muhammad / 穆罕默德,1249,1271
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Ali II / 阿里二世,1271,1271
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Yazdagird / 亚兹德吉尔德,1271,1298
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Shahriyar V / 沙赫里亚尔五世,1298,1310
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Shah-Kaykhusraw / 沙赫·凯霍斯劳,1310,1328
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Sharaf al-Muluk / 沙拉夫·穆鲁克,1328,1334
+Bavand Dynasty / 巴文德王朝,Ispahbadh / 伊斯帕赫巴德,Hasan II / 哈桑二世,1334,1349
+Umayyad Caliphate / 倭马亚王朝,Caliph / 哈里发,Mu'awiya I / 穆阿维叶一世,661,680
+Umayyad Caliphate / 倭马亚王朝,Caliph / 哈里发,Yazid I / 雅兹德一世,680,683
+Umayyad Caliphate / 倭马亚王朝,Caliph / 哈里发,Mu'awiya II / 穆阿维叶二世,683,684
+Umayyad Caliphate / 倭马亚王朝,Caliph / 哈里发,Marwan I / 马尔万一世,684,685
+Umayyad Caliphate / 倭马亚王朝,Caliph / 哈里发,Abd al-Malik / 阿卜杜勒·马利克,685,705
+Umayyad Caliphate / 倭马亚王朝,Caliph / 哈里发,Al-Walid I / 瓦利德一世,705,715
+Umayyad Caliphate / 倭马亚王朝,Caliph / 哈里发,Sulayman / 苏莱曼,715,717
+Umayyad Caliphate / 倭马亚王朝,Caliph / 哈里发,Umar II / 欧麦尔二世,717,720
+Umayyad Caliphate / 倭马亚王朝,Caliph / 哈里发,Yazid II / 雅兹德二世,720,724
+Umayyad Caliphate / 倭马亚王朝,Caliph / 哈里发,Hisham / 希沙姆,724,743
+Umayyad Caliphate / 倭马亚王朝,Caliph / 哈里发,Al-Walid II / 瓦利德二世,743,744
+Umayyad Caliphate / 倭马亚王朝,Caliph / 哈里发,Yazid III / 雅兹德三世,744,744
+Umayyad Caliphate / 倭马亚王朝,Caliph / 哈里发,Ibrahim ibn al-Walid / 伊卜拉欣·伊本·瓦利德,744,744
+Umayyad Caliphate / 倭马亚王朝,Caliph / 哈里发,Marwan II / 马尔万二世,744,750
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Saffah / 萨法赫,750,754
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Mansur / 曼苏尔,754,775
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Mahdi / 迈赫迪,775,785
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Hadi / 哈迪,785,786
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Harun al-Rashid / 哈伦·拉希德,786,809
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Amin / 阿明,809,813
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Ma'mun / 马蒙,813,833
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Mu'tasim / 穆塔西姆,833,842
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Wathiq / 瓦西格,842,847
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Mutawakkil / 穆塔瓦基勒,847,861
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Muntasir / 蒙塔西尔,861,862
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Musta'in / 穆斯塔因,862,866
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Mu'tazz / 穆塔兹,866,869
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Muhtadi / 穆赫塔迪,869,870
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Mu'tamid / 穆塔米德,870,892
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Mu'tadid / 穆塔迪德,892,902
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Muktafi / 穆克塔菲,902,908
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Muqtadir / 穆克塔迪尔,908,929
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Qahir / 卡希尔,929,929
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Muqtadir / 穆克塔迪尔,929,932
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Qahir / 卡希尔,932,934
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Radi / 拉迪,934,940
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Muttaqi / 穆塔基,940,944
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Mustakfi / 穆斯塔克菲,944,946
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Muti / 穆提,946,974
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Ta'i / 塔伊,974,991
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Qadir / 卡迪尔,991,1031
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Qa'im / 卡伊姆,1031,1075
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Muqtadi / 穆克塔迪,1075,1094
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Mustazhir / 穆斯塔扎希尔,1094,1118
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Mustarshid / 穆斯塔尔希德,1118,1135
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Rashid Billah / 拉希德·比拉,1135,1136
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Muqtafi / 穆克塔菲二世,1136,1160
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Mustanjid / 穆斯坦吉德,1160,1170
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Mustadi / 穆斯塔迪,1170,1180
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Nasir / 纳西尔,1180,1225
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Zahir / 扎希尔,1225,1226
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Mustansir / 穆斯坦绥尔,1226,1242
+Abbasid Caliphate / 阿拔斯王朝,Caliph / 哈里发,Al-Musta'sim / 穆斯台绥姆,1242,1258
+Kingdom of Abkhazia / 阿布哈兹王国,King / 国王,Leon II / 利昂二世,778,828
+Kingdom of Abkhazia / 阿布哈兹王国,King / 国王,Theodosius II / 狄奥多西二世,828,855
+Kingdom of Abkhazia / 阿布哈兹王国,King / 国王,Demetrius II / 德米特里二世,855,864
+Kingdom of Abkhazia / 阿布哈兹王国,King / 国王,George I / 乔治一世,864,871
+Kingdom of Abkhazia / 阿布哈兹王国,King / 国王,John / 约翰,871,873
+Kingdom of Abkhazia / 阿布哈兹王国,King / 国王,Adarnase / 阿达纳塞,873,887
+Kingdom of Abkhazia / 阿布哈兹王国,King / 国王,Bagrat I / 巴格拉特一世,887,894
+Kingdom of Abkhazia / 阿布哈兹王国,King / 国王,Constantine III / 君士坦丁三世,894,923
+Kingdom of Abkhazia / 阿布哈兹王国,King / 国王,George II / 乔治二世,923,957
+Kingdom of Abkhazia / 阿布哈兹王国,King / 国王,Leon III / 利昂三世,957,967
+Kingdom of Abkhazia / 阿布哈兹王国,King / 国王,Demetrius III / 德米特里三世,967,975
+Kingdom of Abkhazia / 阿布哈兹王国,King / 国王,Theodosius III / 狄奥多西三世,975,978
+Kingdom of Abkhazia / 阿布哈兹王国,King / 国王,Bagrat II / 巴格拉特二世,978,1008
+Samanid Empire / 萨曼王朝,Amir / 埃米尔,Ahmad ibn Asad / 艾哈迈德·伊本·阿萨德,819,864
+Samanid Empire / 萨曼王朝,Amir / 埃米尔,Nasr I / 纳斯尔一世,864,892
+Samanid Empire / 萨曼王朝,Amir / 埃米尔,Ismail Samani / 伊斯玛仪·萨曼尼,892,907
+Samanid Empire / 萨曼王朝,Amir / 埃米尔,Ahmad Samani / 艾哈迈德·萨曼尼,907,914
+Samanid Empire / 萨曼王朝,Amir / 埃米尔,Nasr II / 纳斯尔二世,914,943
+Samanid Empire / 萨曼王朝,Amir / 埃米尔,Nuh I / 努赫一世,943,954
+Samanid Empire / 萨曼王朝,Amir / 埃米尔,Abd al-Malik I / 阿卜杜勒·马利克一世,954,961
+Samanid Empire / 萨曼王朝,Amir / 埃米尔,Mansur I / 曼苏尔一世,961,976
+Samanid Empire / 萨曼王朝,Amir / 埃米尔,Nuh II / 努赫二世,976,997
+Samanid Empire / 萨曼王朝,Amir / 埃米尔,Mansur II / 曼苏尔二世,997,999
+Samanid Empire / 萨曼王朝,Amir / 埃米尔,Abd al-Malik II / 阿卜杜勒·马利克二世,999,999
+Ziyadid Dynasty / 齐亚德王朝,Amir / 埃米尔,Muhammad ibn Ziyad / 穆罕默德·伊本·齐亚德,819,859
+Ziyadid Dynasty / 齐亚德王朝,Amir / 埃米尔,Ibrahim ibn Muhammad / 易卜拉欣·伊本·穆罕默德,859,902
+Ziyadid Dynasty / 齐亚德王朝,Amir / 埃米尔,Ibn Ziyad / 伊本·齐亚德,902,904
+Ziyadid Dynasty / 齐亚德王朝,Amir / 埃米尔,Abu'l-Jaysh Ishaq / 阿布勒·贾伊什·伊斯哈格,904,981
+Ziyadid Dynasty / 齐亚德王朝,Amir / 埃米尔,Abdallah ibn Ishaq / 阿卜杜拉·伊本·伊斯哈格,981,1012
+Ziyadid Dynasty / 齐亚德王朝,Amir / 埃米尔,Ibrahim ibn Ishaq / 易卜拉欣·伊本·伊斯哈格,1012,1018
+Tahirid Dynasty / 塔希尔王朝,Governor / 总督,Tahir ibn Husayn / 塔希尔·伊本·侯赛因,821,822
+Tahirid Dynasty / 塔希尔王朝,Governor / 总督,Talha ibn Tahir / 塔勒哈·伊本·塔希尔,822,828
+Tahirid Dynasty / 塔希尔王朝,Governor / 总督,Abdallah ibn Tahir / 阿卜杜拉·伊本·塔希尔,828,845
+Tahirid Dynasty / 塔希尔王朝,Governor / 总督,Tahir II / 塔希尔二世,845,862
+Tahirid Dynasty / 塔希尔王朝,Governor / 总督,Muhammad ibn Tahir / 穆罕默德·伊本·塔希尔,862,873
+Saffarid Dynasty / 萨法尔王朝,Amir / 埃米尔,Ya'qub ibn al-Layth / 雅库布·伊本·莱斯,861,879
+Saffarid Dynasty / 萨法尔王朝,Amir / 埃米尔,Amr ibn al-Layth / 阿姆尔·伊本·莱斯,879,901
+Saffarid Dynasty / 萨法尔王朝,Amir / 埃米尔,Tahir ibn Muhammad ibn Amr / 塔希尔·伊本·穆罕默德·伊本·阿姆尔,901,909
+Saffarid Dynasty / 萨法尔王朝,Amir / 埃米尔,Al-Layth / 莱斯,909,910
+Saffarid Dynasty / 萨法尔王朝,Amir / 埃米尔,Muhammad ibn Ali ibn al-Layth / 穆罕默德·伊本·阿里·伊本·莱斯,910,911
+Saffarid Dynasty / 萨法尔王朝,Amir / 埃米尔,Al-Mu'addal / 穆阿达勒,911,911
+Saffarid Dynasty / 萨法尔王朝,Amir / 埃米尔,Amr ibn Ya'qub / 阿姆尔·伊本·雅库布,912,913
+Saffarid Dynasty / 萨法尔王朝,Amir / 埃米尔,Abu Ja'far Ahmad ibn Muhammad / 阿布·贾法尔·艾哈迈德·伊本·穆罕默德,923,963
+Saffarid Dynasty / 萨法尔王朝,Amir / 埃米尔,Khalaf I / 哈拉夫一世,963,1002
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Ali I / 阿里一世,909,917
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Abu Tahir Yazid / 阿布·塔希尔·亚兹德,917,948
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Muhammad II / 穆罕默德二世,948,956
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Ahmad / 艾哈迈德,956,981
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Muhammad III / 穆罕默德三世,981,991
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Yazid ibn Ahmad / 亚兹德·伊本·艾哈迈德,991,1027
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Manuchihr I / 马努切赫尔一世,1027,1034
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Ali II / 阿里二世,1034,1043
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Qubad / 库巴德,1043,1049
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Bukhtnassar / 布赫特纳萨尔,1049,1050
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Sallar / 萨拉尔,1050,1063
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Fariburz I / 法里布尔兹一世,1063,1096
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Manuchihr II / 马努切赫尔二世,1096,1106
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Afridun I / 阿夫里敦一世,1106,1120
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Manuchihr III / 马努切赫尔三世,1120,1160
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Akhsitan I / 阿赫西坦一世,1160,1203
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Shahanshah / 沙汉沙,1180,1203
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Farrukhzad I / 法鲁赫扎德一世,1203,1225
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Garshasp I / 加尔沙斯普一世,1203,1233
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Fariburz III / 法里布尔兹三世,1225,1255
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Akhsitan II / 阿赫西坦二世,1255,1260
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Farrukhzad II / 法鲁赫扎德二世,1260,1282
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Akhsitan III / 阿赫西坦三世,1282,1294
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Keykavus / 凯卡乌斯,1294,1317
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Kayqubad I / 凯库巴德一世,1317,1348
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Kavus I / 卡乌斯一世,1348,1372
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Hushang / 胡尚,1372,1382
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Ibrahim I / 易卜拉欣一世,1382,1417
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Khalilullah I / 哈利卢拉一世,1417,1465
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Farrukh Yasar / 法鲁赫·亚萨尔,1465,1500
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Bahram Beg / 巴赫拉姆·贝格,1500,1501
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Ghazi Beg / 加齐·贝格,1501,1501
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Sultan Mahmud / 苏丹·马哈茂德,1501,1502
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Ibrahim II / 易卜拉欣二世,1502,1524
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Khalilullah II / 哈利卢拉二世,1524,1527
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Farrukh Yasar II / 法鲁赫·亚萨尔二世,1527,1527
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Khalilullah II / 哈利卢拉二世,1527,1535
+Kingdom of Shirvan / 希尔万沙王国,Shirvanshah / 希尔万沙,Shahrukh / 沙赫鲁赫,1535,1538
+Bagratid Armenia / 亚美尼亚-巴格拉图尼王朝,King / 国王,Ashot I / 阿什特一世,885,890
+Bagratid Armenia / 亚美尼亚-巴格拉图尼王朝,King / 国王,Smbat I / 斯姆巴特一世,890,914
+Bagratid Armenia / 亚美尼亚-巴格拉图尼王朝,King / 国王,Ashot II / 阿什特二世,914,928
+Bagratid Armenia / 亚美尼亚-巴格拉图尼王朝,King / 国王,Abas I / 阿巴斯一世,928,953
+Bagratid Armenia / 亚美尼亚-巴格拉图尼王朝,King / 国王,Ashot III / 阿什特三世,953,977
+Bagratid Armenia / 亚美尼亚-巴格拉图尼王朝,King / 国王,Smbat II / 斯姆巴特二世,977,989
+Bagratid Armenia / 亚美尼亚-巴格拉图尼王朝,King / 国王,Gagik I / 加吉克一世,989,1020
+Bagratid Armenia / 亚美尼亚-巴格拉图尼王朝,King / 国王,Hovhannes-Smbat III / 霍万内斯-斯姆巴特三世,1020,1041
+Bagratid Armenia / 亚美尼亚-巴格拉图尼王朝,King / 国王,Ashot IV / 阿什特四世,1021,1039
+Bagratid Armenia / 亚美尼亚-巴格拉图尼王朝,King / 国王,Gagik II / 加吉克二世,1042,1045
+Kingdom of the Iberians / 陶-克拉尔杰蒂王国,King / 国王,Adarnase IV / 阿达纳塞四世,888,923
+Kingdom of the Iberians / 陶-克拉尔杰蒂王国,King / 国王,David II / 大卫二世,923,937
+Kingdom of the Iberians / 陶-克拉尔杰蒂王国,King / 国王,Sumbat I / 苏姆巴特一世,937,958
+Kingdom of the Iberians / 陶-克拉尔杰蒂王国,King / 国王,Bagrat II / 巴格拉特二世,958,994
+Kingdom of the Iberians / 陶-克拉尔杰蒂王国,King / 国王,Gurgen / 古尔根,994,1008
+Sajid Dynasty / 萨吉王朝,Amir / 埃米尔,Muhammad ibn Abi'l-Saj / 穆罕默德·伊本·阿布勒-萨吉,889,901
+Sajid Dynasty / 萨吉王朝,Amir / 埃米尔,Devdad ibn Muhammad / 迪夫达德·伊本·穆罕默德,901,901
+Sajid Dynasty / 萨吉王朝,Amir / 埃米尔,Yusuf ibn Abi'l-Saj / 优素福·伊本·阿布勒-萨吉,901,928
+Sajid Dynasty / 萨吉王朝,Amir / 埃米尔,Abu'l-Musafir al-Fath / 阿布勒-穆萨菲尔·法特赫,928,929
+Hamdanid Dynasty / 哈姆丹王朝,Emir of Mosul / 埃米尔（摩苏尔）,Husayn ibn Hamdan / 侯赛因·伊本·哈姆丹,895,916
+Hamdanid Dynasty / 哈姆丹王朝,Emir of Mosul / 埃米尔（摩苏尔）,Abdallah ibn Hamdan / 阿卜杜拉·伊本·哈姆丹,906,929
+Hamdanid Dynasty / 哈姆丹王朝,Emir of Mosul / 埃米尔（摩苏尔）,Nasir al-Dawla / 纳西尔·道拉,929,967
+Hamdanid Dynasty / 哈姆丹王朝,Emir of Mosul / 埃米尔（摩苏尔）,Abu Taghlib / 阿布·塔格利卜,967,978
+Hamdanid Dynasty / 哈姆丹王朝,Emir of Mosul / 埃米尔（摩苏尔）,Ibrahim ibn Nasir al-Dawla / 易卜拉欣·伊本·纳西尔·道拉,989,990
+Hamdanid Dynasty / 哈姆丹王朝,Emir of Mosul / 埃米尔（摩苏尔）,Husayn ibn Nasir al-Dawla / 侯赛因·伊本·纳西尔·道拉,989,990
+Hamdanid Dynasty / 哈姆丹王朝,Emir of Aleppo / 埃米尔（阿勒颇）,Sayf al-Dawla / 赛夫·道拉,944,967
+Hamdanid Dynasty / 哈姆丹王朝,Emir of Aleppo / 埃米尔（阿勒颇）,Sa'd al-Dawla / 萨德·道拉,967,991
+Hamdanid Dynasty / 哈姆丹王朝,Emir of Aleppo / 埃米尔（阿勒颇）,Sa'id al-Dawla / 萨伊德·道拉,991,1004
+Kingdom of Hereti / 赫雷季王国,King / 国王,Grigol Hamam / 格里戈尔·哈马姆,893,897
+Kingdom of Hereti / 赫雷季王国,King / 国王,Adarnase / 阿达纳塞,897,943
+Kingdom of Hereti / 赫雷季王国,King / 国王,Ishkhanik / 伊什哈尼克,943,951
+Kingdom of Hereti / 赫雷季王国,King / 国王,John / 约翰,951,995
+Kingdom of Hereti / 赫雷季王国,Queen / 女王,Dinar / 迪纳尔,1010,1020
+Qarmatians / 卡尔马特国,Amir / 埃米尔,Abu Sa'id al-Jannabi / 阿布·赛义德·贾纳比,899,913
+Qarmatians / 卡尔马特国,Amir / 埃米尔,Abu'l-Qasim Sa'id al-Jannabi / 阿布勒·卡西姆·赛义德·贾纳比,913,923
+Qarmatians / 卡尔马特国,Amir / 埃米尔,Abu Tahir al-Jannabi / 阿布·塔希尔·贾纳比,923,944
+Qarmatians / 卡尔马特国,Amir / 埃米尔,Ahmad Abu Tahir / 艾哈迈德·阿布·塔希尔,944,970
+Qarmatians / 卡尔马特国,Amir / 埃米尔,Al-Hasan al-A'sam / 哈桑·阿萨姆,968,977
+Qarmatians / 卡尔马特国,Amir / 埃米尔,Abul Kassim Sa'id / 阿布勒·卡西姆·赛义德,970,972
+Qarmatians / 卡尔马特国,Amir / 埃米尔,Abu Yaqub Yousuf / 阿布·亚库布·优素福,972,977
+Rawwadid Dynasty / 拉瓦迪王朝,Amir / 埃米尔,Abu Nasr Husayn II / 阿布·纳斯尔·侯赛因二世,1001,1025
+Rawwadid Dynasty / 拉瓦迪王朝,Amir / 埃米尔,Abu Mansur Wahsudan / 阿布·曼苏尔·瓦赫苏丹,1025,1059
+Rawwadid Dynasty / 拉瓦迪王朝,Amir / 埃米尔,Abu Nasr Mamlan II / 阿布·纳斯尔·马姆兰二世,1059,1071
+Rawwadid Dynasty / 拉瓦迪王朝,Amir / 埃米尔,Ahmadil ibn Ibrahim ibn Wahsudan / 艾哈迈迪勒·伊本·易卜拉欣·伊本·瓦赫苏丹,1100,1116
+Kingdom of Vaspurakan / 瓦斯普拉干王国,King / 国王,Gagik I / 加吉克一世,908,943
+Kingdom of Vaspurakan / 瓦斯普拉干王国,King / 国王,Derenik-Ashot / 德列尼克-阿绍特,943,959
+Kingdom of Vaspurakan / 瓦斯普拉干王国,King / 国王,Abusahl-Hamazasp / 阿布萨赫尔-哈马扎斯普,959,969
+Kingdom of Vaspurakan / 瓦斯普拉干王国,King / 国王,Ashot-Sahak / 阿绍特-萨哈克,969,991
+Kingdom of Vaspurakan / 瓦斯普拉干王国,King / 国王,Gurgen-Khachik / 古尔根-哈奇克,991,1003
+Kingdom of Vaspurakan / 瓦斯普拉干王国,King / 国王,Seneqerim-Hovhannes / 塞内凯里姆-霍瓦内斯,1003,1021
+Sallarid Dynasty / 萨拉里王朝,Amir / 埃米尔,Muhammad bin Musafir / 穆罕默德·本·穆萨菲尔,919,941
+Sallarid Dynasty / 萨拉里王朝,Amir / 埃米尔,Marzuban ibn Muhammad / 马尔祖班·伊本·穆罕默德,941,957
+Sallarid Dynasty / 萨拉里王朝,Amir / 埃米尔,Wahsudan ibn Muhammad / 瓦赫苏丹·伊本·穆罕默德,941,967
+Sallarid Dynasty / 萨拉里王朝,Amir / 埃米尔,Justan I ibn Marzuban / 贾斯坦一世·伊本·马尔祖班,957,960
+Sallarid Dynasty / 萨拉里王朝,Amir / 埃米尔,Ibrahim I ibn Marzuban / 易卜拉欣一世·伊本·马尔祖班,962,979
+Sallarid Dynasty / 萨拉里王朝,Amir / 埃米尔,Musafir ibn Ibrahim II / 穆萨菲尔·伊本·易卜拉欣二世,1050,1062
+Ziyarid Dynasty / 齐亚尔王朝,Amir / 埃米尔,Mardavij / 马尔达维季,931,935
+Ziyarid Dynasty / 齐亚尔王朝,Amir / 埃米尔,Vushmgir / 武什米吉尔,935,967
+Ziyarid Dynasty / 齐亚尔王朝,Amir / 埃米尔,Bisutun / 比苏坦,967,977
+Ziyarid Dynasty / 齐亚尔王朝,Amir / 埃米尔,Qabus / 卡布斯,977,981
+Ziyarid Dynasty / 齐亚尔王朝,Amir / 埃米尔,Qabus / 卡布斯,997,1012
+Ziyarid Dynasty / 齐亚尔王朝,Amir / 埃米尔,Manuchihr / 马努切赫尔,1012,1031
+Ziyarid Dynasty / 齐亚尔王朝,Amir / 埃米尔,Anushirvan Sharaf al-Ma'ali / 阿努希尔万·沙拉夫·马阿利,1031,1050
+Ziyarid Dynasty / 齐亚尔王朝,Amir / 埃米尔,Keikavus / 凯卡武斯,1050,1087
+Ziyarid Dynasty / 齐亚尔王朝,Amir / 埃米尔,Gilanshah / 吉兰沙,1087,1090
+Banu Ilyas / 伊利亚斯王朝,Amir / 埃米尔,Muhammad ibn Ilyas / 穆罕默德·伊本·伊利亚斯,932,967
+Banu Ilyas / 伊利亚斯王朝,Amir / 埃米尔,Ilyasa ibn Muhammad / 伊利亚萨·伊本·穆罕默德,967,968
+Buyid Dynasty / 白益王朝,Amir of Fars / 埃米尔（法尔斯）,Imad al-Dawla / 伊玛德·道拉,934,949
+Buyid Dynasty / 白益王朝,Amir of Fars / 埃米尔（法尔斯）,Adud al-Dawla / 阿杜德·道拉,949,983
+Buyid Dynasty / 白益王朝,Amir of Fars / 埃米尔（法尔斯）,Sharaf al-Dawla / 沙拉夫·道拉,983,989
+Buyid Dynasty / 白益王朝,Amir of Fars / 埃米尔（法尔斯）,Samsam al-Dawla / 桑萨姆·道拉,989,998
+Buyid Dynasty / 白益王朝,Amir of Fars / 埃米尔（法尔斯）,Baha al-Dawla / 巴哈·道拉,998,1012
+Buyid Dynasty / 白益王朝,Amir of Fars / 埃米尔（法尔斯）,Sultan al-Dawla / 苏丹·道拉,1012,1024
+Buyid Dynasty / 白益王朝,Amir of Fars / 埃米尔（法尔斯）,Abu Kalijar / 阿布·卡利贾尔,1024,1048
+Buyid Dynasty / 白益王朝,Amir of Fars / 埃米尔（法尔斯）,Abu Mansur Fulad Sutun / 阿布·曼苏尔·富拉德·苏顿,1048,1062
+Buyid Dynasty / 白益王朝,Amir of Ray / 埃米尔（赖伊）,Rukn al-Dawla / 鲁克纳·道拉,935,976
+Buyid Dynasty / 白益王朝,Amir of Ray / 埃米尔（赖伊）,Fakhr al-Dawla / 法赫尔·道拉,976,980
+Buyid Dynasty / 白益王朝,Amir of Ray / 埃米尔（赖伊）,Mu'ayyad al-Dawla / 穆艾亚德·道拉,980,983
+Buyid Dynasty / 白益王朝,Amir of Ray / 埃米尔（赖伊）,Fakhr al-Dawla / 法赫尔·道拉,984,997
+Buyid Dynasty / 白益王朝,Amir of Ray / 埃米尔（赖伊）,Majd al-Dawla / 马吉德·道拉,997,1029
+Buyid Dynasty / 白益王朝,Amir of Iraq / 埃米尔（伊拉克）,Mu'izz al-Dawla / 穆伊兹·道拉,945,967
+Buyid Dynasty / 白益王朝,Amir of Iraq / 埃米尔（伊拉克）,Izz al-Dawla / 伊兹·道拉,967,978
+Buyid Dynasty / 白益王朝,Amir of Iraq / 埃米尔（伊拉克）,Adud al-Dawla / 阿杜德·道拉,978,983
+Buyid Dynasty / 白益王朝,Amir of Iraq / 埃米尔（伊拉克）,Samsam al-Dawla / 桑萨姆·道拉,983,987
+Buyid Dynasty / 白益王朝,Amir of Iraq / 埃米尔（伊拉克）,Sharaf al-Dawla / 沙拉夫·道拉,987,989
+Buyid Dynasty / 白益王朝,Amir of Iraq / 埃米尔（伊拉克）,Baha al-Dawla / 巴哈·道拉,989,1012
+Buyid Dynasty / 白益王朝,Amir of Iraq / 埃米尔（伊拉克）,Sultan al-Dawla / 苏丹·道拉,1012,1021
+Buyid Dynasty / 白益王朝,Amir of Iraq / 埃米尔（伊拉克）,Musharrif al-Dawla / 穆沙里夫·道拉,1021,1025
+Buyid Dynasty / 白益王朝,Amir of Iraq / 埃米尔（伊拉克）,Jalal al-Dawla / 贾拉勒·道拉,1027,1044
+Buyid Dynasty / 白益王朝,Amir of Iraq / 埃米尔（伊拉克）,Abu Kalijar / 阿布·卡利贾尔,1044,1048
+Buyid Dynasty / 白益王朝,Amir of Iraq / 埃米尔（伊拉克）,Al-Malik al-Rahim / 马利克·拉希姆,1048,1055
+Hasanwayhid Dynasty / 哈桑韦希德王朝,Amir / 埃米尔,Hasanwayh / 哈桑韦希,961,979
+Hasanwayhid Dynasty / 哈桑韦希德王朝,Amir / 埃米尔,Badr ibn Hasanwayh / 巴德尔·伊本·哈桑韦希,979,1014
+Hasanwayhid Dynasty / 哈桑韦希德王朝,Amir / 埃米尔,Hilal ibn Badr / 希拉勒·伊本·巴德尔,1014,1014
+Hasanwayhid Dynasty / 哈桑韦希德王朝,Amir / 埃米尔,Zahir ibn Hilal ibn Badr / 扎希尔·伊本·希拉勒·伊本·巴德尔,1014,1015
+Ghaznavid Empire / 加兹尼王朝,Amir / 埃米尔,Sabuktigin / 苏布克特勤,977,997
+Ghaznavid Empire / 加兹尼王朝,Amir / 埃米尔,Ismail / 伊斯玛仪,997,998
+Ghaznavid Empire / 加兹尼王朝,Sultan / 苏丹,Mahmud / 马哈茂德,998,1030
+Ghaznavid Empire / 加兹尼王朝,Sultan / 苏丹,Muhammad / 穆罕默德,1030,1030
+Ghaznavid Empire / 加兹尼王朝,Sultan / 苏丹,Mas'ud I / 马苏德一世,1030,1040
+Ghaznavid Empire / 加兹尼王朝,Sultan / 苏丹,Muhammad / 穆罕默德,1040,1041
+Ghaznavid Empire / 加兹尼王朝,Sultan / 苏丹,Mawdud / 毛杜德,1041,1048
+Ghaznavid Empire / 加兹尼王朝,Sultan / 苏丹,Mas'ud II / 马苏德二世,1048,1048
+Ghaznavid Empire / 加兹尼王朝,Sultan / 苏丹,Ali / 阿里,1048,1049
+Ghaznavid Empire / 加兹尼王朝,Sultan / 苏丹,Abd al-Rashid / 阿卜杜勒·拉希德,1049,1052
+Ghaznavid Empire / 加兹尼王朝,Sultan / 苏丹,Toghrul / 托格鲁尔,1052,1053
+Ghaznavid Empire / 加兹尼王朝,Sultan / 苏丹,Farrukh-Zad / 法鲁赫扎德,1053,1059
+Ghaznavid Empire / 加兹尼王朝,Sultan / 苏丹,Ibrahim / 易卜拉欣,1059,1099
+Ghaznavid Empire / 加兹尼王朝,Sultan / 苏丹,Mas'ud III / 马苏德三世,1099,1115
+Ghaznavid Empire / 加兹尼王朝,Sultan / 苏丹,Shir-Zad / 希尔扎德,1115,1116
+Ghaznavid Empire / 加兹尼王朝,Sultan / 苏丹,Arslan Shah / 阿尔斯兰沙,1116,1117
+Ghaznavid Empire / 加兹尼王朝,Sultan / 苏丹,Bahram Shah / 巴赫拉姆沙,1117,1157
+Ghaznavid Empire / 加兹尼王朝,Sultan / 苏丹,Khusrau Shah / 霍斯鲁沙,1157,1160
+Ghaznavid Empire / 加兹尼王朝,Sultan / 苏丹,Khusrau Malik / 霍斯鲁马利克,1160,1186
+Kingdom of Tashir-Dzoraget / 塔希尔-佐拉盖特王国,King / 国王,Kiurike I / 基乌里克一世,979,989
+Kingdom of Tashir-Dzoraget / 塔希尔-佐拉盖特王国,King / 国王,David I Anhoghin / 大卫一世·安霍金,989,1048
+Kingdom of Tashir-Dzoraget / 塔希尔-佐拉盖特王国,King / 国王,Kiurike II / 基乌里克二世,1048,1089
+Kingdom of Tashir-Dzoraget / 塔希尔-佐拉盖特王国,King / 国王,David II / 大卫二世,1089,1118
+Marwanid Dynasty / 马尔万王朝,Amir / 埃米尔,Badh ibn Dustak / 巴德·伊本·杜斯塔克,983,990
+Marwanid Dynasty / 马尔万王朝,Amir / 埃米尔,Al-Hasan ibn Marwan / 哈桑·伊本·马尔万,990,997
+Marwanid Dynasty / 马尔万王朝,Amir / 埃米尔,Mumahhid al-Dawla Sa'id / 穆马希德·道拉·赛义德,997,1010
+Marwanid Dynasty / 马尔万王朝,Amir / 埃米尔,Sharwin ibn Muhammad / 沙尔温·伊本·穆罕默德,1010,1010
+Marwanid Dynasty / 马尔万王朝,Amir / 埃米尔,Nasr al-Dawla Ahmad ibn Marwan / 纳斯尔·道拉·艾哈迈德·伊本·马尔万,1011,1061
+Marwanid Dynasty / 马尔万王朝,Amir / 埃米尔,Nizam al-Dawla Nasr / 尼扎姆·道拉·纳斯尔,1061,1079
+Marwanid Dynasty / 马尔万王朝,Amir / 埃米尔,Nasir al-Dawla Mansur / 纳西尔·道拉·曼苏尔,1079,1085
+Uqaylid Dynasty / 乌凯勒王朝,Amir / 埃米尔,Al-Muqallad ibn al-Musayyab / 穆卡拉德·伊本·穆萨亚卜,996,1001
+Uqaylid Dynasty / 乌凯勒王朝,Amir / 埃米尔,Qirwash ibn al-Muqallad / 基尔瓦什·伊本·穆卡拉德,1001,1050
+Uqaylid Dynasty / 乌凯勒王朝,Amir / 埃米尔,Baraka ibn al-Muqallad / 巴拉卡·伊本·穆卡拉德,1050,1052
+Uqaylid Dynasty / 乌凯勒王朝,Amir / 埃米尔,Quraysh ibn Badran / 古赖什·伊本·巴德兰,1052,1061
+Uqaylid Dynasty / 乌凯勒王朝,Amir / 埃米尔,Muslim ibn Quraysh / 穆斯林·伊本·古赖什,1061,1085
+Uqaylid Dynasty / 乌凯勒王朝,Amir / 埃米尔,Ibrahim ibn Quraysh / 易卜拉欣·伊本·古赖什,1085,1090
+Uqaylid Dynasty / 乌凯勒王朝,Amir / 埃米尔,Ali ibn Muslim / 阿里·伊本·穆斯林,1090,1092
+Uqaylid Dynasty / 乌凯勒王朝,Amir / 埃米尔,Ibrahim ibn Quraysh / 易卜拉欣·伊本·古赖什,1092,1093
+Uqaylid Dynasty / 乌凯勒王朝,Amir / 埃米尔,Ali ibn Muslim / 阿里·伊本·穆斯林,1093,1096
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,Bagrat III / 巴格拉特三世,1008,1014
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,George I / 乔治一世,1014,1027
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,Bagrat IV / 巴格拉特四世,1027,1072
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,George II / 乔治二世,1072,1089
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,David IV / 大卫四世,1089,1125
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,Demetrius I / 迪米特里一世,1125,1154
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,David V / 大卫五世,1154,1155
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,Demetrius I / 迪米特里一世,1155,1156
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,George III / 乔治三世,1156,1184
+Kingdom of Georgia / 格鲁吉亚王国,Queen / 女王,Tamar I / 塔玛尔一世,1184,1213
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,George IV Lasha / 乔治四世·拉沙,1213,1223
+Kingdom of Georgia / 格鲁吉亚王国,Queen / 女王,Rusudan / 鲁苏丹,1223,1245
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,David VII Ulu / 大卫七世·乌卢,1245,1270
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,Demetrius II / 迪米特里二世,1270,1289
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,Vakhtang II / 瓦赫坦格二世,1289,1292
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,David VIII / 大卫八世,1292,1311
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,George V / 乔治五世,1299,1302
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,Vakhtang III / 瓦赫坦格三世,1302,1308
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,George VI / 乔治六世,1308,1318
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,George V / 乔治五世,1318,1346
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,David IX / 大卫九世,1346,1360
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,Bagrat V / 巴格拉特五世,1360,1395
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,George VII / 乔治七世,1395,1407
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,Constantine I / 君士坦丁一世,1407,1412
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,Alexander I / 亚历山大一世,1412,1442
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,Vakhtang IV / 瓦赫坦格四世,1442,1446
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,George VIII / 乔治八世,1446,1465
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,Bagrat VI / 巴格拉特六世,1465,1478
+Kingdom of Georgia / 格鲁吉亚王国,King / 国王,Constantine II / 君士坦丁二世,1478,1490
+Kakuyid Dynasty / 卡库伊王朝,Amir / 埃米尔,Ala al-Dawla Muhammad / 阿拉·道拉·穆罕默德,1008,1041
+Kakuyid Dynasty / 卡库伊王朝,Amir / 埃米尔,Faramurz / 法拉姆兹,1041,1070
+Kakuyid Dynasty / 卡库伊王朝,Amir / 埃米尔,Ali ibn Faramurz / 阿里·伊本·法拉姆兹,1070,1095
+Kakuyid Dynasty / 卡库伊王朝,Amir / 埃米尔,Garshasp II / 加尔沙斯普二世,1095,1141
+Kingdom of Kakheti-Hereti / 卡赫季-赫雷季王国,King / 国王,Kvirike III / 克维里克三世,1014,1037
+Kingdom of Kakheti-Hereti / 卡赫季-赫雷季王国,King / 国王,Gagik / 加基克,1039,1058
+Kingdom of Kakheti-Hereti / 卡赫季-赫雷季王国,King / 国王,Aghsartan I / 阿赫萨尔坦一世,1058,1084
+Kingdom of Kakheti-Hereti / 卡赫季-赫雷季王国,King / 国王,Kvirike IV / 克维里克四世,1084,1102
+Kingdom of Kakheti-Hereti / 卡赫季-赫雷季王国,King / 国王,Aghsartan II / 阿赫萨尔坦二世,1102,1104
+Najahid Dynasty / 纳贾赫王朝,Amir / 埃米尔,Najah / 纳贾赫,1022,1060
+Najahid Dynasty / 纳贾赫王朝,Amir / 埃米尔,Sa'id ibn Najah / 赛义德·伊本·纳贾赫,1081,1083
+Najahid Dynasty / 纳贾赫王朝,Amir / 埃米尔,Sa'id ibn Najah / 赛义德·伊本·纳贾赫,1086,1088
+Najahid Dynasty / 纳贾赫王朝,Amir / 埃米尔,Jayyash ibn Najah / 贾亚什·伊本·纳贾赫,1089,1106
+Najahid Dynasty / 纳贾赫王朝,Amir / 埃米尔,Al-Mansur / 曼苏尔,1111,1123
+Najahid Dynasty / 纳贾赫王朝,Amir / 埃米尔,Al-Fatiq II / 法提克二世,1123,1133
+Najahid Dynasty / 纳贾赫王朝,Amir / 埃米尔,Al-Fatiq III / 法提克三世,1133,1158
+Mirdasid Dynasty / 米尔达斯王朝,Emir / 埃米尔,Salih ibn Mirdas / 萨利赫·伊本·米尔达斯,1024,1029
+Mirdasid Dynasty / 米尔达斯王朝,Emir / 埃米尔,Shibl al-Dawla Nasr / 锡布尔·道莱·纳赛尔,1029,1038
+Mirdasid Dynasty / 米尔达斯王朝,Emir / 埃米尔,Thimal ibn Salih / 穆伊兹·道莱·帖马尔,1038,1038
+Mirdasid Dynasty / 米尔达斯王朝,Emir / 埃米尔,Thimal ibn Salih / 穆伊兹·道莱·帖马尔,1048,1058
+Mirdasid Dynasty / 米尔达斯王朝,Emir / 埃米尔,Mahmud ibn Nasr / 拉希德·道莱·马哈茂德,1060,1061
+Mirdasid Dynasty / 米尔达斯王朝,Emir / 埃米尔,Thimal ibn Salih / 穆伊兹·道莱·帖马尔,1060,1062
+Mirdasid Dynasty / 米尔达斯王朝,Emir / 埃米尔,Atiyya ibn Salih / 阿提亚·伊本·萨利赫,1062,1065
+Mirdasid Dynasty / 米尔达斯王朝,Emir / 埃米尔,Mahmud ibn Nasr / 拉希德·道莱·马哈茂德,1065,1075
+Mirdasid Dynasty / 米尔达斯王朝,Emir / 埃米尔,Nasr ibn Mahmud / 纳赛尔·伊本·马哈茂德,1075,1076
+Mirdasid Dynasty / 米尔达斯王朝,Emir / 埃米尔,Sabiq ibn Mahmud / 萨比克·伊本·马哈茂德,1076,1080
+Nasrid Dynasty / 纳斯尔王朝,Malik / 马利克,Tadj al‑Din I  / 塔吉·丁一世,1029,1073
+Nasrid Dynasty / 纳斯尔王朝,Malik / 马利克,Baha al-Dawala Tahir ibn Nasr / 巴哈·道莱·塔希尔·伊本·纳斯尔,1073,1088
+Nasrid Dynasty / 纳斯尔王朝,Malik / 马利克,Badr al-Dawala Abu l-Abbas ibn Nasr / 巴德尔·道莱·阿布·阿巴斯·伊本·纳斯尔,1088,1090
+Nasrid Dynasty / 纳斯尔王朝,Malik / 马利克,Baha al-Dawala Khalaf ibn Nasr / 巴哈·道莱·哈拉夫·伊本·纳斯尔,1090,1106
+Nasrid Dynasty / 纳斯尔王朝,Malik / 马利克,Taj al-Din II Nasr ibn Khalaf / 塔吉·丁二世·纳斯尔·伊本·哈拉夫,1106,1169
+Nasrid Dynasty / 纳斯尔王朝,Malik / 马利克,Taj al-Din III Harb ibn Muhammad / 塔吉·丁三世·哈尔布·伊本·穆罕默德,1169,1213
+Nasrid Dynasty / 纳斯尔王朝,Malik / 马利克,Bahram Shah ibn Harb / 巴赫拉姆·沙·伊本·哈尔布,1213,1221
+Nasrid Dynasty / 纳斯尔王朝,Malik / 马利克,Nasr ibn Bahram Shah / 纳斯尔·伊本·巴赫拉姆·沙,1221,1221
+Nasrid Dynasty / 纳斯尔王朝,Malik / 马利克,Mahmud I ibn Harb / 马哈茂德一世·伊本·哈尔布,1221,1225
+Nasrid Dynasty / 纳斯尔王朝,Malik / 马利克,Mahmud ibn Bahram Shah / 马哈茂德·伊本·巴赫拉姆·沙,1221,1222
+Nasrid Dynasty / 纳斯尔王朝,Malik / 马利克,Ali ibn Harb / 阿里·伊本·哈尔布,1222,1222
+Nasrid Dynasty / 纳斯尔王朝,Malik / 马利克,Ahmad ibn Uthman / 艾哈迈德·伊本·奥斯曼,1223,1223
+Nasrid Dynasty / 纳斯尔王朝,Malik / 马利克,Uthman Shah ibn Uthman / 奥斯曼·沙·伊本·奥斯曼,1225,1225
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Toghrul I / 图赫里勒一世,1037,1063
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Alp Arslan / 阿尔普·阿尔斯兰,1063,1072
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Malik Shah I / 马利克·沙一世,1072,1092
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Mahmud I / 马哈茂德一世,1092,1094
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Barkiyaruq / 巴尔基亚鲁克,1094,1105
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Malik Shah II / 马利克·沙二世,1105,1105
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Muhammad I Tapar / 穆罕默德一世,1105,1118
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Mahmud II / 马哈茂德二世,1118,1131
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Sanjar / 桑贾尔,1118,1157
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Dawud / 达乌德,1131,1132
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Tughril II / 图赫里勒二世,1132,1134
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Masud / 马苏德,1134,1152
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Malik Shah III / 马利克·沙三世,1152,1153
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Muhammad Shah / 穆罕默德·沙,1153,1159
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Suleiman Shah / 苏莱曼·沙,1159,1161
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Arslan Shah / 阿尔斯兰·沙,1161,1176
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Toghrul III / 图赫里勒三世,1176,1191
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Qizil Arslan / 奇齐尔·阿尔斯兰,1191,1191
+Seljuk Empire / 塞尔柱帝国,Sultan / 苏丹,Toghrul III / 图赫里勒三世,1192,1194
+Sulayhid Dynasty / 苏莱希王朝,Sultan / 苏丹,Ali al-Sulayhi / 阿里·苏莱希,1047,1066
+Sulayhid Dynasty / 苏莱希王朝,Sultan / 苏丹,Ahmad al-Mukarram / 艾哈迈德·穆卡拉姆,1067,1086
+Sulayhid Dynasty / 苏莱希王朝,Queen / 女王,Arwa al-Sulayhi / 阿尔瓦·苏莱希,1086,1138
+Kingdom of Hormuz / 忽里模子,King / 国王,Mahmud Qalhati / 马哈茂德·卡尔哈提,1249,1286
+Kingdom of Hormuz / 忽里模子,King / 国王,Sayf ud-Din Nusrat / 赛义夫·丁·努斯拉特,1277,1290
+Kingdom of Hormuz / 忽里模子,King / 国王,Taj ud-Din Masud / 塔吉·丁·马苏德,1290,1293
+Kingdom of Hormuz / 忽里模子,King / 国王,Baha ud-Din Ayaz / 巴哈·丁·阿亚兹,1293,1311
+Kingdom of Hormuz / 忽里模子,King / 国王,Izz ud-Din Gordan Shah / 伊兹·丁·戈尔丹·沙,1311,1317
+Kingdom of Hormuz / 忽里模子,King / 国王,Shihab ud-Din Yusef / 希哈卜·丁·优素福,1317,1319
+Kingdom of Hormuz / 忽里模子,King / 国王,Qutb al-Din Tahmtan II / 库特卜·丁·塔姆塔尼二世,1319,1345
+Kingdom of Hormuz / 忽里模子,King / 国王,Nizam ud-Din Kay Qubad / 尼扎姆·丁·凯库巴德,1345,1346
+Kingdom of Hormuz / 忽里模子,King / 国王,Turan Shah I / 图兰·沙一世,1346,1377
+Kingdom of Hormuz / 忽里模子,King / 国王,Bahman Shah / 巴赫曼·沙,1377,1389
+Kingdom of Hormuz / 忽里模子,King / 国王,Muhammad Shah I / 穆罕默德·沙一世,1389,1400
+Kingdom of Hormuz / 忽里模子,King / 国王,Sayf ud-Din Abu Nasr Shah / 赛义夫·丁·阿布·纳斯尔·沙,1507,1513
+Kingdom of Hormuz / 忽里模子,King / 国王,Turan Shah IV / 图兰·沙四世,1513,1521
+Kingdom of Hormuz / 忽里模子,King / 国王,Muhammad Shah II / 穆罕默德·沙二世,1521,1534
+Kingdom of Hormuz / 忽里模子,King / 国王,Salghur Shah II / 萨尔古尔·沙二世,1534,1543
+Kingdom of Hormuz / 忽里模子,King / 国王,Turan Shah V / 图兰·沙五世,1543,1565
+Kingdom of Hormuz / 忽里模子,King / 国王,Muhammad Shah III / 穆罕默德·沙三世,1565,1565
+Kingdom of Hormuz / 忽里模子,King / 国王,Farrukh Shah I / 法鲁赫·沙一世,1565,1597
+Kingdom of Hormuz / 忽里模子,King / 国王,Turan Shah VI / 图兰·沙六世,1597,1597
+Kingdom of Hormuz / 忽里模子,King / 国王,Farrukh Shah II / 法鲁赫·沙二世,1597,1602
+Kingdom of Hormuz / 忽里模子,King / 国王,Firuz Shah / 菲鲁兹·沙,1602,1609
+Kingdom of Hormuz / 忽里模子,King / 国王,Muhammad Shah IV / 穆罕默德·沙四世,1609,1622
+Danishmendids / 达尼什曼德王朝,Melik / 麦立克,Danishmend Gazi / 达尼什曼德·加齐,1071,1084
+Danishmendids / 达尼什曼德王朝,Melik / 麦立克,Gazi Gümüshtigin / 加齐·居米什提金,1084,1104
+Danishmendids / 达尼什曼德王朝,Melik / 麦立克,Emir Gazi / 埃米尔·加齐,1104,1134
+Danishmendids / 达尼什曼德王朝,Melik / 麦立克,Melik Mehmed Gazi / 麦立克·穆罕默德·加齐,1134,1142
+Danishmendids / 达尼什曼德王朝,Melik / 麦立克,Melik Zünnun / 麦立克·祖努恩,1142,1143
+Danishmendids / 达尼什曼德王朝,Melik / 麦立克,Yaghibasan / 亚吉巴桑,1143,1164
+Danishmendids / 达尼什曼德王朝,Melik / 麦立克,Melik Zünnun / 麦立克·祖努恩,1172,1175
+Danishmendids / 达尼什曼德王朝,Melik / 麦立克,Nasreddin Muhammed / 纳斯尔丁·穆罕默德,1175,1178
+Uyunid Emirate / 乌尤尼酋长国,Emir / 埃米尔,Abdullah bin Ali al-Uyuni / 阿卜杜拉·本·阿里·乌尤尼,1076,1126
+Uyunid Emirate / 乌尤尼酋长国,Emir / 埃米尔,al-Fadl ibn Abdullah / 法德勒·本·阿卜杜拉,1126,1143
+Uyunid Emirate / 乌尤尼酋长国,Emir / 埃米尔,Muhammad ibn Abi al-Husain / 穆罕默德·本·阿比·侯赛因,1184,1202
+Uyunid Emirate / 乌尤尼酋长国,Emir / 埃米尔,Ahmad ibn Muhammad / 艾哈迈德·本·穆罕默德,1202,1208
+Uyunid Emirate / 乌尤尼酋长国,Emir / 埃米尔,Mohammed bin Mas'ud / 穆罕默德·本·马苏德,1233,1238
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Suleiman I / 苏莱曼一世,1077,1086
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Kilij Arslan I / 基利杰·阿尔斯兰一世,1092,1107
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Malik Shah / 马利克·沙,1110,1116
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Mesud I / 马苏德一世,1116,1156
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Kilij Arslan II / 基利杰·阿尔斯兰二世,1156,1192
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Kaykhusraw I / 凯霍斯劳一世,1192,1196
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Suleiman II / 苏莱曼二世,1196,1204
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Kilij Arslan III / 基利杰·阿尔斯兰三世,1204,1205
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Kaykhusraw I / 凯霍斯劳一世,1205,1211
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Kaykaus I / 凯卡乌斯一世,1211,1220
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Kayqubad I / 凯库巴德一世,1220,1237
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Kaykhusraw II / 凯霍斯劳二世,1237,1246
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Kaykaus II / 凯卡乌斯二世,1246,1262
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Kayqubad II / 凯库巴德二世,1249,1254
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Kilij Arslan IV / 基利杰·阿尔斯兰四世,1249,1254
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Kilij Arslan IV / 基利杰·阿尔斯兰四世,1257,1266
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Kaykhusraw III / 凯霍斯劳三世,1266,1284
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Mesud II / 马苏德二世,1284,1297
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Kayqubad III / 凯库巴德三世,1297,1302
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Mesud II / 马苏德二世,1303,1307
+Sultanate of Rum / 罗姆苏丹国,Sultan / 苏丹,Mesud III / 马苏德三世,1307,1308
+Zurayid Dynasty / 祖莱伊王朝,Emir / 埃米尔,Al-Abbas ibn al-Karam / 阿巴斯·本·卡拉姆,1083,1084
+Zurayid Dynasty / 祖莱伊王朝,Emir / 埃米尔,Al-Msaod ibn al-Karam / 马苏德·本·卡拉姆,1083,1110
+Zurayid Dynasty / 祖莱伊王朝,Emir / 埃米尔,Zuray ibn al-Abbas / 祖莱伊·本·阿巴斯,1084,1110
+Zurayid Dynasty / 祖莱伊王朝,Emir / 埃米尔,Imran ibn Muhammad / 伊姆兰·本·穆罕默德,1153,1166
+Nizari Ismaili State / 尼扎里派伊斯玛仪国,Imam / 伊玛目,Hasan I / 哈桑一世,1090,1124
+Nizari Ismaili State / 尼扎里派伊斯玛仪国,Imam / 伊玛目,Kiya Buzurg-Ummid / 基亚·布祖尔格-乌米德,1124,1138
+Nizari Ismaili State / 尼扎里派伊斯玛仪国,Imam / 伊玛目,Muhammad I / 穆罕默德一世,1138,1162
+Nizari Ismaili State / 尼扎里派伊斯玛仪国,Imam / 伊玛目,Hasan II / 哈桑二世,1162,1166
+Nizari Ismaili State / 尼扎里派伊斯玛仪国,Imam / 伊玛目,Muhammad II / 穆罕默德二世,1166,1210
+Nizari Ismaili State / 尼扎里派伊斯玛仪国,Imam / 伊玛目,Hasan III / 哈桑三世,1210,1221
+Nizari Ismaili State / 尼扎里派伊斯玛仪国,Imam / 伊玛目,Muhammad III / 穆罕默德三世,1221,1255
+Nizari Ismaili State / 尼扎里派伊斯玛仪国,Imam / 伊玛目,Khurshah / 呼尔沙赫,1255,1257
+Principality of Antioch / 安条克公国,Prince / 亲王,Bohemond I / 博希蒙德一世,1098,1111
+Principality of Antioch / 安条克公国,Prince / 亲王,Tancred / 坦克雷德,1104,1112
+Principality of Antioch / 安条克公国,Prince / 亲王,Roger of Salerno / 萨勒诺的罗杰,1112,1119
+Principality of Antioch / 安条克公国,Prince / 亲王,Bohemond II / 博希蒙德二世,1119,1130
+Principality of Antioch / 安条克公国,Princess / 女亲王,Constance / 康斯坦斯,1130,1163
+Principality of Antioch / 安条克公国,Prince / 亲王,Raymond of Poitiers / 普瓦捷的雷蒙,1136,1149
+Principality of Antioch / 安条克公国,Prince / 亲王,Raynald of Châtillon / 沙蒂永的雷诺,1153,1160
+Principality of Antioch / 安条克公国,Prince / 亲王,Bohemond III / 博希蒙德三世,1163,1201
+Principality of Antioch / 安条克公国,Prince / 亲王,Bohemond IV / 博希蒙德四世,1201,1216
+Principality of Antioch / 安条克公国,Prince / 亲王,Raymond-Roupen / 雷蒙-鲁本,1216,1219
+Principality of Antioch / 安条克公国,Prince / 亲王,Bohemond IV / 博希蒙德四世,1219,1233
+Principality of Antioch / 安条克公国,Prince / 亲王,Bohemond V / 博希蒙德五世,1233,1252
+Principality of Antioch / 安条克公国,Prince / 亲王,Bohemond VI / 博希蒙德六世,1252,1268
+County of Edessa / 埃德萨伯国,Count / 伯爵,Baldwin I / 鲍德温一世,1098,1100
+County of Edessa / 埃德萨伯国,Count / 伯爵,Baldwin II / 鲍德温二世,1100,1118
+County of Edessa / 埃德萨伯国,Count / 伯爵,Joscelin I / 乔斯林一世,1119,1131
+County of Edessa / 埃德萨伯国,Count / 伯爵,Joscelin II / 乔斯林二世,1131,1144
+Kingdom of Jerusalem / 耶路撒冷王国,Advocate of the Holy Sepulchre / 圣墓守护者,Godfrey of Bouillon / 布永的戈德弗雷,1099,1100
+Kingdom of Jerusalem / 耶路撒冷王国,King / 国王,Baldwin I / 鲍德温一世,1100,1118
+Kingdom of Jerusalem / 耶路撒冷王国,King / 国王,Baldwin II / 鲍德温二世,1118,1131
+Kingdom of Jerusalem / 耶路撒冷王国,King / 国王,Fulk / 富尔克,1131,1143
+Kingdom of Jerusalem / 耶路撒冷王国,Queen / 女王,Melisende / 梅利桑德,1131,1153
+Kingdom of Jerusalem / 耶路撒冷王国,King / 国王,Baldwin III / 鲍德温三世,1143,1163
+Kingdom of Jerusalem / 耶路撒冷王国,King / 国王,Amalric I / 阿马尔里克一世,1163,1174
+Kingdom of Jerusalem / 耶路撒冷王国,King / 国王,Baldwin IV / 鲍德温四世,1174,1185
+Kingdom of Jerusalem / 耶路撒冷王国,King / 国王,Baldwin V / 鲍德温五世,1185,1186
+Kingdom of Jerusalem / 耶路撒冷王国,Queen / 女王,Sibylla / 西比拉,1186,1190
+Kingdom of Jerusalem / 耶路撒冷王国,King / 国王,Guy of Lusignan / 吕西尼昂的居伊,1186,1192
+Kingdom of Jerusalem / 耶路撒冷王国,King / 国王,Conrad of Montferrat / 蒙费拉托的康拉德,1192,1192
+Kingdom of Jerusalem / 耶路撒冷王国,Queen / 女王,Isabella I / 伊莎贝拉一世,1192,1205
+Kingdom of Jerusalem / 耶路撒冷王国,Lord / 领主,Henry I of Champagne / 香槟的亨利一世,1192,1197
+Kingdom of Jerusalem / 耶路撒冷王国,King / 国王,Aimery of Lusignan / 吕西尼昂的阿马尔里克,1197,1205
+Kingdom of Jerusalem / 耶路撒冷王国,Queen / 女王,Maria of Montferrat / 蒙费拉托的玛丽亚,1205,1212
+Kingdom of Jerusalem / 耶路撒冷王国,King / 国王,John of Brienne / 布列讷的约翰,1210,1225
+Kingdom of Jerusalem / 耶路撒冷王国,Queen / 女王,Isabella II / 伊莎贝拉二世,1212,1228
+Kingdom of Jerusalem / 耶路撒冷王国,King / 国王,Frederick II / 腓特烈二世,1225,1243
+Kingdom of Jerusalem / 耶路撒冷王国,King / 国王,Conrad II / 康拉德二世,1228,1254
+Kingdom of Jerusalem / 耶路撒冷王国,King / 国王,Conrad III / 康拉德三世,1254,1268
+Kingdom of Jerusalem / 耶路撒冷王国,King / 国王,Hugh I / 于格一世,1268,1284
+Kingdom of Jerusalem / 耶路撒冷王国,King / 国王,John II / 约翰二世,1284,1285
+Kingdom of Jerusalem / 耶路撒冷王国,King / 国王,Henry II / 亨利二世,1285,1291
+County of Tripoli / 的黎波里伯国,Count / 伯爵,Raymond I / 雷蒙一世,1102,1105
+County of Tripoli / 的黎波里伯国,Count / 伯爵,William II Jordan / 威廉·乔丹二世,1105,1109
+County of Tripoli / 的黎波里伯国,Count / 伯爵,Bertrand / 贝特朗,1109,1112
+County of Tripoli / 的黎波里伯国,Count / 伯爵,Pons / 庞斯,1112,1137
+County of Tripoli / 的黎波里伯国,Count / 伯爵,Raymond II / 雷蒙二世,1137,1152
+County of Tripoli / 的黎波里伯国,Count / 伯爵,Raymond III / 雷蒙三世,1152,1187
+County of Tripoli / 的黎波里伯国,Count / 伯爵,Raymond IV / 雷蒙四世,1187,1189
+County of Tripoli / 的黎波里伯国,Count / 伯爵,Bohemond I / 博希蒙德一世,1189,1233
+County of Tripoli / 的黎波里伯国,Count / 伯爵,Bohemond II / 博希蒙德二世,1233,1252
+County of Tripoli / 的黎波里伯国,Count / 伯爵,Bohemond III / 博希蒙德三世,1252,1275
+County of Tripoli / 的黎波里伯国,Count / 伯爵,Bohemond IV / 博希蒙德四世,1275,1287
+County of Tripoli / 的黎波里伯国,Countess / 女伯爵,Lucia / 露西亚,1287,1289
+Hazaraspids / 哈扎拉斯普王朝,Atabeg / 阿塔贝格,Abu Tahir ibn Muhammad / 阿布·塔希尔·伊本·穆罕默德,1115,1155
+Hazaraspids / 哈扎拉斯普王朝,Atabeg / 阿塔贝格,Malik Hazarasp / 马利克·哈扎拉斯普,1155,1204
+Hazaraspids / 哈扎拉斯普王朝,Atabeg / 阿塔贝格,Imad al-Din ibn Hazarasp / 伊玛德·丁·伊本·哈扎拉斯普,1204,1248
+Hazaraspids / 哈扎拉斯普王朝,Atabeg / 阿塔贝格,Nusrat al-Din / 努斯拉特·丁,1248,1251
+Hazaraspids / 哈扎拉斯普王朝,Atabeg / 阿塔贝格,Takla / 塔克拉,1252,1257
+Hazaraspids / 哈扎拉斯普王朝,Atabeg / 阿塔贝格,Shams al-Din Alp Arghun / 沙姆斯·丁·阿尔普·阿尔贡,1259,1274
+Hazaraspids / 哈扎拉斯普王朝,Atabeg / 阿塔贝格,Yusuf Shah I / 优素福·沙一世,1274,1288
+Hazaraspids / 哈扎拉斯普王朝,Atabeg / 阿塔贝格,Afrasiyab I / 阿弗拉西亚卜一世,1288,1296
+Hazaraspids / 哈扎拉斯普王朝,Atabeg / 阿塔贝格,Nusrat al-Din Ahmad / 努斯拉特·丁·艾哈迈德,1296,1330
+Hazaraspids / 哈扎拉斯普王朝,Atabeg / 阿塔贝格,Rukn al-Din Yusuf Shah II / 鲁克恩·丁·优素福·沙二世,1330,1340
+Hazaraspids / 哈扎拉斯普王朝,Atabeg / 阿塔贝格,Muzaffar al-Din Afrasiyab II / 穆扎法尔·丁·阿弗拉西亚卜二世,1340,1355
+Hazaraspids / 哈扎拉斯普王朝,Atabeg / 阿塔贝格,Shams al-Din Pashang / 沙姆斯·丁·帕尚,1355,1378
+Hazaraspids / 哈扎拉斯普王朝,Atabeg / 阿塔贝格,Malik Pir Ahmad / 马利克·皮尔·艾哈迈德,1378,1408
+Hazaraspids / 哈扎拉斯普王朝,Atabeg / 阿塔贝格,Abu Sa'id / 阿布·赛义德,1408,1417
+Hazaraspids / 哈扎拉斯普王朝,Atabeg / 阿塔贝格,Shah Husayn / 沙·侯赛因,1417,1424
+Zengid Dynasty / 赞吉王朝,Atabeg / 阿塔贝格,Imad al-Din Zengi / 伊玛德·丁·赞吉,1127,1146
+Zengid Dynasty / 赞吉王朝,Atabeg / 阿塔贝格,Sayf al-Din Ghazi I / 赛义夫·丁·加齐一世,1146,1149
+Zengid Dynasty / 赞吉王朝,Atabeg / 阿塔贝格,Nur al-Din Zengi / 努尔·丁·赞吉,1146,1174
+Zengid Dynasty / 赞吉王朝,Atabeg / 阿塔贝格,Qutb al-Din Mawdud / 库特卜·丁·毛杜德,1149,1170
+Zengid Dynasty / 赞吉王朝,Atabeg / 阿塔贝格,Sayf al-Din Ghazi II / 赛义夫·丁·加齐二世,1170,1180
+Zengid Dynasty / 赞吉王朝,Atabeg / 阿塔贝格,As-Salih Ismail al-Malik / 萨利赫·伊斯梅尔,1174,1181
+Zengid Dynasty / 赞吉王朝,Atabeg / 阿塔贝格,Izz al-Din Mas'ud / 伊兹·丁·马苏德,1180,1193
+Zengid Dynasty / 赞吉王朝,Atabeg / 阿塔贝格,Nur al-Din Arslan Shah I / 努尔·丁·阿尔斯兰·沙一世,1193,1211
+Zengid Dynasty / 赞吉王朝,Atabeg / 阿塔贝格,Mahmud al-Malik al-Zahir / 马哈茂德·马利克·扎希尔,1208,1250
+Zengid Dynasty / 赞吉王朝,Atabeg / 阿塔贝格,Izz al-Din Mas'ud II / 伊兹·丁·马苏德二世,1211,1218
+Zengid Dynasty / 赞吉王朝,Atabeg / 阿塔贝格,Nur al-Din Arslan Shah II / 努尔·丁·阿尔斯兰·沙二世,1218,1219
+Eldiguzid Dynasty / 埃尔迪古兹王朝,Atabeg / 阿塔贝格,Eldiguz / 伊尔迪尼兹,1136,1175
+Eldiguzid Dynasty / 埃尔迪古兹王朝,Atabeg / 阿塔贝格,Muhammad Jahan Pahlavan / 穆罕默德·贾汉·帕拉万,1175,1186
+Eldiguzid Dynasty / 埃尔迪古兹王朝,Atabeg / 阿塔贝格,Qizil Arslan / 克孜勒·阿尔斯兰,1186,1191
+Eldiguzid Dynasty / 埃尔迪古兹王朝,Atabeg / 阿塔贝格,Nusrat al-Din Abu Bakr / 努斯拉特丁·阿布·伯克尔,1191,1210
+Eldiguzid Dynasty / 埃尔迪古兹王朝,Atabeg / 阿塔贝格,Muzaffar al-Din Uzbek / 穆扎法尔丁·乌兹别克,1210,1225
+Atabegs of Yazd / 亚兹德阿塔贝格王朝,Atabeg / 阿塔贝格,Sam ibn Wardanruz / 萨姆·本·瓦尔丹鲁兹,1141,1188
+Atabegs of Yazd / 亚兹德阿塔贝格王朝,Atabeg / 阿塔贝格,Langar ibn Wardanruz / 兰加尔·本·瓦尔丹鲁兹,1188,1207
+Atabegs of Yazd / 亚兹德阿塔贝格王朝,Atabeg / 阿塔贝格,Wardanruz ibn Langar / 瓦尔丹鲁兹·本·兰加尔,1207,1219
+Atabegs of Yazd / 亚兹德阿塔贝格王朝,Atabeg / 阿塔贝格,Isfahsalar ibn Langar / 伊斯法萨拉尔·本·兰加尔,1219,1229
+Atabegs of Yazd / 亚兹德阿塔贝格王朝,Atabeg / 阿塔贝格,Mahmud Shah ibn Isfahsalar / 马哈茂德·沙赫·本·伊斯法萨拉尔,1229,1241
+Atabegs of Yazd / 亚兹德阿塔贝格王朝,Atabeg / 阿塔贝格,Salghur Shah ibn Mahmud Shah / 撒鲁尔·沙赫·本·马哈茂德·沙赫,1241,1252
+Atabegs of Yazd / 亚兹德阿塔贝格王朝,Atabeg / 阿塔贝格,Toghan Shah ibn Salghur Shah / 托干·沙赫·本·撒鲁尔·沙赫,1252,1272
+Atabegs of Yazd / 亚兹德阿塔贝格王朝,Atabeg / 阿塔贝格,Ala al-Dawla ibn Toghan Shah / 阿拉·道拉·本·托干·沙赫,1272,1275
+Atabegs of Yazd / 亚兹德阿塔贝格王朝,Atabeg / 阿塔贝格,Yusuf Shah ibn Toghan Shah / 优素福·沙赫·本·托干·沙赫,1275,1297
+Atabegs of Yazd / 亚兹德阿塔贝格王朝,Atabeg / 阿塔贝格,Hajji Shah ibn Yusuf Shah / 哈吉·沙赫·本·优素福·沙赫,1315,1319
+Salghurid Dynasty / 撒鲁尔王朝,Atabeg / 阿塔贝格,Sunqur ibn Mawdud / 松库尔·本·茂杜德,1148,1161
+Salghurid Dynasty / 撒鲁尔王朝,Atabeg / 阿塔贝格,Zangi ibn Mawdud / 赞吉·本·茂杜德,1161,1178
+Salghurid Dynasty / 撒鲁尔王朝,Atabeg / 阿塔贝格,Tekele ibn Zangi / 泰克勒·本·赞吉,1178,1198
+Salghurid Dynasty / 撒鲁尔王朝,Atabeg / 阿塔贝格,Sa'd I ibn Zangi / 萨德一世·本·赞吉,1198,1226
+Salghurid Dynasty / 撒鲁尔王朝,Atabeg / 阿塔贝格,Abu Bakr ibn Sa'd / 阿布·伯克尔·本·萨德,1226,1260
+Salghurid Dynasty / 撒鲁尔王朝,Atabeg / 阿塔贝格,Muhammad I ibn Sa'd / 穆罕默德一世·本·萨德,1260,1262
+Salghurid Dynasty / 撒鲁尔王朝,Atabeg / 阿塔贝格,Muhammad II ibn Salghur / 穆罕默德二世·本·撒鲁尔,1262,1263
+Salghurid Dynasty / 撒鲁尔王朝,Atabeg / 阿塔贝格,Saljuk Shah ibn Salghur / 塞尔柱·沙赫·本·撒鲁尔,1263,1264
+Salghurid Dynasty / 撒鲁尔王朝,Atabeg / 阿塔贝格,Abish Khatun / 阿比什·哈敦,1264,1282
+Nabhani Dynasty / 纳巴尼王朝,King / 国王,Muhammed al-Fallah / 穆罕默德·法拉赫,1406,1435
+Nabhani Dynasty / 纳巴尼王朝,King / 国王,Abul Hassan of Oman / 阿布·哈桑,1435,1451
+Nabhani Dynasty / 纳巴尼王朝,King / 国王,Omar ibn al-Khattab / 欧麦尔·本·哈塔卜,1451,1490
+Nabhani Dynasty / 纳巴尼王朝,King / 国王,Omar al-Sharif / 欧麦尔·沙里夫,1490,1500
+Nabhani Dynasty / 纳巴尼王朝,King / 国王,Muhammad bin Ismail / 穆罕默德·本·伊斯玛仪,1500,1529
+Nabhani Dynasty / 纳巴尼王朝,King / 国王,Barakat bin Muhammad / 巴拉卡特·本·穆罕默德,1529,1560
+Nabhani Dynasty / 纳巴尼王朝,King / 国王,Abdullah bin Muhammad / 阿卜杜拉·本·穆罕默德,1560,1624
+Ayyubid Dynasty / 阿尤布王朝,Sultan / 苏丹,Saladin / 萨拉丁,1171,1193
+Ayyubid Dynasty / 阿尤布王朝,Sultan / 苏丹,Al-Aziz / 阿齐兹,1193,1198
+Ayyubid Dynasty / 阿尤布王朝,Sultan / 苏丹,Al-Mansur / 曼苏尔,1198,1200
+Ayyubid Dynasty / 阿尤布王朝,Sultan / 苏丹,Al-Adil I / 阿迪勒一世,1200,1218
+Ayyubid Dynasty / 阿尤布王朝,Sultan / 苏丹,Al-Kamil / 卡米勒,1218,1238
+Ayyubid Dynasty / 阿尤布王朝,Sultan / 苏丹,Al-Adil II / 阿迪勒二世,1238,1240
+Ayyubid Dynasty / 阿尤布王朝,Sultan / 苏丹,As-Salih Ayyub / 萨利赫·阿尤布,1240,1249
+Ayyubid Dynasty / 阿尤布王朝,Sultan / 苏丹,Turanshah / 图兰沙,1250,1250
+Ayyubid Dynasty / 阿尤布王朝,Sultana / 苏丹娜,Shajar al-Durr / 沙扎尔·杜尔,1250,1250
+Ayyubid Dynasty / 阿尤布王朝,Sultan / 苏丹,An-Nasir Yusuf / 纳西尔·优素福,1250,1260
+Ayyubid Dynasty / 阿尤布王朝,Regent / 摄政,Shajar al-Durr / 沙扎尔·杜尔,1249,1250
+Khorshidi Dynasty / 霍尔希迪王朝,Atabeg / 阿塔贝格,Shoja al‑Din Khorshid ibn Ali / 舒贾丁·霍尔希德·伊本·阿里,1184,1224
+Khorshidi Dynasty / 霍尔希迪王朝,Atabeg / 阿塔贝格,Shahverdi Abbasi / 沙赫韦尔迪·阿巴斯,1593,1597
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,Guy of Lusignan / 居伊,1192,1194
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,Aimery / 阿马里克,1194,1205
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,Hugh I / 于格一世,1205,1218
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,Henry I / 亨利一世,1218,1253
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,Hugh II / 于格二世,1253,1267
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,Hugh III / 于格三世,1267,1284
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,John I / 约翰一世,1284,1285
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,Henry II / 亨利二世,1285,1306
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,Henry II / 亨利二世,1310,1324
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,Hugh IV / 于格四世,1324,1358
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,Peter I / 彼得一世,1358,1369
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,Peter II / 彼得二世,1369,1382
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,James I / 雅克一世,1382,1398
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,Janus / 雅努斯,1398,1432
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,John II / 约翰二世,1432,1458
+Kingdom of Cyprus / 塞浦路斯王国,Queen / 女王,Charlotte / 夏洛特,1458,1464
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,Louis of Savoy / 萨伏依的路易,1459,1464
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,James II / 雅克二世,1460,1473
+Kingdom of Cyprus / 塞浦路斯王国,King / 国王,James III / 雅克三世,1473,1474
+Kingdom of Cyprus / 塞浦路斯王国,Queen / 女王,Catherine Cornaro / 凯瑟琳·科纳罗,1474,1489
+Kingdom of Cyprus / 塞浦路斯王国,Regent / 摄政,Amalric of Tyre / 提尔的阿马里克,1306,1310
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,King / 国王,Leo I / 利翁一世,1198,1219
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,Queen / 女王,Isabella / 伊莎贝拉,1219,1252
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,King / 国王,Philip / 菲利普,1222,1225
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,King / 国王,Hethum I / 海屯一世,1226,1270
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,King / 国王,Leo II / 利翁二世,1270,1289
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,King / 国王,Hethum II / 海屯二世,1289,1293
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,King / 国王,Thoros III / 托罗斯三世,1293,1298
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,King / 国王,Hethum II / 海屯二世,1295,1296
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,King / 国王,Sempad / 桑帕特,1296,1298
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,King / 国王,Constantine I / 康斯坦丁一世,1298,1299
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,King / 国王,Hethum II / 海屯二世,1299,1303
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,King / 国王,Leo III / 利翁三世,1303,1307
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,King / 国王,Oshin / 奥申,1307,1320
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,King / 国王,Leo IV / 利翁四世,1320,1341
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,King / 国王,Constantine II / 康斯坦丁二世,1342,1344
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,King / 国王,Constantine III / 康斯坦丁三世,1344,1362
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,King / 国王,Constantine IV / 康斯坦丁四世,1362,1373
+Armenian Kingdom of Cilicia / 奇里乞亚亚美尼亚王国,King / 国王,Leo V / 利翁五世,1374,1375
+Empire of Nicaea / 尼西亚帝国,Emperor / 皇帝,Theodore I Laskaris / 狄奥多一世·拉斯卡里斯,1204,1221
+Empire of Nicaea / 尼西亚帝国,Emperor / 皇帝,John III Doukas Vatatzes / 约翰三世·杜卡斯·瓦塔泽斯,1221,1254
+Empire of Nicaea / 尼西亚帝国,Emperor / 皇帝,Theodore II Doukas Laskaris / 狄奥多二世·杜卡斯·拉斯卡里斯,1254,1258
+Empire of Nicaea / 尼西亚帝国,Emperor / 皇帝,John IV Doukas Laskaris / 约翰四世·杜卡斯·拉斯卡里斯,1258,1261
+Empire of Nicaea / 尼西亚帝国,Emperor / 皇帝,Michael VIII Palaiologos / 迈克尔八世·帕莱奥洛格斯,1259,1261
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,Alexios I Megas Komnenos / 阿历克西斯一世·梅加斯·科穆宁,1204,1222
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,Andronikos I Gidos / 安德罗尼克斯一世·吉多斯,1222,1235
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,John I Axouchos / 约翰一世·阿克苏科斯,1235,1238
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,Manuel I Megas Komnenos / 曼努埃尔一世·梅加斯·科穆宁,1238,1263
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,Andronikos II Megas Komnenos / 安德罗尼克斯二世·梅加斯·科穆宁,1263,1266
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,George Megas Komnenos / 乔治·梅加斯·科穆宁,1266,1280
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,John II Megas Komnenos / 约翰二世·梅加斯·科穆宁,1280,1297
+Empire of Trebizond / 特拉比松帝国,Empress / 女皇,Theodora Megale Komnene / 狄奥多拉·梅加莱·科穆宁,1284,1285
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,Alexios II Megas Komnenos / 阿历克西斯二世·梅加斯·科穆宁,1297,1330
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,Andronikos III Megas Komnenos / 安德罗尼克斯三世·梅加斯·科穆宁,1330,1332
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,Manuel II Megas Komnenos / 曼努埃尔二世·梅加斯·科穆宁,1332,1332
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,Basil Megas Komnenos / 巴西尔·梅加斯·科穆宁,1332,1340
+Empire of Trebizond / 特拉比松帝国,Empress / 女皇,Irene Palaiologina / 伊琳娜·帕莱奥洛吉娜,1340,1341
+Empire of Trebizond / 特拉比松帝国,Empress / 女皇,Anna Anachoutlou / 安娜·阿纳古特鲁,1341,1342
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,John III Megas Komnenos / 约翰三世·梅加斯·科穆宁,1342,1344
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,Michael Megas Komnenos / 迈克尔·梅加斯·科穆宁,1344,1349
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,Alexios III Megas Komnenos / 阿历克西斯三世·梅加斯·科穆宁,1349,1390
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,Manuel III Megas Komnenos / 曼努埃尔三世·梅加斯·科穆宁,1390,1417
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,Alexios IV Megas Komnenos / 阿历克西斯四世·梅加斯·科穆宁,1417,1429
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,John IV Megas Komnenos / 约翰四世·梅加斯·科穆宁,1429,1460
+Empire of Trebizond / 特拉比松帝国,Emperor / 皇帝,David Megas Komnenos / 大卫·梅加斯·科穆宁,1460,1461
+Latin Empire / 拉丁帝国,Emperor / 皇帝,Baldwin I / 鲍德温一世,1204,1205
+Latin Empire / 拉丁帝国,Emperor / 皇帝,Henry of Flanders / 佛兰德的亨利,1206,1216
+Latin Empire / 拉丁帝国,Emperor / 皇帝,Peter II of Courtenay / 科特内的彼得二世,1217,1217
+Latin Empire / 拉丁帝国,Empress / 女皇,Yolanda / 约兰达,1217,1219
+Latin Empire / 拉丁帝国,Emperor / 皇帝,Robert I / 罗伯特一世,1221,1228
+Latin Empire / 拉丁帝国,Emperor / 皇帝,Baldwin II / 鲍德温二世,1228,1261
+Latin Empire / 拉丁帝国,Emperor / 皇帝,John of Brienne / 布里耶纳的约翰,1229,1237
+Qutlugh-Khanids / 克尔曼王朝,Sultan / 苏丹,Buraq Hajib / 布拉克·哈吉布,1222,1235
+Qutlugh-Khanids / 克尔曼王朝,Khan / 汗,Qutb al-Din Mohammad / 忽都不丁·穆罕默德,1235,1235
+Qutlugh-Khanids / 克尔曼王朝,Khan / 汗,Rukn al-Din Mubarak Khwaja / 鲁克丁·穆巴拉克·霍贾,1235,1252
+Qutlugh-Khanids / 克尔曼王朝,Khan / 汗,Qutb al-Din Mohammad / 忽都不丁·穆罕默德,1252,1257
+Qutlugh-Khanids / 克尔曼王朝,Khan / 汗,Kutlugh Turkan / 忽都鲁·土尔坎,1257,1282
+Qutlugh-Khanids / 克尔曼王朝,Khan / 汗,Muzaffar al-Din Hajjaj / 穆扎法尔丁·哈贾吉,1257,1267
+Qutlugh-Khanids / 克尔曼王朝,Khan / 汗,Suyurghatmish / 苏尤尔加特米什,1282,1292
+Qutlugh-Khanids / 克尔曼王朝,Khan / 汗,Padishah Khatun / 帕迪沙赫·哈敦,1292,1295
+Qutlugh-Khanids / 克尔曼王朝,Khan / 汗,Kurdujin Khatun / 库尔杜津·哈敦,1295,1295
+Qutlugh-Khanids / 克尔曼王朝,Khan / 汗,Muzaffar al-Din Mohammad / 穆扎法尔丁·穆罕默德,1295,1304
+Qutlugh-Khanids / 克尔曼王朝,Khan / 汗,Qutb al-Din Shah Jahan / 忽都不丁·沙贾汗,1304,1306
+Rasulid Dynasty / 拉苏里王朝,Sultan / 苏丹,Al-Mansur Umar I / 曼苏尔·欧麦尔一世,1229,1249
+Rasulid Dynasty / 拉苏里王朝,Sultan / 苏丹,Al-Muzaffar Yusuf I / 穆扎法尔·优素福一世,1249,1295
+Rasulid Dynasty / 拉苏里王朝,Sultan / 苏丹,Al-Ashraf Umar II / 阿什拉夫·欧麦尔二世,1295,1296
+Rasulid Dynasty / 拉苏里王朝,Sultan / 苏丹,Al-Mu'ayyad Da'ud / 穆艾亚德·达乌德,1296,1322
+Rasulid Dynasty / 拉苏里王朝,Sultan / 苏丹,Al-Mujahid Ali / 穆贾希德·阿里,1322,1363
+Rasulid Dynasty / 拉苏里王朝,Sultan / 苏丹,Al-Afdal al-Abbas / 阿夫达尔·阿巴斯,1363,1377
+Rasulid Dynasty / 拉苏里王朝,Sultan / 苏丹,Al-Ashraf Ismail I / 阿什拉夫·伊斯玛仪一世,1377,1400
+Rasulid Dynasty / 拉苏里王朝,Sultan / 苏丹,Al-Nasir Ahmad / 纳西尔·艾哈迈德,1400,1424
+Rasulid Dynasty / 拉苏里王朝,Sultan / 苏丹,Al-Mansur Abdullah / 曼苏尔·阿卜杜拉,1424,1427
+Rasulid Dynasty / 拉苏里王朝,Sultan / 苏丹,Al-Ashraf Ismail II / 阿什拉夫·伊斯玛仪二世,1427,1428
+Rasulid Dynasty / 拉苏里王朝,Sultan / 苏丹,Al-Zahir Yahya / 扎希尔·叶海亚,1428,1439
+Rasulid Dynasty / 拉苏里王朝,Sultan / 苏丹,Al-Ashraf Ismail III / 阿什拉夫·伊斯玛仪三世,1439,1442
+Rasulid Dynasty / 拉苏里王朝,Sultan / 苏丹,Al-Muzaffar Yusuf II / 穆扎法尔·优素福二世,1442,1454
+Mihrabanid Dynasty / 米赫拉班王朝,Malik / 马利克,Shams al-Din Ali ibn Masud / 沙姆斯丁·阿里·本·马苏德,1236,1255
+Mihrabanid Dynasty / 米赫拉班王朝,Malik / 马利克,Nasir al-Din Muhammad / 纳西尔丁·穆罕默德,1261,1318
+Mihrabanid Dynasty / 米赫拉班王朝,Malik / 马利克,Nusrat al-Din Muhammad / 努斯拉特丁·穆罕默德,1318,1330
+Mihrabanid Dynasty / 米赫拉班王朝,Malik / 马利克,Qutb al-Din Muhammad / 忽都不丁·穆罕默德,1330,1346
+Mihrabanid Dynasty / 米赫拉班王朝,Malik / 马利克,Taj al-Din ibn Qutb al-Din / 塔吉丁·本·忽都不丁,1346,1350
+Mihrabanid Dynasty / 米赫拉班王朝,Malik / 马利克,Jalal al-Din Mahmud / 贾拉尔丁·马哈茂德,1350,1352
+Mihrabanid Dynasty / 米赫拉班王朝,Malik / 马利克,Izz al-Din ibn Rukn al-Din Mahmud / 伊兹丁·本·鲁克丁·马哈茂德,1352,1380
+Mihrabanid Dynasty / 米赫拉班王朝,Malik / 马利克,Qutb al-Din ibn Izz al-Din / 忽都不丁·本·伊兹丁,1380,1383
+Mihrabanid Dynasty / 米赫拉班王朝,Malik / 马利克,Taj al-Din Shah-i Shahan / 塔吉丁·沙希沙汉,1383,1403
+Mihrabanid Dynasty / 米赫拉班王朝,Malik / 马利克,Qutb al-Din Muhammad ibn Shams al-Din Shah Ali / 忽都不丁·穆罕默德,1403,1419
+Mihrabanid Dynasty / 米赫拉班王朝,Malik / 马利克,Shams al-Din Ali ibn Qutb al-Din / 沙姆斯丁·阿里·本·忽都不丁,1419,1439
+Mihrabanid Dynasty / 米赫拉班王朝,Malik / 马利克,Nizam al-Din Yahya / 尼扎姆丁·叶海亚,1439,1480
+Mihrabanid Dynasty / 米赫拉班王朝,Malik / 马利克,Shams al-Din Muhammad / 沙姆斯丁·穆罕默德,1480,1495
+Mihrabanid Dynasty / 米赫拉班王朝,Malik / 马利克,Sultan Mahmud ibn Nizam al-Din Yahya / 苏丹·马哈茂德·本·尼扎姆丁,1495,1537
+Kart Dynasty / 卡尔提德王朝,Malik / 马利克,Rukn-uddin Abu Bakr / 鲁克丁·阿布·伯克尔,1244,1245
+Kart Dynasty / 卡尔提德王朝,Malik / 马利克,Shams-uddin Muhammad I / 沙姆斯丁·穆罕默德一世,1245,1278
+Kart Dynasty / 卡尔提德王朝,Malik / 马利克,Rukn-uddin II / 鲁克丁二世,1278,1305
+Kart Dynasty / 卡尔提德王朝,Malik / 马利克,Fakhr-uddin / 法赫尔丁,1305,1307
+Kart Dynasty / 卡尔提德王朝,Malik / 马利克,Ghiyath-uddin / 吉亚斯丁,1307,1329
+Kart Dynasty / 卡尔提德王朝,Malik / 马利克,Mu'izz-uddin Husayn / 穆伊兹丁·侯赛因,1329,1370
+Kart Dynasty / 卡尔提德王朝,Malik / 马利克,Ghiyas-uddin Pir Ali / 吉亚斯丁·皮尔·阿里,1370,1381
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Nure Sofi / 努尔·苏菲,1250,1256
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Karaman Bey / 卡拉曼·贝伊,1256,1261
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Mehmet I / 穆罕默德一世,1261,1277
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Güneri / 居内里,1277,1300
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Badr al-Din Mahmud / 巴德尔丁·马哈茂德,1300,1311
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Musa / 穆萨,1312,1318
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Ibrahim I / 易卜拉欣一世,1318,1332
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Halil / 哈利勒,1332,1340
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Ibrahim I / 易卜拉欣一世,1340,1349
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Ahmet / 艾哈迈德,1349,1350
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Şemsettin / 谢姆塞丁,1350,1352
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Musa / 穆萨,1352,1356
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Süleyman / 苏莱曼,1356,1361
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Alaattin Ali / 阿拉丁·阿里,1361,1397
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Mehmed II / 穆罕默德二世,1398,1399
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Mehmed II / 穆罕默德二世,1402,1420
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Bengi Ali / 本吉·阿里,1420,1424
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Mehmed II / 穆罕默德二世,1421,1423
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Ibrahim II / 易卜拉欣二世,1424,1464
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Ishak / 伊沙克,1464,1465
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Pir Ahmed / 皮尔·艾哈迈德,1465,1474
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Kasim / 卡西姆,1474,1475
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Pir Ahmed / 皮尔·艾哈迈德,1475,1483
+Beylik of Karaman / 卡拉曼侯国,Bey / 贝伊,Mahmud / 马哈茂德,1483,1487
+Ilkhanate / 伊儿汗国,Ilkhan / 伊儿汗,Hulegu Khan / 旭烈兀,1260,1265
+Ilkhanate / 伊儿汗国,Ilkhan / 伊儿汗,Abaqa Khan / 阿八哈,1265,1282
+Ilkhanate / 伊儿汗国,Ilkhan / 伊儿汗,Ahmad Tekuder / 贴古迭儿,1282,1284
+Ilkhanate / 伊儿汗国,Ilkhan / 伊儿汗,Arghun / 阿鲁浑,1284,1291
+Ilkhanate / 伊儿汗国,Ilkhan / 伊儿汗,Gaykhatu / 海合都,1291,1295
+Ilkhanate / 伊儿汗国,Ilkhan / 伊儿汗,Baydu / 拜都,1295,1295
+Ilkhanate / 伊儿汗国,Ilkhan / 伊儿汗,Ghazan / 合赞,1295,1304
+Ilkhanate / 伊儿汗国,Ilkhan / 伊儿汗,Öljaitü / 完者都,1304,1316
+Ilkhanate / 伊儿汗国,Ilkhan / 伊儿汗,Abu Sa'id / 不赛因,1316,1335
+Beylik of Menteşe / 门泰谢侯国,Bey / 贝伊,Menteşe / 门泰谢,1261,1282
+Beylik of Menteşe / 门泰谢侯国,Bey / 贝伊,Mesut / 梅苏特,1282,1319
+Beylik of Menteşe / 门泰谢侯国,Bey / 贝伊,Orhan / 奥尔汗,1320,1341
+Beylik of Menteşe / 门泰谢侯国,Bey / 贝伊,Ibrahim / 易卜拉欣,1341,1359
+Beylik of Menteşe / 门泰谢侯国,Bey / 贝伊,Musa / 穆萨,1359,1374
+Beylik of Menteşe / 门泰谢侯国,Bey / 贝伊,Gıyaseddin Mehmed / 吉亚塞丁·穆罕默德,1359,1390
+Beylik of Menteşe / 门泰谢侯国,Bey / 贝伊,Gazi Ahmed / 加齐·艾哈迈德,1359,1391
+Beylik of Menteşe / 门泰谢侯国,Bey / 贝伊,Ilyas / 伊利亚斯,1402,1424
+Beylik of Eshref / 埃什列夫侯国,Bey / 贝伊,Suleyman ibn Eshref / 苏莱曼·伊本·埃什列夫,1280,1302
+Beylik of Eshref / 埃什列夫侯国,Bey / 贝伊,Mubariz al-Din Mehmed / 穆巴里兹丁·穆罕默德,1302,1320
+Beylik of Eshref / 埃什列夫侯国,Bey / 贝伊,Suleyman II / 苏莱曼二世,1320,1326
+Beylik of Candar / 詹达尔侯国,Bey / 贝伊,Şemseddin Yaman Candar / 谢姆塞丁·亚曼·詹达尔,1291,1309
+Beylik of Candar / 詹达尔侯国,Bey / 贝伊,Suleiman I / 苏莱曼一世,1309,1339
+Beylik of Candar / 詹达尔侯国,Bey / 贝伊,Ibrahim I / 易卜拉欣一世,1339,1345
+Beylik of Candar / 詹达尔侯国,Bey / 贝伊,Adil / 阿迪尔,1346,1361
+Beylik of Candar / 詹达尔侯国,Bey / 贝伊,Kötürüm Bayezid / 科蒂鲁姆·巴耶济德,1361,1383
+Beylik of Candar / 詹达尔侯国,Bey / 贝伊,Suleiman II / 苏莱曼二世,1383,1391
+Beylik of Candar / 詹达尔侯国,Bey / 贝伊,İsfendiyar / 伊斯芬迪亚尔,1391,1440
+Beylik of Candar / 詹达尔侯国,Bey / 贝伊,Ibrahim II / 易卜拉欣二世,1440,1443
+Beylik of Candar / 詹达尔侯国,Bey / 贝伊,İsmail / 伊斯马仪,1443,1461
+Beylik of Candar / 詹达尔侯国,Bey / 贝伊,Kızıl Ahmed / 克泽尔·艾哈迈德,1461,1461
+Beylik of Karasi / 卡拉斯侯国,Bey / 贝伊,Karasi / 卡拉西,1296,1328
+Beylik of Karasi / 卡拉斯侯国,Bey / 贝伊,Demir Khan / 德米尔汗,1328,1332
+Beylik of Karasi / 卡拉斯侯国,Bey / 贝伊,Yakhshi Khan / 亚赫希汗,1328,1341
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Osman I / 奥斯曼一世,1299,1324
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Orhan / 奥尔汗,1324,1362
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Murad I / 穆拉德一世,1362,1389
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Bayezid I / 巴耶济德一世,1389,1402
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Mehmed I / 穆罕默德一世,1413,1421
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Murad II / 穆拉德二世,1421,1444
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Mehmed II / 穆罕默德二世,1444,1446
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Murad II / 穆拉德二世,1446,1451
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Mehmed II / 穆罕默德二世,1451,1481
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Bayezid II / 巴耶济德二世,1481,1512
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Selim I / 塞利姆一世,1512,1520
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Suleiman I / 苏莱曼一世,1520,1566
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Selim II / 塞利姆二世,1566,1574
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Murad III / 穆拉德三世,1574,1595
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Mehmed III / 穆罕默德三世,1595,1603
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Ahmed I / 艾哈迈德一世,1603,1617
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Mustafa I / 穆斯塔法一世,1617,1618
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Osman II / 奥斯曼二世,1618,1622
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Mustafa I / 穆斯塔法一世,1622,1623
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Murad IV / 穆拉德四世,1623,1640
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Ibrahim / 易卜拉欣,1640,1648
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Mehmed IV / 穆罕默德四世,1648,1687
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Suleiman II / 苏莱曼二世,1687,1691
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Ahmed II / 艾哈迈德二世,1691,1695
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Mustafa II / 穆斯塔法二世,1695,1703
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Ahmed III / 艾哈迈德三世,1703,1730
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Mahmud I / 马哈茂德一世,1730,1754
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Osman III / 奥斯曼三世,1754,1757
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Mustafa III / 穆斯塔法三世,1757,1774
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Abdul Hamid I / 阿卜杜勒-哈米德一世,1774,1789
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Selim III / 塞利姆三世,1789,1807
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Mustafa IV / 穆斯塔法四世,1807,1808
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Mahmud II / 马哈茂德二世,1808,1839
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Abdul Mejid I / 阿卜杜勒-迈吉德一世,1839,1861
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Abdul Aziz / 阿卜杜勒-阿齐兹,1861,1876
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Murad V / 穆拉德五世,1876,1876
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Abdul Hamid II / 阿卜杜勒-哈米德二世,1876,1909
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Mehmed V / 穆罕默德五世,1909,1918
+Ottoman Empire / 奥斯曼帝国,Sultan / 苏丹,Mehmed VI / 穆罕默德六世,1918,1922
+Beylik of Germiyan / 盖尔米扬侯国,Bey / 贝伊,Yakub I / 雅库布一世,1300,1340
+Beylik of Germiyan / 盖尔米扬侯国,Bey / 贝伊,Mehmed Chakhshadan / 穆罕默德·查赫沙丹,1340,1361
+Beylik of Germiyan / 盖尔米扬侯国,Bey / 贝伊,Suleiman Shah / 苏莱曼·沙阿,1361,1387
+Beylik of Germiyan / 盖尔米扬侯国,Bey / 贝伊,Yakub II / 雅库布二世,1387,1390
+Beylik of Germiyan / 盖尔米扬侯国,Bey / 贝伊,Yakub II / 雅库布二世,1402,1411
+Beylik of Germiyan / 盖尔米扬侯国,Bey / 贝伊,Yakub II / 雅库布二世,1414,1429
+Beylik of Hamid / 哈米德侯国,Bey / 贝伊,Felek al-Din Dündar / 费莱克丁·顿达尔,1301,1324
+Beylik of Hamid / 哈米德侯国,Bey / 贝伊,Khidr ibn Dündar / 希德尔·伊本·顿达尔,1327,1328
+Beylik of Hamid / 哈米德侯国,Bey / 贝伊,Najm al-Din Ishaq ibn Dündar / 纳杰姆丁·伊沙克·伊本·顿达尔,1328,1344
+Beylik of Hamid / 哈米德侯国,Bey / 贝伊,Muzaffar al-Din Mustafa / 穆扎法尔丁·穆斯塔法,1344,1374
+Beylik of Hamid / 哈米德侯国,Bey / 贝伊,Husam al-Din Ilyas / 胡萨姆丁·伊利亚斯,1374,1374
+Beylik of Hamid / 哈米德侯国,Bey / 贝伊,Kamal al-Din Husayn / 凯迈勒丁·侯赛因,1374,1391
+Beylik of Aydin / 艾丁侯国,Bey / 贝伊,Muharizalsîn Gazi Mehmed / 穆哈里扎勒辛·穆罕默德,1308,1334
+Beylik of Aydin / 艾丁侯国,Bey / 贝伊,Umur / 乌穆尔,1334,1348
+Beylik of Aydin / 艾丁侯国,Bey / 贝伊,Khidr ibn Mehmed / 希德尔·伊本·穆罕默德,1348,1360
+Beylik of Aydin / 艾丁侯国,Bey / 贝伊,Isa ibn Mehmed / 伊萨·伊本·穆罕默德,1360,1390
+Beylik of Aydin / 艾丁侯国,Bey / 贝伊,Musa ibn Isa / 穆萨·伊本·伊萨,1402,1403
+Beylik of Aydin / 艾丁侯国,Bey / 贝伊,Umur II ibn Musa / 乌穆尔二世·伊本·穆萨,1403,1405
+Beylik of Aydin / 艾丁侯国,Bey / 贝伊,Junayd / 朱奈德,1405,1426
+Muzaffarid Dynasty / 莫扎法尔王朝,Shah / 沙阿,Mubariz al-Din Muhammad / 穆巴里兹丁·穆罕默德,1314,1358
+Muzaffarid Dynasty / 莫扎法尔王朝,Shah / 沙阿,Shah Shoja / 沙阿·舒贾,1358,1384
+Muzaffarid Dynasty / 莫扎法尔王朝,Shah / 沙阿,Shah Mahmud / 沙阿·马哈茂德,1358,1375
+Muzaffarid Dynasty / 莫扎法尔王朝,Shah / 沙阿,Zain al-Abidin / 扎因·阿比丁,1384,1387
+Muzaffarid Dynasty / 莫扎法尔王朝,Shah / 沙阿,Shah Yahya / 沙阿·叶海亚,1387,1391
+Muzaffarid Dynasty / 莫扎法尔王朝,Shah / 沙阿,Imad al-Din Ahmad / 伊马德丁·艾哈迈德,1387,1393
+Muzaffarid Dynasty / 莫扎法尔王朝,Shah / 沙阿,Shah Mansur / 沙阿·曼苏尔,1391,1393
+Beylik of Teke / 泰凯侯国,Bey / 贝伊,Yunus ibn Ilyas / 尤努斯·伊本·伊利亚斯,1321,1324
+Beylik of Teke / 泰凯侯国,Bey / 贝伊,Mahmud ibn Yunus / 马哈茂德·伊本·优努斯,1324,1327
+Beylik of Teke / 泰凯侯国,Bey / 贝伊,Khidr ibn Yunus / 希德尔·伊本·优努斯,1327,1372
+Beylik of Teke / 泰凯侯国,Bey / 贝伊,Muhammad ibn Muhammad / 穆罕默德·伊本·穆罕默德,1372,1378
+Beylik of Teke / 泰凯侯国,Bey / 贝伊,Othman Chelebi / 奥斯曼·切莱比,1378,1391
+Beylik of Teke / 泰凯侯国,Bey / 贝伊,Othman Chelebi / 奥斯曼·切莱比,1402,1423
+Jalayirid Sultanate / 札剌亦儿王朝,Sultan / 苏丹,Hasan Buzurg / 哈桑·布祖尔格,1335,1356
+Jalayirid Sultanate / 札剌亦儿王朝,Sultan / 苏丹,Shaykh Uways / 沙伊赫·乌瓦伊斯,1356,1374
+Jalayirid Sultanate / 札剌亦儿王朝,Sultan / 苏丹,Shaikh Hussain / 沙伊赫·侯赛因,1374,1382
+Jalayirid Sultanate / 札剌亦儿王朝,Sultan / 苏丹,Ahmad Jalayir / 艾哈迈德·札剌亦儿,1382,1410
+Jalayirid Sultanate / 札剌亦儿王朝,Sultan / 苏丹,Shah Walad / 沙阿·瓦拉德,1410,1411
+Jalayirid Sultanate / 札剌亦儿王朝,Sultan / 苏丹,Mahmud / 马哈茂德,1411,1415
+Jalayirid Sultanate / 札剌亦儿王朝,Sultan / 苏丹,Tandu Khatun / 坦都·哈敦,1411,1419
+Jalayirid Sultanate / 札剌亦儿王朝,Sultan / 苏丹,Uvais II / 乌瓦伊斯二世,1415,1421
+Jalayirid Sultanate / 札剌亦儿王朝,Sultan / 苏丹,Muhammad / 穆罕默德,1421,1422
+Jalayirid Sultanate / 札剌亦儿王朝,Sultan / 苏丹,Mahmud II / 马哈茂德二世,1422,1424
+Jalayirid Sultanate / 札剌亦儿王朝,Sultan / 苏丹,Husain II / 侯赛因二世,1424,1432
+Injuid Dynasty / 因朱王朝,Amir / 埃米尔,Ghiyas al-Din Kai-Khusrau / 吉亚斯丁·凯霍斯劳,1335,1339
+Injuid Dynasty / 因朱王朝,Amir / 埃米尔,Jalal al-Din Mas'ud Shah / 贾拉勒丁·马苏德沙阿,1338,1342
+Injuid Dynasty / 因朱王朝,Amir / 埃米尔,Shams al-Din Muhammad / 沙姆斯丁·穆罕默德,1339,1339
+Injuid Dynasty / 因朱王朝,Amir / 埃米尔,Abu Ishaq / 阿布·伊斯哈格,1343,1357
+Eretnid Dynasty / 埃雷特纳王朝,Sultan / 苏丹,Ala al-Din Eretna / 阿拉丁·埃雷特纳,1335,1352
+Eretnid Dynasty / 埃雷特纳王朝,Sultan / 苏丹,Ghiyath al-Din Muhammad I / 吉亚斯丁·穆罕默德一世,1352,1354
+Eretnid Dynasty / 埃雷特纳王朝,Sultan / 苏丹,Izz al-Din Jafar / 伊兹丁·贾法尔,1354,1355
+Eretnid Dynasty / 埃雷特纳王朝,Sultan / 苏丹,Ghiyath al-Din Muhammad I / 吉亚斯丁·穆罕默德一世,1355,1365
+Eretnid Dynasty / 埃雷特纳王朝,Sultan / 苏丹,Ala al-Din Ali / 阿拉丁·阿里,1366,1380
+Eretnid Dynasty / 埃雷特纳王朝,Sultan / 苏丹,Muhammad II Chelebi / 穆罕默德二世·切莱比,1380,1381
+Beylik of Dulkadir / 杜勒卡迪尔侯国,Beg / 伯克,Zayn al-Din Qaraja / 宰因丁·卡拉贾,1337,1353
+Beylik of Dulkadir / 杜勒卡迪尔侯国,Beg / 伯克,Ghars al-Din Khalil / 加尔斯丁·哈利勒,1353,1386
+Beylik of Dulkadir / 杜勒卡迪尔侯国,Beg / 伯克,Shaban Suli / 沙班·苏利,1386,1398
+Beylik of Dulkadir / 杜勒卡迪尔侯国,Beg / 伯克,Sadaqa / 萨达卡,1398,1399
+Beylik of Dulkadir / 杜勒卡迪尔侯国,Beg / 伯克,Nasir al-Din Mehmed / 纳西尔丁·穆罕默德,1399,1442
+Beylik of Dulkadir / 杜勒卡迪尔侯国,Beg / 伯克,Suleiman / 苏莱曼,1442,1454
+Beylik of Dulkadir / 杜勒卡迪尔侯国,Beg / 伯克,Malik Arslan / 马利克·阿尔斯兰,1454,1465
+Beylik of Dulkadir / 杜勒卡迪尔侯国,Beg / 伯克,Shah Budak / 沙·布达克,1465,1466
+Beylik of Dulkadir / 杜勒卡迪尔侯国,Beg / 伯克,Shah Suwar / 沙·苏瓦尔,1466,1472
+Beylik of Dulkadir / 杜勒卡迪尔侯国,Beg / 伯克,Shah Budak / 沙·布达克,1472,1480
+Beylik of Dulkadir / 杜勒卡迪尔侯国,Beg / 伯克,Ala al-Dawla Bozkurt / 阿拉·道拉·博兹库尔特,1480,1515
+Beylik of Dulkadir / 杜勒卡迪尔侯国,Beg / 伯克,Ali / 阿里,1515,1522
+Chobanids / 丘拜尼王朝,Amir / 阿米尔,Hasan Kucek / 哈桑·库切克,1338,1343
+Chobanids / 丘拜尼王朝,Sultan / 苏丹,Malek Ashraf / 马利克·阿什拉夫,1343,1357
+Emirate of Erzincan / 埃尔津詹酋长国,Emir / 埃米尔,Ghiyath al-Din Ahi Ayna / 吉亚斯丁·阿希·艾纳,1348,1362
+Emirate of Erzincan / 埃尔津詹酋长国,Emir / 埃米尔,Pir Husayn / 皮尔·侯赛因,1362,1379
+Emirate of Erzincan / 埃尔津詹酋长国,Emir / 埃米尔,Mutahharten / 穆塔哈尔滕,1379,1403
+Afrasiyab Dynasty / 阿弗拉西亚布王朝,King / 国王,Kiya Afrasiyab / 基亚·阿弗拉西亚布,1349,1359
+Afrasiyab Dynasty / 阿弗拉西亚布王朝,King / 国王,Iskandar-i Shaykhi / 伊斯坎达尔·沙依基,1393,1403
+Afrasiyab Dynasty / 阿弗拉西亚布王朝,King / 国王,Kiya Husayn I / 基亚·胡赛因一世,1403,1475
+Afrasiyab Dynasty / 阿弗拉西亚布王朝,King / 国王,Luhrasp / 卢赫拉斯普,1475,1490
+Afrasiyab Dynasty / 阿弗拉西亚布王朝,King / 国王,Kiya Husayn II / 基亚·胡赛因二世,1490,1504
+Kar‑Kiya Dynasty / 卡尔-基亚王朝,King / 国王,Sayyed Ali Kiya / 赛义德·阿里·基亚,1370,1389
+Kar‑Kiya Dynasty / 卡尔-基亚王朝,King / 国王,Hady Kiya / 哈迪·基亚,1389,1394
+Kar‑Kiya Dynasty / 卡尔-基亚王朝,King / 国王,Amir Sayyed Mohammad / 阿米尔·赛义德·穆罕默德,1394,1430
+Kar‑Kiya Dynasty / 卡尔-基亚王朝,King / 国王,Sayyed Razi Kiya / 赛义德·拉兹·基亚,1396,1426
+Kar‑Kiya Dynasty / 卡尔-基亚王朝,King / 国王,Sayyed Hosayn Kiya / 赛义德·侯赛因·基亚,1426,1430
+Kar‑Kiya Dynasty / 卡尔-基亚王朝,King / 国王,Sayyed Naser Kiya / 赛义德·纳赛尔·基亚,1430,1448
+Kar‑Kiya Dynasty / 卡尔-基亚王朝,King / 国王,Soltan-Mohammad Kiya / 苏丹·穆罕默德·基亚,1448,1478
+Kar‑Kiya Dynasty / 卡尔-基亚王朝,King / 国王,Soltan-Ali Mirza / 苏丹·阿里·米尔扎,1478,1505
+Kar‑Kiya Dynasty / 卡尔-基亚王朝,King / 国王,Soltan-Hasan / 苏丹·哈桑,1505,1506
+Kar‑Kiya Dynasty / 卡尔-基亚王朝,King / 国王,Soltan-Ahmad Khan / 苏丹·艾哈迈德汗,1506,1534
+Kar‑Kiya Dynasty / 卡尔-基亚王朝,King / 国王,Soltan-Kiya Ali / 苏丹·基亚·阿里,1534,1535
+Kar‑Kiya Dynasty / 卡尔-基亚王朝,King / 国王,Soltan-Hasan Kiya / 苏丹·哈桑·基亚,1535,1538
+Kar‑Kiya Dynasty / 卡尔-基亚王朝,King / 国王,Khan Ahmad Khan / 汗·艾哈迈德汗,1538,1592
+Qara Qoyunlu / 黑羊王朝,Khan / 可汗,Bayram Khwaja / 拜拉姆·霍贾,1374,1380
+Qara Qoyunlu / 黑羊王朝,Khan / 可汗,Qara Mahammad / 卡拉·穆罕默德,1380,1389
+Qara Qoyunlu / 黑羊王朝,Sultan / 苏丹,Qara Yusuf / 卡拉·优素福,1389,1400
+Qara Qoyunlu / 黑羊王朝,Sultan / 苏丹,Qara Yusuf / 卡拉·优素福,1405,1420
+Qara Qoyunlu / 黑羊王朝,Sultan / 苏丹,Pirbudag / 皮尔布达克,1411,1418
+Qara Qoyunlu / 黑羊王朝,Sultan / 苏丹,Qara Iskandar / 卡拉·伊斯坎达尔,1421,1429
+Qara Qoyunlu / 黑羊王朝,Sultan / 苏丹,Abu Said / 阿布·赛义德,1430,1430
+Qara Qoyunlu / 黑羊王朝,Sultan / 苏丹,Qara Iskandar / 卡拉·伊斯坎达尔,1431,1436
+Qara Qoyunlu / 黑羊王朝,Sultan / 苏丹,Jahan Shah / 贾汗·沙,1438,1467
+Qara Qoyunlu / 黑羊王朝,Sultan / 苏丹,Hasan Ali / 哈桑·阿里,1467,1468
+Qara Qoyunlu / 黑羊王朝,Sultan / 苏丹,Mirza Yusuf / 米尔扎·优素福,1468,1468
+Aq Qoyunlu / 白羊王朝,Beg / 伯克,Qara Yuluk Uthman / 卡拉·优鲁克·奥斯曼,1378,1435
+Aq Qoyunlu / 白羊王朝,Sultan / 苏丹,Ali / 贾拉勒丁·阿里,1435,1438
+Aq Qoyunlu / 白羊王朝,Sultan / 苏丹,Hamza Bey / 哈姆扎·贝伊,1438,1444
+Aq Qoyunlu / 白羊王朝,Sultan / 苏丹,Jahangir / 贾汗吉尔,1444,1457
+Aq Qoyunlu / 白羊王朝,Sultan / 苏丹,Qilich Arslan / 吉利奇·阿尔斯兰,1452,1457
+Aq Qoyunlu / 白羊王朝,Sultan / 苏丹,Uzun Hasan / 乌宗·哈桑,1457,1478
+Aq Qoyunlu / 白羊王朝,Sultan / 苏丹,Sultan Khalil / 苏丹·哈利勒,1478,1478
+Aq Qoyunlu / 白羊王朝,Sultan / 苏丹,Yaqub / 亚库布,1478,1490
+Aq Qoyunlu / 白羊王朝,Sultan / 苏丹,Baysunghur / 拜桑古尔,1490,1493
+Aq Qoyunlu / 白羊王朝,Sultan / 苏丹,Rustam Beg / 鲁斯塔姆·贝伊,1493,1497
+Aq Qoyunlu / 白羊王朝,Sultan / 苏丹,Ahmad Beg / 艾哈迈德·贝伊,1497,1497
+Aq Qoyunlu / 白羊王朝,Sultan / 苏丹,Alvand Beg / 阿尔万德·贝伊,1497,1505
+Aq Qoyunlu / 白羊王朝,Sultan / 苏丹,Qasim Bey / 卡西姆·贝伊,1497,1501
+Aq Qoyunlu / 白羊王朝,Sultan / 苏丹,Sultan Murad / 苏丹·穆拉德,1497,1508
+Kathiri State of Seiyun / 卡西里,Sultan / 苏丹,Badr ibn Bu Tuwairik / 巴德尔·布·图瓦伊里克,1395,1430
+Kathiri State of Seiyun / 卡西里,Sultan / 苏丹,Ghalib bin Muhsin / 加利卜·本·穆赫辛,1865,1870
+Kathiri State of Seiyun / 卡西里,Sultan / 苏丹,al-Mansur bin Ghalib / 曼苏尔·本·加利卜,1870,1888
+Ramadanid Emirate / 拉马丹酋长国,Beg / 伯克,Shihab al-Din Ahmad / 希哈布丁·艾哈迈德,1397,1416
+Ramadanid Emirate / 拉马丹酋长国,Beg / 伯克,Ibrahim II / 易卜拉欣二世,1416,1418
+Ramadanid Emirate / 拉马丹酋长国,Beg / 伯克,Izz al-Din Hamza / 伊兹丁·哈姆扎,1418,1426
+Ramadanid Emirate / 拉马丹酋长国,Beg / 伯克,Mehmed I / 穆罕默德一世,1426,1435
+Ramadanid Emirate / 拉马丹酋长国,Beg / 伯克,Eylük / 埃尔鲁克,1435,1439
+Ramadanid Emirate / 拉马丹酋长国,Beg / 伯克,Dundar / 东达尔,1439,1470
+Ramadanid Emirate / 拉马丹酋长国,Beg / 伯克,Umar / 欧麦尔,1470,1485
+Ramadanid Emirate / 拉马丹酋长国,Beg / 伯克,Giyaseddin Halil / 吉亚斯丁·哈利勒,1485,1510
+Ramadanid Emirate / 拉马丹酋长国,Beg / 伯克,Mahmud / 马哈茂德,1510,1514
+Ramadanid Emirate / 拉马丹酋长国,Beg / 伯克,Selim / 塞利姆,1514,1516
+Ramadanid Emirate / 拉马丹酋长国,Beg / 伯克,Mahmud / 马哈茂德,1516,1517
+Jabrid Emirate / 贾布尔王朝,Emir / 埃米尔,Zamil bin Hussein / 扎米勒·本·侯赛因,1417,1463
+Jabrid Emirate / 贾布尔王朝,Emir / 埃米尔,Ajwad ibn Zamil / 艾贾德·本·扎米勒,1463,1496
+Jabrid Emirate / 贾布尔王朝,Emir / 埃米尔,Migrin ibn Zamil / 米格林·本·扎米勒,1496,1521
+Jabrid Emirate / 贾布尔王朝,Emir / 埃米尔,Ghossib bin Hilal / 果西卜·本·希拉勒,1521,1524
+Sheikhdom of Diriyah / 迪里耶谢赫国,Emir / 埃米尔,Mani' ibn Rabi'a / 马尼·本·拉比阿,1446,1463
+Sheikhdom of Diriyah / 迪里耶谢赫国,Emir / 埃米尔,Saud I / 沙特一世,1720,1725
+Sheikhdom of Diriyah / 迪里耶谢赫国,Emir / 埃米尔,Zayd ibn Markhan / 宰德·本·马尔汉,1725,1727
+Sheikhdom of Diriyah / 迪里耶谢赫国,Emir / 埃米尔,Muhammad bin Saud / 穆罕默德·本·沙特,1727,1744
+Tahirid Sultanate / 塔希尔苏丹国,Sultan / 苏丹,az-Zafir Amir I / 扎菲尔·阿米尔一世,1454,1460
+Tahirid Sultanate / 塔希尔苏丹国,Sultan / 苏丹,al-Mujahid Ali / 穆贾希德·阿里,1460,1478
+Tahirid Sultanate / 塔希尔苏丹国,Sultan / 苏丹,al-Mansur Abd al-Wahhab / 曼苏尔·阿卜杜勒-瓦哈布,1478,1489
+Tahirid Sultanate / 塔希尔苏丹国,Sultan / 苏丹,az-Zafir Amir II / 扎菲尔·阿米尔二世,1489,1517
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Bagrat II / 巴格拉特二世,1463,1478
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Alexander II / 亚历山大二世,1478,1510
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Bagrat III / 巴格拉特三世,1510,1565
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,George II / 乔治二世,1565,1585
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Leon / 莱昂,1585,1588
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Rostom / 罗斯托姆,1588,1589
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Bagrat IV / 巴格拉特四世,1589,1590
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Rostom / 罗斯托姆,1590,1605
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,George III / 乔治三世,1605,1639
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Alexander III / 亚历山大三世,1639,1660
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Bagrat V / 巴格拉特五世,1660,1661
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Archil / 阿尔奇尔,1661,1663
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Demetre of Guria / 古里亚的德梅特雷,1663,1664
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Bagrat V / 巴格拉特五世,1663,1668
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Bagrat V / 巴格拉特五世,1669,1678
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Archil / 阿尔奇尔,1678,1679
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Bagrat V / 巴格拉特五世,1679,1681
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,George IV / 乔治四世,1681,1683
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Alexander IV / 亚历山大四世,1683,1690
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Archil / 阿尔奇尔,1690,1691
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Alexander IV / 亚历山大四世,1691,1695
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Archil / 阿尔奇尔,1695,1696
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,George V / 乔治五世,1696,1698
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Archil / 阿尔奇尔,1698,1699
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Simon / 西蒙,1699,1701
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Mamia / 玛米亚,1701,1702
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,George VI / 乔治六世,1702,1707
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,George VII / 乔治七世,1707,1711
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Mamia / 玛米亚,1711,1711
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,George VII / 乔治七世,1712,1713
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Mamia / 玛米亚,1713,1713
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,George VII / 乔治七世,1713,1716
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,George VIII / 乔治八世,1716,1716
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,George VII / 乔治七世,1719,1720
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Alexander V / 亚历山大五世,1720,1741
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,George IX / 乔治九世,1741,1741
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Alexander V / 亚历山大五世,1741,1746
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Mamuka / 玛穆卡,1746,1749
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Alexander V / 亚历山大五世,1749,1752
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Solomon I / 所罗门一世,1752,1766
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Teimuraz / 泰穆拉兹,1766,1768
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Solomon I / 所罗门一世,1768,1784
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,David II / 达维特二世,1784,1789
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Solomon II / 所罗门二世,1789,1790
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,David II / 达维特二世,1790,1791
+Kingdom of Imereti / 伊梅雷蒂王国,King / 国王,Solomon II / 所罗门二世,1792,1810
+Kingdom of Kakheti / 卡赫季王国,King / 国王,George I / 乔治一世,1466,1476
+Kingdom of Kakheti / 卡赫季王国,King / 国王,Alexander I / 亚历山大一世,1476,1511
+Kingdom of Kakheti / 卡赫季王国,King / 国王,George II / 乔治二世,1511,1513
+Kingdom of Kakheti / 卡赫季王国,King / 国王,Levan / 莱万,1520,1574
+Kingdom of Kakheti / 卡赫季王国,King / 国王,Alexander II / 亚历山大二世,1574,1601
+Kingdom of Kakheti / 卡赫季王国,King / 国王,David I / 达维特一世,1601,1602
+Kingdom of Kakheti / 卡赫季王国,King / 国王,Alexander II / 亚历山大二世,1602,1605
+Kingdom of Kakheti / 卡赫季王国,King / 国王,Constantine I / 康斯坦丁一世,1605,1605
+Kingdom of Kakheti / 卡赫季王国,King / 国王,Teimuraz I / 泰穆拉兹一世,1605,1614
+Kingdom of Kakheti / 卡赫季王国,King / 国王,Teimuraz I / 泰穆拉兹一世,1615,1615
+Kingdom of Kakheti / 卡赫季王国,King / 国王,Teimuraz I / 泰穆拉兹一世,1625,1633
+Kingdom of Kakheti / 卡赫季王国,King / 国王,Teimuraz I / 泰穆拉兹一世,1634,1648
+Kingdom of Kakheti / 卡赫季王国,King / 国王,Archil / 阿尔奇尔,1664,1675
+Kingdom of Kakheti / 卡赫季王国,King / 国王,Heraclius I / 埃拉克利一世,1675,1676
+Kingdom of Kakheti / 卡赫季王国,King / 国王,Heraclius I / 埃拉克利一世,1703,1709
+Kingdom of Kakheti / 卡赫季王国,King / 国王,David II / 达维特二世,1709,1722
+Kingdom of Kakheti / 卡赫季王国,King / 国王,Constantine II / 康斯坦丁二世,1722,1732
+Kingdom of Kakheti / 卡赫季王国,King / 国王,Teimuraz II / 泰穆拉兹二世,1732,1744
+Kingdom of Kakheti / 卡赫季王国,King / 国王,Heraclius II / 埃拉克利二世,1744,1762
+Kingdom of Kartli / 卡尔特利王国,King / 国王,Constantine II / 康斯坦丁二世,1478,1505
+Kingdom of Kartli / 卡尔特利王国,King / 国王,David X / 达维特十世,1505,1525
+Kingdom of Kartli / 卡尔特利王国,King / 国王,George IX / 乔治九世,1525,1527
+Kingdom of Kartli / 卡尔特利王国,King / 国王,Luarsab I / 卢阿尔萨布一世,1527,1556
+Kingdom of Kartli / 卡尔特利王国,King / 国王,Simon I / 西蒙一世,1556,1569
+Kingdom of Kartli / 卡尔特利王国,King / 国王,David XI / 达维特十一世,1569,1578
+Kingdom of Kartli / 卡尔特利王国,King / 国王,Simon I / 西蒙一世,1578,1599
+Kingdom of Kartli / 卡尔特利王国,King / 国王,George X / 乔治十世,1599,1606
+Kingdom of Kartli / 卡尔特利王国,King / 国王,Luarsab II / 卢阿尔萨布二世,1606,1615
+Kingdom of Kartli / 卡尔特利王国,King / 国王,Bagrat VII / 巴格拉特七世,1616,1619
+Kingdom of Kartli / 卡尔特利王国,King / 国王,Simon II / 西蒙二世,1619,1629
+Kingdom of Kartli / 卡尔特利王国,King / 国王,Teimuraz I / 泰穆拉兹一世,1629,1633
+Kingdom of Kartli / 卡尔特利王国,King / 国王,Rostom / 罗斯托姆,1633,1658
+Kingdom of Kartli / 卡尔特利王国,King / 国王,Vakhtang V / 瓦赫坦格五世,1658,1676
+Kingdom of Kartli / 卡尔特利王国,King / 国王,George XI / 乔治十一世,1676,1688
+Kingdom of Kartli / 卡尔特利王国,King / 国王,Heraclius I / 埃拉克利一世,1688,1703
+Kingdom of Kartli / 卡尔特利王国,King / 国王,George XI / 乔治十一世,1703,1709
+Kingdom of Kartli / 卡尔特利王国,King / 国王,Kaikhosro / 凯霍斯罗,1709,1711
+Kingdom of Kartli / 卡尔特利王国,King / 国王,Jesse / 杰西,1714,1716
+Kingdom of Kartli / 卡尔特利王国,King / 国王,Vakhtang VI / 瓦赫坦格六世,1716,1724
+Kingdom of Kartli / 卡尔特利王国,King / 国王,Jesse / 杰西,1724,1727
+Kingdom of Kartli / 卡尔特利王国,King / 国王,Teimuraz II / 泰穆拉兹二世,1744,1762
+Kingdom of Kartli / 卡尔特利王国,Queen / 女王,Tamar II / 塔玛二世,1744,1746
+Guarded Domains of Iran (Safavid Empire) / 伊朗保守王国（萨非王朝）,Shah / 沙阿,Ismail I / 伊斯玛仪一世,1501,1524
+Guarded Domains of Iran (Safavid Empire) / 伊朗保守王国（萨非王朝）,Shah / 沙阿,Tahmasp I / 塔赫马斯普一世,1524,1576
+Guarded Domains of Iran (Safavid Empire) / 伊朗保守王国（萨非王朝）,Shah / 沙阿,Ismail II / 伊斯玛仪二世,1576,1577
+Guarded Domains of Iran (Safavid Empire) / 伊朗保守王国（萨非王朝）,Shah / 沙阿,Mohammad Khodabanda / 穆罕默德·霍达班达,1578,1587
+Guarded Domains of Iran (Safavid Empire) / 伊朗保守王国（萨非王朝）,Shah / 沙阿,Abbas I / 阿巴斯一世,1587,1629
+Guarded Domains of Iran (Safavid Empire) / 伊朗保守王国（萨非王朝）,Shah / 沙阿,Safi I / 萨菲一世,1629,1642
+Guarded Domains of Iran (Safavid Empire) / 伊朗保守王国（萨非王朝）,Shah / 沙阿,Abbas II / 阿巴斯二世,1642,1666
+Guarded Domains of Iran (Safavid Empire) / 伊朗保守王国（萨非王朝）,Shah / 沙阿,Suleiman I / 苏莱曼一世,1666,1694
+Guarded Domains of Iran (Safavid Empire) / 伊朗保守王国（萨非王朝）,Shah / 沙阿,Soltan Hoseyn / 苏丹·侯赛因,1694,1722
+Guarded Domains of Iran (Safavid Empire) / 伊朗保守王国（萨非王朝）,Shah / 沙阿,Tahmasp II / 塔赫马斯普二世,1722,1732
+Guarded Domains of Iran (Safavid Empire) / 伊朗保守王国（萨非王朝）,Shah / 沙阿,Abbas III / 阿巴斯三世,1732,1736
+Qasimid State / 卡西姆国,Imam / 伊玛目,al-Mansur al-Qasim / 曼苏尔·卡西姆,1597,1620
+Qasimid State / 卡西姆国,Imam / 伊玛目,al-Mu'ayyad Muhammad / 穆艾亚德·穆罕默德,1620,1644
+Qasimid State / 卡西姆国,Imam / 伊玛目,al-Mutawakkil Isma'il / 穆塔瓦基勒·伊斯玛仪,1644,1676
+Qasimid State / 卡西姆国,Imam / 伊玛目,al-Mahdi Ahmad / 马赫迪·艾哈迈德,1676,1681
+Qasimid State / 卡西姆国,Imam / 伊玛目,al-Mu'ayyad Muhammad II / 穆艾亚德·穆罕默德二世,1681,1686
+Qasimid State / 卡西姆国,Imam / 伊玛目,al-Mahdi Muhammad / 马赫迪·穆罕默德,1689,1718
+Qasimid State / 卡西姆国,Imam / 伊玛目,al-Mutawakkil al-Qasim / 穆塔瓦基勒·卡西姆,1716,1727
+Qasimid State / 卡西姆国,Imam / 伊玛目,al-Mansur al-Husayn II / 曼苏尔·侯赛因二世,1727,1748
+Qasimid State / 卡西姆国,Imam / 伊玛目,al-Mahdi Abbas / 马赫迪·阿巴斯,1748,1775
+Qasimid State / 卡西姆国,Imam / 伊玛目,al-Mansur Ali I / 曼苏尔·阿里一世,1775,1809
+Qasimid State / 卡西姆国,Imam / 伊玛目,al-Mutawakkil Ahmad / 穆塔瓦基勒·艾哈迈德,1809,1816
+Qasimid State / 卡西姆国,Imam / 伊玛目,al-Mahdi Abdallah / 马赫迪·阿卜杜拉,1816,1835
+Qasimid State / 卡西姆国,Imam / 伊玛目,al-Mansur Ali II / 曼苏尔·阿里二世,1835,1837
+Qasimid State / 卡西姆国,Imam / 伊玛目,an-Nasir Abdallah / 纳西尔·阿卜杜拉,1837,1840
+Qasimid State / 卡西姆国,Imam / 伊玛目,al-Hadi Muhammad / 哈迪·穆罕默德,1840,1844
+Qasimid State / 卡西姆国,Imam / 伊玛目,al-Mansur Ali II / 曼苏尔·阿里二世,1844,1845
+Qasimid State / 卡西姆国,Imam / 伊玛目,al-Mutawakkil Muhammad / 穆塔瓦基勒·穆罕默德,1845,1849
+Kingdom of Khaza'il / 哈扎伊勒王国,Emir / 埃米尔,Nasir bin Muhanna / 纳西尔·本·穆罕纳,1604,1622
+Kingdom of Khaza'il / 哈扎伊勒王国,Emir / 埃米尔,Muhanna ibn Ali / 穆罕纳·本·阿里,1622,1641
+Kingdom of Khaza'il / 哈扎伊勒王国,Emir / 埃米尔,Salman Al-Khaza'il / 萨尔曼·哈扎伊勒,1700,1721
+Kingdom of Khaza'il / 哈扎伊勒王国,Emir / 埃米尔,Sharmahi bin Muhammad / 沙尔马希·本·穆罕默德,1850,1921
+Yarubid Dynasty / 雅鲁卜王朝,Imam / 伊玛目,Nasir bin Murshid / 纳赛尔·本·穆尔希德,1624,1649
+Yarubid Dynasty / 雅鲁卜王朝,Imam / 伊玛目,Sultan bin Saif / 苏丹·本·赛义夫,1649,1679
+Yarubid Dynasty / 雅鲁卜王朝,Imam / 伊玛目,Bil'arab bin Sultan / 比拉拉卜·本·苏丹,1679,1692
+Yarubid Dynasty / 雅鲁卜王朝,Imam / 伊玛目,Saif bin Sultan / 赛义夫·本·苏丹,1692,1711
+Yarubid Dynasty / 雅鲁卜王朝,Imam / 伊玛目,Sultan bin Saif II / 苏丹·本·赛义夫二世,1711,1718
+Yarubid Dynasty / 雅鲁卜王朝,Imam / 伊玛目,Saif bin Sultan II / 赛义夫·本·苏丹二世,1718,1719
+Yarubid Dynasty / 雅鲁卜王朝,Imam / 伊玛目,Muhanna bin Sultan / 穆汉纳·本·苏丹,1719,1720
+Yarubid Dynasty / 雅鲁卜王朝,Imam / 伊玛目,Saif bin Sultan II / 赛义夫·本·苏丹二世,1720,1722
+Yarubid Dynasty / 雅鲁卜王朝,Imam / 伊玛目,Ya'arab bin Bel'arab / 亚里卜·本·贝拉拉卜,1722,1723
+Yarubid Dynasty / 雅鲁卜王朝,Imam / 伊玛目,Saif bin Sultan II / 赛义夫·本·苏丹二世,1722,1724
+Yarubid Dynasty / 雅鲁卜王朝,Imam / 伊玛目,Muhammad bin Nasir / 穆罕默德·本·纳赛尔,1724,1728
+Yarubid Dynasty / 雅鲁卜王朝,Imam / 伊玛目,Saif bin Sultan II / 赛义夫·本·苏丹二世,1728,1742
+Yarubid Dynasty / 雅鲁卜王朝,Imam / 伊玛目,Bal'arab bin Himyar / 贝拉拉卜·本·希姆亚尔,1728,1737
+Yarubid Dynasty / 雅鲁卜王朝,Imam / 伊玛目,Sultan bin Murshid / 苏丹·本·穆尔希德,1742,1742
+Bani Khalid Emirate / 巴尼哈立德酋长国,Emir / 埃米尔,Barrak ibn Ghurayr / 巴拉克·本·古莱伊尔,1669,1682
+Bani Khalid Emirate / 巴尼哈立德酋长国,Emir / 埃米尔,Muhammad bin Ghurair / 穆罕默德·本·古莱伊尔,1682,1691
+Bani Khalid Emirate / 巴尼哈立德酋长国,Emir / 埃米尔,Sa'dun bin Muhammad / 萨敦·本·穆罕默德,1691,1722
+Bani Khalid Emirate / 巴尼哈立德酋长国,Emir / 埃米尔,Ali bin Muhammad / 阿里·本·穆罕默德,1722,1736
+Bani Khalid Emirate / 巴尼哈立德酋长国,Emir / 埃米尔,Sulayman bin Muhammad / 苏莱曼·本·穆罕默德,1736,1752
+Bani Khalid Emirate / 巴尼哈立德酋长国,Emir / 埃米尔,Urayar bin Dajeen / 乌赖尔·本·达金,1752,1774
+Bani Khalid Emirate / 巴尼哈立德酋长国,Emir / 埃米尔,Bateen bin Urayer / 巴廷·本·乌赖尔,1774,1775
+Bani Khalid Emirate / 巴尼哈立德酋长国,Emir / 埃米尔,Dajeen bin Urayer / 达金·本·乌赖尔,1775,1775
+Bani Khalid Emirate / 巴尼哈立德酋长国,Emir / 埃米尔,Sa'dun bin Urayar / 萨敦·本·乌赖尔,1775,1786
+Bani Khalid Emirate / 巴尼哈立德酋长国,Emir / 埃米尔,Duwaihis bin Urayar / 杜瓦伊希斯·本·乌赖尔,1786,1793
+Bani Khalid Emirate / 巴尼哈立德酋长国,Emir / 埃米尔,Zaid bin Urayar / 宰德·本·乌赖尔,1793,1794
+Bani Khalid Emirate / 巴尼哈立德酋长国,Emir / 埃米尔,Barak bin Abdul Mohsen / 巴拉克·本·阿卜杜勒·穆赫辛,1793,1796
+Guarded Domains of Iran (Afsharid Empire) / 伊朗保守王国（阿夫沙尔王朝）,Shah / 沙,Nader Shah / 纳迪尔沙,1736,1747
+Guarded Domains of Iran (Afsharid Empire) / 伊朗保守王国（阿夫沙尔王朝）,Shah / 沙,Adel Shah / 阿德尔沙,1747,1748
+Guarded Domains of Iran (Afsharid Empire) / 伊朗保守王国（阿夫沙尔王朝）,Shah / 沙,Shahrokh Shah / 沙赫鲁赫沙,1748,1750
+Guarded Domains of Iran (Afsharid Empire) / 伊朗保守王国（阿夫沙尔王朝）,Shah / 沙,Ebrahim Afshar / 易卜拉欣·阿夫沙尔,1748,1749
+Guarded Domains of Iran (Afsharid Empire) / 伊朗保守王国（阿夫沙尔王朝）,Shah / 沙,Shahrokh Shah / 沙赫鲁赫沙,1750,1796
+Omani Empire / 阿曼帝国,Imam / 伊玛目,Ahmad bin Said / 艾哈迈德·本·赛义德,1744,1783
+Omani Empire / 阿曼帝国,Imam / 伊玛目,Said bin Ahmad / 赛义德·本·艾哈迈德,1783,1786
+Omani Empire / 阿曼帝国,Sultan / 苏丹,Hamad bin Said / 哈马德·本·赛义德,1786,1792
+Omani Empire / 阿曼帝国,Sultan / 苏丹,Sultan bin Ahmad / 苏丹·本·艾哈迈德,1792,1804
+Omani Empire / 阿曼帝国,Sultan / 苏丹,Salim bin Sultan / 萨利姆·本·苏丹,1804,1806
+Omani Empire / 阿曼帝国,Sultan / 苏丹,Said bin Sultan / 赛义德·本·苏丹,1804,1856
+Omani Empire / 阿曼帝国,Regent / 摄政,Badr bin Saif / 巴德尔·本·赛义夫,1804,1806
+Emirate of Diriyah / 迪里耶酋长国（第一沙特王国）,Emir / 埃米尔,Muhammad bin Saud / 穆罕默德·本·沙特,1744,1765
+Emirate of Diriyah / 迪里耶酋长国（第一沙特王国）,Emir / 埃米尔,Abdulaziz bin Muhammad / 阿卜杜勒阿齐兹·本·穆罕默德,1765,1803
+Emirate of Diriyah / 迪里耶酋长国（第一沙特王国）,Emir / 埃米尔,Saud bin Abdulaziz / 沙特·本·阿卜杜勒阿齐兹,1803,1814
+Emirate of Diriyah / 迪里耶酋长国（第一沙特王国）,Emir / 埃米尔,Abdullah bin Saud / 阿卜杜拉·本·沙特,1814,1818
+Guarded Domains of Iran (Zand) / 伊朗保守王国（桑德王朝）,Vakil ol-Ra'aya / 瓦基勒·拉亚,Karim Khan / 卡里姆汗,1751,1779
+Guarded Domains of Iran (Zand) / 伊朗保守王国（桑德王朝）,Shah / 沙,Mohammad-Ali Khan / 穆罕默德·阿里汗,1779,1779
+Guarded Domains of Iran (Zand) / 伊朗保守王国（桑德王朝）,Shah / 沙,Abol-Fath Khan / 阿布·法特赫汗,1779,1779
+Guarded Domains of Iran (Zand) / 伊朗保守王国（桑德王朝）,Shah / 沙,Sadegh Khan / 萨迪克汗,1779,1781
+Guarded Domains of Iran (Zand) / 伊朗保守王国（桑德王朝）,Shah / 沙,Ali-Morad Khan / 阿里·穆拉德汗,1781,1785
+Guarded Domains of Iran (Zand) / 伊朗保守王国（桑德王朝）,Shah / 沙,Jafar Khan / 贾法尔汗,1785,1789
+Guarded Domains of Iran (Zand) / 伊朗保守王国（桑德王朝）,Shah / 沙,Seyd Morad Khan / 赛义德·穆拉德汗,1789,1789
+Guarded Domains of Iran (Zand) / 伊朗保守王国（桑德王朝）,Shah / 沙,Lotf Ali Khan / 卢特夫·阿里汗,1789,1794
+Emirate of Kuwait / 科威特酋长国,Sheikh / 谢赫,Sabah I bin Jaber / 萨巴赫一世,1752,1762
+Emirate of Kuwait / 科威特酋长国,Sheikh / 谢赫,Abdullah I Al-Sabah / 阿卜杜拉一世,1762,1814
+Emirate of Kuwait / 科威特酋长国,Sheikh / 谢赫,Jaber I Al-Sabah / 贾比尔一世,1814,1859
+Emirate of Kuwait / 科威特酋长国,Sheikh / 谢赫,Sabah II Al-Sabah / 萨巴赫二世,1859,1866
+Emirate of Kuwait / 科威特酋长国,Sheikh / 谢赫,Abdullah II Al-Sabah / 阿卜杜拉二世,1866,1892
+Emirate of Kuwait / 科威特酋长国,Sheikh / 谢赫,Muhammad bin Sabah Al-Sabah / 穆罕默德·本·萨巴赫,1892,1896
+Emirate of Kuwait / 科威特酋长国,Sheikh / 谢赫,Mubarak Al-Sabah / 穆巴拉克·阿勒萨巴赫,1896,1899
+Emirate of Abu Dhabi / 阿布扎比酋长国,Sheikh / 谢赫,Dhiyab bin Isa Al Nahyan / 迪亚卜·本·伊萨·阿勒纳哈扬,1761,1793
+Emirate of Abu Dhabi / 阿布扎比酋长国,Sheikh / 谢赫,Shakhbut bin Dhiyab Al Nahyan / 沙赫布特·本·迪亚卜·阿勒纳哈扬,1793,1816
+Emirate of Abu Dhabi / 阿布扎比酋长国,Sheikh / 谢赫,Muhammad bin Shakhbut Al Nahyan / 穆罕默德·本·沙赫布特·阿勒纳哈扬,1816,1818
+Emirate of Abu Dhabi / 阿布扎比酋长国,Sheikh / 谢赫,Tahnun bin Shakhbut Al Nahyan / 塔努·本·沙赫布特·阿勒纳哈扬,1818,1820
+Kingdom of Kartli-Kakheti / 卡尔特利-卡赫季王国,King / 国王,Heraclius II / 赫拉克利乌斯二世,1762,1798
+Kingdom of Kartli-Kakheti / 卡尔特利-卡赫季王国,King / 国王,George XII / 格奥尔基十二世,1798,1801
+Guarded Domains of Iran (Qajar) / 伊朗保守王国（卡扎尔王朝）,Shah / 沙,Agha Mohammad Khan / 阿迦·穆罕默德汗,1789,1797
+Guarded Domains of Iran (Qajar) / 伊朗保守王国（卡扎尔王朝）,Shah / 沙,Fath-Ali Shah / 法特赫-阿里沙,1797,1834
+Guarded Domains of Iran (Qajar) / 伊朗保守王国（卡扎尔王朝）,Shah / 沙,Mohammad Shah / 穆罕默德沙,1834,1848
+Guarded Domains of Iran (Qajar) / 伊朗保守王国（卡扎尔王朝）,Shah / 沙,Naser al-Din Shah / 纳赛尔丁沙,1848,1896
+Guarded Domains of Iran (Qajar) / 伊朗保守王国（卡扎尔王朝）,Shah / 沙,Mozaffar ad-Din Shah / 穆扎法尔丁沙,1896,1907
+Guarded Domains of Iran (Qajar) / 伊朗保守王国（卡扎尔王朝）,Shah / 沙,Mohammad Ali Shah / 穆罕默德·阿里沙,1907,1909
+Guarded Domains of Iran (Qajar) / 伊朗保守王国（卡扎尔王朝）,Shah / 沙,Ahmad Shah / 艾哈迈德沙,1909,1925
+Emirate of Najd / 内志酋长国（第二沙特王国）,Emir / 埃米尔,Turki bin Abdullah / 图尔基·本·阿卜杜拉,1824,1834
+Emirate of Najd / 内志酋长国（第二沙特王国）,Emir / 埃米尔,Mishari bin Abdul Rahman / 米沙里·本·阿卜杜勒·拉赫曼,1834,1834
+Emirate of Najd / 内志酋长国（第二沙特王国）,Emir / 埃米尔,Faisal bin Turki / 费萨尔·本·图尔基,1834,1838
+Emirate of Najd / 内志酋长国（第二沙特王国）,Emir / 埃米尔,Khalid bin Saud / 哈立德·本·沙特,1838,1841
+Emirate of Najd / 内志酋长国（第二沙特王国）,Emir / 埃米尔,Abdullah bin Thunayan / 阿卜杜拉·本·苏纳扬,1841,1843
+Emirate of Najd / 内志酋长国（第二沙特王国）,Emir / 埃米尔,Faisal bin Turki / 费萨尔·本·图尔基,1843,1865
+Emirate of Najd / 内志酋长国（第二沙特王国）,Emir / 埃米尔,Abdullah bin Faisal / 阿卜杜拉·本·费萨尔,1865,1871
+Emirate of Najd / 内志酋长国（第二沙特王国）,Emir / 埃米尔,Saud bin Faisal / 沙特·本·费萨尔,1871,1871
+Emirate of Najd / 内志酋长国（第二沙特王国）,Emir / 埃米尔,Abdullah bin Faisal / 阿卜杜拉·本·费萨尔,1871,1873
+Emirate of Najd / 内志酋长国（第二沙特王国）,Emir / 埃米尔,Saud bin Faisal / 沙特·本·费萨尔,1873,1875
+Emirate of Najd / 内志酋长国（第二沙特王国）,Emir / 埃米尔,Abdul Rahman bin Faisal / 阿卜杜勒·拉赫曼·本·费萨尔,1875,1876
+Emirate of Najd / 内志酋长国（第二沙特王国）,Emir / 埃米尔,Abdullah bin Faisal / 阿卜杜拉·本·费萨尔,1876,1889
+Emirate of Najd / 内志酋长国（第二沙特王国）,Emir / 埃米尔,Abdul Rahman bin Faisal / 阿卜杜勒·拉赫曼·本·费萨尔,1889,1891
+Emirate of Jabal Shammar / 舍迈尔山酋长国,Emir / 埃米尔,Abdullah bin Ali Al Rashid / 阿卜杜拉·本·阿里·拉希德,1836,1848
+Emirate of Jabal Shammar / 舍迈尔山酋长国,Emir / 埃米尔,Talal bin Abdullah Al Rashid / 塔拉勒·本·阿卜杜拉·拉希德,1848,1868
+Emirate of Jabal Shammar / 舍迈尔山酋长国,Emir / 埃米尔,Mutaib bin Abdullah Al Rashid / 穆泰卜·本·阿卜杜拉·拉希德,1868,1869
+Emirate of Jabal Shammar / 舍迈尔山酋长国,Emir / 埃米尔,Bandar bin Talal Al Rashid / 班达尔·本·塔拉勒·拉希德,1869,1869
+Emirate of Jabal Shammar / 舍迈尔山酋长国,Emir / 埃米尔,Muhammad bin Abdullah Al Rashid / 穆罕默德·本·阿卜杜拉·拉希德,1869,1897
+Emirate of Jabal Shammar / 舍迈尔山酋长国,Emir / 埃米尔,Abdulaziz bin Mutaib Al Rashid / 阿卜杜勒阿齐兹·本·穆泰卜·拉希德,1897,1906
+Emirate of Jabal Shammar / 舍迈尔山酋长国,Emir / 埃米尔,Mutaib bin Abdulaziz Al Rashid / 穆泰卜·本·阿卜杜勒阿齐兹·拉希德,1906,1906
+Emirate of Jabal Shammar / 舍迈尔山酋长国,Emir / 埃米尔,Sultan bin Hamoud Al Rashid / 苏丹·本·哈穆德·拉希德,1906,1908
+Emirate of Jabal Shammar / 舍迈尔山酋长国,Emir / 埃米尔,Saud bin Hamoud Al Rashid / 沙特·本·哈穆德·拉希德,1908,1908
+Emirate of Jabal Shammar / 舍迈尔山酋长国,Emir / 埃米尔,Saud bin Abdulaziz Al Rashid / 沙特·本·阿卜杜勒阿齐兹·拉希德,1908,1920
+Emirate of Jabal Shammar / 舍迈尔山酋长国,Emir / 埃米尔,Abdullah bin Mutaib Al Rashid / 阿卜杜拉·本·穆泰卜·拉希德,1920,1921
+Emirate of Jabal Shammar / 舍迈尔山酋长国,Emir / 埃米尔,Muhammad bin Talal Al Rashid / 穆罕默德·本·塔拉勒·拉希德,1921,1921
+Sultanate of Muscat and Oman / 马斯喀特和阿曼苏丹国,Sultan / 苏丹,Thuwaini bin Said / 图瓦伊尼·本·赛义德,1856,1866
+Sultanate of Muscat and Oman / 马斯喀特和阿曼苏丹国,Sultan / 苏丹,Salim bin Thuwaini / 萨利姆·本·图瓦伊尼,1866,1868
+Sultanate of Muscat and Oman / 马斯喀特和阿曼苏丹国,Imam / 伊玛目,Azzan bin Qais / 阿赞·本·盖斯,1868,1871
+Sultanate of Muscat and Oman / 马斯喀特和阿曼苏丹国,Sultan / 苏丹,Turki bin Said / 图尔基·本·赛义德,1871,1888
+Sultanate of Muscat and Oman / 马斯喀特和阿曼苏丹国,Sultan / 苏丹,Faisal bin Turki / 费萨尔·本·图尔基,1888,1891
+Emirate of Riyadh / 利雅得酋长国,Emir / 埃米尔,Abdulaziz bin Abdul Rahman Al Saud / 伊本·沙特,1902,1913
+Idrisi Emirate of Asir / 阿西尔伊德里斯酋长国,Emir / 埃米尔,Muhammad ibn Ali al-Idrisi / 穆罕默德·本·阿里·伊德里西,1907,1923
+Idrisi Emirate of Asir / 阿西尔伊德里斯酋长国,Emir / 埃米尔,Ali bin Muhammad al-Idrisi / 阿里·本·穆罕默德·伊德里西,1923,1926
+Idrisi Emirate of Asir / 阿西尔伊德里斯酋长国,Emir / 埃米尔,Al-Hasan bin Ali al-Idrisi / 哈桑·本·阿里·伊德里西,1926,1934
+Emirate of Nejd and Hasa / 内志与哈萨酋长国,Emir / 埃米尔,Abdulaziz bin Abdul Rahman Al Saud / 伊本·沙特,1913,1921
+Kingdom of Hejaz / 汉志王国,King / 国王,Hussein bin Ali / 侯赛因·本·阿里,1916,1924
+Kingdom of Hejaz / 汉志王国,King / 国王,Ali bin Hussein / 阿里·本·侯赛因,1924,1925
+Sheikdom of Upper Asir / 上阿西尔谢赫国,Sheikh / 谢赫,Hasan bin Ali al-Aidh / 哈桑·本·阿里·艾德,1916,1920
+Azerbaijan Democratic Republic / 阿塞拜疆民主共和国,Chairman of the National Council / 国民议会主席,Mammad Amin Rasulzade / 穆罕默德·阿明·拉苏尔扎德,1918,1918
+Azerbaijan Democratic Republic / 阿塞拜疆民主共和国,Chairman of Parliament / 议会主席,Alimardan bey Topchubashov / 阿利马尔丹·托普丘巴绍夫,1918,1920
+Azerbaijan Democratic Republic / 阿塞拜疆民主共和国,Prime Minister / 总理,Fatali Khan Khoyski / 法塔利汗·霍伊斯基,1918,1919
+Azerbaijan Democratic Republic / 阿塞拜疆民主共和国,Prime Minister / 总理,Nasib bey Yusifbeyli / 纳西布·优素福贝利,1919,1920
+Democratic Republic of Georgia / 格鲁吉亚民主共和国,President of Parliament / 议会主席,Nikolay Chkheidze / 尼古拉·奇赫泽,1918,1921
+Democratic Republic of Georgia / 格鲁吉亚民主共和国,Prime Minister / 总理,Noe Ramishvili / 诺埃·拉米什维利,1918,1918
+Democratic Republic of Georgia / 格鲁吉亚民主共和国,Prime Minister / 总理,Noe Zhordania / 诺埃·若尔丹尼亚,1918,1921
+Kingdom of Yemen / 也门王国,King / 国王,Yahya Muhammad Hamid ed-Din / 叶海亚·穆罕默德·哈米德丁,1918,1948
+Kingdom of Yemen / 也门王国,King / 国王,Ahmad bin Yahya / 艾哈迈德·本·叶海亚,1948,1962
+Kingdom of Yemen / 也门王国,King / 国王,Muhammad al-Badr / 穆罕默德·巴德尔,1962,1962
+Republic of Armenia (First Republic) / 亚美尼亚共和国（第一共和国）,Chairman of Parliament / 议会主席,Serop Zakaryan / 谢罗普·扎卡良,1918,1918
+Republic of Armenia (First Republic) / 亚美尼亚共和国（第一共和国）,Chairman of Parliament / 议会主席,Avetik Sahakyan / 阿韦蒂克·萨哈良,1918,1919
+Republic of Armenia (First Republic) / 亚美尼亚共和国（第一共和国）,Chairman of Parliament / 议会主席,Avetis Aharonian / 阿韦蒂斯·阿哈罗尼扬,1919,1920
+Republic of Armenia (First Republic) / 亚美尼亚共和国（第一共和国）,Chairman of Parliament / 议会主席,Hovhannes Kajaznuni / 霍夫汉内斯·卡贾兹努尼,1920,1920
+Republic of Armenia (First Republic) / 亚美尼亚共和国（第一共和国）,Prime Minister / 总理,Hovhannes Kajaznuni / 霍夫汉内斯·卡贾兹努尼,1918,1919
+Republic of Armenia (First Republic) / 亚美尼亚共和国（第一共和国）,Prime Minister / 总理,Alexander Khatisyan / 亚历山大·哈蒂相,1919,1920
+Republic of Armenia (First Republic) / 亚美尼亚共和国（第一共和国）,Prime Minister / 总理,Hamo Ohanjanyan / 哈莫·奥汉贾尼扬,1920,1920
+Republic of Armenia (First Republic) / 亚美尼亚共和国（第一共和国）,Prime Minister / 总理,Simon Vratsian / 西蒙·弗拉茨扬,1920,1920
+Sultanate of Nejd / 内志苏丹国,Sultan / 苏丹,Abdulaziz bin Abdul Rahman Al Saud / 伊本·沙特,1921,1926
+Republic of Türkiye / 土耳其共和国,President / 总统,Mustafa Kemal Atatürk / 穆斯塔法·凯末尔·阿塔图尔克,1923,1938
+Republic of Türkiye / 土耳其共和国,President / 总统,İsmet İnönü / 伊斯梅特·伊诺努,1938,1950
+Republic of Türkiye / 土耳其共和国,President / 总统,Celâl Bayar / 杰拉勒·贝亚尔,1950,1960
+Republic of Türkiye / 土耳其共和国,Chairman of the National Unity Committee / 民族团结委员会主席,Cemal Gürsel / 杰马尔·居尔塞尔,1960,1961
+Republic of Türkiye / 土耳其共和国,President / 总统,Cemal Gürsel / 杰马尔·居尔塞尔,1961,1966
+Republic of Türkiye / 土耳其共和国,President / 总统,İbrahim Şevki Atasagun / 易卜拉欣·塞夫基·阿塔萨贡,1966,1966
+Republic of Türkiye / 土耳其共和国,President / 总统,Cevdet Sunay / 杰夫代特·苏奈,1966,1973
+Republic of Türkiye / 土耳其共和国,President / 总统,Fahri Korutürk / 法赫里·科鲁蒂尔克,1973,1980
+Republic of Türkiye / 土耳其共和国,President / 总统,İhsan Sabri Çağlayangil / 伊赫桑·萨布里·恰拉扬吉尔,1980,1980
+Republic of Türkiye / 土耳其共和国,Chairman of the National Security Council / 国家安全委员会主席,Kenan Evren / 凯南·埃夫伦,1980,1982
+Republic of Türkiye / 土耳其共和国,President / 总统,Kenan Evren / 凯南·埃夫伦,1982,1989
+Republic of Türkiye / 土耳其共和国,President / 总统,Turgut Özal / 图尔古特·厄扎尔,1989,1993
+Republic of Türkiye / 土耳其共和国,President / 总统,Süleyman Demirel / 苏莱曼·德米雷尔,1993,2000
+Republic of Türkiye / 土耳其共和国,President / 总统,Ahmet Necdet Sezer / 艾哈迈德·内吉代特·塞泽尔,2000,2007
+Republic of Türkiye / 土耳其共和国,President / 总统,Abdullah Gül / 阿卜杜拉·居尔,2007,2014
+Republic of Türkiye / 土耳其共和国,President / 总统,Recep Tayyip Erdoğan / 雷杰普·塔伊普·埃尔多安,2014,2026
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,İsmet İnönü / 伊斯梅特·伊诺努,1923,1924
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Fethi Okyar / 费特希·奥基亚尔,1924,1925
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,İsmet İnönü / 伊斯梅特·伊诺努,1925,1937
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Celâl Bayar / 杰拉勒·贝亚尔,1937,1939
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Refik Saydam / 雷菲克·萨伊达姆,1939,1942
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Şükrü Saracoğlu / 许克鲁·萨拉乔卢,1942,1946
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Recep Peker / 雷杰普·佩克尔,1946,1947
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Hasan Saka / 哈桑·萨卡,1947,1949
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Şemsettin Günaltay / 塞姆塞廷·居纳尔塔伊,1949,1950
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Adnan Menderes / 阿德南·门德列斯,1950,1960
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Cemal Gürsel / 杰马尔·居尔塞尔,1960,1961
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,İsmet İnönü / 伊斯梅特·伊诺努,1961,1965
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Suat Hayri Ürgüplü / 苏阿特·海里·于尔居普鲁,1965,1965
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Süleyman Demirel / 苏莱曼·德米雷尔,1965,1971
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Nihat Erim / 尼哈特·埃里姆,1971,1972
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Ferit Melen / 费里特·梅伦,1972,1973
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Naim Talu / 纳伊姆·塔卢,1973,1974
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Bülent Ecevit / 比伦特·埃杰维特,1974,1974
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Sadi Irmak / 萨迪·欧尔马克,1974,1975
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Süleyman Demirel / 苏莱曼·德米雷尔,1975,1977
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Bülent Ecevit / 比伦特·埃杰维特,1977,1977
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Süleyman Demirel / 苏莱曼·德米레尔,1977,1977
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Bülent Ecevit / 比伦特·埃杰维特,1978,1979
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Süleyman Demirel / 苏莱曼·德米雷尔,1979,1980
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Bülend Ulusu / 比伦德·乌卢苏,1980,1983
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Turgut Özal / 图尔古特·厄扎尔,1983,1989
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Yıldırım Akbulut / 耶尔德勒姆·阿克布卢特,1989,1991
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Mesut Yılmaz / 梅苏特·耶尔马兹,1991,1991
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Süleyman Demirel / 苏莱曼·德米雷尔,1991,1993
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Tansu Çiller / 丹苏·恰勒尔,1993,1996
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Mesut Yılmaz / 梅苏特·耶尔马兹,1996,1996
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Necmettin Erbakan / 内吉梅廷·埃尔巴坎,1996,1997
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Mesut Yılmaz / 梅苏特·耶尔马兹,1997,1999
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Bülent Ecevit / 比伦特·埃杰维特,1999,2002
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Abdullah Gül / 阿卜杜拉·居尔,2002,2003
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Recep Tayyip Erdoğan / 雷杰普·塔伊普·埃尔多安,2003,2014
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Ahmet Davutoğlu / 艾哈迈德·达武特奥卢,2014,2016
+Republic of Türkiye / 土耳其共和国,Prime Minister / 总理,Binali Yıldırım / 比纳利·耶尔德勒姆,2016,2018
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Shah / 沙阿,Reza Shah Pahlavi / 礼萨·沙阿·巴列维,1925,1941
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Shah / 沙阿,Mohammad Reza Pahlavi / 穆罕默德·礼萨·巴列维,1941,1967
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Shahanshah / 沙汉沙,Mohammad Reza Pahlavi / 穆罕默德·礼萨·巴列维,1967,1979
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Mohammad Ali Foroughi / 穆罕默德·阿里·富鲁吉,1925,1926
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Mostowfi ol-Mamalek / 穆斯托菲·马马莱克,1926,1927
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Mehdi Hedayat / 迈赫迪·赫达亚特,1927,1933
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Mohammad Ali Foroughi / 穆罕默德·阿里·富鲁吉,1933,1935
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Mahmoud Djam / 马哈茂德·贾姆,1935,1939
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Ahmad Matin-Daftari / 艾哈迈德·马廷-达夫塔里,1939,1940
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Ali Mansur / 阿里·曼苏尔,1940,1941
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Mohammad Ali Foroughi / 穆罕默德·阿里·富鲁吉,1941,1942
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Ali Soheili / 阿里·苏海利,1942,1942
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Ahmad Qavam / 艾哈迈德·卡瓦姆,1942,1943
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Ali Soheili / 阿里·苏海利,1943,1944
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Mohammad Sa'ed / 穆罕默德·萨耶德,1944,1944
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Morteza-Qoli Bayat / 穆尔泰扎-戈利·巴亚特,1944,1945
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Ebrahim Hakimi / 易卜拉欣·哈基米,1945,1945
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Mohsen Sadr / 穆赫辛·萨德尔,1945,1945
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Ebrahim Hakimi / 易卜拉欣·哈基米,1945,1946
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Ahmad Qavam / 艾哈迈德·卡瓦姆,1946,1947
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Ebrahim Hakimi / 易卜拉欣·哈基米,1947,1948
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Abdolhossein Hazhir / 阿卜杜勒-侯赛因·哈兹尔,1948,1948
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Mohammad Sa'ed / 穆罕默德·萨耶德,1948,1950
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Ali Mansur / 阿里·曼苏尔,1950,1950
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Ali Razmara / 阿里·拉兹马拉,1950,1951
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Hossein Ala' / 侯赛因·阿拉,1951,1951
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Mohammad Mosaddegh / 穆罕默德·摩萨台,1951,1952
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Ahmad Qavam / 艾哈迈德·卡瓦姆,1952,1952
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Mohammad Mosaddegh / 穆罕默德·摩萨台,1952,1953
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Fazlollah Zahedi / 法兹洛拉·扎赫迪,1953,1955
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Hossein Ala' / 侯赛因·阿拉,1955,1957
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Manouchehr Eghbal / 曼努切赫尔·埃格巴尔,1957,1960
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Jafar Sharif-Emami / 贾法尔·沙里夫-伊马米,1960,1961
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Ali Amini / 阿里·阿米尼,1961,1962
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Asadollah Alam / 阿萨杜拉·阿拉姆,1962,1964
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Hassan Ali Mansur / 哈桑·阿里·曼苏尔,1964,1965
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Amir-Abbas Hoveyda / 阿米尔-阿巴斯·霍韦达,1965,1977
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Jamshid Amouzegar / 贾姆希德·阿穆泽加尔,1977,1978
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Jafar Sharif-Emami / 贾法尔·沙里夫-伊马米,1978,1978
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Gholam Reza Azhari / 戈拉姆-礼萨·阿兹哈里,1978,1979
+Imperial State of Iran / 伊朗帝国（巴列维王朝）,Prime Minister / 总理,Shapour Bakhtiar / 沙普尔·巴赫蒂亚尔,1979,1979
+Kingdom of Hejaz and Nejd / 内志与汉志王国,King / 国王,Abdulaziz bin Abdul Rahman Al Saud / 伊本·沙特,1926,1932
+Kingdom of Saudi Arabia / 沙特阿拉伯王国,King / 国王,Abdulaziz bin Abdul Rahman Al Saud / 伊本·沙特,1932,1953
+Kingdom of Saudi Arabia / 沙特阿拉伯王国,King / 国王,Saud bin Abdulaziz / 沙特·本·阿卜杜勒阿齐兹,1953,1964
+Kingdom of Saudi Arabia / 沙特阿拉伯王国,King / 国王,Faisal bin Abdulaziz / 费萨尔·本·阿卜杜勒阿齐兹,1964,1975
+Kingdom of Saudi Arabia / 沙特阿拉伯王国,King / 国王,Khalid bin Abdulaziz / 哈立德·本·阿卜杜勒阿齐兹,1975,1982
+Kingdom of Saudi Arabia / 沙特阿拉伯王国,King / 国王,Fahd bin Abdulaziz / 法赫德·本·阿卜杜勒阿齐兹,1982,2005
+Kingdom of Saudi Arabia / 沙特阿拉伯王国,King / 国王,Abdullah bin Abdulaziz / 阿卜杜拉·本·阿卜杜勒阿齐兹,2005,2015
+Kingdom of Saudi Arabia / 沙特阿拉伯王国,King / 国王,Salman bin Abdulaziz / 萨勒曼·本·阿卜杜勒阿齐兹,2015,2026
+Kingdom of Iraq / 伊拉克王国,King / 国王,Faisal I / 费萨尔一世,1932,1933
+Kingdom of Iraq / 伊拉克王国,King / 国王,Ghazi / 加齐,1933,1939
+Kingdom of Iraq / 伊拉克王国,King / 国王,Faisal II / 费萨尔二世,1939,1958
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Naji Shawkat / 纳吉·肖卡特,1932,1933
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Rashid Ali al-Gaylani / 拉希德·阿里·盖拉尼,1933,1933
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Jamil al-Midfai / 贾米勒·迈德法伊,1933,1934
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Ali Jawdat al-Ayyubi / 阿里·贾瓦达特·阿尤比,1934,1935
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Jamil al-Midfai / 贾米勒·迈德法伊,1935,1935
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Yasin al-Hashimi / 亚辛·哈希米,1935,1936
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Hikmat Sulayman / 希克马特·苏莱曼,1936,1937
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Jamil al-Midfai / 贾米勒·迈德法伊,1937,1938
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Nuri al-Said / 努里·赛义德,1938,1940
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Rashid Ali al-Gaylani / 拉希德·阿里·盖拉尼,1940,1941
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Taha al-Hashimi / 塔哈·哈希米,1941,1941
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Rashid Ali al-Gaylani / 拉希德·阿里·盖拉尼,1941,1941
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Jamil al-Midfai / 贾米勒·迈德法伊,1941,1941
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Nuri al-Said / 努里·赛义德,1941,1944
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Hamdi al-Pachachi / 哈姆迪·帕恰奇,1944,1946
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Tawfiq al-Suwaidi / 陶菲克·苏韦迪,1946,1946
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Arshad al-Umari / 阿尔沙德·乌马里,1946,1946
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Nuri al-Said / 努里·赛义德,1946,1947
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Salih Jabr / 萨利赫·贾布尔,1947,1948
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Mohammad al-Sadr / 穆罕默德·萨德尔,1948,1948
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Muzahim al-Pachachi / 穆扎希姆·帕恰奇,1948,1949
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Nuri al-Said / 努里·赛义德,1949,1949
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Ali Jawdat al-Ayyubi / 阿里·贾瓦达特·阿尤比,1949,1950
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Tawfiq al-Suwaidi / 陶菲克·苏韦迪,1950,1950
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Nuri al-Said / 努里·赛义德,1950,1952
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Mustafa Mahmud al-Umari / 穆斯塔法·马哈茂德·乌马里,1952,1952
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Nureddin Mahmud / 努雷丁·马哈茂德,1952,1953
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Jamil al-Midfai / 贾米勒·迈德法伊,1953,1953
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Muhammad Fadhel al-Jamali / 穆罕默德·法德勒·贾马利,1953,1954
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Arshad al-Umari / 阿尔沙德·乌马里,1954,1954
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Nuri al-Said / 努里·赛义德,1954,1957
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Ali Jawdat al-Ayyubi / 阿里·贾瓦达特·阿尤比,1957,1957
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Abdul-Wahab Mirjan / 阿卜杜勒-瓦哈卜·米尔扬,1957,1958
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Nuri al-Said / 努里·赛义德,1958,1958
+Kingdom of Iraq / 伊拉克王国,Prime Minister / 总理,Ahmad Mukhtar Baban / 艾哈迈德·穆赫塔尔·巴班,1958,1958
+Republic of Lebanon / 黎巴嫩共和国,President / 总统,Bechara El Khoury / 贝沙拉·胡里,1943,1952
+Republic of Lebanon / 黎巴嫩共和国,President / 总统,Camille Chamoun / 卡米勒·夏蒙,1952,1958
+Republic of Lebanon / 黎巴嫩共和国,President / 总统,Fouad Chehab / 福阿德·谢哈布,1958,1964
+Republic of Lebanon / 黎巴嫩共和国,President / 总统,Charles Helou / 查尔斯·赫卢,1964,1970
+Republic of Lebanon / 黎巴嫩共和国,President / 总统,Suleiman Frangieh / 苏莱曼·弗兰吉叶,1970,1976
+Republic of Lebanon / 黎巴嫩共和国,President / 总统,Élias Sarkis / 伊利亚斯·萨尔基斯,1976,1982
+Republic of Lebanon / 黎巴嫩共和国,President / 总统,Bachir Gemayel / 巴希尔·杰马耶勒,1982,1982
+Republic of Lebanon / 黎巴嫩共和国,President / 总统,Amine Gemayel / 阿明·杰马耶勒,1982,1988
+Republic of Lebanon / 黎巴嫩共和国,President / 总统,René Moawad / 勒内·穆阿瓦德,1989,1989
+Republic of Lebanon / 黎巴嫩共和国,President / 总统,Elias Hrawi / 伊利亚斯·赫拉维,1989,1998
+Republic of Lebanon / 黎巴嫩共和国,President / 总统,Émile Lahoud / 埃米尔·拉胡德,1998,2007
+Republic of Lebanon / 黎巴嫩共和国,President / 总统,Michel Suleiman / 米歇尔·苏莱曼,2008,2014
+Republic of Lebanon / 黎巴嫩共和国,President / 总统,Michel Aoun / 米歇尔·奥恩,2016,2022
+Republic of Lebanon / 黎巴嫩共和国,President / 总统,Joseph Aoun / 约瑟夫·奥恩,2025,2026
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Riad Solh / 里亚德·苏尔赫,1943,1945
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Abdul Hamid Karami / 阿卜杜勒-哈米德·卡拉米,1945,1945
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Sami Solh / 萨米·苏尔赫,1945,1946
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Saadi Munla / 萨阿迪·蒙拉,1946,1946
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Riad Solh / 里亚德·苏尔赫,1946,1951
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Hussein Oweini / 侯赛因·欧韦尼,1951,1951
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Abdallah Yafi / 阿卜杜拉·亚菲,1951,1952
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Sami Solh / 萨米·苏尔赫,1952,1952
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Nazem Akkari / 纳泽姆·阿卡里,1952,1952
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Saeb Salam / 萨伊卜·萨拉姆,1952,1952
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Khaled Chehab / 哈立德·谢哈布,1952,1953
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Saeb Salam / 萨伊卜·萨拉姆,1953,1953
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Abdallah Yafi / 阿卜杜拉·亚菲,1953,1954
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Sami Solh / 萨米·苏尔赫,1954,1955
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Rashid Karami / 拉希德·卡拉米,1955,1956
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Abdallah Yafi / 阿卜杜拉·亚菲,1956,1956
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Sami Solh / 萨米·苏尔赫,1956,1958
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Rashid Karami / 拉希德·卡拉米,1958,1960
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Ahmad Daouk / 艾哈迈德·达乌克,1960,1960
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Saeb Salam / 萨伊卜·萨拉姆,1960,1961
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Rashid Karami / 拉希德·卡拉米,1961,1964
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Hussein Oweini / 侯赛因·欧韦尼,1964,1965
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Rashid Karami / 拉希德·卡拉米,1965,1966
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Abdallah Yafi / 阿卜杜拉·亚菲,1966,1966
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Rashid Karami / 拉希德·卡拉米,1966,1968
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Abdallah Yafi / 阿卜杜拉·亚菲,1968,1969
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Rashid Karami / 拉希德·卡拉米,1969,1970
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Saeb Salam / 萨伊卜·萨拉姆,1970,1973
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Amin Hafez / 阿明·哈菲兹,1973,1973
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Takieddine Solh / 塔基丁·苏尔赫,1973,1974
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Rachid Solh / 拉希德·苏尔赫,1974,1975
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Nureddine Rifai / 努雷丁·里法伊,1975,1975
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Rashid Karami / 拉希德·卡拉米,1975,1976
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Salim Huss / 萨利姆·胡斯,1976,1980
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Takieddine Solh / 塔基丁·苏尔赫,1980,1980
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Shafik Wazzan / 沙菲克·瓦扎恩,1980,1984
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Rashid Karami / 拉希德·卡拉米,1984,1987
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Salim Huss / 萨利姆·胡斯,1987,1990
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Omar Karami / 欧麦尔·卡拉米,1990,1992
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Rachid Solh / 拉希德·苏尔赫,1992,1992
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Rafic Hariri / 拉菲克·哈里里,1992,1998
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Salim Huss / 萨利姆·胡斯,1998,2000
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Rafic Hariri / 拉菲克·哈里里,2000,2004
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Omar Karami / 欧麦尔·卡拉米,2004,2005
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Najib Mikati / 纳吉卜·米卡提,2005,2005
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Fouad Siniora / 福阿德·西尼乌拉,2005,2009
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Saad Hariri / 萨阿德·哈里里,2009,2011
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Najib Mikati / 纳吉卜·米卡提,2011,2014
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Tammam Salam / 塔马姆·萨拉姆,2014,2016
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Saad Hariri / 萨阿德·哈里里,2016,2020
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Hassan Diab / 哈桑·迪亚卜,2020,2021
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Najib Mikati / 纳吉卜·米卡提,2021,2025
+Republic of Lebanon / 黎巴嫩共和国,Prime Minister / 总理,Nawaf Salam / 纳瓦夫·萨拉姆,2025,2026
+Republic of Syria / 叙利亚共和国,President / 总统,Shukri al-Quwatli / 舒克里·库瓦特利,1946,1949
+Republic of Syria / 叙利亚共和国,President / 总统,Husni al-Za'im / 胡斯尼·扎伊姆,1949,1949
+Republic of Syria / 叙利亚共和国,President / 总统,Hashim al-Atassi / 哈希姆·阿塔西,1949,1951
+Republic of Syria / 叙利亚共和国,President / 总统,Fawzi Selu / 福兹·塞卢,1951,1953
+Republic of Syria / 叙利亚共和国,President / 总统,Adib Shishakli / 阿迪卜·希沙克利,1953,1954
+Republic of Syria / 叙利亚共和国,President / 总统,Hashim al-Atassi / 哈希姆·阿塔西,1954,1955
+Republic of Syria / 叙利亚共和国,President / 总统,Shukri al-Quwatli / 舒克里·古瓦特利,1955,1958
+Republic of Syria / 叙利亚共和国,President / 总统,Maamun al-Kuzbari / 马蒙·库兹巴里,1961,1961
+Republic of Syria / 叙利亚共和国,President / 总统,Nazim al-Qudsi / 纳齐姆·古德西,1961,1963
+Republic of Syria / 叙利亚共和国,President / 总统,Lu'ay al-Atassi / 卢艾·阿塔西,1963,1963
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Saadallah al-Jabiri / 萨阿达拉·贾比里,1946,1946
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Jamil Mardam Bey / 贾米勒·马尔丹贝伊,1946,1948
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Khalid al-Azm / 哈立德·阿兹姆,1948,1949
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Husni al-Za'im / 胡斯尼·扎伊姆,1949,1949
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Muhsin al-Barazi / 穆赫辛·巴拉兹,1949,1949
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Hashim al-Atassi / 哈希姆·阿塔西,1949,1949
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Nazim al-Qudsi / 纳齐姆·古德西,1949,1949
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Khalid al-Azm / 哈立德·阿兹姆,1949,1950
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Nazim al-Qudsi / 纳齐姆·古德西,1950,1951
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Khalid al-Azm / 哈立德·阿兹姆,1951,1951
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Hassan al-Hakim / 哈桑·哈基姆,1951,1951
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Maarouf al-Dawalibi / 马鲁夫·达瓦里比,1951,1951
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Fawzi Selu / 福兹·塞卢,1951,1953
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Sabri al-Asali / 萨布里·阿萨利,1954,1954
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Said al-Ghazzi / 赛义德·加齐,1954,1954
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Fares al-Khoury / 法里斯·胡里,1954,1955
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Sabri al-Asali / 萨布里·阿萨利,1955,1955
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Said al-Ghazzi / 赛义德·加齐,1955,1956
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Sabri al-Asali / 萨布里·阿萨利,1956,1958
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Maamun al-Kuzbari / 马蒙·库兹巴里,1961,1961
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Izzat al-Nuss / 伊扎特·努斯,1961,1961
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Maarouf al-Dawalibi / 马鲁夫·达瓦里比,1961,1962
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Bashir al-Azma / 巴希尔·阿兹马,1962,1962
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Khalid al-Azm / 哈立德·阿兹姆,1962,1963
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Khalid al-Azm / 哈立德·阿兹姆,1963,1963
+Republic of Syria / 叙利亚共和国,Prime Minister / 总理,Salah al-Din al-Bitar / 萨拉赫丁·比塔尔,1963,1963
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,King / 国王,Abdullah I / 阿卜杜拉一世,1946,1951
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,King / 国王,Talal / 塔拉勒,1951,1952
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,King / 国王,Hussein / 侯赛因,1952,1999
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,King / 国王,Abdullah II / 阿卜杜拉二世,1999,2026
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Ibrahim Hashem / 易卜拉欣·哈谢姆,1946,1947
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Samir al-Rifai / 萨米尔·里法伊,1947,1947
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Tawfik Abu al-Huda / 陶菲克·阿布·胡达,1947,1950
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Sa'id Mufti / 萨义德·穆夫提,1950,1950
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Samir al-Rifai / 萨米尔·里法伊,1950,1951
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Tawfik Abu al-Huda / 陶菲克·阿布·胡达,1951,1953
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Fawzi Mulki / 福兹·穆勒基,1953,1954
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Tawfik Abu al-Huda / 陶菲克·阿布·胡达,1954,1955
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Sa'id Mufti / 萨义德·穆夫提,1955,1955
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Hazza' Majali / 哈扎·马贾利,1955,1955
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Samir al-Rifai / 萨米尔·里法伊,1956,1956
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Sa'id Mufti / 萨义德·穆夫提,1956,1956
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Ibrahim Hashem / 易卜拉欣·哈谢姆,1956,1956
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Suleiman Nabulsi / 苏莱曼·纳布尔西,1956,1957
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Hussein Khalidi / 侯赛因·哈立迪,1957,1957
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Ibrahim Hashem / 易卜拉欣·哈谢姆,1957,1958
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Samir al-Rifai / 萨米尔·里法伊,1958,1959
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Hazza' Majali / 哈扎·马贾利,1959,1960
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Bahjat Talhouni / 巴赫贾特·塔勒胡尼,1960,1962
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Wasfi Tal / 瓦斯菲·塔勒,1962,1963
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Samir al-Rifai / 萨米尔·里法伊,1963,1963
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Hussein ibn Nasser / 侯赛因·本·纳赛尔,1963,1964
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Bahjat Talhouni / 巴赫贾特·塔勒胡尼,1964,1965
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Wasfi Tal / 瓦斯菲·塔勒,1965,1967
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Hussein ibn Nasser / 侯赛因·本·纳赛尔,1967,1967
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Saad Jumaa / 萨阿德·朱马,1967,1967
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Bahjat Talhouni / 巴赫贾特·塔勒胡尼,1967,1969
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Abdelmunim Rifai / 阿卜杜勒穆尼姆·里法伊,1969,1969
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Bahjat Talhouni / 巴赫贾特·塔勒胡尼,1969,1970
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Abdelmunim Rifai / 阿卜杜勒穆尼姆·里法伊,1970,1970
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Mohammad al-Abbasi / 穆罕默德·阿巴西,1970,1970
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Ahmad Toukan / 艾哈迈德·图坎,1970,1970
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Wasfi Tal / 瓦斯菲·塔勒,1970,1971
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Ahmad Lozi / 艾哈迈德·洛兹,1971,1973
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Zaid Rifai / 扎伊德·里法伊,1973,1976
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Mudar Badran / 穆达尔·巴德兰,1976,1979
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Abdelhamid Sharaf / 阿卜杜勒哈米德·沙拉夫,1979,1980
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Kassim Rimawi / 卡西姆·里马维,1980,1980
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Mudar Badran / 穆达尔·巴德兰,1980,1984
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Ahmad Obeidat / 艾哈迈德·欧贝达特,1984,1985
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Zaid Rifai / 扎伊德·里法伊,1985,1989
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Zaid ibn Shaker / 扎伊德·本·沙克尔,1989,1989
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Mudar Badran / 穆达尔·巴德兰,1989,1991
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Taher Masri / 塔希尔·马斯里,1991,1991
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Zaid ibn Shaker / 扎伊德·本·沙克尔,1991,1993
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Abdelsalam Majali / 阿卜杜勒萨拉姆·马贾利,1993,1995
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Zaid ibn Shaker / 扎伊德·本·沙克尔,1995,1996
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Abdul Karim Kabariti / 阿卜杜勒卡里姆·卡巴里提,1996,1997
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Abdelsalam Majali / 阿卜杜勒萨拉姆·马贾利,1997,1998
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Fayez Tarawneh / 法耶兹·塔拉芙纳,1998,1999
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Abdelraouf Rawabdeh / 阿卜杜勒劳夫·拉瓦布代赫,1999,2000
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Ali Abu al-Ragheb / 阿里·阿布·拉格卜,2000,2003
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Faisal al-Fayez / 费萨尔·法耶兹,2003,2005
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Adnan Badran / 阿德南·巴德兰,2005,2005
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Marouf al-Bakhit / 马鲁夫·巴希特,2005,2007
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Nader al-Dahabi / 纳德尔·达哈比,2007,2009
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Samir Rifai / 萨米尔·里法伊,2009,2011
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Marouf al-Bakhit / 马鲁夫·巴希特,2011,2011
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Awn al-Khasawneh / 奥恩·哈萨乌内赫,2011,2012
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Fayez Tarawneh / 法耶兹·塔拉芙纳,2012,2012
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Abdullah Ensour / 阿卜杜拉·恩苏尔,2012,2016
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Hani Mulki / 哈尼·穆尔基,2016,2018
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Omar Razzaz / 欧麦尔·拉扎兹,2018,2020
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Bisher Khasawneh / 比沙尔·哈萨乌内赫,2020,2024
+Hashemite Kingdom of Jordan / 约旦哈希姆王国,Prime Minister / 总理,Jafar Hassan / 贾法尔·哈桑,2024,2026
+State of Israel / 以色列国,President / 总统,Chaim Weizmann / 哈伊姆·魏茨曼,1948,1952
+State of Israel / 以色列国,President / 总统,Yosef Sprinzak / 约瑟夫·斯普林察克,1952,1952
+State of Israel / 以色列国,President / 总统,Yitzhak Ben-Zvi / 伊扎克·本-茨维,1952,1963
+State of Israel / 以色列国,President / 总统,Zalman Shazar / 扎尔曼·沙扎尔,1963,1973
+State of Israel / 以色列国,President / 总统,Ephraim Katzir / 埃夫拉伊姆·卡齐尔,1973,1978
+State of Israel / 以色列国,President / 总统,Yitzhak Navon / 伊扎克·纳冯,1978,1983
+State of Israel / 以色列国,President / 总统,Chaim Herzog / 哈伊姆·赫尔佐格,1983,1993
+State of Israel / 以色列国,President / 总统,Ezer Weizman / 埃泽尔·魏茨曼,1993,2000
+State of Israel / 以色列国,President / 总统,Moshe Katsav / 摩西·卡察夫,2000,2007
+State of Israel / 以色列国,President / 总统,Shimon Peres / 西蒙·佩雷斯,2007,2014
+State of Israel / 以色列国,President / 总统,Reuven Rivlin / 鲁文·里夫林,2014,2021
+State of Israel / 以色列国,President / 总统,Isaac Herzog / 伊扎克·赫尔佐格,2021,2026
+State of Israel / 以色列国,Prime Minister / 总理,David Ben-Gurion / 大卫·本-古里安,1948,1953
+State of Israel / 以色列国,Prime Minister / 总理,Moshe Sharett / 摩西·沙雷特,1953,1955
+State of Israel / 以色列国,Prime Minister / 总理,David Ben-Gurion / 大卫·本-古里安,1955,1963
+State of Israel / 以色列国,Prime Minister / 总理,Levi Eshkol / 列维·艾希科尔,1963,1969
+State of Israel / 以色列国,Prime Minister / 总理,Golda Meir / 果尔达·梅厄,1969,1974
+State of Israel / 以色列国,Prime Minister / 总理,Yitzhak Rabin / 伊扎克·拉宾,1974,1977
+State of Israel / 以色列国,Prime Minister / 总理,Menachem Begin / 梅纳赫姆·贝京,1977,1983
+State of Israel / 以色列国,Prime Minister / 总理,Yitzhak Shamir / 伊扎克·沙米尔,1983,1984
+State of Israel / 以色列国,Prime Minister / 总理,Shimon Peres / 西蒙·佩雷斯,1984,1986
+State of Israel / 以色列国,Prime Minister / 总理,Yitzhak Shamir / 伊扎克·沙米尔,1986,1992
+State of Israel / 以色列国,Prime Minister / 总理,Yitzhak Rabin / 伊扎克·拉宾,1992,1995
+State of Israel / 以色列国,Prime Minister / 总理,Shimon Peres / 西蒙·佩雷斯,1995,1996
+State of Israel / 以色列国,Prime Minister / 总理,Benjamin Netanyahu / 本雅明·内塔尼亚胡,1996,1999
+State of Israel / 以色列国,Prime Minister / 总理,Ehud Barak / 埃胡德·巴拉克,1999,2001
+State of Israel / 以色列国,Prime Minister / 总理,Ariel Sharon / 阿里埃勒·沙龙,2001,2006
+State of Israel / 以色列国,Prime Minister / 总理,Ehud Olmert / 埃胡德·奥尔默特,2006,2009
+State of Israel / 以色列国,Prime Minister / 总理,Benjamin Netanyahu / 本雅明·内塔尼亚胡,2009,2021
+State of Israel / 以色列国,Prime Minister / 总理,Naftali Bennett / 纳夫塔利·贝内特,2021,2022
+State of Israel / 以色列国,Prime Minister / 总理,Yair Lapid / 亚伊尔·拉皮德,2022,2022
+State of Israel / 以色列国,Prime Minister / 总理,Benjamin Netanyahu / 本雅明·内塔尼亚胡,2022,2026
+Republic of Iraq (First Republic) / 伊拉克共和国（第一共和国）,President / 总统,Muhammad Najib ar-Ruba'i / 穆罕默德·纳吉卜·鲁拜伊,1958,1963
+Republic of Iraq (First Republic) / 伊拉克共和国（第一共和国）,President / 总统,Abdul Salam Arif / 阿卜杜勒·萨拉姆·阿里夫,1963,1966
+Republic of Iraq (First Republic) / 伊拉克共和国（第一共和国）,President / 总统,Abdul Rahman Arif / 阿卜杜勒-拉赫曼·阿里夫,1966,1968
+Republic of Iraq (First Republic) / 伊拉克共和国（第一共和国）,Prime Minister / 总理,Abd al-Karim Qasim / 阿卜杜勒-卡里姆·卡西姆,1958,1963
+Republic of Iraq (First Republic) / 伊拉克共和国（第一共和国）,Prime Minister / 总理,Ahmed Hassan al-Bakr / 艾哈迈德·哈桑·贝克尔,1963,1963
+Republic of Iraq (First Republic) / 伊拉克共和国（第一共和国）,Prime Minister / 总理,Tahir Yahya / 塔希尔·叶海亚,1963,1965
+Republic of Iraq (First Republic) / 伊拉克共和国（第一共和国）,Prime Minister / 总理,Arif Abd al-Razzaq / 阿里夫·阿卜杜勒-拉扎克,1965,1965
+Republic of Iraq (First Republic) / 伊拉克共和国（第一共和国）,Prime Minister / 总理,Abd al-Rahman al-Bazzaz / 阿卜杜勒-拉赫曼·巴扎兹,1965,1966
+Republic of Iraq (First Republic) / 伊拉克共和国（第一共和国）,Prime Minister / 总理,Naji Talib / 纳吉·塔利卜,1966,1967
+Republic of Iraq (First Republic) / 伊拉克共和国（第一共和国）,Prime Minister / 总理,Abdul Rahman Arif / 阿卜杜勒-拉赫曼·阿里夫,1967,1967
+Republic of Iraq (First Republic) / 伊拉克共和国（第一共和国）,Prime Minister / 总理,Tahir Yahya / 塔希尔·叶海亚,1967,1968
+Republic of Cyprus / 塞浦路斯共和国,President / 总统,Makarios III / 马卡里奥斯三世,1960,1974
+Republic of Cyprus / 塞浦路斯共和国,President / 总统,Glafcos Clerides / 格拉夫科斯·克利里季斯,1974,1974
+Republic of Cyprus / 塞浦路斯共和国,President / 总统,Makarios III / 马卡里奥斯三世,1974,1977
+Republic of Cyprus / 塞浦路斯共和国,President / 总统,Spyros Kyprianou / 斯皮罗斯·基普里亚努,1977,1988
+Republic of Cyprus / 塞浦路斯共和国,President / 总统,George Vassiliou / 乔治·瓦西利乌,1988,1993
+Republic of Cyprus / 塞浦路斯共和国,President / 总统,Glafcos Clerides / 格拉夫科斯·克利里季斯,1993,2003
+Republic of Cyprus / 塞浦路斯共和国,President / 总统,Tassos Papadopoulos / 塔索斯·帕帕佐普洛斯,2003,2008
+Republic of Cyprus / 塞浦路斯共和国,President / 总统,Demetris Christofias / 迪米特里斯·赫里斯托菲亚斯,2008,2013
+Republic of Cyprus / 塞浦路斯共和国,President / 总统,Nicos Anastasiades / 尼科斯·阿纳斯塔夏季斯,2013,2023
+Republic of Cyprus / 塞浦路斯共和国,President / 总统,Nikos Christodoulides / 尼科斯·赫里斯托杜利季斯,2023,2026
+State of Kuwait / 科威特国,Emir / 埃米尔,Abdullah Al-Salim Al-Sabah / 阿卜杜拉·萨利姆·萨巴赫,1961,1965
+State of Kuwait / 科威特国,Emir / 埃米尔,Sabah Al-Salim Al-Sabah / 萨巴赫·萨利姆·萨巴赫,1965,1977
+State of Kuwait / 科威特国,Emir / 埃米尔,Jaber Al-Ahmad Al-Jaber Al-Sabah / 贾比尔·艾哈迈德·萨巴赫,1977,2006
+State of Kuwait / 科威特国,Emir / 埃米尔,Saad Al-Salim Al-Sabah / 萨阿德·萨利姆·萨巴赫,2006,2006
+State of Kuwait / 科威特国,Emir / 埃米尔,Sabah Al-Ahmad Al-Jaber Al-Sabah / 萨巴赫·艾哈迈德·萨巴赫,2006,2020
+State of Kuwait / 科威特国,Emir / 埃米尔,Nawaf Al-Ahmad Al-Jaber Al-Sabah / 纳瓦夫·艾哈迈德·萨巴赫,2020,2023
+State of Kuwait / 科威特国,Emir / 埃米尔,Mishal Al-Ahmad Al-Jaber Al-Sabah / 米沙尔·艾哈迈德·萨巴赫,2023,2026
+State of Kuwait / 科威特国,Prime Minister / 总理,Abdullah Al-Salim Al-Sabah / 阿卜杜拉·萨利姆·萨巴赫,1962,1963
+State of Kuwait / 科威特国,Prime Minister / 总理,Sabah Al-Salim Al-Sabah / 萨巴赫·萨利姆·萨巴赫,1963,1965
+State of Kuwait / 科威特国,Prime Minister / 总理,Jaber Al-Ahmad Al-Jaber Al-Sabah / 贾比尔·艾哈迈德·萨巴赫,1965,1978
+State of Kuwait / 科威特国,Prime Minister / 总理,Saad Al-Abdullah Al-Salim Al-Sabah / 萨阿德·阿卜杜拉·萨巴赫,1978,2003
+State of Kuwait / 科威特国,Prime Minister / 总理,Sabah Al-Ahmad Al-Jaber Al-Sabah / 萨巴赫·艾哈迈德·萨巴赫,2003,2006
+State of Kuwait / 科威特国,Prime Minister / 总理,Nasser Mohammed Al-Ahmed Al-Sabah / 纳赛尔·穆罕默德·萨巴赫,2006,2011
+State of Kuwait / 科威特国,Prime Minister / 总理,Jaber Al-Mubarak Al-Hamad Al-Sabah / 贾比尔·穆巴拉克·萨巴赫,2011,2019
+State of Kuwait / 科威特国,Prime Minister / 总理,Sabah Al-Khalid Al-Hamad Al-Sabah / 萨巴赫·哈立德·萨巴赫,2019,2022
+State of Kuwait / 科威特国,Prime Minister / 总理,Ahmad Nawaf Al-Ahmad Al-Sabah / 艾哈迈德·纳瓦夫·萨巴赫,2022,2023
+State of Kuwait / 科威特国,Prime Minister / 总理,Mohammad Sabah Al-Salem Al-Sabah / 穆罕默德·萨巴赫·萨利姆·萨巴赫,2024,2024
+State of Kuwait / 科威特国,Prime Minister / 总理,Ahmad Al-Abdullah Al-Sabah / 艾哈迈德·阿卜杜拉·萨巴赫,2024,2026
+Yemen Arab Republic / 阿拉伯也门共和国,President / 总统,Abdullah al-Sallal / 阿卜杜拉·萨拉勒,1962,1967
+Yemen Arab Republic / 阿拉伯也门共和国,President / 总统,Abdul Rahman al-Iryani / 阿卜杜勒-拉赫曼·伊里亚尼,1967,1974
+Yemen Arab Republic / 阿拉伯也门共和国,President / 总统,Ibrahim al-Hamdi / 易卜拉欣·哈姆迪,1974,1977
+Yemen Arab Republic / 阿拉伯也门共和国,President / 总统,Ahmad al-Ghashmi / 艾哈迈德·加什米,1977,1978
+Yemen Arab Republic / 阿拉伯也门共和国,President / 总统,Abdul Karim al-Arashi / 阿卜杜勒-卡里姆·阿拉希,1978,1978
+Yemen Arab Republic / 阿拉伯也门共和国,President / 总统,Ali Abdullah Saleh / 阿里·阿卜杜拉·萨利赫,1978,1990
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Abdullah al-Sallal / 阿卜杜拉·萨拉勒,1962,1963
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Abdul Latif Dayfallah / 阿卜杜勒-拉蒂夫·达法拉,1963,1963
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Abdul Rahman al-Iryani / 阿卜杜勒-拉赫曼·伊里亚尼,1963,1964
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Hassan al-Amri / 哈桑·阿姆里,1964,1964
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Hamoud al-Gayifi / 哈穆德·盖菲,1964,1965
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Hassan al-Amri / 哈桑·阿姆里,1965,1965
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Ahmad Muhammad Numan / 艾哈迈德·穆罕默德·努曼,1965,1965
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Abdullah al-Sallal / 阿卜杜拉·萨拉勒,1965,1965
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Hassan al-Amri / 哈桑·阿姆里,1965,1967
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Abdullah al-Sallal / 阿卜杜拉·萨拉勒,1966,1967
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Mohsin Ahmad al-Aini / 穆赫辛·艾哈迈德·艾尼,1967,1967
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Hassan al-Amri / 哈桑·阿姆里,1967,1969
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Mohsin Ahmad al-Aini / 穆赫辛·艾哈迈德·艾尼,1969,1969
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Abdullah Kurshumi / 阿卜杜拉·库尔胡米,1969,1970
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Mohsin Ahmad al-Aini / 穆赫辛·艾哈迈德·艾尼,1970,1971
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Ahmad Muhammad Numan / 艾哈迈德·穆罕默德·努曼,1971,1971
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Hassan al-Amri / 哈桑·阿姆里,1971,1971
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Mohsin Ahmad al-Aini / 穆赫辛·艾哈迈德·艾尼,1971,1972
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Kadhi Abdullah al-Hagri / 卡迪·阿卜杜拉·哈杰里,1972,1974
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Hassan Muhammad Makki / 哈桑·穆罕默德·马基,1974,1974
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Mohsin Ahmad al-Aini / 穆赫辛·艾哈迈德·艾尼,1974,1975
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Abdul Aziz Abdul Ghani / 阿卜杜勒-阿齐兹·阿卜杜勒-加尼,1975,1980
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Abd al-Karim al-Iryani / 阿卜杜勒-卡里姆·伊里亚尼,1980,1983
+Yemen Arab Republic / 阿拉伯也门共和国,Prime Minister / 总理,Abdul Aziz Abdul Ghani / 阿卜杜勒-阿齐兹·阿卜杜勒-加尼,1983,1990
+Syrian Arab Republic (Ba'athist) / 阿拉伯叙利亚共和国（复兴党政权）,President / 总统,Lu'ay al-Atassi / 卢艾·阿塔西,1963,1963
+Syrian Arab Republic (Ba'athist) / 阿拉伯叙利亚共和国（复兴党政权）,President / 总统,Amin al-Hafiz / 阿明·哈菲兹,1963,1966
+Syrian Arab Republic (Ba'athist) / 阿拉伯叙利亚共和国（复兴党政权）,President / 总统,Nureddin al-Atassi / 努雷丁·阿塔西,1966,1970
+Syrian Arab Republic (Ba'athist) / 阿拉伯叙利亚共和国（复兴党政权）,President / 总统,Ahmad al-Khatib / 艾哈迈德·哈提卜,1970,1971
+Syrian Arab Republic (Ba'athist) / 阿拉伯叙利亚共和国（复兴党政权）,President / 总统,Hafez al-Assad / 哈菲兹·阿萨德,1971,2000
+Syrian Arab Republic (Ba'athist) / 阿拉伯叙利亚共和国（复兴党政权）,President / 总统,Abdul Halim Khaddam / 阿卜杜勒-哈利姆·哈达姆,2000,2000
+Syrian Arab Republic (Ba'athist) / 阿拉伯叙利亚共和国（复兴党政权）,President / 总统,Bashar al-Assad / 巴沙尔·阿萨德,2000,2024
+Syrian Arab Republic (Ba'athist) / 阿拉伯叙利亚共和国（复兴党政权）,Assistant Regional Secretary of SRB / 叙利亚复兴党地区副书记,Salah Jadid / 萨拉赫·贾迪德,1966,1970
+Georgia / 格鲁吉亚,President / 总统,Zviad Gamsakhurdia / 兹维亚德·加姆萨胡尔季亚,1991,1992
+Georgia / 格鲁吉亚,Chairman of Parliament / 议会主席,Eduard Shevardnadze / 爱德华·谢瓦尔德纳泽,1992,1995
+Georgia / 格鲁吉亚,President / 总统,Eduard Shevardnadze / 爱德华·谢瓦尔德纳泽,1995,2003
+Georgia / 格鲁吉亚,President / 总统,Nino Burjanadze / 尼诺·布尔贾纳泽,2003,2004
+Georgia / 格鲁吉亚,President / 总统,Mikheil Saakashvili / 米哈伊尔·萨卡什维利,2004,2007
+Georgia / 格鲁吉亚,President / 总统,Nino Burjanadze / 尼诺·布尔贾纳泽,2007,2008
+Georgia / 格鲁吉亚,President / 总统,Mikheil Saakashvili / 米哈伊尔·萨卡什维利,2008,2013
+Georgia / 格鲁吉亚,President / 总统,Giorgi Margvelashvili / 乔治·马尔格韦拉什维利,2013,2018
+Georgia / 格鲁吉亚,President / 总统,Salome Zourabichvili / 萨洛梅·祖拉比什维利,2018,2024
+Georgia / 格鲁吉亚,President / 总统,Mikheil Kavelashvili / 米哈伊尔·卡韦拉什维利,2024,2026
+Georgia / 格鲁吉亚,Prime Minister / 总理,Tengiz Sigua / 滕吉兹·西古阿,1991,1991
+Georgia / 格鲁吉亚,Prime Minister / 总理,Besarion Gugushvili / 贝萨里昂·古古什维利,1991,1992
+Georgia / 格鲁吉亚,Prime Minister / 总理,Tengiz Sigua / 滕吉兹·西古阿,1992,1993
+Georgia / 格鲁吉亚,Prime Minister / 总理,Otar Patsatsia / 奥塔尔·帕察齐亚,1993,1995
+Georgia / 格鲁吉亚,State Minister / 国务部长,Niko Lekishvili / 尼科·列基什维利,1995,1998
+Georgia / 格鲁吉亚,State Minister / 国务部长,Vazha Lortkipanidze / 瓦扎·洛尔特基帕尼泽,1998,2000
+Georgia / 格鲁吉亚,State Minister / 国务部长,Giorgi Arsenishvili / 乔治·阿尔谢尼什维利,2000,2001
+Georgia / 格鲁吉亚,State Minister / 国务部长,Avtandil Jorbenadze / 阿夫坦季尔·乔尔别纳泽,2001,2003
+Georgia / 格鲁吉亚,State Minister / 国务部长,Zurab Zhvania / 祖拉布·日瓦尼亚,2003,2004
+Georgia / 格鲁吉亚,Prime Minister / 总理,Zurab Zhvania / 祖拉布·日瓦尼亚,2004,2005
+Georgia / 格鲁吉亚,Prime Minister / 总理,Zurab Nogaideli / 祖拉布·诺盖代利,2005,2007
+Georgia / 格鲁吉亚,Prime Minister / 总理,Lado Gurgenidze / 拉多·古尔格尼泽,2007,2008
+Georgia / 格鲁吉亚,Prime Minister / 总理,Grigol Mgaloblishvili / 格里戈尔·姆加洛布利什维利,2008,2009
+Georgia / 格鲁吉亚,Prime Minister / 总理,Nika Gilauri / 尼卡·吉拉乌里,2009,2012
+Georgia / 格鲁吉亚,Prime Minister / 总理,Vano Merabishvili / 瓦诺·梅拉比什维利,2012,2012
+Georgia / 格鲁吉亚,Prime Minister / 总理,Bidzina Ivanishvili / 比兹纳·伊万尼什维利,2012,2013
+Georgia / 格鲁吉亚,Prime Minister / 总理,Irakli Garibashvili / 伊拉克利·加里巴什维利,2013,2015
+Georgia / 格鲁吉亚,Prime Minister / 总理,Giorgi Kvirikashvili / 乔治·克维里卡什维利,2015,2018
+Georgia / 格鲁吉亚,Prime Minister / 总理,Mamuka Bakhtadze / 马穆卡·巴赫塔泽,2018,2019
+Georgia / 格鲁吉亚,Prime Minister / 总理,Giorgi Gakharia / 乔治·加哈里亚,2019,2021
+Georgia / 格鲁吉亚,Prime Minister / 总理,Irakli Garibashvili / 伊拉克利·加里巴什维利,2021,2024
+Georgia / 格鲁吉亚,Prime Minister / 总理,Irakli Kobakhidze / 伊拉克利·科巴希泽,2024,2026
+Republic of Artsakh / 阿尔察赫共和国,President / 总统,Robert Kocharyan / 罗伯特·科恰良,1994,1997
+Republic of Artsakh / 阿尔察赫共和国,President / 总统,Leonard Petrosyan / 列昂纳德·彼得罗相,1997,1997
+Republic of Artsakh / 阿尔察赫共和国,President / 总统,Arkadi Ghukasyan / 阿尔卡季·古卡相,1997,2007
+Republic of Artsakh / 阿尔察赫共和国,President / 总统,Bako Sahakyan / 巴科·萨哈基扬,2007,2020
+Republic of Artsakh / 阿尔察赫共和国,President / 总统,Arayik Harutyunyan / 阿拉伊克·哈鲁蒂扬,2020,2023
+Republic of Artsakh / 阿尔察赫共和国,President / 总统,Samvel Shahramanyan / 萨姆维尔·沙赫拉马尼扬,2023,2023
+Republic of Artsakh / 阿尔察赫共和国,Prime Minister / 总理,Oleg Yesayan / 奥列格·叶萨扬,1992,1992
+Republic of Artsakh / 阿尔察赫共和国,Prime Minister / 总理,Robert Kocharyan / 罗伯特·科恰良,1992,1994
+Republic of South Ossetia / 南奥塞梯共和国,Chairman of the Supreme Soviet / 最高苏维埃主席,Torez Kulumbegov / 托列兹·库伦别戈夫,1991,1991
+Republic of South Ossetia / 南奥塞梯共和国,Chairman of the Supreme Soviet / 最高苏维埃主席,Znaur Gassiev / 兹纳乌尔·加谢夫,1991,1992
+Republic of South Ossetia / 南奥塞梯共和国,Chairman of the State Nyhas / 国家议会主席,Torez Kulumbegov / 托列兹·库伦别戈夫,1992,1993
+Republic of South Ossetia / 南奥塞梯共和国,Chairman of the State Nyhas / 国家议会主席,Lyudvig Chibirov / 柳德维格·奇比罗夫,1993,1996
+Republic of South Ossetia / 南奥塞梯共和国,President / 总统,Lyudvig Chibirov / 柳德维格·奇比罗夫,1996,2001
+Republic of South Ossetia / 南奥塞梯共和国,President / 总统,Eduard Kokoity / 爱德华·科科伊季,2001,2011
+Republic of South Ossetia / 南奥塞梯共和国,President / 总统,Vadim Brovtsev / 瓦季姆·布罗夫采夫,2011,2012
+Republic of South Ossetia / 南奥塞梯共和国,President / 总统,Leonid Tibilov / 列昂尼德·蒂比洛夫,2012,2017
+Republic of South Ossetia / 南奥塞梯共和国,President / 总统,Anatoly Bibilov / 阿纳托利·比比洛夫,2017,2022
+Republic of South Ossetia / 南奥塞梯共和国,President / 总统,Alan Gagloev / 阿兰·加格洛耶夫,2022,2026
+Republic of Abkhazia / 阿布哈兹共和国,Chairman of the Supreme Soviet / 最高苏维埃主席,Vladislav Ardzinba / 弗拉季斯拉夫·阿尔津巴,1992,1994
+Republic of Abkhazia / 阿布哈兹共和国,President / 总统,Vladislav Ardzinba / 弗拉季斯拉夫·阿尔津巴,1994,2005
+Republic of Abkhazia / 阿布哈兹共和国,President / 总统,Sergei Bagapsh / 谢尔盖·巴加普什,2005,2011
+Republic of Abkhazia / 阿布哈兹共和国,President / 总统,Alexander Ankvab / 亚历山大·安克瓦布,2011,2014
+Republic of Abkhazia / 阿布哈兹共和国,President / 总统,Valeri Bganba / 瓦列里·布干巴,2014,2014
+Republic of Abkhazia / 阿布哈兹共和国,President / 总统,Raul Khajimba / 劳尔·哈吉姆巴,2014,2020
+Republic of Abkhazia / 阿布哈兹共和国,President / 总统,Valeri Bganba / 瓦列里·布干巴,2020,2020
+Republic of Abkhazia / 阿布哈兹共和国,President / 总统,Aslan Bzhania / 阿斯兰·布扎尼亚,2020,2024
+Republic of Abkhazia / 阿布哈兹共和国,President / 总统,Badra Gunba / 巴德拉·贡巴,2024,2026
+Republic of Iraq / 伊拉克共和国,President / 总统,Ghazi Mashal Ajil al-Yawer / 加齐·亚瓦尔,2004,2005
+Republic of Iraq / 伊拉克共和国,President / 总统,Jalal Talabani / 贾拉勒·塔拉巴尼,2005,2014
+Republic of Iraq / 伊拉克共和国,President / 总统,Fuad Masum / 富阿德·马苏姆,2014,2018
+Republic of Iraq / 伊拉克共和国,President / 总统,Barham Salih / 巴尔汉·萨利赫,2018,2022
+Republic of Iraq / 伊拉克共和国,President / 总统,Abdul Latif Rashid / 阿卜杜勒-拉蒂夫·拉希德,2022,2026
+Republic of Iraq / 伊拉克共和国,President / 总统,Nizar Amidi / 尼扎尔·阿米迪,2026,2026
+Republic of Iraq / 伊拉克共和国,Prime Minister / 总理,Ayad Allawi / 伊亚德·阿拉维,2004,2005
+Republic of Iraq / 伊拉克共和国,Prime Minister / 总理,Ibrahim al-Jaafari / 易卜拉欣·贾法里,2005,2006
+Republic of Iraq / 伊拉克共和国,Prime Minister / 总理,Nouri al-Maliki / 努里·马利基,2006,2014
+Republic of Iraq / 伊拉克共和国,Prime Minister / 总理,Haider al-Abadi / 海德尔·阿巴迪,2014,2018
+Republic of Iraq / 伊拉克共和国,Prime Minister / 总理,Adil Abdul-Mahdi / 阿迪勒·阿卜杜勒-迈赫迪,2018,2020
+Republic of Iraq / 伊拉克共和国,Prime Minister / 总理,Mustafa Al-Kadhimi / 穆斯塔法·卡迪米,2020,2022
+Republic of Iraq / 伊拉克共和国,Prime Minister / 总理,Mohammed Shia al-Sudani / 穆罕默德·希亚·苏达尼,2022,2026
+Republic of Iraq / 伊拉克共和国,Prime Minister / 总理,Ali al-Zaidi / 阿里·扎伊迪,2026,2026
+Syrian Arab Republic / 阿拉伯叙利亚共和国,President / 总统,Ahmed al-Sharaa / 艾哈迈德·沙拉,2024,2026
+People's Democratic Republic of Yemen / 也门民主人民共和国,General Secretary of YSP / 也门社会党总书记,Qahtan Muhammad al-Shaabi / 卡赫坦·穆罕默德·沙比,1967,1969
+People's Democratic Republic of Yemen / 也门民主人民共和国,General Secretary of YSP / 也门社会党总书记,Abdul Fattah Ismail / 阿卜杜勒·法塔赫·伊斯马仪,1969,1980
+People's Democratic Republic of Yemen / 也门民主人民共和国,General Secretary of YSP / 也门社会党总书记,Ali Nasir Muhammad / 阿里·纳赛尔·穆罕默德,1980,1986
+People's Democratic Republic of Yemen / 也门民主人民共和国,General Secretary of YSP / 也门社会党总书记,Ali Salem al-Beidh / 阿里·萨利姆·白德,1986,1990
+People's Democratic Republic of Yemen / 也门民主人民共和国,President / 总统,Qahtan Muhammad al-Shaabi / 卡赫坦·穆罕默德·沙比,1967,1969
+People's Democratic Republic of Yemen / 也门民主人民共和国,Chairman of the Presidential Council / 总统委员会主席,Salim Rubaya Ali / 萨利姆·鲁巴伊·阿里,1969,1978
+People's Democratic Republic of Yemen / 也门民主人民共和国,Chairman of the Presidential Council / 总统委员会主席,Ali Nasir Muhammad / 阿里·纳赛尔·穆罕默德,1978,1978
+People's Democratic Republic of Yemen / 也门民主人民共和国,Chairman of the Presidium of the Supreme People's Council / 最高人民委员会主席团主席,Abdul Fattah Ismail / 阿卜杜勒·法塔赫·伊斯马仪,1978,1980
+People's Democratic Republic of Yemen / 也门民主人民共和国,Chairman of the Presidium of the Supreme People's Council / 最高人民委员会主席团主席,Ali Nasir Muhammad / 阿里·纳赛尔·穆罕默德,1980,1986
+People's Democratic Republic of Yemen / 也门民主人民共和国,Chairman of the Presidium of the Supreme People's Council / 最高人民委员会主席团主席,Haidar Abu Bakr al-Attas / 海达尔·阿布·巴克尔·阿塔斯,1986,1990
+Republic of Iraq (Ba'athist) / 伊拉克共和国（复兴党政权）,Regional Secretary of IRB / 伊拉克复兴党地区书记,Ahmed Hassan al-Bakr / 艾哈迈德·哈桑·贝克尔,1968,1979
+Republic of Iraq (Ba'athist) / 伊拉克共和国（复兴党政权）,Regional Secretary of IRB / 伊拉克复兴党地区书记,Saddam Hussein / 萨达姆·侯赛因,1979,2003
+Republic of Iraq (Ba'athist) / 伊拉克共和国（复兴党政权）,President / 总统,Ahmed Hassan al-Bakr / 艾哈迈德·哈桑·贝克尔,1968,1979
+Republic of Iraq (Ba'athist) / 伊拉克共和国（复兴党政权）,President / 总统,Saddam Hussein / 萨达姆·侯赛因,1979,2003
+Sultanate of Oman / 阿曼苏丹国,Sultan / 苏丹,Qaboos bin Said / 卡布斯·本·赛义德,1970,2020
+Sultanate of Oman / 阿曼苏丹国,Sultan / 苏丹,Haitham bin Tariq / 哈伊萨姆·本·塔里克,2020,2026
+United Arab Emirates / 阿拉伯联合酋长国,President / 总统,Zayed bin Sultan Al Nahyan / 扎耶德·本·苏尔坦·阿勒纳哈扬,1971,2004
+United Arab Emirates / 阿拉伯联合酋长国,President / 总统,Khalifa bin Zayed Al Nahyan / 哈利法·本·扎耶德·阿勒纳哈扬,2004,2022
+United Arab Emirates / 阿拉伯联合酋长国,President / 总统,Mohamed bin Zayed Al Nahyan / 穆罕默德·本·扎耶德·阿勒纳哈扬,2022,2026
+United Arab Emirates / 阿拉伯联合酋长国,Prime Minister / 总理,Maktoum bin Rashid Al Maktoum / 马克图姆·本·拉希德·阿勒马克图姆,1971,1979
+United Arab Emirates / 阿拉伯联合酋长国,Prime Minister / 总理,Rashid bin Saeed Al Maktoum / 拉希德·本·赛义德·阿勒马克图姆,1979,1990
+United Arab Emirates / 阿拉伯联合酋长国,Prime Minister / 总理,Maktoum bin Rashid Al Maktoum / 马克图姆·本·拉希德·阿勒马克图姆,1990,2006
+United Arab Emirates / 阿拉伯联合酋长国,Prime Minister / 总理,Mohammed bin Rashid Al Maktoum / 穆罕默德·本·拉希德·阿勒马克图姆,2006,2026
+State of Qatar / 卡塔尔国,Emir / 埃米尔,Ahmad bin Ali Al Thani / 艾哈迈德·本·阿里·阿勒萨尼,1971,1972
+State of Qatar / 卡塔尔国,Emir / 埃米尔,Khalifa bin Hamad Al Thani / 哈利法·本·哈马德·阿勒萨尼,1972,1995
+State of Qatar / 卡塔尔国,Emir / 埃米尔,Hamad bin Khalifa Al Thani / 哈马德·本·哈利法·阿勒萨尼,1995,2013
+State of Qatar / 卡塔尔国,Emir / 埃米尔,Tamim bin Hamad Al Thani / 塔米姆·本·哈马德·阿勒萨尼,2013,2026
+State of Qatar / 卡塔尔国,Prime Minister / 总理,Khalifa bin Hamad Al Thani / 哈利法·本·哈马德·阿勒萨尼,1971,1995
+State of Qatar / 卡塔尔国,Prime Minister / 总理,Hamad bin Khalifa Al Thani / 哈马德·本·哈利法·阿勒萨尼,1995,1996
+State of Qatar / 卡塔尔国,Prime Minister / 总理,Abdullah bin Khalifa Al Thani / 阿卜杜拉·本·哈利法·阿勒萨尼,1996,2007
+State of Qatar / 卡塔尔国,Prime Minister / 总理,Hamad bin Jassim bin Jaber Al Thani / 哈马德·本·贾西姆·本·贾比尔·阿勒萨尼,2007,2013
+State of Qatar / 卡塔尔国,Prime Minister / 总理,Abdullah bin Nasser bin Khalifa Al Thani / 阿卜杜拉·本·纳赛尔·本·哈利法·阿勒萨尼,2013,2020
+State of Qatar / 卡塔尔国,Prime Minister / 总理,Khalid bin Khalifa bin Abdul Aziz Al Thani / 哈立德·本·哈利法·本·阿卜杜勒-阿齐兹·阿勒萨尼,2020,2023
+State of Qatar / 卡塔尔国,Prime Minister / 总理,Mohammed bin Abdulrahman bin Jassim Al Thani / 穆罕默德·本·阿卜杜勒拉赫曼·本·贾西姆·阿勒萨尼,2023,2026
+Kingdom of Bahrain / 巴林王国,Emir / 埃米尔,Isa bin Salman Al Khalifa / 伊萨·本·萨勒曼·阿勒哈利法,1971,1999
+Kingdom of Bahrain / 巴林王国,Emir / 埃米尔,Hamad bin Isa Al Khalifa / 哈马德·本·伊萨·阿勒哈利法,1999,2002
+Kingdom of Bahrain / 巴林王国,King / 国王,Hamad bin Isa Al Khalifa / 哈马德·本·伊萨·阿勒哈利法,2002,2026
+Kingdom of Bahrain / 巴林王国,Prime Minister / 总理,Khalifa bin Salman Al Khalifa / 哈利法·本·萨勒曼·阿勒哈利法,1971,2020
+Kingdom of Bahrain / 巴林王国,Prime Minister / 总理,Salman bin Hamad Al Khalifa / 萨勒曼·本·哈马德·阿勒哈利法,2020,2026
+Islamic Republic of Iran / 伊朗伊斯兰共和国,Supreme Leader / 最高领袖,Ruhollah Khomeini / 鲁霍拉·霍梅尼,1979,1989
+Islamic Republic of Iran / 伊朗伊斯兰共和国,Supreme Leader / 最高领袖,Ali Khamenei / 阿里·哈梅内伊,1989,2026
+Islamic Republic of Iran / 伊朗伊斯兰共和国,Supreme Leader / 最高领袖,Mojtaba Khamenei / 穆杰塔巴·哈梅内伊,2026,2026
+Islamic Republic of Iran / 伊朗伊斯兰共和国,President / 总统,Abolhassan Banisadr / 阿博尔哈桑·巴尼萨德尔,1980,1981
+Islamic Republic of Iran / 伊朗伊斯兰共和国,President / 总统,Ali Khamenei / 阿里·哈梅内伊,1981,1989
+Islamic Republic of Iran / 伊朗伊斯兰共和国,President / 总统,Akbar Hashemi Rafsanjani / 阿克巴尔·哈什米·拉夫桑贾尼,1989,1997
+Islamic Republic of Iran / 伊朗伊斯兰共和国,President / 总统,Mohammad Khatami / 穆罕默德·哈塔米,1997,2005
+Islamic Republic of Iran / 伊朗伊斯兰共和国,President / 总统,Mahmoud Ahmadinejad / 马哈茂德·艾哈迈迪内贾德,2005,2013
+Islamic Republic of Iran / 伊朗伊斯兰共和国,President / 总统,Hassan Rouhani / 哈桑·鲁哈尼,2013,2021
+Islamic Republic of Iran / 伊朗伊斯兰共和国,President / 总统,Ebrahim Raisi / 易卜拉欣·莱希,2021,2024
+Islamic Republic of Iran / 伊朗伊斯兰共和国,President / 总统,Mohammad Mokhber / 穆罕默德·穆赫贝尔,2024,2024
+Islamic Republic of Iran / 伊朗伊斯兰共和国,President / 总统,Masoud Pezeshkian / 马苏德·佩泽什基安,2024,2026
+Turkish Republic of Northern Cyprus / 北塞浦路斯土耳其共和国,President / 总统,Rauf Denktaş / 拉乌夫·登克塔什,1983,1990
+Turkish Republic of Northern Cyprus / 北塞浦路斯土耳其共和国,President / 总统,Hakkı Atun / 哈基·阿敦,1990,1990
+Turkish Republic of Northern Cyprus / 北塞浦路斯土耳其共和国,President / 总统,Rauf Denktaş / 拉乌夫·登克塔什,1990,2005
+Turkish Republic of Northern Cyprus / 北塞浦路斯土耳其共和国,President / 总统,Mehmet Ali Talat / 穆罕默德·阿里·塔拉特,2005,2010
+Turkish Republic of Northern Cyprus / 北塞浦路斯土耳其共和国,President / 总统,Derviş Eroğlu / 德尔维什·埃罗格鲁,2010,2015
+Turkish Republic of Northern Cyprus / 北塞浦路斯土耳其共和国,President / 总统,Mustafa Akıncı / 穆斯塔法·阿金吉,2015,2020
+Turkish Republic of Northern Cyprus / 北塞浦路斯土耳其共和国,President / 总统,Ersin Tatar / 埃尔辛·塔塔尔,2020,2025
+Turkish Republic of Northern Cyprus / 北塞浦路斯土耳其共和国,President / 总统,Tufan Erhürman / 图凡·埃尔许尔曼,2025,2026
+State of Palestine / 巴勒斯坦国,President / 总统,Yasser Arafat / 亚西尔·阿拉法特,1989,2004
+State of Palestine / 巴勒斯坦国,President / 总统,Rawhi Fattouh / 鲁希·法图赫,2004,2005
+State of Palestine / 巴勒斯坦国,President / 总统,Mahmoud Abbas / 马哈茂德·阿巴斯,2005,2026
+Republic of Yemen / 也门共和国,President / 总统,Ali Abdullah Saleh / 阿里·阿卜杜拉·萨利赫,1990,2012
+Republic of Yemen / 也门共和国,President / 总统,Abdrabbuh Mansur Hadi / 阿卜杜-拉布·曼苏尔·哈迪,2012,2022
+Republic of Yemen / 也门共和国,Chairman of the Presidential Leadership Council / 总统领导委员会主席,Rashad al-Alimi / 拉沙德·阿利米,2022,2026
+Republic of Yemen / 也门共和国,Prime Minister / 总理,Haidar Abu Bakr al-Attas / 海达尔·阿布·巴克尔·阿塔斯,1990,1994
+Republic of Yemen / 也门共和国,Prime Minister / 总理,Muhammad Said al-Attar / 穆罕默德·赛义德·阿塔尔,1994,1994
+Republic of Yemen / 也门共和国,Prime Minister / 总理,Abdul Aziz Abdul Ghani / 阿卜杜勒-阿齐兹·阿卜杜勒-加尼,1994,1997
+Republic of Yemen / 也门共和国,Prime Minister / 总理,Faraj Said Bin Ghanem / 法拉杰·赛义德·本·格纳姆,1997,1998
+Republic of Yemen / 也门共和国,Prime Minister / 总理,Abdul-Karim Al-Iryani / 阿卜杜勒-卡里姆·伊里亚尼,1998,2001
+Republic of Yemen / 也门共和国,Prime Minister / 总理,Abdul Qadir Bajamal / 阿卜杜勒-卡迪尔·巴贾迈勒,2001,2007
+Republic of Yemen / 也门共和国,Prime Minister / 总理,Ali Muhammad Mujawar / 阿里·穆罕默德·穆贾瓦尔,2007,2011
+Republic of Yemen / 也门共和国,Prime Minister / 总理,Mohammed Basindawa / 穆罕默德·巴辛达瓦,2011,2014
+Republic of Yemen / 也门共和国,Prime Minister / 总理,Abdullah Mohsen al-Akwa / 阿卜杜拉·穆赫辛·阿夸,2014,2014
+Republic of Yemen / 也门共和国,Prime Minister / 总理,Khaled Bahah / 哈立德·巴哈,2014,2016
+Republic of Yemen / 也门共和国,Prime Minister / 总理,Ahmed Obaid Bin Dagher / 艾哈迈德·欧拜德·本·达格尔,2016,2018
+Republic of Yemen / 也门共和国,Prime Minister / 总理,Maeen Abdulmalik Saeed / 马因·阿卜杜勒马利克·赛义德,2018,2024
+Republic of Yemen / 也门共和国,Prime Minister / 总理,Ahmad Awad bin Mubarak / 艾哈迈德·奥德·本·穆巴拉克,2024,2025
+Republic of Yemen / 也门共和国,Prime Minister / 总理,Salem Saleh bin Braik / 萨利姆·萨利赫·本·布赖克,2025,2026
+Republic of Yemen / 也门共和国,Prime Minister / 总理,Shaya al-Zindani / 沙亚·宰达尼,2026,2026
+Republic of Azerbaijan / 阿塞拜疆共和国,President / 总统,Ayaz Mutallibov / 阿亚兹·穆塔利博夫,1991,1992
+Republic of Azerbaijan / 阿塞拜疆共和国,President / 总统,Yaqub Mammadov / 亚古布·马马多夫,1992,1992
+Republic of Azerbaijan / 阿塞拜疆共和国,President / 总统,Isa Gambar / 伊萨·甘巴尔,1992,1992
+Republic of Azerbaijan / 阿塞拜疆共和国,President / 总统,Abulfaz Elchibey / 阿布法兹·埃尔奇贝伊,1992,1993
+Republic of Azerbaijan / 阿塞拜疆共和国,President / 总统,Heydar Aliyev / 盖达尔·阿利耶夫,1993,2003
+Republic of Azerbaijan / 阿塞拜疆共和国,President / 总统,Ilham Aliyev / 伊利哈姆·阿利耶夫,2003,2026
+Republic of Armenia (Second Republic) / 亚美尼亚共和国（第二共和国）,President / 总统,Levon Ter-Petrosyan / 列翁·捷尔-彼得罗相,1991,1998
+Republic of Armenia (Second Republic) / 亚美尼亚共和国（第二共和国）,President / 总统,Robert Kocharyan / 罗伯特·科恰良,1998,2008
+Republic of Armenia (Second Republic) / 亚美尼亚共和国（第二共和国）,President / 总统,Serzh Sargsyan / 谢尔日·萨尔基相,2008,2018
+Republic of Armenia (Second Republic) / 亚美尼亚共和国（第二共和国）,President / 总统,Armen Sarkissian / 阿尔缅·萨尔基相,2018,2022
+Republic of Armenia (Second Republic) / 亚美尼亚共和国（第二共和国）,President / 总统,Alen Simonyan / 阿连·西蒙尼扬,2022,2022
+Republic of Armenia (Second Republic) / 亚美尼亚共和国（第二共和国）,President / 总统,Vahagn Khachaturyan / 瓦哈格恩·哈恰图梁,2022,2026
+Republic of Armenia (Second Republic) / 亚美尼亚共和国（第二共和国）,Prime Minister / 总理,Nikol Pashinyan / 尼科尔·帕希尼扬,2018,2026
