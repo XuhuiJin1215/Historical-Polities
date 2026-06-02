@@ -2343,7 +2343,7 @@ Wei / 魏（三国）,Emperor / 皇帝,Cao Mao / 曹髦（高贵乡公）,254,26
 Wei / 魏（三国）,Emperor / 皇帝,Cao Huan / 曹奂（魏元帝）,260,266
 Shu Han / 蜀汉（三国）,Emperor / 皇帝,Liu Bei / 刘备（汉昭烈帝）,221,223
 Shu Han / 蜀汉（三国）,Emperor / 皇帝,Liu Shan / 刘禅（汉后主）,223,263
-Eastern Wu / 吴（三国）,King / 王,Sun Quan / 孙权,222,229
+Eastern Wu / 吴（三国）,King / 王,Sun Quan / 孙权,222,228
 Eastern Wu / 吴（三国）,Emperor / 皇帝,Sun Quan / 孙权（吴大帝）,229,252
 Eastern Wu / 吴（三国）,Emperor / 皇帝,Sun Liang / 孙亮（会稽王）,252,258
 Eastern Wu / 吴（三国）,Emperor / 皇帝,Sun Xiu / 孙休（吴景帝）,258,264
@@ -9696,3 +9696,897 @@ Iceland / 冰岛,Prime Minister / 总理,Bjarni Benediktsson / 比亚尼·贝内
 Iceland / 冰岛,Prime Minister / 总理,Katrín Jakobsdóttir / 卡特琳·雅各布斯多蒂尔,2017,2024
 Iceland / 冰岛,Prime Minister / 总理,Bjarni Benediktsson / 比亚尼·贝内迪克特松,2024,2024
 Iceland / 冰岛,Prime Minister / 总理,Kristrún Frostadóttir / 克里斯特伦·弗罗斯塔多蒂尔,2024,2026
+Hunnic Empire / 匈人帝国,King / 国王,Balamber / 巴拉姆贝尔,370,378
+Hunnic Empire / 匈人帝国,King / 国王,Uldin / 乌尔丁,400,412
+Hunnic Empire / 匈人帝国,King / 国王,Charaton / 卡拉顿,412,420
+Hunnic Empire / 匈人帝国,King / 国王,Octar / 奥克塔尔,420,430
+Hunnic Empire / 匈人帝国,King / 国王,Rugila / 鲁吉拉,420,434
+Hunnic Empire / 匈人帝国,King / 国王,Bleda / 布莱达,434,445
+Hunnic Empire / 匈人帝国,King / 国王,Attila / 阿提拉,434,453
+Hunnic Empire / 匈人帝国,King / 国王,Ellac / 埃拉克,453,454
+Hunnic Empire / 匈人帝国,King / 国王,Dengizich / 邓吉兹克,454,469
+Hunnic Empire / 匈人帝国,King / 国王,Ernak / 埃尔纳克,454,469
+Avar Khaganate / 阿瓦尔汗国,Khagan / 可汗,Bayan I / 拜扬一世,567,602
+Avar Khaganate / 阿瓦尔汗国,Khagan / 可汗,Bayan II / 拜扬二世,602,617
+Avar Khaganate / 阿瓦尔汗国,Khagan / 可汗,Organa / 奥尔加纳,617,630
+Avar Khaganate / 阿瓦尔汗国,Khagan / 可汗,Theodorus / 特奥多鲁斯,796,805
+Avar Khaganate / 阿瓦尔汗国,Khagan / 可汗,Abraham / 亚伯拉罕,805,811
+Avar Khaganate / 阿瓦尔汗国,Khagan / 可汗,Isaac / 伊萨克,811,822
+Samo's Empire / 萨莫帝国,King / 国王,Samo / 萨莫,631,658
+Carantania / 卡兰塔尼亚,Prince / 亲王,Valuk / 瓦卢克,658,660
+Carantania / 卡兰塔尼亚,Prince / 亲王,Boruth / 博鲁特,740,750
+Carantania / 卡兰塔尼亚,Prince / 亲王,Cacatius / 卡卡提乌斯,750,751
+Carantania / 卡兰塔尼亚,Prince / 亲王,Cheitmar / 海特马尔,752,769
+Carantania / 卡兰塔尼亚,Prince / 亲王,Valtunk / 瓦尔通克,772,791
+Great Moravia / 大摩拉维亚公国,Duke / 公爵,Mojmír I / 莫伊米尔一世,833,846
+Great Moravia / 大摩拉维亚公国,Duke / 公爵,Rastislav / 拉斯季斯拉夫,846,870
+Great Moravia / 大摩拉维亚公国,Duke / 公爵,Svatopluk I / 斯瓦托普卢克一世,870,885
+Great Moravia / 大摩拉维亚公国,Duke / 公爵,Slavomir / 斯拉沃米尔,871,871
+Great Moravia / 大摩拉维亚公国,King / 国王,Svatopluk I / 斯瓦托普卢克一世,885,894
+Great Moravia / 大摩拉维亚公国,King / 国王,Mojmír II / 莫伊米尔二世,894,907
+East Francia / 东法兰克王国,King / 国王,Louis the German / 日耳曼人路易,843,876
+East Francia / 东法兰克王国,King / 国王,Carloman / 卡洛曼,876,880
+East Francia / 东法兰克王国,King / 国王,Louis the Younger / 小路易,876,882
+East Francia / 东法兰克王国,King / 国王,Charles the Fat / 胖子查理,876,887
+East Francia / 东法兰克王国,King / 国王,Arnulf of Carinthia / 卡林西亚的阿努尔夫,887,899
+East Francia / 东法兰克王国,King / 国王,Louis the Child / 幼童路易,899,911
+East Francia / 东法兰克王国,King / 国王,Conrad I / 康拉德一世,911,918
+East Francia / 东法兰克王国,King / 国王,Henry the Fowler / 捕鸟者亨利,919,936
+East Francia / 东法兰克王国,King / 国王,Otto I / 奥托一世,936,962
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Bořivoj I / 波日沃伊一世,870,883
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Strojmir / 斯特罗伊米尔,883,885
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Bořivoj I / 波日沃伊一世,885,889
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Spytihněv I / 斯皮季赫涅夫一世,894,915
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Vratislaus I / 弗拉蒂斯拉夫一世,915,921
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Wenceslaus I / 瓦茨拉夫一世,921,935
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Boleslaus I / 博列斯拉夫一世,935,972
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Boleslaus II / 博列斯拉夫二世,972,999
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Boleslaus III / 博列斯拉夫三世,999,1002
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Vladivoj / 弗拉迪沃伊,1002,1003
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Boleslaus III / 博列斯拉夫三世,1003,1003
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Jaromír / 雅罗米尔,1004,1012
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Ulrich I / 乌尔里希一世,1012,1034
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Jaromír / 雅罗米尔,1034,1035
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Bretislaus I / 布列季斯拉夫一世,1034,1055
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Spytihněv II / 斯皮季赫涅夫二世,1055,1061
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Vratislaus II / 弗拉蒂斯拉夫二世,1061,1084
+Duchy of Bohemia / 波希米亚公国,King / 国王,Vratislaus II / 弗拉蒂斯拉夫二世,1085,1092
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Conrad I / 康拉德一世,1092,1092
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Bretislaus II / 布列季斯拉夫二世,1092,1100
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Bořivoj II / 波日沃伊二世,1100,1107
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Svatopluk / 斯瓦托普卢克,1107,1109
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Vladislaus I / 弗拉迪斯拉夫一世,1109,1117
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Bořivoj II / 波日沃伊二世,1117,1120
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Vladislaus I / 弗拉迪斯拉夫一世,1120,1125
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Sobeslaus I / 索别斯拉夫一世,1125,1140
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Vladislaus II / 弗拉迪斯拉夫二世,1140,1157
+Duchy of Bohemia / 波希米亚公国,King / 国王,Vladislaus II / 弗拉迪斯拉夫二世,1158,1172
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Frederick / 弗里德里希,1172,1173
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Sobeslaus II / 索别斯拉夫二世,1173,1178
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Frederick / 弗里德里希,1178,1189
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Conrad II Otto / 康拉德二世,1189,1191
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Wenceslaus II / 瓦茨拉夫二世,1191,1192
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Ottokar I / 奥托卡一世,1192,1193
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Bretislaus III Henry / 布列季斯拉夫三世,1193,1197
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Vladislaus III Henry / 弗拉迪斯拉夫三世,1197,1197
+Duchy of Bohemia / 波希米亚公国,Duke / 公爵,Ottokar I / 奥托卡一世,1197,1198
+Grand Principality of Hungary / 匈牙利大公国,Grand Prince / 大公,Árpád / 阿尔帕德,895,907
+Grand Principality of Hungary / 匈牙利大公国,Grand Prince / 大公,Zoltán / 佐尔坦,907,947
+Grand Principality of Hungary / 匈牙利大公国,Grand Prince / 大公,Fajsz / 法伊斯,947,955
+Grand Principality of Hungary / 匈牙利大公国,Grand Prince / 大公,Taksony / 塔克绍尼,955,972
+Grand Principality of Hungary / 匈牙利大公国,Grand Prince / 大公,Géza / 格扎,972,997
+Grand Principality of Hungary / 匈牙利大公国,Grand Prince / 大公,Stephen / 伊什特万,997,1000
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Otto I / 奥托一世,962,973
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Otto II / 奥托二世,973,983
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Otto III / 奥托三世,996,1002
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Henry II / 亨利二世,1014,1024
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Conrad II / 康拉德二世,1027,1039
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Henry III / 亨利三世,1046,1056
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Henry IV / 亨利四世,1084,1106
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Henry V / 亨利五世,1111,1125
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Lothair III / 洛泰尔三世,1133,1137
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Frederick I / 腓特烈一世,1155,1190
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Henry VI / 亨利六世,1191,1197
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Otto IV / 奥托四世,1209,1215
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Frederick II / 腓特烈二世,1220,1250
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Henry VII / 亨利七世,1312,1313
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Louis IV / 路易四世,1328,1347
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Charles IV / 查理四世,1355,1378
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Sigismund / 西吉斯蒙德,1433,1437
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Frederick III / 腓特烈三世,1452,1493
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Maximilian I / 马克西米利安一世,1508,1519
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Charles V / 查理五世,1519,1556
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Ferdinand I / 斐迪南一世,1558,1564
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Maximilian II / 马克西米利安二世,1564,1576
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Rudolf II / 鲁道夫二世,1576,1612
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Matthias / 马提亚斯,1612,1619
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Ferdinand II / 斐迪南二世,1619,1637
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Ferdinand III / 斐迪南三世,1637,1657
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Leopold I / 利奥波德一世,1658,1705
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Joseph I / 约瑟夫一世,1705,1711
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Charles VI / 查理六世,1711,1740
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Charles VII / 查理七世,1742,1745
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Francis I / 弗朗茨一世,1745,1765
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Joseph II / 约瑟夫二世,1765,1790
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Leopold II / 利奥波德二世,1790,1792
+Holy Roman Empire / 神圣罗马帝国,Emperor / 皇帝,Francis II / 弗朗茨二世,1792,1806
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Henry II / 亨利二世,1002,1014
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Conrad II / 康拉德二世,1024,1027
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Henry III / 亨利三世,1028,1046
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Henry IV / 亨利四世,1056,1084
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Henry V / 亨利五世,1099,1111
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Lothair III / 洛泰尔三世,1125,1133
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Conrad III / 康拉德三世,1138,1152
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Frederick I / 腓特烈一世,1152,1155
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Henry VI / 亨利六世,1190,1191
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Philip of Swabia / 施瓦本的腓力,1198,1208
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Otto IV / 奥托四世,1198,1209
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Frederick II / 腓特烈二世,1212,1220
+Holy Roman Empire / 神圣罗马帝国,King / 国王,William of Holland / 荷兰的威廉,1247,1256
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Conrad IV / 康拉德四世,1250,1254
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Richard of Cornwall / 康沃尔的理查德,1257,1272
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Rudolf I / 鲁道夫一世,1273,1291
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Adolf / 阿道夫,1292,1298
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Albert I / 阿尔布雷希特一世,1298,1308
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Henry VII / 亨利七世,1308,1312
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Louis IV / 路易四世,1314,1328
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Charles IV / 查理四世,1346,1355
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Wenceslaus / 瓦茨拉夫,1378,1400
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Rupert / 鲁佩特,1400,1410
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Jobst of Moravia / 摩拉维亚的约布斯特,1410,1411
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Sigismund / 西吉斯蒙德,1411,1433
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Albert II / 阿尔布雷希特二世,1438,1439
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Frederick III / 腓特烈三世,1440,1452
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Maximilian I / 马克西米利安一世,1486,1508
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Ferdinand I / 斐迪南一世,1531,1558
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Maximilian II / 马克西米利安二世,1562,1564
+Holy Roman Empire / 神圣罗马帝国,King / 国王,Rudolf II / 鲁道夫二世,1575,1576
+Civitas Schinesghe / 波兰公国,Duke / 公爵,Mieszko I / 梅什科一世,966,992
+Civitas Schinesghe / 波兰公国,Duke / 公爵,Bolesław I / 博列斯瓦夫一世,992,1024
+Civitas Schinesghe / 波兰公国,King / 国王,Bolesław I / 博列斯瓦夫一世,1025,1025
+Kingdom of Hungary / 匈牙利王国,King / 国王,Stephen I / 伊什特万一世,1000,1038
+Kingdom of Hungary / 匈牙利王国,King / 国王,Peter / 彼得,1038,1041
+Kingdom of Hungary / 匈牙利王国,King / 国王,Samuel Aba / 萨穆埃尔·阿巴,1041,1044
+Kingdom of Hungary / 匈牙利王国,King / 国王,Peter / 彼得,1044,1046
+Kingdom of Hungary / 匈牙利王国,King / 国王,Andrew I / 安德烈一世,1046,1060
+Kingdom of Hungary / 匈牙利王国,King / 国王,Béla I / 贝拉一世,1060,1063
+Kingdom of Hungary / 匈牙利王国,King / 国王,Solomon / 所罗门,1063,1074
+Kingdom of Hungary / 匈牙利王国,King / 国王,Géza I / 格扎一世,1074,1077
+Kingdom of Hungary / 匈牙利王国,King / 国王,Ladislaus I / 拉斯洛一世,1077,1095
+Kingdom of Hungary / 匈牙利王国,King / 国王,Coloman / 科洛曼,1095,1116
+Kingdom of Hungary / 匈牙利王国,King / 国王,Stephen II / 伊什特万二世,1116,1131
+Kingdom of Hungary / 匈牙利王国,King / 国王,Béla II / 贝拉二世,1131,1141
+Kingdom of Hungary / 匈牙利王国,King / 国王,Géza II / 格扎二世,1141,1162
+Kingdom of Hungary / 匈牙利王国,King / 国王,Stephen III / 伊什特万三世,1162,1172
+Kingdom of Hungary / 匈牙利王国,King / 国王,Ladislaus II / 拉斯洛二世,1162,1163
+Kingdom of Hungary / 匈牙利王国,King / 国王,Stephen IV / 伊什特万四世,1163,1165
+Kingdom of Hungary / 匈牙利王国,King / 国王,Béla III / 贝拉三世,1172,1196
+Kingdom of Hungary / 匈牙利王国,King / 国王,Emeric / 伊姆雷,1196,1204
+Kingdom of Hungary / 匈牙利王国,King / 国王,Ladislaus III / 拉斯洛三世,1204,1205
+Kingdom of Hungary / 匈牙利王国,King / 国王,Andrew II / 安德烈二世,1205,1235
+Kingdom of Hungary / 匈牙利王国,King / 国王,Béla IV / 贝拉四世,1235,1270
+Kingdom of Hungary / 匈牙利王国,King / 国王,Stephen V / 伊什特万五世,1270,1272
+Kingdom of Hungary / 匈牙利王国,King / 国王,Ladislaus IV / 拉斯洛四世,1272,1290
+Kingdom of Hungary / 匈牙利王国,King / 国王,Andrew III / 安德烈三世,1290,1301
+Kingdom of Hungary / 匈牙利王国,King / 国王,Wenceslaus III / 瓦茨拉夫三世,1301,1305
+Kingdom of Hungary / 匈牙利王国,King / 国王,Otto / 奥托,1305,1307
+Kingdom of Hungary / 匈牙利王国,King / 国王,Charles I / 查理一世,1308,1342
+Kingdom of Hungary / 匈牙利王国,King / 国王,Louis I / 路易一世,1342,1382
+Kingdom of Hungary / 匈牙利王国,Queen / 女王,Mary / 玛利亚,1382,1385
+Kingdom of Hungary / 匈牙利王国,King / 国王,Charles II / 查理二世,1385,1386
+Kingdom of Hungary / 匈牙利王国,Queen / 女王,Mary / 玛利亚,1386,1395
+Kingdom of Hungary / 匈牙利王国,King / 国王,Sigismund / 西吉斯蒙德,1387,1437
+Kingdom of Hungary / 匈牙利王国,King / 国王,Albert / 阿尔布雷希特,1437,1439
+Kingdom of Hungary / 匈牙利王国,King / 国王,Vladislaus I / 弗拉迪斯拉夫一世,1440,1444
+Kingdom of Hungary / 匈牙利王国,King / 国王,Ladislaus V / 拉斯洛五世,1440,1457
+Kingdom of Hungary / 匈牙利王国,King / 国王,Matthias Corvinus / 马加什·科尔文,1458,1490
+Kingdom of Hungary / 匈牙利王国,King / 国王,Vladislaus II / 弗拉迪斯拉夫二世,1490,1516
+Kingdom of Hungary / 匈牙利王国,King / 国王,Louis II / 路易二世,1516,1526
+Kingdom of Poland / 波兰王国,King / 国王,Bolesław I the Brave / 博莱斯瓦夫一世,1025,1025
+Kingdom of Poland / 波兰王国,King / 国王,Mieszko II Lambert / 梅什科二世,1025,1031
+Kingdom of Poland / 波兰王国,High Duke / 大公,Bezprym / 别兹普里姆,1031,1032
+Kingdom of Poland / 波兰王国,High Duke / 大公,Mieszko II Lambert / 梅什科二世,1032,1034
+Kingdom of Poland / 波兰王国,High Duke / 大公,Casimir I the Restorer / 卡西米尔一世,1039,1058
+Kingdom of Poland / 波兰王国,King / 国王,Bolesław II the Generous / 博莱斯瓦夫二世,1076,1079
+Kingdom of Poland / 波兰王国,High Duke / 大公,Władysław I Herman / 瓦迪斯瓦夫一世·赫尔曼,1079,1102
+Kingdom of Poland / 波兰王国,High Duke / 大公,Bolesław III Wrymouth / 博莱斯瓦夫三世,1107,1138
+Kingdom of Poland / 波兰王国,High Duke / 大公,Władysław II the Exile / 瓦迪斯瓦夫二世,1138,1146
+Kingdom of Poland / 波兰王国,High Duke / 大公,Bolesław IV the Curly / 博莱斯瓦夫四世,1146,1173
+Kingdom of Poland / 波兰王国,High Duke / 大公,Mieszko III the Old / 梅什科三世,1173,1177
+Kingdom of Poland / 波兰王国,High Duke / 大公,Casimir II the Just / 卡西米尔二世,1177,1194
+Kingdom of Poland / 波兰王国,High Duke / 大公,Leszek I the White / 莱谢克一世,1194,1198
+Kingdom of Poland / 波兰王国,High Duke / 大公,Mieszko III the Old / 梅什科三世,1198,1202
+Kingdom of Poland / 波兰王国,High Duke / 大公,Władysław III Spindleshanks / 瓦迪斯瓦夫三世,1202,1206
+Kingdom of Poland / 波兰王国,High Duke / 大公,Leszek I the White / 莱谢克一世,1206,1210
+Kingdom of Poland / 波兰王国,High Duke / 大公,Mieszko IV Tanglefoot / 梅什科四世,1210,1211
+Kingdom of Poland / 波兰王国,High Duke / 大公,Leszek I the White / 莱谢克一世,1211,1227
+Kingdom of Poland / 波兰王国,High Duke / 大公,Władysław III Spindleshanks / 瓦迪斯瓦夫三世,1228,1231
+Kingdom of Poland / 波兰王国,High Duke / 大公,Henry I the Bearded / 亨利一世,1231,1238
+Kingdom of Poland / 波兰王国,High Duke / 大公,Henry II the Pious / 亨利二世,1238,1241
+Kingdom of Poland / 波兰王国,High Duke / 大公,Bolesław V the Chaste / 博莱斯瓦夫五世,1243,1279
+Kingdom of Poland / 波兰王国,High Duke / 大公,Leszek II the Black / 莱谢克二世,1279,1288
+Kingdom of Poland / 波兰王国,High Duke / 大公,Henryk IV Probus / 亨利四世,1288,1290
+Kingdom of Poland / 波兰王国,High Duke / 大公,Przemysł II / 普热梅斯瓦夫二世,1290,1295
+Kingdom of Poland / 波兰王国,King / 国王,Przemysł II / 普热梅斯瓦夫二世,1295,1296
+Kingdom of Poland / 波兰王国,King / 国王,Wenceslaus II of Bohemia / 瓦茨拉夫二世,1300,1305
+Kingdom of Poland / 波兰王国,King / 国王,Wenceslaus III of Bohemia / 瓦茨拉夫三世,1305,1306
+Kingdom of Poland / 波兰王国,King / 国王,Władysław I the Short / 瓦迪斯瓦夫一世,1320,1333
+Kingdom of Poland / 波兰王国,King / 国王,Casimir III the Great / 卡西米尔三世,1333,1370
+Kingdom of Poland / 波兰王国,King / 国王,Louis I of Hungary / 路易一世,1370,1382
+Kingdom of Poland / 波兰王国,Queen / 女王,Jadwiga / 雅德维加,1384,1399
+Kingdom of Poland / 波兰王国,King / 国王,Władysław II Jagiełło / 瓦迪斯瓦夫二世·雅盖沃,1386,1434
+Kingdom of Poland / 波兰王国,King / 国王,Władysław III / 瓦迪斯瓦夫三世,1434,1444
+Kingdom of Poland / 波兰王国,King / 国王,Casimir IV Jagiellon / 卡西米尔四世,1447,1492
+Kingdom of Poland / 波兰王国,King / 国王,John I Albert / 扬一世,1492,1501
+Kingdom of Poland / 波兰王国,King / 国王,Alexander Jagiellon / 亚历山大,1501,1506
+Kingdom of Poland / 波兰王国,King / 国王,Sigismund I the Old / 齐格蒙特一世,1506,1548
+Kingdom of Poland / 波兰王国,King / 国王,Sigismund II Augustus / 齐格蒙特二世,1548,1569
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Ottokar I / 奥托卡一世,1198,1230
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Wenceslaus I / 瓦茨拉夫一世,1230,1253
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Ottokar II / 奥托卡二世,1253,1278
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Wenceslaus II / 瓦茨拉夫二世,1278,1305
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Wenceslaus III / 瓦茨拉夫三世,1305,1306
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Rudolf I / 鲁道夫一世,1306,1307
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Henry of Carinthia / 卡林西亚的亨利,1307,1310
+Kingdom of Bohemia / 波希米亚王国,King / 国王,John the Blind / 约翰,1310,1346
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Charles IV / 查理四世,1346,1378
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Wenceslaus IV / 瓦茨拉夫四世,1378,1419
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Sigismund / 西吉斯蒙德,1419,1437
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Albert / 阿尔布雷希特,1437,1439
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Ladislaus the Posthumous / 拉迪斯劳斯,1453,1457
+Kingdom of Bohemia / 波希米亚王国,King / 国王,George of Poděbrady / 波杰布拉德的乔治,1458,1471
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Vladislaus II / 弗拉迪斯劳斯二世,1471,1516
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Louis II / 路德维希二世,1516,1526
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Ferdinand I / 斐迪南一世,1526,1564
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Maximilian I / 马克西米利安一世,1564,1576
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Rudolf II / 鲁道夫二世,1576,1612
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Matthias II / 马提亚斯二世,1612,1619
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Ferdinand II / 斐迪南二世,1619,1620
+Kingdom of Bohemia / 波希米亚王国,King / 国王,Frederick I / 腓特烈一世,1619,1620
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Hermann von Salza / 赫尔曼·冯·萨尔扎,1226,1239
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Konrad von Thüringen / 图林根的康拉德,1239,1240
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Gerhard von Malberg / 格哈德·冯·马尔贝格,1240,1244
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Heinrich von Hohenlohe / 海因里希·冯·霍恩洛厄,1244,1249
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Gunther von Wüllersleben / 君特·冯·于勒斯莱本,1249,1252
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Poppo von Osterna / 波普·冯·奥斯特纳,1252,1256
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Anno von Sangershausen / 安诺·冯·桑格斯豪森,1256,1273
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Hartmann von Heldrungen / 哈特曼·冯·赫尔德龙根,1273,1282
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Burchard von Schwanden / 布尔夏德·冯·施万登,1283,1290
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Konrad von Feuchtwangen / 康拉德·冯·费希特旺根,1290,1297
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Gottfried von Hohenlohe / 戈特弗里德·冯·霍恩洛厄,1297,1303
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Siegfried von Feuchtwangen / 西格弗里德·冯·费希特旺根,1303,1311
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Karl von Trier / 卡尔·冯·特里尔,1311,1324
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Werner von Orseln / 维尔纳·冯·奥尔塞尔恩,1324,1330
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Luther von Braunschweig / 路德·冯·不伦瑞克,1331,1335
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Dietrich von Altenburg / 迪特里希·冯·阿尔滕堡,1335,1341
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Ludolf König von Wattzau / 卢多尔夫·柯尼希·冯·瓦察乌,1342,1345
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Heinrich Dusemer / 海因里希·杜泽默,1345,1351
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Winrich von Kniprode / 温里希·冯·克尼普罗德,1351,1382
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Konrad Zöllner von Rotenstein / 康拉德·措尔纳·冯·罗滕施泰因,1382,1390
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Konrad von Wallenrode / 康拉德·冯·瓦伦罗德,1391,1393
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Konrad von Jungingen / 康拉德·冯·扬根根,1393,1407
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Ulrich von Jungingen / 乌尔里希·冯·扬根根,1407,1410
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Heinrich von Plauen / 海因里希·冯·普劳恩,1410,1413
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Michael Küchmeister von Sternberg / 米夏埃尔·屈希迈斯特·冯·施滕贝格,1414,1422
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Paul von Rusdorf / 保罗·冯·吕斯多夫,1422,1441
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Konrad von Erlichshausen / 康拉德·冯·埃利希斯豪森,1441,1449
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Ludwig von Erlichshausen / 路德维希·冯·埃利希斯豪森,1450,1467
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Heinrich Reuß von Plauen / 海因里希·罗伊斯·冯·普劳恩,1467,1470
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Heinrich Reffle von Richtenberg / 海因里希·勒弗勒·冯·里希滕贝格,1470,1477
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Martin Truchseß von Wetzhausen / 马丁·特鲁赫塞斯·冯·韦茨豪森,1477,1489
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Johann von Tiefen / 约翰·冯·蒂芬,1489,1497
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Frederick of Saxony / 萨克森的弗里德里希,1497,1510
+State of the Teutonic Order / 条顿骑士团国,Grand Master / 大团长,Albert of Brandenburg-Ansbach / 阿尔布雷希特·冯·勃兰登堡-安斯巴赫,1510,1525
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,Rudolf I / 鲁道夫一世,1356,1356
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,Rudolf II / 鲁道夫二世,1356,1370
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,Wenceslaus I / 文策尔一世,1370,1388
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,Rudolf III / 鲁道夫三世,1388,1419
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,Albert III / 阿尔布雷希特三世,1419,1422
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,Frederick I / 腓特烈一世,1423,1428
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,Frederick II / 腓特烈二世,1428,1464
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,Ernest / 恩斯特,1464,1486
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,Frederick III / 腓特烈三世,1486,1525
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,John / 约翰,1525,1532
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,John Frederick I / 约翰·腓特烈一世,1532,1547
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,Maurice / 莫里茨,1547,1553
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,Augustus I / 奥古斯都一世,1553,1586
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,Christian I / 克里斯蒂安一世,1586,1591
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,Christian II / 克里斯蒂安二世,1591,1611
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,John George I / 约翰·格奥尔格一世,1611,1656
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,John George II / 约翰·格奥尔格二世,1656,1680
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,John George III / 约翰·格奥尔格三世,1680,1691
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,John George IV / 约翰·格奥尔格四世,1691,1694
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,Frederick Augustus I / 腓特烈·奥古斯都一世,1694,1733
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,Frederick Augustus II / 腓特烈·奥古斯都二世,1733,1763
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,Frederick Christian / 腓特烈·克里斯蒂安,1763,1763
+Electorate of Saxony / 萨克森选侯国,Elector / 选帝侯,Frederick Augustus III / 腓特烈·奥古斯都三世,1763,1806
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,Archduke / 大公,Frederick V / 腓特烈五世,1453,1493
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,Archduke / 大公,Maximilian I / 马克西米利安一世,1493,1519
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,Archduke / 大公,Charles I / 卡尔一世,1519,1521
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,Archduke / 大公,Ferdinand I / 斐迪南一世,1521,1564
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,Archduke / 大公,Maximilian II / 马克西米利安二世,1564,1576
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,Archduke / 大公,Rudolf II / 鲁道夫二世,1576,1612
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,Archduke / 大公,Matthias / 马提亚斯,1612,1619
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,Archduke / 大公,Ferdinand II / 斐迪南二世,1619,1637
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,Archduke / 大公,Ferdinand III / 斐迪南三世,1637,1657
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,Archduke / 大公,Leopold I / 利奥波德一世,1657,1705
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,Archduke / 大公,Joseph I / 约瑟夫一世,1705,1711
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,Archduke / 大公,Charles VI / 卡尔六世,1711,1740
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,Archduchess / 女大公,Maria Theresa / 玛丽亚·特蕾西娅,1740,1780
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,Archduke / 大公,Joseph II / 约瑟夫二世,1780,1790
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,Archduke / 大公,Leopold II / 利奥波德二世,1790,1792
+Archduchy of Austria (Habsburg Monarchy) / 奥地利大公国（哈布斯堡君主国）,Archduke / 大公,Francis II / 弗朗茨二世,1792,1804
+Duchy of Prussia / 普鲁士公国（勃兰登堡-普鲁士）,Duke / 公爵,Albert / 阿尔布雷希特,1525,1568
+Duchy of Prussia / 普鲁士公国（勃兰登堡-普鲁士）,Duke / 公爵,Albert Frederick / 阿尔布雷希特·弗里德里希,1568,1618
+Duchy of Prussia / 普鲁士公国（勃兰登堡-普鲁士）,Duke / 公爵,John Sigismund / 约翰·西吉斯蒙德,1618,1619
+Duchy of Prussia / 普鲁士公国（勃兰登堡-普鲁士）,Duke / 公爵,George William / 格奥尔格·威廉,1619,1640
+Duchy of Prussia / 普鲁士公国（勃兰登堡-普鲁士）,Duke / 公爵,Frederick William / 腓特烈·威廉,1640,1688
+Duchy of Prussia / 普鲁士公国（勃兰登堡-普鲁士）,Duke / 公爵,Frederick / 腓特烈,1688,1701
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,King / 国王,Sigismund II Augustus / 齐格蒙特二世·奥古斯都,1569,1572
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,King / 国王,Henry of Valois / 瓦卢瓦的亨利,1573,1575
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,Queen / 女王,Anna Jagiellon / 安娜·雅盖隆,1575,1587
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,King / 国王,Stephen Báthory / 斯特凡·巴托里,1576,1586
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,King / 国王,Sigismund III Vasa / 齐格蒙特三世·瓦萨,1587,1632
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,King / 国王,Władysław IV Vasa / 瓦迪斯瓦夫四世·瓦萨,1632,1648
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,King / 国王,John II Casimir Vasa / 扬二世·卡西米尔,1648,1668
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,King / 国王,Michael Korybut Wiśniowiecki / 米哈乌·科雷布特·维希尼奥维茨基,1669,1673
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,King / 国王,John III Sobieski / 扬三世·索别斯基,1674,1696
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,King / 国王,Augustus II the Strong / 奥古斯都二世,1697,1706
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,King / 国王,Stanislaus I Leszczyński / 斯坦尼斯瓦夫一世·莱什琴斯基,1704,1709
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,King / 国王,Augustus II the Strong / 奥古斯都二世,1709,1733
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,King / 国王,Stanislaus I Leszczyński / 斯坦尼斯瓦夫一世·莱什琴斯基,1733,1736
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,King / 国王,Augustus III / 奥古斯都三世,1733,1763
+Polish-Lithuanian Commonwealth / 波兰立陶宛联邦,King / 国王,Stanislaus II Augustus / 斯坦尼斯瓦夫二世·奥古斯都,1764,1795
+Electorate of Bavaria / 巴伐利亚选侯国,Elector / 选帝侯,Maximilian I / 马克西米利安一世,1623,1651
+Electorate of Bavaria / 巴伐利亚选侯国,Elector / 选帝侯,Ferdinand Maria / 斐迪南·玛丽亚,1651,1679
+Electorate of Bavaria / 巴伐利亚选侯国,Elector / 选帝侯,Maximilian II Emanuel / 马克西米利安二世·埃马努埃尔,1679,1726
+Electorate of Bavaria / 巴伐利亚选侯国,Elector / 选帝侯,Karl Albrecht / 卡尔·阿尔布雷希特,1726,1745
+Electorate of Bavaria / 巴伐利亚选侯国,Elector / 选帝侯,Maximilian III Joseph / 马克西米利安三世·约瑟夫,1745,1777
+Electorate of Bavaria / 巴伐利亚选侯国,Elector / 选帝侯,Karl Theodor / 卡尔·特奥多尔,1777,1799
+Electorate of Bavaria / 巴伐利亚选侯国,Elector / 选帝侯,Maximilian IV Joseph / 马克西米利安四世·约瑟夫,1799,1806
+Electorate of Brunswick-Lüneburg / 不伦瑞克-吕讷堡选侯国,Elector / 选帝侯,Ernest Augustus / 恩斯特·奥古斯都,1692,1698
+Electorate of Brunswick-Lüneburg / 不伦瑞克-吕讷堡选侯国,Elector / 选帝侯,George I Louis / 格奥尔格一世,1698,1727
+Electorate of Brunswick-Lüneburg / 不伦瑞克-吕讷堡选侯国,Elector / 选帝侯,George II Augustus / 格奥尔格二世,1727,1760
+Electorate of Brunswick-Lüneburg / 不伦瑞克-吕讷堡选侯国,Elector / 选帝侯,George III / 格奥尔格三世,1760,1807
+Kingdom of Prussia / 普鲁士王国,King / 国王,Frederick I / 腓特烈一世,1701,1713
+Kingdom of Prussia / 普鲁士王国,King / 国王,Frederick William I / 腓特烈·威廉一世,1713,1740
+Kingdom of Prussia / 普鲁士王国,King / 国王,Frederick II / 腓特烈二世,1740,1786
+Kingdom of Prussia / 普鲁士王国,King / 国王,Frederick William II / 腓特烈·威廉二世,1786,1797
+Kingdom of Prussia / 普鲁士王国,King / 国王,Frederick William III / 腓特烈·威廉三世,1797,1840
+Kingdom of Prussia / 普鲁士王国,King / 国王,Frederick William IV / 腓特烈·威廉四世,1840,1861
+Kingdom of Prussia / 普鲁士王国,King / 国王,William I / 威廉一世,1861,1871
+Principality of Liechtenstein / 列支敦士登亲王国,Prince / 亲王,Anton Florian / 安东·弗洛里安,1719,1721
+Principality of Liechtenstein / 列支敦士登亲王国,Prince / 亲王,Joseph Johann Adam / 约瑟夫·约翰·亚当,1721,1732
+Principality of Liechtenstein / 列支敦士登亲王国,Prince / 亲王,Johann Nepomuk Karl / 约翰·内波穆克·卡尔,1732,1748
+Principality of Liechtenstein / 列支敦士登亲王国,Prince / 亲王,Joseph Wenzel I / 约瑟夫·文策尔一世,1748,1772
+Principality of Liechtenstein / 列支敦士登亲王国,Prince / 亲王,Franz Joseph I / 弗朗茨·约瑟夫一世,1772,1781
+Principality of Liechtenstein / 列支敦士登亲王国,Prince / 亲王,Aloys I / 阿洛伊斯一世,1781,1805
+Principality of Liechtenstein / 列支敦士登亲王国,Prince / 亲王,Johann I Joseph / 约翰一世·约瑟夫,1805,1836
+Principality of Liechtenstein / 列支敦士登亲王国,Prince / 亲王,Aloys II / 阿洛伊斯二世,1836,1858
+Principality of Liechtenstein / 列支敦士登亲王国,Prince / 亲王,Johann II / 约翰二世,1858,1929
+Principality of Liechtenstein / 列支敦士登亲王国,Prince / 亲王,Franz I / 弗朗茨一世,1929,1938
+Principality of Liechtenstein / 列支敦士登亲王国,Prince / 亲王,Franz Joseph II / 弗朗茨·约瑟夫二世,1938,1989
+Principality of Liechtenstein / 列支敦士登亲王国,Prince / 亲王,Hans-Adam II / 汉斯-亚当二世,1989,2026
+Helvetic Republic / 海尔维第共和国,President of the Directory / 执政长,Frédéric-César de La Harpe / 弗雷德里克-塞萨尔·德·拉阿尔普,1798,1798
+Helvetic Republic / 海尔维第共和国,President of the Directory / 执政长,Johann Lukas Legrand / 约翰·卢卡斯·莱格朗,1798,1798
+Helvetic Republic / 海尔维第共和国,President of the Directory / 执政长,Urs Viktor Oberlin / 乌尔斯·维克托·奥伯林,1798,1799
+Helvetic Republic / 海尔维第共和国,President of the Directory / 执政长,Pierre-Maurice Glayre / 皮埃尔-莫里斯·格莱尔,1798,1798
+Helvetic Republic / 海尔维第共和国,President of the Directory / 执政长,Peter Ochs / 彼得·奥克斯,1798,1798
+Helvetic Republic / 海尔维第共和国,President of the Directory / 执政长,Pierre-Maurice Glayre / 皮埃尔-莫里斯·格莱尔,1799,1799
+Helvetic Republic / 海尔维第共和国,President of the Directory / 执政长,David Ludwig Bay / 大卫·路德维希·拜,1799,1799
+Helvetic Republic / 海尔维第共和国,President of the Directory / 执政长,Peter Ochs / 彼得·奥克斯,1799,1799
+Helvetic Republic / 海尔维第共和国,President of the Directory / 执政长,François Pierre Savary / 弗朗索瓦·皮埃尔·萨瓦里,1799,1799
+Helvetic Republic / 海尔维第共和国,President of the Directory / 执政长,Johann Rudolf Dolder / 约翰·鲁道夫·多尔德,1799,1800
+Helvetic Republic / 海尔维第共和国,Landammann / 首席行政长官,Alois von Reding / 阿洛伊斯·冯·雷丁,1801,1802
+Helvetic Republic / 海尔维第共和国,Landammann / 首席行政长官,Vinzenz Rüttimann / 文岑茨·吕蒂曼,1802,1802
+Helvetic Republic / 海尔维第共和国,Landammann / 首席行政长官,Johann Rudolf Dolder / 约翰·鲁道夫·多尔德,1802,1803
+Valais Republic / 瓦莱共和国,Grand Bailiff / 大执行官,Antoine-Marie Augustini / 安托万-马里·奥古斯蒂尼,1802,1807
+Valais Republic / 瓦莱共和国,Grand Bailiff / 大执行官,Leopold de Sepibus / 利奥波德·德·塞皮布斯,1807,1810
+Electorate of Hesse / 黑森选侯国,Elector / 选帝侯,William I / 威廉一世,1803,1807
+Electorate of Hesse / 黑森选侯国,Elector / 选帝侯,William I / 威廉一世,1813,1821
+Electorate of Hesse / 黑森选侯国,Elector / 选帝侯,William II / 威廉二世,1821,1847
+Electorate of Hesse / 黑森选侯国,Elector / 选帝侯,Frederick William / 腓特烈·威廉,1847,1866
+Austrian Empire / 奥地利帝国,Emperor / 皇帝,Francis I / 弗朗茨一世,1804,1835
+Austrian Empire / 奥地利帝国,Emperor / 皇帝,Ferdinand I / 斐迪南一世,1835,1848
+Austrian Empire / 奥地利帝国,Emperor / 皇帝,Franz Joseph I / 弗朗茨·约瑟夫一世,1848,1867
+Kingdom of Bavaria / 巴伐利亚王国,King / 国王,Maximilian I Joseph / 马克西米利安一世·约瑟夫,1806,1825
+Kingdom of Bavaria / 巴伐利亚王国,King / 国王,Ludwig I / 路德维希一世,1825,1848
+Kingdom of Bavaria / 巴伐利亚王国,King / 国王,Maximilian II Joseph / 马克西米利安二世·约瑟夫,1848,1864
+Kingdom of Bavaria / 巴伐利亚王国,King / 国王,Ludwig II / 路德维希二世,1864,1871
+Kingdom of Saxony / 萨克森王国,King / 国王,Frederick Augustus I / 腓特烈·奥古斯特一世,1806,1827
+Kingdom of Saxony / 萨克森王国,King / 国王,Anthony / 安东,1827,1836
+Kingdom of Saxony / 萨克森王国,King / 国王,Frederick Augustus II / 腓特烈·奥古斯特二世,1836,1854
+Kingdom of Saxony / 萨克森王国,King / 国王,John / 约翰,1854,1871
+Grand Duchy of Baden / 巴登大公国,Grand Duke / 大公,Charles Frederick / 卡尔·弗里德里希,1806,1811
+Grand Duchy of Baden / 巴登大公国,Grand Duke / 大公,Charles / 卡尔,1811,1818
+Grand Duchy of Baden / 巴登大公国,Grand Duke / 大公,Louis I / 路德维希一世,1818,1830
+Grand Duchy of Baden / 巴登大公国,Grand Duke / 大公,Leopold / 利奥波德,1830,1852
+Grand Duchy of Baden / 巴登大公国,Grand Duke / 大公,Louis II / 路德维希二世,1852,1858
+Grand Duchy of Baden / 巴登大公国,Grand Duke / 大公,Frederick I / 弗里德里希一世,1858,1871
+Kingdom of Württemberg / 符腾堡王国,King / 国王,Frederick I / 腓特烈一世,1806,1816
+Kingdom of Württemberg / 符腾堡王国,King / 国王,William I / 威廉一世,1816,1864
+Kingdom of Württemberg / 符腾堡王国,King / 国王,Charles I / 卡尔一世,1864,1871
+Grand Duchy of Hesse / 黑森大公国,Grand Duke / 大公,Louis I / 路易一世,1806,1830
+Grand Duchy of Hesse / 黑森大公国,Grand Duke / 大公,Louis II / 路易二世,1830,1848
+Grand Duchy of Hesse / 黑森大公国,Grand Duke / 大公,Louis III / 路易三世,1848,1871
+Duchy of Nassau / 拿骚公国,Duke / 公爵,Frederick Augustus / 腓特烈·奥古斯特,1806,1816
+Duchy of Nassau / 拿骚公国,Duke / 公爵,William / 威廉,1816,1839
+Duchy of Nassau / 拿骚公国,Duke / 公爵,Adolphe / 阿道夫,1839,1866
+Duchy of Warsaw / 华沙公国,Duke / 公爵,Frederick Augustus I / 腓特烈·奥古斯特一世,1807,1815
+Kingdom of Hanover / 汉诺威王国,King / 国王,George III / 乔治三世,1814,1820
+Kingdom of Hanover / 汉诺威王国,King / 国王,George IV / 乔治四世,1820,1830
+Kingdom of Hanover / 汉诺威王国,King / 国王,William IV / 威廉四世,1830,1837
+Kingdom of Hanover / 汉诺威王国,King / 国王,Ernest Augustus / 恩斯特·奥古斯特,1837,1851
+Kingdom of Hanover / 汉诺威王国,King / 国王,George V / 乔治五世,1851,1866
+Grand Duchy of Mecklenburg-Schwerin / 梅克伦堡-什未林大公国,Grand Duke / 大公,Frederick Francis I / 弗里德里希·弗朗茨一世,1815,1837
+Grand Duchy of Mecklenburg-Schwerin / 梅克伦堡-什未林大公国,Grand Duke / 大公,Paul Frederick / 保罗·弗里德里希,1837,1842
+Grand Duchy of Mecklenburg-Schwerin / 梅克伦堡-什未林大公国,Grand Duke / 大公,Frederick Francis II / 弗里德里希·弗朗茨二世,1842,1871
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Jonas Furrer / 约纳斯·福雷尔,1848,1849
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Henri Druey / 亨利·德吕埃,1850,1850
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Josef Munzinger / 约瑟夫·蒙青格尔,1851,1851
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Jonas Furrer / 约纳斯·福雷尔,1852,1852
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Wilhelm Matthias Naeff / 威廉·马蒂亚斯·内夫,1853,1853
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Friedrich Frey-Herosé / 弗里德里希·弗雷-埃罗泽,1854,1854
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Jonas Furrer / 约纳斯·福雷尔,1855,1855
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Jakob Stämpfli / 雅各布·斯坦普夫利,1856,1856
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Constant Fornerod / 康斯坦·福内罗,1857,1857
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Jonas Furrer / 约纳斯·福雷尔,1858,1858
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Jakob Stämpfli / 雅各布·斯坦普夫利,1859,1859
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Friedrich Frey-Herosé / 弗里德里希·弗雷-埃罗泽,1860,1860
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Melchior Josef Martin Knüsel / 梅尔基奥尔·克尼塞尔,1861,1861
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Jakob Stämpfli / 雅各布·斯坦普夫利,1862,1862
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Constant Fornerod / 康斯坦·福内罗,1863,1863
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Jakob Dubs / 雅各布·杜布斯,1864,1864
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Karl Schenk / 卡尔·申克,1865,1865
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Melchior Josef Martin Knüsel / 梅尔基奥尔·克尼塞尔,1866,1866
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Constant Fornerod / 康斯坦·福内罗,1867,1867
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Jakob Dubs / 雅各布·杜布斯,1868,1868
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Emil Welti / 埃米尔·韦尔蒂,1869,1869
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Jakob Dubs / 雅各布·杜布斯,1870,1870
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Karl Schenk / 卡尔·申克,1871,1871
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Emil Welti / 埃米尔·韦尔蒂,1872,1872
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Paul Cérésole / 保罗·塞雷索尔,1873,1873
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Karl Schenk / 卡尔·申克,1874,1874
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Johann Jakob Scherer / 约翰·雅各布·谢雷尔,1875,1875
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Emil Welti / 埃米尔·韦尔蒂,1876,1876
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Joachim Heer / 约阿希姆·赫尔,1877,1877
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Karl Schenk / 卡尔·申克,1878,1878
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Bernhard Hammer / 贝恩哈德·哈默尔,1879,1879
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Emil Welti / 埃米尔·韦尔蒂,1880,1880
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Numa Droz / 努马·德罗兹,1881,1881
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Simeon Bavier / 西米昂·巴维尔,1882,1882
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Louis Ruchonnet / 路易·吕什诺内,1883,1883
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Emil Welti / 埃米尔·韦尔蒂,1884,1884
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Karl Schenk / 卡尔·申克,1885,1885
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Adolf Deucher / 阿道夫·多伊歇尔,1886,1886
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Numa Droz / 努马·德罗兹,1887,1887
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Wilhelm Hertenstein / 威廉·赫滕斯坦,1888,1888
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Bernhard Hammer / 贝恩哈德·哈默尔,1888,1889
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Louis Ruchonnet / 路易·吕什诺内,1890,1890
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Emil Welti / 埃米尔·韦尔蒂,1891,1891
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Walter Hauser / 瓦尔特·豪泽尔,1892,1892
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Karl Schenk / 卡尔·申克,1893,1893
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Emil Frey / 埃米尔·弗雷,1894,1894
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Josef Zemp / 约瑟夫·策姆普,1895,1895
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Adrien Lachenal / 阿德里安·拉什纳尔,1896,1896
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Adolf Deucher / 阿道夫·多伊歇尔,1897,1897
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Eugène Ruffy / 欧仁·吕菲,1898,1898
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Eduard Müller / 爱德华·米勒,1899,1899
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Walter Hauser / 瓦尔特·豪泽尔,1900,1900
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Ernst Brenner / 恩斯特·布雷纳,1901,1901
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Josef Zemp / 约瑟夫·策姆普,1902,1902
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Adolf Deucher / 阿道夫·多伊歇尔,1903,1903
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Robert Comtesse / 罗伯特·孔泰斯,1904,1904
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Marc-Émile Ruchet / 马克-埃米尔·吕歇,1905,1905
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Ludwig Forrer / 路德维希·福雷尔,1906,1906
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Eduard Müller / 爱德华·米勒,1907,1907
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Ernst Brenner / 恩斯特·布雷纳,1908,1908
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Adolf Deucher / 阿道夫·多伊歇尔,1909,1909
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Robert Comtesse / 罗伯特·孔泰斯,1910,1910
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Marc-Émile Ruchet / 马克-埃米尔·吕歇,1911,1911
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Ludwig Forrer / 路德维希·福雷尔,1912,1912
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Eduard Müller / 爱德华·米勒,1913,1913
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Arthur Hoffmann / 阿图尔·霍夫曼,1914,1914
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Giuseppe Motta / 朱塞佩·莫塔,1915,1915
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Camille Decoppet / 卡米尔·德科珀,1916,1916
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Edmund Schulthess / 埃德蒙·舒尔特斯,1917,1917
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Felix Calonder / 费利克斯·卡隆德尔,1918,1918
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Gustave Ador / 古斯塔夫·阿多尔,1919,1919
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Giuseppe Motta / 朱塞佩·莫塔,1920,1920
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Edmund Schulthess / 埃德蒙·舒尔特斯,1921,1921
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Robert Haab / 罗伯特·哈布,1922,1922
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Karl Scheurer / 卡尔·肖雷尔,1923,1923
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Ernest Chuard / 欧内斯特·许阿尔,1924,1924
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Jean-Marie Musy / 让-马里·米西,1925,1925
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Heinrich Häberlin / 海因里希·赫伯林,1926,1926
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Giuseppe Motta / 朱塞佩·莫塔,1927,1927
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Edmund Schulthess / 埃德蒙·舒尔特斯,1928,1928
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Robert Haab / 罗伯特·哈布,1929,1929
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Jean-Marie Musy / 让-马里·米西,1930,1930
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Heinrich Häberlin / 海因里希·赫伯林,1931,1931
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Giuseppe Motta / 朱塞佩·莫塔,1932,1932
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Edmund Schulthess / 埃德蒙·舒尔特斯,1933,1933
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Marcel Pilet-Golaz / 马塞尔·皮莱-戈拉兹,1934,1934
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Rudolf Minger / 鲁道夫·明格尔,1935,1935
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Albert Meyer / 阿尔贝特·迈尔,1936,1936
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Giuseppe Motta / 朱塞佩·莫塔,1937,1937
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Johannes Baumann / 约翰内斯·鲍曼,1938,1938
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Philipp Etter / 菲利普·埃特尔,1939,1939
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Marcel Pilet-Golaz / 马塞尔·皮莱-戈拉兹,1940,1940
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Ernst Wetter / 恩斯特·韦特尔,1941,1941
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Philipp Etter / 菲利普·埃特尔,1942,1942
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Enrico Celio / 恩里科·切利奥,1943,1943
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Walther Stampfli / 瓦尔特·斯坦普夫利,1944,1944
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Eduard von Steiger / 爱德华·冯·施泰格尔,1945,1945
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Karl Kobelt / 卡尔·科贝尔特,1946,1946
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Philipp Etter / 菲利普·埃特尔,1947,1947
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Enrico Celio / 恩里科·切利奥,1948,1948
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Ernst Nobs / 恩斯特·诺布斯,1949,1949
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Max Petitpierre / 马克斯·珀蒂皮埃尔,1950,1950
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Eduard von Steiger / 爱德华·冯·施泰格尔,1951,1951
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Karl Kobelt / 卡尔·科贝尔特,1952,1952
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Philipp Etter / 菲利普·埃特尔,1953,1953
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Rodolphe Rubattel / 鲁道夫·吕巴特尔,1954,1954
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Max Petitpierre / 马克斯·珀蒂皮埃尔,1955,1955
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Markus Feldmann / 马库斯·费尔德曼,1956,1956
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Hans Streuli / 汉斯·施特罗伊利,1957,1957
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Thomas Holenstein / 托马斯·霍伦施泰因,1958,1958
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Paul Chaudet / 保罗·肖代,1959,1959
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Max Petitpierre / 马克斯·珀蒂皮埃尔,1960,1960
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Friedrich Traugott Wahlen / 弗里德里希·特劳戈特·瓦伦,1961,1961
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Paul Chaudet / 保罗·肖代,1962,1962
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Willy Spühler / 威利·施皮勒尔,1963,1963
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Ludwig von Moos / 路德维希·冯·莫斯,1964,1964
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Hans-Peter Tschudi / 汉斯-彼得·楚迪,1965,1965
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Hans Schaffner / 汉斯·沙夫纳尔,1966,1966
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Roger Bonvin / 罗歇·邦万,1967,1967
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Willy Spühler / 威利·施皮勒尔,1968,1968
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Ludwig von Moos / 路德维希·冯·莫斯,1969,1969
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Hans-Peter Tschudi / 汉斯-彼得·楚迪,1970,1970
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Rudolf Gnägi / 鲁道夫·尼吉,1971,1971
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Nello Celio / 内洛·切利奥,1972,1972
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Roger Bonvin / 罗歇·邦万,1973,1973
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Ernst Brugger / 恩斯特·布鲁格尔,1974,1974
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Pierre Graber / 皮埃尔·格拉贝尔,1975,1975
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Rudolf Gnägi / 鲁道夫·尼吉,1976,1976
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Kurt Furgler / 库尔特·弗尔格勒尔,1977,1977
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Willy Ritschard / 威利·里茨沙尔,1978,1978
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Hans Hürlimann / 汉斯·胡利曼,1979,1979
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Georges-André Chevallaz / 乔治-安德烈·舍瓦拉兹,1980,1980
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Kurt Furgler / 库尔特·弗尔格勒尔,1981,1981
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Fritz Honegger / 弗里茨·霍内格尔,1982,1982
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Pierre Aubert / 皮埃尔·奥贝尔,1983,1983
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Leon Schlumpf / 利翁·施伦普夫,1984,1984
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Kurt Furgler / 库尔特·弗尔格勒尔,1985,1985
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Alphons Egli / 阿尔丰斯·埃格利,1986,1986
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Pierre Aubert / 皮埃尔·奥贝尔,1987,1987
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Otto Stich / 奥托·施蒂希,1988,1988
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Jean-Pascal Delamuraz / 让-帕斯卡尔·德拉米拉兹,1989,1989
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Arnold Koller / 阿诺尔德·科勒尔,1990,1990
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Flavio Cotti / 弗拉维奥·科蒂,1991,1991
+Swiss Confederation / 瑞士联邦,President / 联邦主席,René Felber / 勒内·费尔贝尔,1992,1992
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Adolf Ogi / 阿道夫·奥吉,1993,1993
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Otto Stich / 奥托·施蒂希,1994,1994
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Kaspar Villiger / 卡斯帕尔·维利格尔,1995,1995
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Jean-Pascal Delamuraz / 让-帕斯卡尔·德拉米拉兹,1996,1996
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Arnold Koller / 阿诺尔德·科勒尔,1997,1997
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Flavio Cotti / 弗拉维奥·科蒂,1998,1998
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Ruth Dreifuss / 鲁特·德赖富斯,1999,1999
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Adolf Ogi / 阿道夫·奥吉,2000,2000
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Moritz Leuenberger / 莫里茨·洛因贝格尔,2001,2001
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Kaspar Villiger / 卡斯帕尔·维利格尔,2002,2002
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Pascal Couchepin / 帕斯卡尔·库什潘,2003,2003
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Joseph Deiss / 约瑟夫·戴斯,2004,2004
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Samuel Schmid / 萨缪尔·施密德,2005,2005
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Moritz Leuenberger / 莫里茨·洛因贝格尔,2006,2006
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Micheline Calmy-Rey / 米舍利纳·卡尔米-雷,2007,2007
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Pascal Couchepin / 帕斯卡尔·库什潘,2008,2008
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Hans-Rudolf Merz / 汉斯-鲁道夫·梅尔茨,2009,2009
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Doris Leuthard / 多丽丝·洛伊特哈德,2010,2010
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Micheline Calmy-Rey / 米舍利纳·卡尔米-雷,2011,2011
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Eveline Widmer-Schlumpf / 埃维利娜·维德默-施伦普夫,2012,2012
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Ueli Maurer / 于利·毛雷尔,2013,2013
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Didier Burkhalter / 迪迪埃·布尔克哈尔特,2014,2014
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Simonetta Sommaruga / 西莫内塔·索马鲁加,2015,2015
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Johann Schneider-Ammann / 约翰·施耐德-阿曼,2016,2016
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Doris Leuthard / 多丽丝·洛伊特哈德,2017,2017
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Alain Berset / 阿兰·贝尔塞,2018,2018
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Ueli Maurer / 于利·毛雷尔,2019,2019
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Simonetta Sommaruga / 西莫内塔·索马鲁加,2020,2020
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Guy Parmelin / 居伊·帕姆兰,2021,2021
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Ignazio Cassis / 伊尼亚齐奥·卡西斯,2022,2022
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Alain Berset / 阿兰·贝尔塞,2023,2023
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Viola Amherd / 维奥拉·安赫尔德,2024,2024
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Karin Keller-Sutter / 卡琳·凯勒-祖特尔,2025,2025
+Swiss Confederation / 瑞士联邦,President / 联邦主席,Guy Parmelin / 居伊·帕姆兰,2026,2026
+Austria-Hungary / 奥匈帝国,Emperor / 皇帝,Franz Joseph I / 弗朗茨·约瑟夫一世,1867,1916
+Austria-Hungary / 奥匈帝国,Emperor / 皇帝,Charles I / 卡尔一世,1916,1918
+German Empire / 德意志帝国,Emperor / 皇帝,Wilhelm I / 威廉一世,1871,1888
+German Empire / 德意志帝国,Emperor / 皇帝,Frederick III / 腓特烈三世,1888,1888
+German Empire / 德意志帝国,Emperor / 皇帝,Wilhelm II / 威廉二世,1888,1918
+Czechoslovak Republic (First Republic) / 捷克斯洛伐克共和国（第一共和国）,President / 总统,Tomáš Masaryk / 托马斯·马萨里克,1918,1935
+Czechoslovak Republic (First Republic) / 捷克斯洛伐克共和国（第一共和国）,President / 总统,Edvard Beneš / 爱德华·贝奈斯,1935,1938
+Czechoslovak Republic (First Republic) / 捷克斯洛伐克共和国（第一共和国）,Prime Minister / 总理,Karel Kramář / 卡雷尔·克拉马日,1918,1919
+Czechoslovak Republic (First Republic) / 捷克斯洛伐克共和国（第一共和国）,Prime Minister / 总理,Vlastimil Tusar / 弗拉斯蒂米尔·图萨尔,1919,1920
+Czechoslovak Republic (First Republic) / 捷克斯洛伐克共和国（第一共和国）,Prime Minister / 总理,Jan Černý / 扬·切尔尼,1920,1921
+Czechoslovak Republic (First Republic) / 捷克斯洛伐克共和国（第一共和国）,Prime Minister / 总理,Edvard Beneš / 爱德华·贝奈斯,1921,1922
+Czechoslovak Republic (First Republic) / 捷克斯洛伐克共和国（第一共和国）,Prime Minister / 总理,Antonín Švehla / 安东宁·什维赫拉,1922,1926
+Czechoslovak Republic (First Republic) / 捷克斯洛伐克共和国（第一共和国）,Prime Minister / 总理,Jan Černý / 扬·切尔尼,1926,1926
+Czechoslovak Republic (First Republic) / 捷克斯洛伐克共和国（第一共和国）,Prime Minister / 总理,Antonín Švehla / 安东宁·什维赫拉,1926,1929
+Czechoslovak Republic (First Republic) / 捷克斯洛伐克共和国（第一共和国）,Prime Minister / 总理,František Udržal / 弗兰蒂歇克·乌德尔扎尔,1929,1932
+Czechoslovak Republic (First Republic) / 捷克斯洛伐克共和国（第一共和国）,Prime Minister / 总理,Jan Malypetr / 扬·马利佩特尔,1932,1935
+Czechoslovak Republic (First Republic) / 捷克斯洛伐克共和国（第一共和国）,Prime Minister / 总理,Milan Hodža / 米兰·霍扎,1935,1938
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Chief of State / 国家元首,Józef Piłsudski / 约瑟夫·毕苏斯基,1918,1922
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,President / 总统,Gabriel Narutowicz / 加布里埃尔·纳鲁托维奇,1922,1922
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,President / 总统,Stanisław Wojciechowski / 斯坦尼斯瓦夫·沃伊切霍夫斯基,1922,1926
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,President / 总统,Ignacy Mościcki / 伊格纳齐·莫希茨基,1926,1939
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Jędrzej Moraczewski / 延杰伊·莫拉切夫斯基,1918,1919
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Ignacy Jan Paderewski / 伊格纳齐·扬·帕德雷夫斯基,1919,1919
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Leopold Skulski / 利奥波德·斯库尔斯基,1919,1920
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Władysław Grabski / 瓦迪斯瓦夫·格拉布斯基,1920,1920
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Wincenty Witos / 文森蒂·维托斯,1920,1921
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Antoni Ponikowski / 安东尼·波尼科夫斯基,1921,1922
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Julian Nowak / 尤利安·诺瓦克,1922,1922
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Władysław Sikorski / 瓦迪斯瓦夫·西科尔斯基,1922,1923
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Wincenty Witos / 文森蒂·维托斯,1923,1923
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Władysław Grabski / 瓦迪斯瓦夫·格拉布斯基,1923,1925
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Aleksander Skrzyński / 亚历山大·斯克任斯基,1925,1926
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Kazimierz Bartel / 卡齐米日·巴特尔,1926,1926
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Józef Piłsudski / 约瑟夫·毕苏斯基,1926,1928
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Kazimierz Bartel / 卡齐米日·巴特尔,1928,1929
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Kazimierz Świtalski / 卡齐米日·什维塔尔斯基,1929,1929
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Kazimierz Bartel / 卡齐米日·巴特尔,1929,1930
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Walery Sławek / 瓦莱里·斯瓦维克,1930,1930
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Józef Piłsudski / 约瑟夫·毕苏斯基,1930,1930
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Walery Sławek / 瓦莱里·斯瓦维克,1930,1931
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Aleksander Prystor / 亚历山大·普雷斯托尔,1931,1933
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Janusz Jędrzejewicz / 雅努什·延日耶维奇,1933,1934
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Leon Kozłowski / 利翁·科兹沃夫斯基,1934,1935
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Walery Sławek / 瓦莱里·斯瓦维克,1935,1935
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Marian Zyndram-Kościałkowski / 马里安·津德拉姆-科希查尔科夫斯基,1935,1936
+Republic of Poland (Second Republic) / 波兰共和国（第二共和国）,Prime Minister / 总理,Felicjan Sławoj Składkowski / 费利钦·斯瓦沃伊·斯克瓦德科夫斯基,1936,1939
+Weimar Republic / 魏玛共和国,Chairman of the Council of People's Deputies / 人民代表委员会主席,Friedrich Ebert / 弗里德里希·艾伯特,1918,1918
+Weimar Republic / 魏玛共和国,President / 总统,Friedrich Ebert / 弗里德里希·艾伯特,1919,1925
+Weimar Republic / 魏玛共和国,President / 总统,Walter Simons / 瓦尔特·西蒙斯,1925,1925
+Weimar Republic / 魏玛共和国,President / 总统,Paul von Hindenburg / 保罗·冯·兴登堡,1925,1933
+Republic of Austria (First Republic) / 奥地利共和国（第一共和国）,President / 总统,Michael Hainisch / 米歇尔·海尼施,1920,1928
+Republic of Austria (First Republic) / 奥地利共和国（第一共和国）,President / 总统,Wilhelm Miklas / 威廉·米克拉斯,1928,1934
+Republic of Austria (First Republic) / 奥地利共和国（第一共和国）,Chancellor / 总理,Karl Renner / 卡尔·伦纳,1919,1920
+Republic of Austria (First Republic) / 奥地利共和国（第一共和国）,Chancellor / 总理,Michael Mayr / 米歇尔·迈尔,1920,1921
+Republic of Austria (First Republic) / 奥地利共和国（第一共和国）,Chancellor / 总理,Johannes Schober / 约翰内斯·肖贝尔,1921,1922
+Republic of Austria (First Republic) / 奥地利共和国（第一共和国）,Chancellor / 总理,Johannes Schober / 约翰内斯·肖贝尔,1922,1922
+Republic of Austria (First Republic) / 奥地利共和国（第一共和国）,Chancellor / 总理,Ignaz Seipel / 伊格纳茨·塞佩尔,1922,1924
+Republic of Austria (First Republic) / 奥地利共和国（第一共和国）,Chancellor / 总理,Rudolf Ramek / 鲁道夫·拉麦克,1924,1926
+Republic of Austria (First Republic) / 奥地利共和国（第一共和国）,Chancellor / 总理,Ignaz Seipel / 伊格纳茨·塞佩尔,1926,1929
+Republic of Austria (First Republic) / 奥地利共和国（第一共和国）,Chancellor / 总理,Ernst Streeruwitz / 恩斯特·施特里鲁维茨,1929,1929
+Republic of Austria (First Republic) / 奥地利共和国（第一共和国）,Chancellor / 总理,Johannes Schober / 约翰内斯·肖贝尔,1929,1930
+Republic of Austria (First Republic) / 奥地利共和国（第一共和国）,Chancellor / 总理,Carl Vaugoin / 卡尔·沃古万,1930,1930
+Republic of Austria (First Republic) / 奥地利共和国（第一共和国）,Chancellor / 总理,Otto Ender / 奥托·恩德尔,1930,1931
+Republic of Austria (First Republic) / 奥地利共和国（第一共和国）,Chancellor / 总理,Karl Buresch / 卡尔·布雷施,1931,1932
+Republic of Austria (First Republic) / 奥地利共和国（第一共和国）,Chancellor / 总理,Engelbert Dollfuss / 恩格尔贝特·陶尔斐斯,1932,1934
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Regent / 摄政,Miklós Horthy / 米克洛什·霍尔蒂,1920,1944
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Leader of the Nation / 国家领袖,Ferenc Szálasi / 费伦茨·萨拉希,1944,1945
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Prime Minister / 总理,Károly Huszár / 卡罗伊·胡萨尔,1920,1920
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Prime Minister / 总理,Sándor Simonyi-Semadam / 山多尔·西莫尼-塞马丹,1920,1920
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Prime Minister / 总理,Pál Teleki / 保尔·泰莱基,1920,1921
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Prime Minister / 总理,István Bethlen / 伊斯特万·贝特伦,1921,1931
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Prime Minister / 总理,Gyula Károlyi / 久拉·卡罗伊,1931,1932
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Prime Minister / 总理,Gyula Gömbös / 久拉·贡博什,1932,1936
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Prime Minister / 总理,Kálmán Darányi / 卡尔曼·达拉尼,1936,1938
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Prime Minister / 总理,Béla Imrédy / 贝拉·伊姆雷迪,1938,1939
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Prime Minister / 总理,Pál Teleki / 保尔·泰莱基,1939,1941
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Prime Minister / 总理,László Bárdossy / 拉斯洛·巴尔多西,1941,1942
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Prime Minister / 总理,Miklós Kállay / 米克洛什·卡利,1942,1944
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Prime Minister / 总理,Döme Sztójay / 德迈·斯托亚伊,1944,1944
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Prime Minister / 总理,Géza Lakatos / 格扎·拉卡托什,1944,1944
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Prime Minister / 总理,Ferenc Szálasi / 费伦茨·萨拉希,1944,1945
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Prime Minister / 总理,Béla Miklós / 贝拉·米克洛什,1944,1945
+Kingdom of Hungary (Horthy Regime) / 匈牙利王国（霍尔蒂时期）,Prime Minister / 总理,Zoltán Tildy / 佐尔坦·蒂尔迪,1945,1946
+Nazi Germany / 纳粹德国,President / 总统,Paul von Hindenburg / 保罗·冯·兴登堡,1933,1934
+Nazi Germany / 纳粹德国,Führer / 元首,Adolf Hitler / 阿道夫·希特勒,1934,1945
+Nazi Germany / 纳粹德国,Chancellor / 总理,Adolf Hitler / 阿道夫·希特勒,1933,1933
+Federal State of Austria / 奥地利联邦国,President / 总统,Wilhelm Miklas / 威廉·米克拉斯,1934,1938
+Federal State of Austria / 奥地利联邦国,Chancellor / 总理,Engelbert Dollfuss / 恩格尔贝特·陶尔斐斯,1934,1934
+Federal State of Austria / 奥地利联邦国,Chancellor / 总理,Kurt Schuschnigg / 库尔特·许士尼格,1934,1938
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,President / 总统,Karl Renner / 卡尔·伦纳,1945,1950
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,President / 总统,Leopold Figl / 利奥波德·菲格尔,1950,1951
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,President / 总统,Theodor Körner / 特奥多尔·克尔纳,1951,1957
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,President / 总统,Julius Raab / 尤利乌斯·拉布,1957,1957
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,President / 总统,Adolf Schärf / 阿道夫·沙尔夫,1957,1965
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,President / 总统,Josef Klaus / 约瑟夫·克劳斯,1965,1965
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,President / 总统,Franz Jonas / 弗朗茨·约纳斯,1965,1974
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,President / 总统,Bruno Kreisky / 布鲁诺·克莱斯基,1974,1974
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,President / 总统,Rudolf Kirchschläger / 鲁道夫·基尔希施莱格尔,1974,1986
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,President / 总统,Kurt Waldheim / 库尔特·瓦尔德海姆,1986,1992
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,President / 总统,Thomas Klestil / 托马斯·克莱斯蒂尔,1992,2004
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,President / 总统,Heinz Fischer / 海因茨·菲舍尔,2004,2016
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,President / 总统,Doris Bures / 多利斯·布雷斯,2016,2017
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,President / 总统,Karlheinz Kopf / 卡尔海因茨·科普夫,2016,2017
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,President / 总统,Norbert Hofer / 诺贝特·霍费尔,2016,2017
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,President / 总统,Alexander Van der Bellen / 亚历山大·范德贝伦,2017,2026
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Karl Renner / 卡尔·伦纳,1945,1945
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Leopold Figl / 利奥波德·菲格尔,1945,1953
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Julius Raab / 尤利乌斯·拉布,1953,1961
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Alfons Gorbach / 阿尔丰斯·戈尔巴赫,1961,1964
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Josef Klaus / 约瑟夫·克劳斯,1964,1970
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Bruno Kreisky / 布鲁诺·克莱斯基,1970,1983
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Fred Sinowatz / 弗雷德·西诺瓦茨,1983,1986
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Franz Vranitzky / 弗朗茨·弗拉尼茨基,1986,1997
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Viktor Klima / 维克托·克利马,1997,2000
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Wolfgang Schüssel / 沃尔夫冈·许塞尔,2000,2007
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Alfred Gusenbauer / 阿尔弗雷德·古森鲍尔,2007,2008
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Werner Faymann / 维尔纳·法伊曼,2008,2016
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Christian Kern / 克里斯蒂安·克恩,2016,2017
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Sebastian Kurz / 塞巴斯蒂安·库尔茨,2017,2019
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Brigitte Bierlein / 布里吉特·比尔莱因,2019,2020
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Sebastian Kurz / 塞巴斯蒂安·库尔茨,2020,2021
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Alexander Schallenberg / 亚历山大·沙伦贝格,2021,2021
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Karl Nehammer / 卡尔·内哈默,2021,2025
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Alexander Schallenberg / 亚历山大·沙伦贝格,2025,2025
+Republic of Austria (Second Republic) / 奥地利共和国（第二共和国）,Chancellor / 总理,Christian Stocker / 克里斯蒂安·斯托克尔,2025,2026
+Czechoslovak Republic (Third Republic) / 捷克斯洛伐克（第三共和国）,President / 总统,Edvard Beneš / 爱德华·贝奈斯,1945,1948
+Czechoslovak Republic (Third Republic) / 捷克斯洛伐克（第三共和国）,Prime Minister / 总理,Zdeněk Fierlinger / 兹德涅克·菲尔林格,1945,1946
+Czechoslovak Republic (Third Republic) / 捷克斯洛伐克（第三共和国）,Prime Minister / 总理,Klement Gottwald / 克莱门特·哥特瓦尔德,1946,1948
+Hungarian Republic (Second Republic) / 匈牙利共和国（第二共和国）,President / 总统,Zoltán Tildy / 佐尔坦·蒂尔迪,1946,1948
+Hungarian Republic (Second Republic) / 匈牙利共和国（第二共和国）,President / 总统,Árpád Szakasits / 阿尔帕德·萨卡希奇,1948,1949
+Hungarian Republic (Second Republic) / 匈牙利共和国（第二共和国）,Prime Minister / 总理,Ferenc Nagy / 费伦茨·纳吉,1946,1947
+Hungarian Republic (Second Republic) / 匈牙利共和国（第二共和国）,Prime Minister / 总理,Lajos Dinnyés / 劳约什·丁涅什,1947,1948
+Hungarian Republic (Second Republic) / 匈牙利共和国（第二共和国）,Prime Minister / 总理,István Dobi / 伊斯特万·多比,1948,1949
+Polish People's Republic / 波兰人民共和国,First Secretary of PZPR / 波兰统一工人党第一书记,Władysław Gomułka / 瓦迪斯瓦夫·哥穆尔卡,1947,1948
+Polish People's Republic / 波兰人民共和国,First Secretary of PZPR / 波兰统一工人党第一书记,Bolesław Bierut / 博莱斯瓦夫·比鲁特,1948,1956
+Polish People's Republic / 波兰人民共和国,First Secretary of PZPR / 波兰统一工人党第一书记,Edward Ochab / 爱德华·奥哈布,1956,1956
+Polish People's Republic / 波兰人民共和国,First Secretary of PZPR / 波兰统一工人党第一书记,Władysław Gomułka / 瓦迪斯瓦夫·哥穆尔卡,1956,1970
+Polish People's Republic / 波兰人民共和国,First Secretary of PZPR / 波兰统一工人党第一书记,Edward Gierek / 爱德华·盖莱克,1970,1980
+Polish People's Republic / 波兰人民共和国,First Secretary of PZPR / 波兰统一工人党第一书记,Stanisław Kania / 斯坦尼斯瓦夫·卡尼亚,1980,1981
+Polish People's Republic / 波兰人民共和国,First Secretary of PZPR / 波兰统一工人党第一书记,Wojciech Jaruzelski / 沃伊切赫·雅鲁泽尔斯基,1981,1989
+Polish People's Republic / 波兰人民共和国,First Secretary of PZPR / 波兰统一工人党第一书记,Mieczysław Rakowski / 米奇斯瓦夫·拉科夫斯基,1989,1989
+Polish People's Republic / 波兰人民共和国,President / 总统,Bolesław Bierut / 博莱斯瓦夫·比鲁特,1947,1952
+Polish People's Republic / 波兰人民共和国,Chairman of the Council of State / 国务委员会主席,Aleksander Zawadzki / 亚历山大·扎瓦茨基,1952,1964
+Polish People's Republic / 波兰人民共和国,Chairman of the Council of State / 国务委员会主席,Edward Ochab / 爱德华·奥哈布,1964,1968
+Polish People's Republic / 波兰人民共和国,Chairman of the Council of State / 国务委员会主席,Marian Spychalski / 马里安·斯皮查尔斯基,1968,1970
+Polish People's Republic / 波兰人民共和国,Chairman of the Council of State / 国务委员会主席,Józef Cyrankiewicz / 约瑟夫·齐兰克维奇,1970,1972
+Polish People's Republic / 波兰人民共和国,Chairman of the Council of State / 国务委员会主席,Henryk Jabłoński / 亨里克·亚布隆斯基,1972,1985
+Polish People's Republic / 波兰人民共和国,Chairman of the Council of State / 国务委员会主席,Wojciech Jaruzelski / 沃伊切赫·雅鲁泽尔斯基,1985,1989
+Polish People's Republic / 波兰人民共和国,President / 总统,Wojciech Jaruzelski / 沃伊切赫·雅鲁泽尔斯基,1989,1989
+Czechoslovak Socialist Republic / 捷克斯洛伐克社会主义共和国,Chairman of KSČ / 捷共主席,Klement Gottwald / 克莱门特·哥特瓦尔德,1948,1953
+Czechoslovak Socialist Republic / 捷克斯洛伐克社会主义共和国,First Secretary of KSČ / 捷共第一书记,Antonín Novotný / 安东宁·诺沃特尼,1953,1968
+Czechoslovak Socialist Republic / 捷克斯洛伐克社会主义共和国,First Secretary of KSČ / 捷共第一书记,Alexander Dubček / 亚历山大·杜布切克,1968,1969
+Czechoslovak Socialist Republic / 捷克斯洛伐克社会主义共和国,General Secretary of KSČ / 捷共总书记,Gustáv Husák / 古斯塔夫·胡萨克,1969,1987
+Czechoslovak Socialist Republic / 捷克斯洛伐克社会主义共和国,General Secretary of KSČ / 捷共总书记,Miloš Jakeš / 米洛什·雅克什,1987,1989
+Czechoslovak Socialist Republic / 捷克斯洛伐克社会主义共和国,Chairman of KSČ / 捷共主席,Ladislav Adamec / 拉吉斯拉夫·阿达麦茨,1989,1990
+Czechoslovak Socialist Republic / 捷克斯洛伐克社会主义共和国,President / 总统,Klement Gottwald / 克莱门特·哥特瓦尔德,1948,1953
+Czechoslovak Socialist Republic / 捷克斯洛伐克社会主义共和国,President / 总统,Antonín Zápotocký / 安东宁·扎波托茨基,1953,1957
+Czechoslovak Socialist Republic / 捷克斯洛伐克社会主义共和国,President / 总统,Antonín Novotný / 安东宁·诺沃特尼,1957,1968
+Czechoslovak Socialist Republic / 捷克斯洛伐克社会主义共和国,President / 总统,Ludvík Svoboda / 卢德维克·斯沃博达,1968,1975
+Czechoslovak Socialist Republic / 捷克斯洛伐克社会主义共和国,President / 总统,Gustáv Husák / 古斯塔夫·胡萨克,1975,1989
+Czechoslovak Socialist Republic / 捷克斯洛伐克社会主义共和国,President / 总统,Václav Havel / 瓦茨拉夫·哈维尔,1989,1990
+Federal Republic of Germany / 德意志联邦共和国,President / 总统,Theodor Heuss / 特奥多尔·豪斯,1949,1959
+Federal Republic of Germany / 德意志联邦共和国,President / 总统,Heinrich Lübke / 海因里希·吕布克,1959,1969
+Federal Republic of Germany / 德意志联邦共和国,President / 总统,Gustav Heinemann / 古斯塔夫·海涅曼,1969,1974
+Federal Republic of Germany / 德意志联邦共和国,President / 总统,Walter Scheel / 瓦尔特·谢尔,1974,1979
+Federal Republic of Germany / 德意志联邦共和国,President / 总统,Karl Carstens / 卡尔·卡斯滕斯,1979,1984
+Federal Republic of Germany / 德意志联邦共和国,President / 总统,Richard von Weizsäcker / 理夏德·冯·魏茨泽克,1984,1994
+Federal Republic of Germany / 德意志联邦共和国,President / 总统,Roman Herzog / 罗曼·赫尔佐克,1994,1999
+Federal Republic of Germany / 德意志联邦共和国,President / 总统,Johannes Rau / 约翰内斯·劳,1999,2004
+Federal Republic of Germany / 德意志联邦共和国,President / 总统,Horst Köhler / 霍斯特·克勒,2004,2010
+Federal Republic of Germany / 德意志联邦共和国,President / 总统,Jens Böhrnsen / 延斯·伯恩森,2010,2010
+Federal Republic of Germany / 德意志联邦共和国,President / 总统,Christian Wulff / 克里斯蒂安·伍尔夫,2010,2012
+Federal Republic of Germany / 德意志联邦共和国,President / 总统,Horst Seehofer / 霍斯特·泽霍费尔,2012,2012
+Federal Republic of Germany / 德意志联邦共和国,President / 总统,Joachim Gauck / 约阿希姆·高克,2012,2017
+Federal Republic of Germany / 德意志联邦共和国,President / 总统,Frank-Walter Steinmeier / 弗兰克-瓦尔特·施泰因迈尔,2017,2026
+Federal Republic of Germany / 德意志联邦共和国,Chancellor / 总理,Konrad Adenauer / 康拉德·阿登纳,1949,1963
+Federal Republic of Germany / 德意志联邦共和国,Chancellor / 总理,Ludwig Erhard / 路德维希·艾哈德,1963,1966
+Federal Republic of Germany / 德意志联邦共和国,Chancellor / 总理,Kurt Georg Kiesinger / 库尔特·格奥尔格·基辛格,1966,1969
+Federal Republic of Germany / 德意志联邦共和国,Chancellor / 总理,Willy Brandt / 维利·勃兰特,1969,1974
+Federal Republic of Germany / 德意志联邦共和国,Chancellor / 总理,Helmut Schmidt / 赫尔穆特·施密特,1974,1982
+Federal Republic of Germany / 德意志联邦共和国,Chancellor / 总理,Helmut Kohl / 赫尔穆特·科尔,1982,1998
+Federal Republic of Germany / 德意志联邦共和国,Chancellor / 总理,Gerhard Schröder / 格哈德·施罗德,1998,2005
+Federal Republic of Germany / 德意志联邦共和国,Chancellor / 总理,Angela Merkel / 安格拉·默克尔,2005,2021
+Federal Republic of Germany / 德意志联邦共和国,Chancellor / 总理,Olaf Scholz / 奥拉夫·朔尔茨,2021,2025
+Federal Republic of Germany / 德意志联邦共和国,Chancellor / 总理,Friedrich Merz / 弗里德里希·默茨,2025,2026
+German Democratic Republic / 德意志民主共和国,Chairman of SED / 德国统一社会党主席,Wilhelm Pieck / 威廉·皮克,1949,1950
+German Democratic Republic / 德意志民主共和国,First Secretary of SED / 德国统一社会党第一书记,Walter Ulbricht / 瓦尔特·乌布利希,1950,1971
+German Democratic Republic / 德意志民主共和国,General Secretary of SED / 德国统一社会党总书记,Erich Honecker / 埃里希·昂纳克,1971,1989
+German Democratic Republic / 德意志民主共和国,General Secretary of SED / 德国统一社会党总书记,Egon Krenz / 埃贡·克伦茨,1989,1989
+German Democratic Republic / 德意志民主共和国,President / 总统,Wilhelm Pieck / 威廉·皮克,1949,1960
+German Democratic Republic / 德意志民主共和国,Chairman of the State Council / 国务委员会主席,Walter Ulbricht / 瓦尔特·乌布利希,1960,1973
+German Democratic Republic / 德意志民主共和国,Chairman of the State Council / 国务委员会主席,Friedrich Ebert Jr. / 小弗里德里希·艾伯特,1973,1973
+German Democratic Republic / 德意志民主共和国,Chairman of the State Council / 国务委员会主席,Willi Stoph / 威利·斯托夫,1973,1976
+German Democratic Republic / 德意志民主共和国,Chairman of the State Council / 国务委员会主席,Erich Honecker / 埃里希·昂纳克,1976,1989
+German Democratic Republic / 德意志民主共和国,Chairman of the State Council / 国务委员会主席,Egon Krenz / 埃贡·克伦茨,1989,1989
+German Democratic Republic / 德意志民主共和国,Chairman of the State Council / 国务委员会主席,Manfred Gerlach / 曼弗雷德·格拉赫,1989,1990
+German Democratic Republic / 德意志民主共和国,Acting Head of State / 代理国家元首,Sabine Bergmann-Pohl / 萨比内·贝格曼-波尔,1990,1990
+Hungarian People's Republic / 匈牙利人民共和国,General Secretary of MDP / 匈牙利劳动人民党总书记,Mátyás Rákosi / 马加什·拉科西,1949,1956
+Hungarian People's Republic / 匈牙利人民共和国,General Secretary of MDP / 匈牙利劳动人民党总书记,Ernő Gerő / 埃尔诺·格罗,1956,1956
+Hungarian People's Republic / 匈牙利人民共和国,General Secretary of MDP / 匈牙利劳动人民党总书记,János Kádár / 亚诺什·卡达尔,1956,1988
+Hungarian People's Republic / 匈牙利人民共和国,General Secretary of MDP / 匈牙利劳动人民党总书记,Károly Grósz / 卡罗伊·格罗斯,1988,1989
+Hungarian People's Republic / 匈牙利人民共和国,President of MDP / 匈牙利劳动人民党主席,Rezső Nyers / 雷热·尼尔什,1989,1989
+Hungarian People's Republic / 匈牙利人民共和国,Chairman of the Presidential Council / 主席团主席,Árpád Szakasits / 阿尔帕德·萨卡希奇,1949,1950
+Hungarian People's Republic / 匈牙利人民共和国,Chairman of the Presidential Council / 主席团主席,Sándor Rónai / 山多尔·罗诺伊,1950,1952
+Hungarian People's Republic / 匈牙利人民共和国,Chairman of the Presidential Council / 主席团主席,István Dobi / 伊什特万·多比,1952,1967
+Hungarian People's Republic / 匈牙利人民共和国,Chairman of the Presidential Council / 主席团主席,Pál Losonczi / 帕尔·洛松齐,1967,1987
+Hungarian People's Republic / 匈牙利人民共和国,Chairman of the Presidential Council / 主席团主席,Károly Németh / 卡罗伊·内梅特,1987,1988
+Hungarian People's Republic / 匈牙利人民共和国,Chairman of the Presidential Council / 主席团主席,Brunó Ferenc Straub / 布鲁诺·费伦茨·施特劳布,1988,1989
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,President / 总统,Wojciech Jaruzelski / 沃伊切赫·雅鲁泽尔斯基,1989,1990
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,President / 总统,Lech Wałęsa / 莱赫·瓦文萨,1990,1995
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,President / 总统,Aleksander Kwaśniewski / 亚历山大·克瓦希涅夫斯基,1995,2005
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,President / 总统,Lech Kaczyński / 莱赫·卡钦斯基,2005,2010
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,President / 总统,Bronisław Komorowski / 布罗尼斯瓦夫·科莫罗夫斯基,2010,2015
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,President / 总统,Andrzej Duda / 安杰伊·杜达,2015,2025
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,President / 总统,Karol Nawrocki / 卡罗尔·纳夫罗茨基,2025,2026
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Tadeusz Mazowiecki / 塔德乌什·马佐维耶茨基,1989,1991
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Jan Krzysztof Bielecki / 扬·克日什托夫·比埃莱茨基,1991,1991
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Jan Olszewski / 扬·奥尔谢夫斯基,1991,1992
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Waldemar Pawlak / 瓦尔德马尔·帕夫拉克,1992,1992
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Hanna Suchocka / 汉娜·苏霍茨卡,1992,1993
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Waldemar Pawlak / 瓦尔德马尔·帕夫拉克,1993,1995
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Józef Oleksy / 约泽夫·奥莱克西,1995,1996
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Włodzimierz Cimoszewicz / 弗沃季米日·奇莫谢维奇,1996,1997
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Jerzy Buzek / 杰日·布泽克,1997,2001
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Leszek Miller / 莱谢克·米莱尔,2001,2004
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Marek Belka / 马雷克·贝尔卡,2004,2005
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Kazimierz Marcinkiewicz / 卡齐米日·马尔钦基耶维奇,2005,2006
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Jarosław Kaczyński / 雅罗斯瓦夫·卡钦斯基,2006,2007
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Donald Tusk / 唐纳德·图斯克,2007,2014
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Ewa Kopacz / 埃瓦·科帕奇,2014,2015
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Beata Szydło / 贝阿塔·希德沃,2015,2017
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Mateusz Morawiecki / 马泰乌什·莫拉维茨基,2017,2023
+Republic of Poland (Third Republic) / 波兰共和国（第三共和国）,Prime Minister / 总理,Donald Tusk / 唐纳德·图斯克,2023,2026
+Hungary (Third Republic) / 匈牙利（第三共和国）,President / 总统,Mátyás Szűrös / 马加什·苏罗什,1989,1990
+Hungary (Third Republic) / 匈牙利（第三共和国）,President / 总统,Árpád Göncz / 阿尔帕德·根茨,1990,2000
+Hungary (Third Republic) / 匈牙利（第三共和国）,President / 总统,Ferenc Mádl / 费伦茨·马德尔,2000,2005
+Hungary (Third Republic) / 匈牙利（第三共和国）,President / 总统,László Sólyom / 拉斯洛·绍约姆,2005,2010
+Hungary (Third Republic) / 匈牙利（第三共和国）,President / 总统,Pál Schmitt / 帕尔·施密特,2010,2012
+Hungary (Third Republic) / 匈牙利（第三共和国）,President / 总统,László Kövér / 拉斯洛·科韦尔,2012,2012
+Hungary (Third Republic) / 匈牙利（第三共和国）,President / 总统,János Áder / 亚诺什·阿德尔,2012,2022
+Hungary (Third Republic) / 匈牙利（第三共和国）,President / 总统,Katalin Novák / 卡塔林·诺瓦克,2022,2024
+Hungary (Third Republic) / 匈牙利（第三共和国）,President / 总统,Tamás Sulyok / 塔马什·苏约克,2024,2026
+Hungary (Third Republic) / 匈牙利（第三共和国）,Prime Minister / 总理,Miklós Németh / 米克洛什·内梅特,1989,1990
+Hungary (Third Republic) / 匈牙利（第三共和国）,Prime Minister / 总理,József Antall / 约瑟夫·安塔尔,1990,1993
+Hungary (Third Republic) / 匈牙利（第三共和国）,Prime Minister / 总理,Péter Boross / 彼得·博罗什,1993,1994
+Hungary (Third Republic) / 匈牙利（第三共和国）,Prime Minister / 总理,Gyula Horn / 久拉·霍恩,1994,1998
+Hungary (Third Republic) / 匈牙利（第三共和国）,Prime Minister / 总理,Viktor Orbán / 维克托·欧尔班,1998,2002
+Hungary (Third Republic) / 匈牙利（第三共和国）,Prime Minister / 总理,Péter Medgyessy / 彼得·梅吉希,2002,2004
+Hungary (Third Republic) / 匈牙利（第三共和国）,Prime Minister / 总理,Ferenc Gyurcsány / 费伦茨·久尔恰尼,2004,2009
+Hungary (Third Republic) / 匈牙利（第三共和国）,Prime Minister / 总理,Gordon Bajnai / 戈尔东·鲍伊奈,2009,2010
+Hungary (Third Republic) / 匈牙利（第三共和国）,Prime Minister / 总理,Viktor Orbán / 维克托·欧尔班,2010,2026
+Hungary (Third Republic) / 匈牙利（第三共和国）,Prime Minister / 总理,Péter Magyar / 彼得·马扎尔,2026,2026
+Czech and Slovak Federative Republic / 捷克和斯洛伐克联邦共和国,President / 总统,Václav Havel / 瓦茨拉夫·哈维尔,1990,1992
+Czech and Slovak Federative Republic / 捷克和斯洛伐克联邦共和国,Prime Minister / 总理,Marián Čalfa / 马里安·恰尔法,1990,1992
+Czech and Slovak Federative Republic / 捷克和斯洛伐克联邦共和国,Prime Minister / 总理,Jan Stráský / 扬·斯特拉斯基,1992,1992
+Czech Republic / 捷克共和国,President / 总统,Václav Havel / 瓦茨拉夫·哈维尔,1993,2003
+Czech Republic / 捷克共和国,President / 总统,Václav Klaus / 瓦茨拉夫·克劳斯,2003,2013
+Czech Republic / 捷克共和国,President / 总统,Miloš Zeman / 米洛什·泽曼,2013,2023
+Czech Republic / 捷克共和国,President / 总统,Petr Pavel / 彼得·帕维尔,2023,2026
+Czech Republic / 捷克共和国,Prime Minister / 总理,Václav Klaus / 瓦茨拉夫·克劳斯,1993,1998
+Czech Republic / 捷克共和国,Prime Minister / 总理,Josef Tošovský / 约瑟夫·托绍夫斯基,1998,1998
+Czech Republic / 捷克共和国,Prime Minister / 总理,Miloš Zeman / 米洛什·泽曼,1998,2002
+Czech Republic / 捷克共和国,Prime Minister / 总理,Vladimír Špidla / 弗拉基米尔·什皮德拉,2002,2004
+Czech Republic / 捷克共和国,Prime Minister / 总理,Stanislav Gross / 斯塔尼斯拉夫·格罗斯,2004,2005
+Czech Republic / 捷克共和国,Prime Minister / 总理,Jiří Paroubek / 日日·帕鲁贝克,2005,2006
+Czech Republic / 捷克共和国,Prime Minister / 总理,Mirek Topolánek / 米雷克·托波拉内克,2006,2009
+Czech Republic / 捷克共和国,Prime Minister / 总理,Jan Fischer / 扬·菲舍尔,2009,2010
+Czech Republic / 捷克共和国,Prime Minister / 总理,Petr Nečas / 彼得·内恰斯,2010,2013
+Czech Republic / 捷克共和国,Prime Minister / 总理,Jiří Rusnok / 日日·鲁斯诺克,2013,2014
+Czech Republic / 捷克共和国,Prime Minister / 总理,Bohuslav Sobotka / 博胡斯拉夫·索博特卡,2014,2017
+Czech Republic / 捷克共和国,Prime Minister / 总理,Andrej Babiš / 安德烈·巴比什,2017,2021
+Czech Republic / 捷克共和国,Prime Minister / 总理,Petr Fiala / 彼得·菲亚拉,2021,2025
+Czech Republic / 捷克共和国,Prime Minister / 总理,Andrej Babiš / 安德烈·巴比什,2025,2026
+Slovak Republic / 斯洛伐克共和国,President / 总统,Michal Kováč / 米哈尔·科瓦奇,1993,1998
+Slovak Republic / 斯洛伐克共和国,President / 总统,Rudolf Schuster / 鲁道夫·舒斯特,1999,2004
+Slovak Republic / 斯洛伐克共和国,President / 总统,Ivan Gašparovič / 伊万·加什帕罗维奇,2004,2014
+Slovak Republic / 斯洛伐克共和国,President / 总统,Andrej Kiska / 安德烈·基斯卡,2014,2019
+Slovak Republic / 斯洛伐克共和国,President / 总统,Zuzana Čaputová / 祖扎娜·恰普托娃,2019,2024
+Slovak Republic / 斯洛伐克共和国,President / 总统,Peter Pellegrini / 彼得·佩莱格里尼,2024,2026
+Slovak Republic / 斯洛伐克共和国,Prime Minister / 总理,Vladimír Mečiar / 弗拉基米尔·梅恰尔,1993,1994
+Slovak Republic / 斯洛伐克共和国,Prime Minister / 总理,Jozef Moravčík / 约泽夫·莫拉夫奇克,1994,1994
+Slovak Republic / 斯洛伐克共和国,Prime Minister / 总理,Vladimír Mečiar / 弗拉基米尔·梅恰尔,1994,1998
+Slovak Republic / 斯洛伐克共和国,Prime Minister / 总理,Mikuláš Dzurinda / 米库拉什·久林达,1998,2006
+Slovak Republic / 斯洛伐克共和国,Prime Minister / 总理,Robert Fico / 罗伯特·菲佐,2006,2010
+Slovak Republic / 斯洛伐克共和国,Prime Minister / 总理,Iveta Radičová / 伊维塔·拉迪乔娃,2010,2012
+Slovak Republic / 斯洛伐克共和国,Prime Minister / 总理,Robert Fico / 罗伯特·菲佐,2012,2018
+Slovak Republic / 斯洛伐克共和国,Prime Minister / 总理,Peter Pellegrini / 彼得·佩莱格里尼,2018,2020
+Slovak Republic / 斯洛伐克共和国,Prime Minister / 总理,Igor Matovič / 伊戈尔·马托维奇,2020,2021
+Slovak Republic / 斯洛伐克共和国,Prime Minister / 总理,Eduard Heger / 爱德华·黑格尔,2021,2023
+Slovak Republic / 斯洛伐克共和国,Prime Minister / 总理,Ľudovít Ódor / 卢多维特·奥多尔,2023,2023
+Slovak Republic / 斯洛伐克共和国,Prime Minister / 总理,Robert Fico / 罗伯特·菲佐,2023,2026
